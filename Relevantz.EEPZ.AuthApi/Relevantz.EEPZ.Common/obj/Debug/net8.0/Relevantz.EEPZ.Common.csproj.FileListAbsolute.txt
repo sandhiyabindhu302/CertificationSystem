@@ -1,0 +1,48 @@
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.deps.json
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.dll
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.AssemblyReference.cache
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfoInputs.cache
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfo.cs
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.CoreCompileInputs.cache
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.dll
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\refint\Relevantz.EEPZ.Common.dll
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+D:\Capstone Project\30-01-2026\Backend\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\ref\Relevantz.EEPZ.Common.dll
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.deps.json
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.dll
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.AssemblyReference.cache
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfoInputs.cache
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfo.cs
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.CoreCompileInputs.cache
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.dll
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\refint\Relevantz.EEPZ.Common.dll
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+D:\Auth & Admin Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\ref\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.deps.json
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.AssemblyReference.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfoInputs.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfo.cs
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.CoreCompileInputs.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\refint\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth, Admin & Prjmgt Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\ref\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.deps.json
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.AssemblyReference.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfoInputs.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfo.cs
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.CoreCompileInputs.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\refint\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\ref\Relevantz.EEPZ.Common.dll

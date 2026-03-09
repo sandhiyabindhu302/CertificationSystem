@@ -1,0 +1,1053 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.11.0.0",
+        "fileVersion": "4.11.0-3.25569.22 (3fb752d4)",
+        "semanticVersion": "4.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'EmployeeId' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'FirstName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'TemplateName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/BaseTemplateDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/BaseTemplateDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'CssClass' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/BaseTemplateDto.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/BaseTemplateDto.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PreviewImage' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/BaseTemplateDto.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/BaseTemplateDto.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'EmployeeName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'DepartmentName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/EmployeeDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'RewardCategory' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/RewardRequestDto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/RewardRequestDto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'RewardName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/RewardRequestDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/RewardRequestDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/RewardRequestDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/RewardRequestDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Reason' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/NominationRequestDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/NominationRequestDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'GoalTitle' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/GoalDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/GoalDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'GoalDescription' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/GoalDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/GoalDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'SkillName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/MasterSkillDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/MasterSkillDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/MasterSkillDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/MasterSkillDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'RewardCategory' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/RewardResponseDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/RewardResponseDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'RewardName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/RewardResponseDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/RewardResponseDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/RewardResponseDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Response/RewardResponseDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'TemplateName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/CertificateBaseTemplate.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 19,
+                  "endLine": 12,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/CertificateBaseTemplate.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 19,
+                  "endLine": 12,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'CssClass' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/CertificateBaseTemplate.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 19,
+                  "endLine": 14,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/CertificateBaseTemplate.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 19,
+                  "endLine": 14,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PreviewImage' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/CertificateBaseTemplate.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 19,
+                  "endLine": 16,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/CertificateBaseTemplate.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 19,
+                  "endLine": 16,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'EmployeeId' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'FirstName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'RoleName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'DepartmentName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/DTOs/Request/EmployeeBasicInfo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'SerialNumber' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/Employeecertificate.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 20,
+                  "endLine": 22,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/Employeecertificate.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 20,
+                  "endLine": 22,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'EmployeeName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/Employeecertificate.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 20,
+                  "endLine": 24,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Common/Entities/Employeecertificate.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 20,
+                  "endLine": 24,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

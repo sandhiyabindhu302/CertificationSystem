@@ -1,0 +1,6 @@
+Ö
+ÉC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\obj\Debug\net8.0\Relevantz.EEPZ.Api.Tests.Program.csutf-16Ú
+ÎC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\obj\Debug\net8.0\Relevantz.EEPZ.Api.Tests.AssemblyInfo.csutf-8à
+ÔC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8Ü
+ÐC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\obj\Debug\net8.0\Relevantz.EEPZ.Api.Tests.GlobalUsings.g.csutf-8¼
+²C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.csutf-8

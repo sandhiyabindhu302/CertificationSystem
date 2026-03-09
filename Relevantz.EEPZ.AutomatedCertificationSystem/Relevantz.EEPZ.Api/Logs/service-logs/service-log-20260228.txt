@@ -1,0 +1,5 @@
+2026-02-28 21:13:07.263 +05:30 [INF]  Project Management API started successfully
+2026-02-28 23:26:21.945 +05:30 [INF]  Project Management API started successfully
+2026-02-28 23:27:41.877 +05:30 [INF]  Project Management API started successfully
+2026-02-28 23:28:23.314 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-02-28 23:28:23.357 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 404 in 42.5690 ms

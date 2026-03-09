@@ -1,0 +1,648 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.11.0.0",
+        "fileVersion": "4.11.0-3.25569.22 (3fb752d4)",
+        "semanticVersion": "4.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 27,
+                  "endLine": 3,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 18,
+                  "endLine": 17,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6418",
+          "level": "warning",
+          "message": "\"SecretKey\" detected here, make sure this is not a hard-coded secret.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 19,
+                  "endLine": 8,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5332",
+          "level": "warning",
+          "message": "Using http protocol is insecure. Use https instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 13,
+                  "endLine": 143,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6960",
+          "level": "warning",
+          "message": "This controller has multiple responsibilities and could be split into 3 smaller controllers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 18,
+                  "endLine": 16,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 42,
+                  "endLine": 174,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 42,
+                  "endLine": 37,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 42,
+                  "endLine": 202,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 42,
+                  "endLine": 215,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 42,
+                  "endLine": 161,
+                  "endColumn": 61
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 42,
+                  "endLine": 245,
+                  "endColumn": 58
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 42,
+                  "endLine": 135,
+                  "endColumn": 61
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 42,
+                  "endLine": 123,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 42,
+                  "endLine": 59,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 42,
+                  "endLine": 237,
+                  "endColumn": 58
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 42,
+                  "endLine": 148,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 42,
+                  "endLine": 114,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 42,
+                  "endLine": 105,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 42,
+                  "endLine": 68,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 42,
+                  "endLine": 46,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 42,
+                  "endLine": 228,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 42,
+                  "endLine": 92,
+                  "endColumn": 49
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 42,
+                  "endLine": 81,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "May belong to responsibility #1.",
+              "1": "May belong to responsibility #2.",
+              "10": "May belong to responsibility #2.",
+              "11": "May belong to responsibility #2.",
+              "12": "May belong to responsibility #2.",
+              "13": "May belong to responsibility #2.",
+              "14": "May belong to responsibility #2.",
+              "15": "May belong to responsibility #2.",
+              "16": "May belong to responsibility #3.",
+              "17": "May belong to responsibility #3.",
+              "2": "May belong to responsibility #2.",
+              "3": "May belong to responsibility #2.",
+              "4": "May belong to responsibility #2.",
+              "5": "May belong to responsibility #2.",
+              "6": "May belong to responsibility #2.",
+              "7": "May belong to responsibility #2.",
+              "8": "May belong to responsibility #2.",
+              "9": "May belong to responsibility #2."
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefer the string comparison method overload of 'string.Contains(string)' that takes a 'StringComparison' enum value to perform a case-insensitive comparison, but keep in mind that this might cause subtle changes in behavior, so make sure to conduct thorough testing after applying the suggestion, or if culturally sensitive comparison is not required, consider using 'StringComparison.OrdinalIgnoreCase'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 17,
+                  "endLine": 48,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": null
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefer the string comparison method overload of 'string.Contains(string)' that takes a 'StringComparison' enum value to perform a case-insensitive comparison, but keep in mind that this might cause subtle changes in behavior, so make sure to conduct thorough testing after applying the suggestion, or if culturally sensitive comparison is not required, consider using 'StringComparison.OrdinalIgnoreCase'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 17,
+                  "endLine": 49,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": null
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefer the string comparison method overload of 'string.Contains(string)' that takes a 'StringComparison' enum value to perform a case-insensitive comparison, but keep in mind that this might cause subtle changes in behavior, so make sure to conduct thorough testing after applying the suggestion, or if culturally sensitive comparison is not required, consider using 'StringComparison.OrdinalIgnoreCase'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 17,
+                  "endLine": 50,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": null
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefer the string comparison method overload of 'string.Contains(string)' that takes a 'StringComparison' enum value to perform a case-insensitive comparison, but keep in mind that this might cause subtle changes in behavior, so make sure to conduct thorough testing after applying the suggestion, or if culturally sensitive comparison is not required, consider using 'StringComparison.OrdinalIgnoreCase'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 17,
+                  "endLine": 51,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": null
+            }
+          }
+        },
+        {
+          "ruleId": "ASP0025",
+          "level": "note",
+          "message": "Use AddAuthorizationBuilder to register authorization services and construct policies",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 5,
+                  "endLine": 132,
+                  "endColumn": 7
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0015",
+          "level": "note",
+          "message": "The header 'User-Agent' can be accessed using the UserAgent property",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 48,
+                  "endLine": 181,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HeaderName": "User-Agent",
+              "ResolvedPropertyName": "UserAgent"
+            }
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 5,
+                  "endLine": 195,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await CloseAndFlushAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 5,
+                  "endLine": 203,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "ASP0015": {
+          "id": "ASP0015",
+          "shortDescription": "Suggest using IHeaderDictionary properties",
+          "defaultLevel": "note",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "ASP0025": {
+          "id": "ASP0025",
+          "shortDescription": "Use AddAuthorizationBuilder",
+          "defaultLevel": "note",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "CA1862": {
+          "id": "CA1862",
+          "shortDescription": "Use the 'StringComparison' method overloads to perform case-insensitive string comparisons",
+          "fullDescription": "Avoid calling 'ToLower', 'ToUpper', 'ToLowerInvariant' and 'ToUpperInvariant' to perform case-insensitive string comparisons because they lead to an allocation. Instead, prefer calling the method overloads of 'Contains', 'IndexOf' and 'StartsWith' that take a 'StringComparison' enum value to perform case-insensitive comparisons. Switching to using an overload that takes a 'StringComparison' might cause subtle changes in behavior, so it's important to conduct thorough testing after applying the suggestion. Additionally, if a culturally sensitive comparison is not required, consider using 'StringComparison.OrdinalIgnoreCase'.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1862",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5332": {
+          "id": "S5332",
+          "shortDescription": "Using clear-text protocols is security-sensitive",
+          "fullDescription": "Clear-text protocols such as ftp, telnet, or http lack encryption of transported data, as well as the capability to build an authenticated connection. It means that an attacker able to sniff traffic from the network can read, modify, or corrupt the transported content. These protocols are not secure as they expose applications to an extensive range of risks:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5332",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6418": {
+          "id": "S6418",
+          "shortDescription": "Hard-coded secrets are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, secrets should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6418",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6960": {
+          "id": "S6960",
+          "shortDescription": "Controllers should not have mixed responsibilities",
+          "fullDescription": "ASP.NET controllers should not have mixed responsibilities. Following the Single Responsibility Principle (SRP), they should be kept lean and focused on a single, separate concern. In short, they should have a single reason to change.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6960",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

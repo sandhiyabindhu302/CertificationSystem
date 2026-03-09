@@ -1,0 +1,14 @@
+2026-03-09 09:12:04.764 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2P:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0598 ms
+2026-03-09 09:12:04.771 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2Q:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1407 ms
+2026-03-09 09:12:04.820 +05:30 [WRN] [] [CorrelationId: 0HNJRISCSMQ2P:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-09 09:12:04.834 +05:30 [WRN] [] [CorrelationId: 0HNJRISCSMQ2P:00000002] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMQ2P:00000002
+2026-03-09 09:12:04.838 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2P:00000002] HTTP GET /api/User/profile responded 401 in 20.9873 ms
+2026-03-09 09:12:04.847 +05:30 [WRN] [] [CorrelationId: 0HNJRISCSMQ2P:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-09 09:12:04.849 +05:30 [WRN] [] [CorrelationId: 0HNJRISCSMQ2P:00000003] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMQ2P:00000003
+2026-03-09 09:12:04.853 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2P:00000003] HTTP GET /api/User/profile responded 401 in 6.4004 ms
+2026-03-09 09:12:04.929 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2P:00000004] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0363 ms
+2026-03-09 09:12:04.951 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2Q:00000002] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.1676 ms
+2026-03-09 09:12:04.953 +05:30 [WRN] [] [CorrelationId: 0HNJRISCSMQ2P:00000005] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-09 09:12:04.959 +05:30 [WRN] [] [CorrelationId: 0HNJRISCSMQ2Q:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-09 09:12:04.960 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2P:00000005] HTTP POST /api/Authentication/refresh-token responded 404 in 7.3269 ms
+2026-03-09 09:12:04.973 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJRISCSMQ2Q:00000003] HTTP POST /api/Authentication/refresh-token responded 404 in 14.4938 ms

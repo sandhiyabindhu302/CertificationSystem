@@ -1,0 +1,922 @@
+2026-03-04 09:18:12.497 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1880 ms
+2026-03-04 09:18:12.497 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0357 ms
+2026-03-04 09:18:12.534 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 20.3483 ms
+2026-03-04 09:18:12.538 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.4048 ms
+2026-03-04 09:18:12.546 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 4.1352 ms
+2026-03-04 09:18:12.555 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 13.1969 ms
+2026-03-04 09:23:28.881 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1116 ms
+2026-03-04 09:23:28.881 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0349 ms
+2026-03-04 09:23:28.903 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 18.0298 ms
+2026-03-04 09:23:28.908 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3067 ms
+2026-03-04 09:23:28.917 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 5.0510 ms
+2026-03-04 09:23:28.929 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 17.2741 ms
+2026-03-04 09:26:19.456 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0819 ms
+2026-03-04 09:26:19.467 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.4449 ms
+2026-03-04 09:26:21.458 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.5913 ms
+2026-03-04 09:26:29.456 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0606 ms
+2026-03-04 09:26:29.465 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.0225 ms
+2026-03-04 09:26:30.447 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.1635 ms
+2026-03-04 09:27:18.667 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/51 responded 200 in 3.7575 ms
+2026-03-04 09:27:43.598 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/14 responded 204 in 0.1131 ms
+2026-03-04 09:27:43.616 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/14 responded 200 in 10.8465 ms
+2026-03-04 09:27:49.569 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0691 ms
+2026-03-04 09:27:49.570 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0480 ms
+2026-03-04 09:27:49.576 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.8753 ms
+2026-03-04 09:27:49.583 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 6.0830 ms
+2026-03-04 09:27:49.606 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 10.0909 ms
+2026-03-04 09:28:43.394 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0737 ms
+2026-03-04 09:28:43.437 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 36.7789 ms
+2026-03-04 09:28:44.963 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 2.9257 ms
+2026-03-04 09:28:49.874 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.2188 ms
+2026-03-04 09:28:49.879 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 2.4501 ms
+2026-03-04 09:30:13.976 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.2630 ms
+2026-03-04 09:30:13.984 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 3.9942 ms
+2026-03-04 09:31:04.229 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.2978 ms
+2026-03-04 09:31:04.234 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 2.5754 ms
+2026-03-04 09:37:17.061 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0531 ms
+2026-03-04 09:37:17.085 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 20.9159 ms
+2026-03-04 09:38:04.797 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.0605 ms
+2026-03-04 09:38:04.926 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 110.2785 ms
+2026-03-04 09:38:04.930 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.2007 ms
+2026-03-04 09:38:04.960 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 26.7304 ms
+2026-03-04 09:38:09.503 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0496 ms
+2026-03-04 09:38:09.504 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0703 ms
+2026-03-04 09:38:09.509 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3420 ms
+2026-03-04 09:38:09.513 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5164 ms
+2026-03-04 09:38:09.521 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 3.2973 ms
+2026-03-04 09:38:12.959 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 3.3517 ms
+2026-03-04 09:38:13.703 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/52 responded 200 in 2.3268 ms
+2026-03-04 09:41:19.105 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0145 ms
+2026-03-04 09:41:19.105 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0421 ms
+2026-03-04 09:41:19.112 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1228 ms
+2026-03-04 09:41:19.115 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3277 ms
+2026-03-04 09:41:57.448 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0433 ms
+2026-03-04 09:41:57.453 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9245 ms
+2026-03-04 09:42:22.442 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0318 ms
+2026-03-04 09:42:22.448 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.7436 ms
+2026-03-04 09:43:56.452 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0522 ms
+2026-03-04 09:43:56.457 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5228 ms
+2026-03-04 09:44:32.450 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0444 ms
+2026-03-04 09:44:32.458 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.8380 ms
+2026-03-04 09:45:31.571 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0482 ms
+2026-03-04 09:45:31.579 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 4.0318 ms
+2026-03-04 09:49:37.734 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1084 ms
+2026-03-04 09:49:37.735 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0196 ms
+2026-03-04 09:49:37.752 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 15.0326 ms
+2026-03-04 09:49:37.756 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.7227 ms
+2026-03-04 09:49:37.763 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 2.5603 ms
+2026-03-04 09:49:41.210 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 3.0357 ms
+2026-03-04 09:49:42.082 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/52 responded 200 in 4.1319 ms
+2026-03-04 09:50:45.973 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0060 ms
+2026-03-04 09:50:45.973 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0449 ms
+2026-03-04 09:50:45.980 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.3116 ms
+2026-03-04 09:50:45.984 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.4288 ms
+2026-03-04 09:51:43.456 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0330 ms
+2026-03-04 09:51:43.463 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5076 ms
+2026-03-04 09:51:45.454 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3731 ms
+2026-03-04 09:51:46.450 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9919 ms
+2026-03-04 09:52:22.422 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0417 ms
+2026-03-04 09:52:22.427 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 3.6372 ms
+2026-03-04 09:52:22.429 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.1201 ms
+2026-03-04 09:52:27.454 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0465 ms
+2026-03-04 09:52:27.460 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.7685 ms
+2026-03-04 09:55:41.113 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 7.3865 ms
+2026-03-04 09:55:41.960 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/52 responded 200 in 3.7474 ms
+2026-03-04 09:58:40.457 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0345 ms
+2026-03-04 09:58:40.464 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.9094 ms
+2026-03-04 09:58:52.450 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0259 ms
+2026-03-04 09:58:52.451 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0131 ms
+2026-03-04 09:58:52.455 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.1905 ms
+2026-03-04 09:58:52.457 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.6548 ms
+2026-03-04 09:58:53.454 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.8387 ms
+2026-03-04 09:59:20.369 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 4.4736 ms
+2026-03-04 09:59:31.460 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0565 ms
+2026-03-04 09:59:31.460 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0173 ms
+2026-03-04 09:59:31.465 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.1363 ms
+2026-03-04 09:59:31.470 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.9480 ms
+2026-03-04 10:00:44.409 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0602 ms
+2026-03-04 10:00:44.415 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 2.5378 ms
+2026-03-04 10:04:22.933 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0698 ms
+2026-03-04 10:04:22.933 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0701 ms
+2026-03-04 10:04:22.940 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.0258 ms
+2026-03-04 10:04:22.943 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.0894 ms
+2026-03-04 10:04:22.948 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 2.4436 ms
+2026-03-04 10:05:14.878 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 401 in 5.2775 ms
+2026-03-04 10:06:42.443 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0578 ms
+2026-03-04 10:06:42.450 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.8781 ms
+2026-03-04 10:06:56.435 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0308 ms
+2026-03-04 10:06:56.437 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1976 ms
+2026-03-04 10:06:56.440 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3533 ms
+2026-03-04 10:06:56.443 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.2063 ms
+2026-03-04 10:06:56.457 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 3.5676 ms
+2026-03-04 10:06:59.521 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 2.9260 ms
+2026-03-04 10:07:01.047 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/52 responded 200 in 2.6386 ms
+2026-03-04 10:08:54.463 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0335 ms
+2026-03-04 10:08:54.468 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.1119 ms
+2026-03-04 10:08:55.467 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.6374 ms
+2026-03-04 10:09:36.254 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0420 ms
+2026-03-04 10:09:36.256 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0268 ms
+2026-03-04 10:09:36.262 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.2309 ms
+2026-03-04 10:09:36.266 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.5035 ms
+2026-03-04 10:09:36.288 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 4.7358 ms
+2026-03-04 10:11:48.955 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0490 ms
+2026-03-04 10:11:48.960 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 3.4238 ms
+2026-03-04 10:16:49.935 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0625 ms
+2026-03-04 10:16:49.935 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0071 ms
+2026-03-04 10:16:49.955 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 16.1239 ms
+2026-03-04 10:16:49.959 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.2911 ms
+2026-03-04 10:16:49.968 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/50 responded 200 in 4.1260 ms
+2026-03-04 10:16:52.699 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/12 responded 204 in 0.0370 ms
+2026-03-04 10:16:52.717 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/12 responded 200 in 14.5804 ms
+2026-03-04 10:16:52.726 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/38 responded 200 in 3.6609 ms
+2026-03-04 10:16:55.228 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/13 responded 204 in 0.0434 ms
+2026-03-04 10:16:55.243 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/13 responded 200 in 11.7812 ms
+2026-03-04 10:16:55.253 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/52 responded 200 in 2.8276 ms
+2026-03-04 10:16:57.792 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/15 responded 204 in 0.0343 ms
+2026-03-04 10:16:57.808 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/15 responded 200 in 12.4822 ms
+2026-03-04 10:17:27.082 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0298 ms
+2026-03-04 10:17:27.088 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 3.1807 ms
+2026-03-04 10:19:03.713 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0770 ms
+2026-03-04 10:19:03.719 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 2.0605 ms
+2026-03-04 10:19:19.067 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0332 ms
+2026-03-04 10:19:19.073 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 2.4127 ms
+2026-03-04 10:20:48.074 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.0347 ms
+2026-03-04 10:20:48.092 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 12.0540 ms
+2026-03-04 10:20:48.096 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.0279 ms
+2026-03-04 10:20:48.104 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 5.3090 ms
+2026-03-04 10:20:52.399 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0424 ms
+2026-03-04 10:20:52.402 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0414 ms
+2026-03-04 10:20:52.405 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5199 ms
+2026-03-04 10:20:52.409 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.2529 ms
+2026-03-04 10:20:52.420 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/53 responded 200 in 3.4053 ms
+2026-03-04 10:22:13.459 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0426 ms
+2026-03-04 10:22:13.465 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9800 ms
+2026-03-04 10:24:25.797 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 21.4068 ms
+2026-03-04 10:51:14.138 +05:30 [INF]  Automated Certification System API started successfully
+2026-03-04 10:53:03.239 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-04 10:53:05.647 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 2411.6810 ms
+2026-03-04 10:53:47.448 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/template/18 responded 200 in 264.7048 ms
+2026-03-04 10:58:15.586 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 1.7439 ms
+2026-03-04 10:58:15.586 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 1.9251 ms
+2026-03-04 10:58:15.641 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 50.8376 ms
+2026-03-04 10:58:15.648 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 5.3681 ms
+2026-03-04 10:58:15.676 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/53 responded 200 in 24.7774 ms
+2026-03-04 10:58:30.181 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/16 responded 204 in 0.9809 ms
+2026-03-04 10:58:30.234 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/16 responded 200 in 47.9724 ms
+2026-03-04 10:58:30.252 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/40 responded 200 in 4.3171 ms
+2026-03-04 10:58:33.258 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/17 responded 204 in 0.1442 ms
+2026-03-04 10:58:33.277 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/17 responded 200 in 15.6794 ms
+2026-03-04 10:59:03.913 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.2289 ms
+2026-03-04 10:59:50.517 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1619 ms
+2026-03-04 10:59:50.552 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 31.6972 ms
+2026-03-04 11:01:33.730 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.3458 ms
+2026-03-04 11:01:33.784 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 48.6134 ms
+2026-03-04 11:01:33.788 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.3076 ms
+2026-03-04 11:01:33.798 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 7.5588 ms
+2026-03-04 11:01:42.037 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.9275 ms
+2026-03-04 11:04:07.239 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/18 responded 200 in 21.3077 ms
+2026-03-04 11:04:15.314 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.7300 ms
+2026-03-04 11:04:29.727 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/19 responded 200 in 25.4857 ms
+2026-03-04 11:04:40.041 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 6.7289 ms
+2026-03-04 11:05:45.433 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1127 ms
+2026-03-04 11:05:45.442 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 5.4831 ms
+2026-03-04 11:07:40.872 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.1239 ms
+2026-03-04 11:07:40.900 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 22.0809 ms
+2026-03-04 11:07:40.906 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.0715 ms
+2026-03-04 11:07:40.915 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 6.9383 ms
+2026-03-04 11:08:14.982 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.4535 ms
+2026-03-04 11:34:10.222 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1935 ms
+2026-03-04 11:34:10.249 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 24.2336 ms
+2026-03-04 11:36:33.213 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0970 ms
+2026-03-04 11:36:33.214 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0286 ms
+2026-03-04 11:36:33.223 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.9461 ms
+2026-03-04 11:36:33.230 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 5.0089 ms
+2026-03-04 11:36:33.237 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 5.0062 ms
+2026-03-04 11:52:22.514 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1297 ms
+2026-03-04 11:52:22.523 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 5.5445 ms
+2026-03-04 11:54:28.061 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.2979 ms
+2026-03-04 11:54:28.083 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 18.2620 ms
+2026-03-04 12:58:06.254 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.7485 ms
+2026-03-04 12:58:06.317 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 57.1743 ms
+2026-03-04 13:00:01.018 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.2280 ms
+2026-03-04 13:00:01.026 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 5.4214 ms
+2026-03-04 13:38:47.002 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1752 ms
+2026-03-04 13:38:47.071 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 62.6951 ms
+2026-03-04 13:40:33.458 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.0398 ms
+2026-03-04 13:40:33.476 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 9.9307 ms
+2026-03-04 13:40:33.480 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.1411 ms
+2026-03-04 13:40:33.492 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 8.0847 ms
+2026-03-04 13:41:05.815 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.5086 ms
+2026-03-04 13:42:20.871 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.2217 ms
+2026-03-04 13:42:20.873 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0427 ms
+2026-03-04 13:42:20.880 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.7912 ms
+2026-03-04 13:42:20.885 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.3179 ms
+2026-03-04 13:42:20.892 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 3.4950 ms
+2026-03-04 13:47:55.493 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1008 ms
+2026-03-04 13:47:55.515 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 18.6179 ms
+2026-03-04 13:48:00.382 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.4644 ms
+2026-03-04 13:48:00.388 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.0670 ms
+2026-03-04 13:48:00.404 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 4.8244 ms
+2026-03-04 13:52:32.497 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0987 ms
+2026-03-04 13:52:32.513 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 12.7637 ms
+2026-03-04 13:52:33.493 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.7600 ms
+2026-03-04 13:54:39.489 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1592 ms
+2026-03-04 13:54:39.496 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1195 ms
+2026-03-04 13:54:41.490 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3706 ms
+2026-03-04 13:54:42.482 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5737 ms
+2026-03-04 13:54:45.785 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0819 ms
+2026-03-04 13:54:45.789 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0831 ms
+2026-03-04 13:54:45.815 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 17.2470 ms
+2026-03-04 13:54:45.876 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 18.6779 ms
+2026-03-04 13:54:45.919 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 68.1540 ms
+2026-03-04 13:54:52.479 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.3004 ms
+2026-03-04 13:54:52.485 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.7587 ms
+2026-03-04 13:55:00.481 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0504 ms
+2026-03-04 13:55:00.489 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.2832 ms
+2026-03-04 13:59:26.490 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0760 ms
+2026-03-04 13:59:26.505 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 12.5279 ms
+2026-03-04 13:59:32.873 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/56 responded 200 in 5.4965 ms
+2026-03-04 14:02:31.072 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.1077 ms
+2026-03-04 14:04:41.483 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0574 ms
+2026-03-04 14:04:41.488 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5900 ms
+2026-03-04 14:05:14.482 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.5968 ms
+2026-03-04 14:05:14.488 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.6378 ms
+2026-03-04 14:05:40.479 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1105 ms
+2026-03-04 14:05:40.483 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.4464 ms
+2026-03-04 14:05:42.486 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.6691 ms
+2026-03-04 14:05:52.540 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0419 ms
+2026-03-04 14:05:52.541 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0220 ms
+2026-03-04 14:05:52.545 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.8107 ms
+2026-03-04 14:05:52.549 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3364 ms
+2026-03-04 14:05:52.560 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 5.5161 ms
+2026-03-04 14:06:01.208 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/56 responded 200 in 2.8779 ms
+2026-03-04 14:06:25.495 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0327 ms
+2026-03-04 14:06:25.501 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1341 ms
+2026-03-04 14:06:25.512 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 2.4508 ms
+2026-03-04 14:06:30.483 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5426 ms
+2026-03-04 14:06:36.485 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0432 ms
+2026-03-04 14:06:36.490 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9719 ms
+2026-03-04 14:06:43.493 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0565 ms
+2026-03-04 14:06:43.498 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.4015 ms
+2026-03-04 14:15:07.404 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0785 ms
+2026-03-04 14:15:07.405 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0271 ms
+2026-03-04 14:15:07.432 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 23.0998 ms
+2026-03-04 14:15:07.438 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.7544 ms
+2026-03-04 14:15:11.225 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1421 ms
+2026-03-04 14:15:11.231 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.4493 ms
+2026-03-04 14:17:12.484 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0661 ms
+2026-03-04 14:17:12.491 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.6696 ms
+2026-03-04 14:17:15.688 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 6.5299 ms
+2026-03-04 14:17:15.700 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 8.3303 ms
+2026-03-04 14:19:21.484 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0362 ms
+2026-03-04 14:19:21.489 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5678 ms
+2026-03-04 14:19:25.846 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.7705 ms
+2026-03-04 14:19:25.853 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.5893 ms
+2026-03-04 14:19:30.640 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0685 ms
+2026-03-04 14:19:30.640 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0617 ms
+2026-03-04 14:19:30.676 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 5.0012 ms
+2026-03-04 14:19:30.686 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 5.9695 ms
+2026-03-04 14:19:40.493 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0888 ms
+2026-03-04 14:19:40.499 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.2011 ms
+2026-03-04 14:19:45.495 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.6602 ms
+2026-03-04 14:19:45.507 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/56 responded 200 in 13.9235 ms
+2026-03-04 14:19:45.507 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 14.0227 ms
+2026-03-04 14:19:51.486 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0825 ms
+2026-03-04 14:19:51.493 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1264 ms
+2026-03-04 14:25:32.496 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0782 ms
+2026-03-04 14:25:32.515 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 16.4529 ms
+2026-03-04 14:25:33.490 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9530 ms
+2026-03-04 14:26:45.214 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5378 ms
+2026-03-04 14:28:41.111 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0463 ms
+2026-03-04 14:28:41.112 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0401 ms
+2026-03-04 14:28:41.118 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.6757 ms
+2026-03-04 14:28:41.122 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3661 ms
+2026-03-04 14:28:45.492 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.7388 ms
+2026-03-04 14:28:47.492 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0563 ms
+2026-03-04 14:28:47.496 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9562 ms
+2026-03-04 14:30:46.502 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0386 ms
+2026-03-04 14:30:46.506 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/55 responded 200 in 3.2908 ms
+2026-03-04 14:30:46.508 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.5270 ms
+2026-03-04 14:41:56.919 +05:30 [INF]  Automated Certification System API started successfully
+2026-03-04 14:44:53.034 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-04 14:44:53.049 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 11.4382 ms
+2026-03-04 14:44:53.049 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 11.4420 ms
+2026-03-04 14:44:56.005 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 329.9388 ms
+2026-03-04 14:44:56.005 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2944.7039 ms
+2026-03-04 14:44:56.272 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 88.4050 ms
+2026-03-04 14:44:56.279 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.8532 ms
+2026-03-04 14:45:42.388 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 6.4046 ms
+2026-03-04 14:46:01.009 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/20 responded 200 in 177.0185 ms
+2026-03-04 14:46:06.605 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/21 responded 200 in 15.4445 ms
+2026-03-04 14:46:11.959 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 7.1449 ms
+2026-03-04 14:46:18.385 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.3246 ms
+2026-03-04 14:46:18.385 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.5368 ms
+2026-03-04 14:46:18.404 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 11.6181 ms
+2026-03-04 14:46:18.419 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 8.2245 ms
+2026-03-04 14:46:39.668 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.2061 ms
+2026-03-04 14:46:39.701 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 28.8562 ms
+2026-03-04 14:48:14.967 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.1155 ms
+2026-03-04 14:48:15.074 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 102.1270 ms
+2026-03-04 14:48:15.081 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.1775 ms
+2026-03-04 14:48:15.115 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 31.0390 ms
+2026-03-04 14:48:22.086 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0724 ms
+2026-03-04 14:48:22.086 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0798 ms
+2026-03-04 14:48:22.093 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.7220 ms
+2026-03-04 14:48:22.099 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.2733 ms
+2026-03-04 14:48:22.116 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 16.6404 ms
+2026-03-04 14:48:42.266 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0903 ms
+2026-03-04 14:48:42.266 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.2763 ms
+2026-03-04 14:48:42.278 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 6.9830 ms
+2026-03-04 14:48:42.283 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.7658 ms
+2026-03-04 15:19:20.599 +05:30 [INF]  Automated Certification System API started successfully
+2026-03-04 15:20:24.116 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-04 15:20:26.123 +05:30 [ERR] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 500 in 1988.0502 ms
+System.InvalidOperationException: The entity type 'CertificateBaseTemplate' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IAsyncEnumerable<TEntity>.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Relevantz.EEPZ.Data.Repository.BaseTemplateRepository.GetAllAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs:line 19
+   at Relevantz.EEPZ.Core.Service.CertificateService.GetBaseTemplatesAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Core\Service\CertificateService.cs:line 57
+   at Relevantz.EEPZ.Api.Controllers.CertificateController.GetBaseTemplates() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs:line 181
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-03-04 15:20:26.185 +05:30 [ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'CertificateBaseTemplate' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IAsyncEnumerable<TEntity>.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Relevantz.EEPZ.Data.Repository.BaseTemplateRepository.GetAllAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs:line 19
+   at Relevantz.EEPZ.Core.Service.CertificateService.GetBaseTemplatesAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Core\Service\CertificateService.cs:line 57
+   at Relevantz.EEPZ.Api.Controllers.CertificateController.GetBaseTemplates() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs:line 181
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-04 15:29:52.404 +05:30 [INF]  Automated Certification System API started successfully
+2026-03-04 15:30:54.102 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-04 15:30:57.235 +05:30 [ERR] Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`BaseTemplateId`, `c`.`CreatedAt`, `c`.`CssClass`, `c`.`PreviewImage`, `c`.`TemplateName`
+FROM `CertificateBaseTemplates` AS `c`
+2026-03-04 15:30:57.365 +05:30 [ERR] Microsoft.EntityFrameworkCore.Query An exception occurred while iterating over the results of a query for context type 'Relevantz.EEPZ.Data.DBContexts.ApplicationDbContext'.
+MySqlConnector.MySqlException (0x80004005): Table 'eepzdb.certificatebasetemplates' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySqlConnector.MySqlException (0x80004005): Table 'eepzdb.certificatebasetemplates' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-03-04 15:30:57.385 +05:30 [ERR] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 500 in 3282.3062 ms
+MySqlConnector.MySqlException (0x80004005): Table 'eepzdb.certificatebasetemplates' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Relevantz.EEPZ.Data.Repository.BaseTemplateRepository.GetAllAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs:line 19
+   at Relevantz.EEPZ.Core.Service.CertificateService.GetBaseTemplatesAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Core\Service\CertificateService.cs:line 57
+   at Relevantz.EEPZ.Api.Controllers.CertificateController.GetBaseTemplates() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs:line 181
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-03-04 15:30:57.421 +05:30 [ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): Table 'eepzdb.certificatebasetemplates' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Relevantz.EEPZ.Data.Repository.BaseTemplateRepository.GetAllAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs:line 19
+   at Relevantz.EEPZ.Core.Service.CertificateService.GetBaseTemplatesAsync() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Core\Service\CertificateService.cs:line 57
+   at Relevantz.EEPZ.Api.Controllers.CertificateController.GetBaseTemplates() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs:line 181
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-04 15:36:13.333 +05:30 [INF]  Automated Certification System API started successfully
+2026-03-04 15:36:42.054 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-04 15:36:44.663 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 404 in 2614.7273 ms
+2026-03-04 15:45:13.804 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 2.3481 ms
+2026-03-04 15:45:13.804 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 2.3499 ms
+2026-03-04 15:45:13.932 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 124.3214 ms
+2026-03-04 15:45:14.008 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 73.5472 ms
+2026-03-04 15:45:14.098 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 155.4064 ms
+2026-03-04 15:48:11.769 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.2467 ms
+2026-03-04 15:48:11.769 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.2468 ms
+2026-03-04 15:48:11.777 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 404 in 5.2386 ms
+2026-03-04 15:48:11.781 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 404 in 2.5354 ms
+2026-03-04 15:52:40.534 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1351 ms
+2026-03-04 15:52:40.555 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 404 in 18.5864 ms
+2026-03-04 17:29:44.155 +05:30 [INF]  Automated Certification System API started successfully
+2026-03-04 17:31:03.344 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-04 17:31:03.359 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 13.2159 ms
+2026-03-04 17:31:03.359 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 13.2132 ms
+2026-03-04 17:31:06.184 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2815.4752 ms
+2026-03-04 17:31:06.221 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 36.5844 ms
+2026-03-04 17:40:38.236 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 1.6223 ms
+2026-03-04 17:40:38.236 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 1.6214 ms
+2026-03-04 17:40:38.574 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 324.7720 ms
+2026-03-04 17:40:38.588 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 10.4151 ms
+2026-03-04 17:41:03.772 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-template/upload responded 204 in 0.2255 ms
+2026-03-04 17:41:04.018 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/base-template/upload responded 400 in 226.2698 ms
+2026-03-04 17:41:35.382 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.2149 ms
+2026-03-04 17:41:35.383 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0548 ms
+2026-03-04 17:41:35.406 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 11.5949 ms
+2026-03-04 17:41:35.428 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 7.9598 ms
+2026-03-04 17:42:01.291 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-template/upload responded 204 in 0.1790 ms
+2026-03-04 17:42:01.327 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/base-template/upload responded 400 in 15.2009 ms
+2026-03-04 19:28:13.122 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1951 ms
+2026-03-04 19:28:13.123 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0899 ms
+2026-03-04 19:28:13.156 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 22.4505 ms
+2026-03-04 19:28:13.161 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 1.4273 ms
+2026-03-04 19:35:47.233 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.3605 ms
+2026-03-04 19:35:47.233 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1601 ms
+2026-03-04 19:35:47.327 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 81.7689 ms
+2026-03-04 19:35:47.337 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 7.3090 ms
+2026-03-04 19:36:02.855 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-template/upload responded 204 in 0.1912 ms
+2026-03-04 19:36:04.215 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/base-template/upload responded 200 in 1344.0391 ms
+2026-03-04 19:36:06.561 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1487 ms
+2026-03-04 19:36:06.599 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 27.2956 ms
+2026-03-04 19:36:06.692 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 200 in 77.6829 ms
+2026-03-04 19:36:23.720 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.4331 ms
+2026-03-04 19:36:23.720 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1323 ms
+2026-03-04 19:36:23.744 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 13.3476 ms
+2026-03-04 19:36:23.758 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 11.4807 ms
+2026-03-04 19:42:01.593 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.4799 ms
+2026-03-04 19:42:01.595 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0871 ms
+2026-03-04 19:42:01.642 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 36.7988 ms
+2026-03-04 19:42:01.652 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 4.9738 ms
+2026-03-04 19:46:15.571 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.2480 ms
+2026-03-04 19:46:15.609 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 28.6525 ms
+2026-03-04 19:46:18.549 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.6770 ms
+2026-03-04 19:46:48.655 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 7.9328 ms
+2026-03-04 19:47:49.726 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1023 ms
+2026-03-04 19:47:49.728 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0502 ms
+2026-03-04 19:47:49.749 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 11.3626 ms
+2026-03-04 19:47:49.759 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 8.2363 ms
+2026-03-04 19:48:18.244 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-template/upload responded 204 in 0.1147 ms
+2026-03-04 19:48:18.321 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/base-template/upload responded 200 in 63.3505 ms
+2026-03-04 19:48:20.048 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.2007 ms
+2026-03-04 19:48:20.083 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 17.0488 ms
+2026-03-04 19:48:21.646 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 200 in 5.9940 ms
+2026-03-04 19:48:53.551 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 6.6446 ms
+2026-03-04 19:53:39.318 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1238 ms
+2026-03-04 19:53:39.502 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 176.5242 ms
+2026-03-04 19:54:52.567 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 1.6225 ms
+2026-03-04 19:55:17.308 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1313 ms
+2026-03-04 19:55:17.332 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 12.6738 ms
+2026-03-04 19:55:33.229 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 1.7880 ms
+2026-03-04 19:55:46.782 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0698 ms
+2026-03-04 19:55:46.800 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 9.9782 ms
+2026-03-04 19:57:06.081 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 1.3798 ms
+2026-03-04 19:58:06.921 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1643 ms
+2026-03-04 19:58:06.942 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 11.5949 ms
+2026-03-04 20:03:19.886 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 1.5715 ms
+2026-03-04 20:03:38.942 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.7681 ms
+2026-03-04 20:03:39.017 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 60.6001 ms
+2026-03-04 20:10:13.204 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 2.1217 ms
+2026-03-04 20:10:25.634 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1314 ms
+2026-03-04 20:10:25.708 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 60.7662 ms
+2026-03-04 20:10:25.738 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 7.6998 ms
+2026-03-04 20:11:12.860 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1410 ms
+2026-03-04 20:11:12.884 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 12.1101 ms
+2026-03-04 20:12:44.627 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/logo/upload responded 204 in 0.1303 ms
+2026-03-04 20:12:44.841 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/logo/upload responded 200 in 201.6524 ms
+2026-03-04 20:12:44.854 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template responded 204 in 0.6336 ms
+2026-03-04 20:12:45.077 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/certificates/template responded 200 in 214.1155 ms
+2026-03-04 20:12:48.363 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0873 ms
+2026-03-04 20:12:48.374 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 5.2863 ms
+2026-03-04 20:12:48.396 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 5.9993 ms
+2026-03-04 20:12:48.406 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 0.9610 ms
+2026-03-04 20:12:53.530 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0971 ms
+2026-03-04 20:12:53.534 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0504 ms
+2026-03-04 20:12:53.580 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 42.4307 ms
+2026-03-04 20:12:53.590 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 7.2221 ms
+2026-03-04 20:12:53.822 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 230.9797 ms
+2026-03-04 20:13:02.232 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0695 ms
+2026-03-04 20:13:02.234 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0660 ms
+2026-03-04 20:13:02.252 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 8.7621 ms
+2026-03-04 20:13:02.260 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 5.2917 ms
+2026-03-04 20:13:50.975 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0619 ms
+2026-03-04 20:13:50.977 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.6072 ms
+2026-03-04 20:13:50.990 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 5.6483 ms
+2026-03-04 20:13:51.000 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 8.6667 ms
+2026-03-04 20:27:23.349 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.2052 ms
+2026-03-04 20:27:23.350 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0539 ms
+2026-03-04 20:27:23.437 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 78.2899 ms
+2026-03-04 20:27:23.446 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 6.4045 ms
+2026-03-04 20:27:23.644 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 1.2097 ms
+2026-03-04 20:27:26.332 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 6.3253 ms
+2026-03-04 20:27:26.342 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 7.1247 ms
+2026-03-04 20:27:29.593 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0381 ms
+2026-03-04 20:27:29.593 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0430 ms
+2026-03-04 20:27:29.608 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 8.0112 ms
+2026-03-04 20:27:29.615 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 5.8523 ms
+2026-03-04 20:36:25.443 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 3.1970 ms
+2026-03-04 20:41:29.139 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.1208 ms
+2026-03-04 20:41:29.149 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 1.4610 ms
+2026-03-04 20:41:58.710 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0581 ms
+2026-03-04 20:41:58.724 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 1.2131 ms
+2026-03-04 20:41:58.816 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 1.1777 ms
+2026-03-04 20:42:21.814 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0637 ms
+2026-03-04 20:42:21.827 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 1.2012 ms
+2026-03-04 20:42:21.919 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 401 in 1.7191 ms
+2026-03-04 20:42:27.209 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0356 ms
+2026-03-04 20:42:27.216 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 1.4673 ms
+2026-03-04 20:42:27.237 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 0.8481 ms
+2026-03-04 20:42:31.715 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0713 ms
+2026-03-04 20:42:31.727 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 401 in 1.4500 ms
+2026-03-04 20:42:31.737 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 401 in 0.6333 ms
+2026-03-04 20:42:37.734 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0472 ms
+2026-03-04 20:42:37.738 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0272 ms
+2026-03-04 20:42:37.745 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 1.9454 ms
+2026-03-04 20:42:37.757 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 0.5849 ms
+2026-03-04 20:43:36.253 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0379 ms
+2026-03-04 20:43:36.253 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0495 ms
+2026-03-04 20:43:36.265 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 1.1081 ms
+2026-03-04 20:43:36.278 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 0.9723 ms
+2026-03-04 20:44:24.041 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0500 ms
+2026-03-04 20:44:24.042 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0940 ms
+2026-03-04 20:44:24.050 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 1.0670 ms
+2026-03-04 20:44:24.061 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 0.8225 ms
+2026-03-04 20:45:57.098 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1117 ms
+2026-03-04 20:45:57.098 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0354 ms
+2026-03-04 20:45:57.107 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 1.0588 ms
+2026-03-04 20:45:57.119 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 401 in 2.4585 ms
+2026-03-04 20:46:37.867 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.1374 ms
+2026-03-04 20:46:37.867 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0455 ms
+2026-03-04 20:46:37.929 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 54.1428 ms
+2026-03-04 20:46:37.938 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 6.2922 ms
+2026-03-04 20:46:37.947 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 1.0461 ms
+2026-03-04 20:46:40.510 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/0cae31c2-68bf-4a96-b19c-775acf06b39b_template1.png responded 304 in 1.0723 ms
+2026-03-04 20:46:59.164 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/skills responded 204 in 0.0698 ms
+2026-03-04 20:46:59.183 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 8.2106 ms
+2026-03-04 20:46:59.300 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/skills responded 200 in 6.2922 ms
+2026-03-04 20:47:10.304 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0413 ms
+2026-03-04 20:47:10.317 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 6.6195 ms
+2026-03-04 20:47:10.336 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 6.0597 ms
+2026-03-04 20:47:13.785 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0691 ms
+2026-03-04 20:47:13.789 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1050 ms
+2026-03-04 20:47:13.804 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 10.1201 ms
+2026-03-04 20:47:13.815 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 8.6518 ms
+2026-03-04 20:47:13.842 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 17.7895 ms
+2026-03-04 20:47:16.154 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/58 responded 200 in 7.7592 ms
+2026-03-04 20:47:25.763 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/template/23 responded 204 in 0.1462 ms
+2026-03-04 20:47:25.891 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP DELETE /api/certificates/template/23 responded 200 in 118.0505 ms
+2026-03-04 20:47:28.368 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0535 ms
+2026-03-04 20:47:28.369 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0938 ms
+2026-03-04 20:47:28.395 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 13.6729 ms
+2026-03-04 20:47:28.403 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 5.9039 ms
+2026-03-04 20:47:28.421 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 10.4993 ms
+2026-03-04 20:47:41.169 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0583 ms
+2026-03-04 20:47:41.172 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0964 ms
+2026-03-04 20:47:41.188 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 9.1807 ms
+2026-03-04 20:47:41.198 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 6.8033 ms
+2026-03-04 20:53:42.737 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.2677 ms
+2026-03-04 20:53:42.738 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0374 ms
+2026-03-04 20:53:42.806 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 61.9740 ms
+2026-03-04 20:53:42.814 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.8173 ms
+2026-03-04 20:53:42.965 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 15.4150 ms
+2026-03-04 21:02:03.537 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0174 ms
+2026-03-04 21:02:03.537 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0779 ms
+2026-03-04 21:02:03.561 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 21.2276 ms
+2026-03-04 21:02:03.564 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.7949 ms
+2026-03-04 21:02:03.572 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 2.6962 ms
+2026-03-04 21:03:26.273 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0420 ms
+2026-03-04 21:03:26.273 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0148 ms
+2026-03-04 21:03:26.278 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.5712 ms
+2026-03-04 21:03:26.282 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3141 ms
+2026-03-04 21:03:26.290 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 5.5348 ms
+2026-03-04 21:04:52.376 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0360 ms
+2026-03-04 21:04:52.376 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0134 ms
+2026-03-04 21:04:52.384 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.7820 ms
+2026-03-04 21:04:52.387 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.9692 ms
+2026-03-04 21:04:52.397 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 5.7984 ms
+2026-03-04 21:05:45.166 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0523 ms
+2026-03-04 21:05:45.167 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0636 ms
+2026-03-04 21:05:45.176 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.0340 ms
+2026-03-04 21:05:45.181 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.2168 ms
+2026-03-04 21:05:45.185 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.0535 ms
+2026-03-04 21:07:10.818 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0461 ms
+2026-03-04 21:07:10.819 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0314 ms
+2026-03-04 21:07:10.832 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 10.4525 ms
+2026-03-04 21:07:10.835 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3034 ms
+2026-03-04 21:07:10.842 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.1971 ms
+2026-03-04 21:07:17.362 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0406 ms
+2026-03-04 21:07:17.363 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0229 ms
+2026-03-04 21:07:17.372 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 4.4783 ms
+2026-03-04 21:07:17.377 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.5568 ms
+2026-03-04 21:07:17.383 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.5301 ms
+2026-03-04 21:08:41.611 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0515 ms
+2026-03-04 21:08:41.611 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0191 ms
+2026-03-04 21:08:41.620 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1954 ms
+2026-03-04 21:08:41.624 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.1063 ms
+2026-03-04 21:08:41.627 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 2.5775 ms
+2026-03-04 21:11:41.136 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0758 ms
+2026-03-04 21:11:41.138 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1317 ms
+2026-03-04 21:11:41.143 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1860 ms
+2026-03-04 21:11:41.147 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.7275 ms
+2026-03-04 21:11:41.153 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 2.5729 ms
+2026-03-04 21:12:34.449 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0656 ms
+2026-03-04 21:12:34.449 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0094 ms
+2026-03-04 21:12:34.458 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.8909 ms
+2026-03-04 21:12:34.462 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1919 ms
+2026-03-04 21:12:37.210 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.8278 ms
+2026-03-04 21:12:37.212 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.5495 ms
+2026-03-04 21:17:20.205 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0837 ms
+2026-03-04 21:17:20.205 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0192 ms
+2026-03-04 21:17:20.230 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 20.9082 ms
+2026-03-04 21:17:20.234 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.9286 ms
+2026-03-04 21:17:20.242 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.7313 ms
+2026-03-04 21:18:35.884 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0865 ms
+2026-03-04 21:18:35.885 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0510 ms
+2026-03-04 21:18:35.892 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.4461 ms
+2026-03-04 21:18:35.897 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3993 ms
+2026-03-04 21:18:35.902 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.2571 ms
+2026-03-04 21:18:58.502 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0384 ms
+2026-03-04 21:18:58.503 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0335 ms
+2026-03-04 21:18:58.510 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.2742 ms
+2026-03-04 21:18:58.515 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3586 ms
+2026-03-04 21:18:58.520 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.2723 ms
+2026-03-04 21:19:59.064 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1872 ms
+2026-03-04 21:19:59.064 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0248 ms
+2026-03-04 21:19:59.075 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.9703 ms
+2026-03-04 21:19:59.078 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.8418 ms
+2026-03-04 21:19:59.085 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 5.3305 ms
+2026-03-04 21:20:11.543 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1556 ms
+2026-03-04 21:20:11.543 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0239 ms
+2026-03-04 21:20:11.550 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.9790 ms
+2026-03-04 21:20:11.554 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.7263 ms
+2026-03-04 21:20:11.557 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 2.5543 ms
+2026-03-04 21:20:13.702 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.7267 ms
+2026-03-04 21:20:13.705 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.0487 ms
+2026-03-04 21:25:04.696 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0921 ms
+2026-03-04 21:25:04.696 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0458 ms
+2026-03-04 21:25:04.738 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 35.1534 ms
+2026-03-04 21:25:04.750 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 8.1916 ms
+2026-03-04 21:25:04.771 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 8.9697 ms
+2026-03-04 21:25:17.548 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0356 ms
+2026-03-04 21:25:17.549 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0384 ms
+2026-03-04 21:25:17.555 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.7571 ms
+2026-03-04 21:25:17.560 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.6279 ms
+2026-03-04 21:25:17.564 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 0.7819 ms
+2026-03-04 21:25:29.743 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0138 ms
+2026-03-04 21:25:29.743 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0523 ms
+2026-03-04 21:25:29.748 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.4235 ms
+2026-03-04 21:25:29.752 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.9388 ms
+2026-03-04 21:25:37.722 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0361 ms
+2026-03-04 21:25:37.722 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0156 ms
+2026-03-04 21:25:37.727 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.0477 ms
+2026-03-04 21:25:37.730 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.0345 ms
+2026-03-04 21:25:40.445 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0372 ms
+2026-03-04 21:25:40.445 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0377 ms
+2026-03-04 21:25:40.451 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.0641 ms
+2026-03-04 21:25:40.455 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.0788 ms
+2026-03-04 21:25:40.462 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 5.3690 ms
+2026-03-04 21:32:25.826 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0724 ms
+2026-03-04 21:32:25.827 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0228 ms
+2026-03-04 21:32:25.858 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 28.9532 ms
+2026-03-04 21:32:25.861 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.0814 ms
+2026-03-04 21:32:25.866 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.1960 ms
+2026-03-04 21:32:27.965 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.3962 ms
+2026-03-04 21:32:27.969 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.7099 ms
+2026-03-04 21:35:50.425 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0756 ms
+2026-03-04 21:35:50.425 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0212 ms
+2026-03-04 21:35:50.434 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.9335 ms
+2026-03-04 21:35:50.439 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.1005 ms
+2026-03-04 21:35:53.817 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.9167 ms
+2026-03-04 21:35:53.821 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.6894 ms
+2026-03-04 21:35:57.308 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0302 ms
+2026-03-04 21:35:57.309 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0201 ms
+2026-03-04 21:35:57.316 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.4454 ms
+2026-03-04 21:35:57.320 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.3360 ms
+2026-03-04 21:35:57.328 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.9922 ms
+2026-03-04 21:37:09.894 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0758 ms
+2026-03-04 21:37:09.894 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0367 ms
+2026-03-04 21:37:09.902 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 4.1863 ms
+2026-03-04 21:37:09.909 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.8066 ms
+2026-03-04 21:37:09.931 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 1.0446 ms
+2026-03-04 21:37:13.463 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.9440 ms
+2026-03-04 21:37:13.475 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.5717 ms
+2026-03-04 21:38:52.285 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0414 ms
+2026-03-04 21:38:52.286 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0377 ms
+2026-03-04 21:38:52.292 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.2263 ms
+2026-03-04 21:38:52.297 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.0889 ms
+2026-03-04 21:39:23.071 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0351 ms
+2026-03-04 21:39:23.071 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0224 ms
+2026-03-04 21:39:23.079 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 4.4165 ms
+2026-03-04 21:39:23.083 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.0777 ms
+2026-03-04 21:39:26.129 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.1639 ms
+2026-03-04 21:39:26.145 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.8262 ms
+2026-03-04 21:41:07.500 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0461 ms
+2026-03-04 21:41:07.501 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0129 ms
+2026-03-04 21:41:07.508 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.7331 ms
+2026-03-04 21:41:07.513 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.3312 ms
+2026-03-04 21:41:09.380 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.0746 ms
+2026-03-04 21:41:09.396 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 4.0907 ms
+2026-03-04 21:41:11.261 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.3075 ms
+2026-03-04 21:41:11.263 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 1.6782 ms
+2026-03-04 21:41:14.189 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0406 ms
+2026-03-04 21:41:14.190 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0210 ms
+2026-03-04 21:41:14.197 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.7302 ms
+2026-03-04 21:41:14.202 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 3.3723 ms
+2026-03-04 21:49:11.765 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1071 ms
+2026-03-04 21:49:11.765 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.1069 ms
+2026-03-04 21:49:11.784 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 14.7479 ms
+2026-03-04 21:49:11.786 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 1.5308 ms
+2026-03-04 21:49:11.791 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 2.0317 ms
+2026-03-04 21:49:42.452 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0355 ms
+2026-03-04 21:49:42.452 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0648 ms
+2026-03-04 21:49:42.457 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.7074 ms
+2026-03-04 21:49:42.461 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.7910 ms
+2026-03-04 21:49:42.464 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 2.5181 ms
+2026-03-04 21:50:26.082 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0638 ms
+2026-03-04 21:50:26.083 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/base-templates responded 204 in 0.0403 ms
+2026-03-04 21:50:26.089 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.8879 ms
+2026-03-04 21:50:26.093 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/base-templates responded 200 in 2.6590 ms
+2026-03-04 21:50:29.726 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0703 ms
+2026-03-04 21:50:29.726 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/certificates/templates responded 204 in 0.0183 ms
+2026-03-04 21:50:29.733 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 3.1211 ms
+2026-03-04 21:50:29.737 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/templates responded 200 in 2.8478 ms
+2026-03-04 21:50:29.741 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/certificates/logo/57 responded 200 in 3.0813 ms

@@ -1,0 +1,99 @@
+TpTrace Information: 0 : 53876, 1, 2026/03/09, 11:18:02.526, 10237228249870, testhost.dll, DefaultEngineInvoker: Monitoring parent process with id: '53056'
+TpTrace Information: 0 : 53876, 1, 2026/03/09, 11:18:02.587, 10237228710736, testhost.dll, DefaultEngineInvoker: Initialize communication on port number: '58210'
+TpTrace Information: 0 : 53876, 1, 2026/03/09, 11:18:02.603, 10237228864486, testhost.dll, Trying to connect to server on port : 58210
+TpTrace Information: 0 : 53876, 7, 2026/03/09, 11:18:02.642, 10237229262027, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 53876, 1, 2026/03/09, 11:18:02.803, 10237230863810, testhost.dll, DefaultEngineInvoker: Start Request Processing.
+TpTrace Information: 0 : 53876, 7, 2026/03/09, 11:18:02.831, 10237231148593, testhost.dll, Invalid Message types
+TpTrace Information: 0 : 53876, 7, 2026/03/09, 11:18:02.832, 10237231160299, testhost.dll, Discovery Session Initialize.
+TpTrace Information: 0 : 53876, 7, 2026/03/09, 11:18:02.841, 10237231251882, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.847, 10237231305119, testhost.dll, TestPluginCache: Updating loadOnlyWellKnownExtensions from False to False.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.847, 10237231312137, testhost.dll, TestPluginCache: Using directories for assembly resolution 'C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\bin\Debug\net8.0'.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.848, 10237231313022, testhost.dll, TestPluginCache: Updated the available extensions to 'C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll'.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.848, 10237231316472, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.855, 10237231383069, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Error: 0 : 53876, 11, 2026/03/09, 11:18:02.855, 10237231388137, testhost.dll, Default extensions folder does not exist
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.856, 10237231402481, testhost.dll, AssemblyResolver: NUnit3.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.881, 10237231646967, testhost.dll, AssemblyResolver: NUnit3.TestAdapter: Resolved assembly. 
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.903, 10237231870742, testhost.dll, AssemblyResolver: nunit.engine.api: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.908, 10237231919364, testhost.dll, AssemblyResolver: nunit.engine.api: Resolved assembly. 
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.918, 10237232014397, testhost.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll'.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.918, 10237232018372, testhost.dll, TestPluginCache: Discoverers are 'NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer, NUnit3.TestAdapter, Version=4.6.0.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac'.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.918, 10237232019184, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.918, 10237232019998, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.918, 10237232020525, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.922, 10237232058529, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.923, 10237232072695, testhost.dll, TestDiscoveryManager: LoadExtensions: Created discoverer NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.924, 10237232073522, testhost.dll, TestExecutorService: Loaded the discoverers
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.933, 10237232169115, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.934, 10237232173435, testhost.dll, TestExecutorExtensionManager: Loading executor NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.934, 10237232174431, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:02.936, 10237232193374, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.936, 10237232194385, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.971, 10237232547283, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.975, 10237232587103, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.989, 10237232723615, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.992, 10237232754189, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Warning: 0 : 53876, 11, 2026/03/09, 11:18:02.993, 10237232763510, testhost.dll, Invalid settings 'RunConfiguration'. Unexpected XmlElement: 'CollectSourceInformation'.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:02.998, 10237232816038, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\bin\Debug\net8.0\Relevantz.EEPZ.Api.Tests.dll
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:03.004, 10237232875009, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.015, 10237232984703, testhost.dll, AssemblyResolver: nunit.engine: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.022, 10237233055529, testhost.dll, AssemblyResolver: nunit.engine: Resolved assembly. 
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.022, 10237233058143, testhost.dll, AssemblyResolver: nunit.engine.core: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.031, 10237233146270, testhost.dll, AssemblyResolver: nunit.engine.core: Resolved assembly. 
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.064, 10237233479488, testhost.dll, NUnit Adapter 4.6.0.0: Test execution started
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.116, 10237234000676, testhost.dll, Running all tests in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\bin\Debug\net8.0\Relevantz.EEPZ.Api.Tests.dll
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.128, 10237234118362, testhost.dll, AssemblyResolver: testcentric.engine.metadata: Resolving assembly.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.133, 10237234167414, testhost.dll, AssemblyResolver: testcentric.engine.metadata: Resolved assembly. 
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.308, 10237235918102, testhost.dll,    NUnit3TestExecutor discovered 11 of 11 NUnit test cases using Current Discovery mode, Non-Explicit run
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.564, 10237238473940, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.564, 10237238482736, testhost.dll, TestRunCache: No test found corresponding to testResult 'CreateTemplate_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.565, 10237238492431, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.566, 10237238493218, testhost.dll, TestRunCache: No test found corresponding to testResult 'DeleteTemplate_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.572, 10237238559741, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.573, 10237238563256, testhost.dll, TestRunCache: No test found corresponding to testResult 'GenerateCertificate_Error  Failed
+  Message: System.Exception : Error generating certificate
+  StackTrace:
+   at Relevantz.EEPZ.Api.Controllers.CertificateController.GenerateCertificate(GenerateCertificateRequestDto request) in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs:line 137
+   at Relevantz.EEPZ.Tests.CertificateControllerTests.GenerateCertificate_Error() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.cs:line 180
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+1)    at Relevantz.EEPZ.Api.Controllers.CertificateController.GenerateCertificate(GenerateCertificateRequestDto request) in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs:line 137
+   at Relevantz.EEPZ.Tests.CertificateControllerTests.GenerateCertificate_Error() in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.cs:line 180
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.573, 10237238567223, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.573, 10237238568144, testhost.dll, TestRunCache: No test found corresponding to testResult 'GenerateCertificate_Failure  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.573, 10237238571030, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.573, 10237238571815, testhost.dll, TestRunCache: No test found corresponding to testResult 'GenerateCertificate_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.574, 10237238576791, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.574, 10237238577799, testhost.dll, TestRunCache: No test found corresponding to testResult 'GetAllTemplates_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.576, 10237238600202, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.576, 10237238601441, testhost.dll, TestRunCache: No test found corresponding to testResult 'GetBaseTemplates_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.578, 10237238620232, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.578, 10237238621490, testhost.dll, TestRunCache: No test found corresponding to testResult 'GetEmployeeCertificate_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.580, 10237238640144, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.580, 10237238641300, testhost.dll, TestRunCache: No test found corresponding to testResult 'GetTemplateById_Success  Passed' in inProgress list.
+TpTrace Information: 0 : 53876, 13, 2026/03/09, 11:18:03.583, 10237238669090, testhost.dll, Sending test run statistics
+TpTrace Verbose: 0 : 53876, 13, 2026/03/09, 11:18:03.622, 10237239060406, testhost.dll, TestRunCache: OnNewTestResult: Notified the onCacheHit callback.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.623, 10237239066047, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.623, 10237239067084, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.623, 10237239067409, testhost.dll, TestRunCache: No test found corresponding to testResult 'UpdateTemplate_Success  Passed' in inProgress list.
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.623, 10237239069333, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 53876, 13, 2026/03/09, 11:18:03.623, 10237239069677, testhost.dll, TestRunCache: No test found corresponding to testResult 'UploadBaseTemplate_Success  Passed' in inProgress list.
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.629, 10237239124082, testhost.dll, NUnit Adapter 4.6.0.0: Test execution complete
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:03.631, 10237239147811, testhost.dll, TestExecutionManager.RunTestInternalWithExecutors: Completed running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 53876, 11, 2026/03/09, 11:18:03.632, 10237239157130, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 53876, 11, 2026/03/09, 11:18:03.642, 10237239253573, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Information: 0 : 53876, 7, 2026/03/09, 11:18:03.651, 10237239349625, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 53876, 7, 2026/03/09, 11:18:03.652, 10237239358515, testhost.dll, Closing the connection !

@@ -1,0 +1,446 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Api\\Relevantz.EEPZ.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Api\\Relevantz.EEPZ.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Api\\Relevantz.EEPZ.Api.csproj",
+        "projectName": "Relevantz.EEPZ.Api",
+        "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Api\\Relevantz.EEPZ.Api.csproj",
+        "packagesPath": "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sandhiya.ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj": {
+                "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.105.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Common\\Relevantz.EEPZ.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Common\\Relevantz.EEPZ.Common.csproj",
+        "projectName": "Relevantz.EEPZ.Common",
+        "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Common\\Relevantz.EEPZ.Common.csproj",
+        "packagesPath": "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sandhiya.ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj",
+        "projectName": "Relevantz.EEPZ.Core",
+        "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj",
+        "packagesPath": "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sandhiya.ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj": {
+                "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.105.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj",
+        "projectName": "Relevantz.EEPZ.Data",
+        "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj",
+        "packagesPath": "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sandhiya.ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Common\\Relevantz.EEPZ.Common.csproj": {
+                "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Common\\Relevantz.EEPZ.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Filters.Expressions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

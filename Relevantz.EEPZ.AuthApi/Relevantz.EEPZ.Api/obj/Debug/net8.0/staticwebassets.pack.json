@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AuthApi\\Relevantz.EEPZ.Api\\wwwroot\\.gitignore",
+      "PackagePath": "staticwebassets\\.gitignore"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Relevantz.EEPZ.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Relevantz.EEPZ.Api.props",
+      "PackagePath": "build\\Relevantz.EEPZ.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Relevantz.EEPZ.Api.props",
+      "PackagePath": "buildMultiTargeting\\Relevantz.EEPZ.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Relevantz.EEPZ.Api.props",
+      "PackagePath": "buildTransitive\\Relevantz.EEPZ.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

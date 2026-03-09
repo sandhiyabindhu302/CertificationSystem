@@ -1,0 +1,1414 @@
+2026-03-07 09:08:13.249 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1922 ms
+2026-03-07 09:08:13.254 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0590 ms
+2026-03-07 09:08:13.312 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 09:08:13.319 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPO2:00000002
+2026-03-07 09:08:13.323 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 12.1332 ms
+2026-03-07 09:08:13.333 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 09:08:13.337 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPO2:00000003
+2026-03-07 09:08:13.342 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 10.3047 ms
+2026-03-07 09:08:13.361 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0536 ms
+2026-03-07 09:08:13.363 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0814 ms
+2026-03-07 09:08:13.371 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 09:08:13.377 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 09:08:13.377 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 7.2909 ms
+2026-03-07 09:08:13.380 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 4.2829 ms
+2026-03-07 09:24:33.847 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0885 ms
+2026-03-07 09:24:33.858 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 09:24:35.071 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 09:24:35.098 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 09:24:35.101 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 09:24:35.106 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1251.0360 ms
+2026-03-07 09:24:35.215 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0479 ms
+2026-03-07 09:24:35.219 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0388 ms
+2026-03-07 09:24:35.226 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPO4:00000004
+2026-03-07 09:24:35.234 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:24:35.257 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.6681 ms
+2026-03-07 09:24:35.259 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPO5:00000002
+2026-03-07 09:24:35.268 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:24:35.290 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.9981 ms
+2026-03-07 09:25:19.168 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0778 ms
+2026-03-07 09:25:19.179 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:25:20.320 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:25:20.346 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:25:20.350 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:25:20.356 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1178.8752 ms
+2026-03-07 09:25:20.506 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0588 ms
+2026-03-07 09:25:20.510 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0798 ms
+2026-03-07 09:25:20.519 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPO6:00000004
+2026-03-07 09:25:20.524 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 5.9712 ms
+2026-03-07 09:25:20.536 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPO6:00000005
+2026-03-07 09:25:20.538 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.1204 ms
+2026-03-07 09:30:05.724 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1225 ms
+2026-03-07 09:30:05.724 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1179 ms
+2026-03-07 09:30:05.736 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPO9:00000002
+2026-03-07 09:30:05.743 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:30:05.826 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 90.1194 ms
+2026-03-07 09:30:05.830 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPO8:00000002
+2026-03-07 09:30:05.834 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:30:05.855 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 25.9716 ms
+2026-03-07 09:30:31.451 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0328 ms
+2026-03-07 09:30:31.462 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:30:32.591 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:30:32.619 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:30:32.623 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:30:32.628 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1168.0088 ms
+2026-03-07 09:30:32.790 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0538 ms
+2026-03-07 09:30:32.796 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0920 ms
+2026-03-07 09:30:32.800 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOA:00000004
+2026-03-07 09:30:32.806 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 6.1517 ms
+2026-03-07 09:30:32.816 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOA:00000005
+2026-03-07 09:30:32.819 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.5738 ms
+2026-03-07 09:32:42.771 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1004 ms
+2026-03-07 09:32:42.771 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1007 ms
+2026-03-07 09:32:42.781 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOC:00000002
+2026-03-07 09:32:42.787 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:32:42.812 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.4689 ms
+2026-03-07 09:32:42.815 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOD:00000002
+2026-03-07 09:32:42.826 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:32:42.851 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.1140 ms
+2026-03-07 09:33:25.355 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.1107 ms
+2026-03-07 09:33:25.368 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:33:26.494 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:33:26.521 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:33:26.526 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:33:26.531 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1165.0852 ms
+2026-03-07 09:33:26.658 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0569 ms
+2026-03-07 09:33:26.662 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1462 ms
+2026-03-07 09:33:26.672 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOE:00000004
+2026-03-07 09:33:26.677 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 6.0029 ms
+2026-03-07 09:33:26.688 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOE:00000005
+2026-03-07 09:33:26.691 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.4097 ms
+2026-03-07 09:35:50.770 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0627 ms
+2026-03-07 09:35:50.772 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0694 ms
+2026-03-07 09:35:50.778 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOG:00000002
+2026-03-07 09:35:50.785 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:35:50.813 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.1377 ms
+2026-03-07 09:35:50.815 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOH:00000002
+2026-03-07 09:35:50.825 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:35:50.848 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.6968 ms
+2026-03-07 09:36:23.493 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0791 ms
+2026-03-07 09:36:23.503 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:36:24.653 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:36:24.675 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:36:24.679 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:36:24.683 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1182.3235 ms
+2026-03-07 09:36:24.822 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0628 ms
+2026-03-07 09:36:24.826 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0403 ms
+2026-03-07 09:36:24.833 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOI:00000004
+2026-03-07 09:36:24.840 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 7.7211 ms
+2026-03-07 09:36:24.850 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOI:00000005
+2026-03-07 09:36:24.853 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.9573 ms
+2026-03-07 09:38:33.283 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.3670 ms
+2026-03-07 09:38:33.284 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0274 ms
+2026-03-07 09:38:33.294 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOK:00000002
+2026-03-07 09:38:33.298 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:38:33.326 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.3748 ms
+2026-03-07 09:38:33.328 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOL:00000002
+2026-03-07 09:38:33.334 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:38:33.364 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.9135 ms
+2026-03-07 09:39:01.261 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0541 ms
+2026-03-07 09:39:01.277 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:39:02.396 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:39:02.421 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:39:02.425 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:39:02.429 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1154.6866 ms
+2026-03-07 09:39:02.590 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0615 ms
+2026-03-07 09:39:02.593 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0430 ms
+2026-03-07 09:39:02.598 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOM:00000004
+2026-03-07 09:39:02.607 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 8.6175 ms
+2026-03-07 09:39:02.617 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOM:00000005
+2026-03-07 09:39:02.621 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.7955 ms
+2026-03-07 09:41:53.030 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0837 ms
+2026-03-07 09:41:53.031 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0647 ms
+2026-03-07 09:41:53.038 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOO:00000002
+2026-03-07 09:41:53.045 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:41:53.073 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.7851 ms
+2026-03-07 09:41:53.078 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOP:00000002
+2026-03-07 09:41:53.088 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:41:53.113 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.9132 ms
+2026-03-07 09:42:15.397 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0482 ms
+2026-03-07 09:42:15.406 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:42:16.545 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:42:16.574 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:42:16.578 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:42:16.583 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1179.7252 ms
+2026-03-07 09:42:16.753 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0408 ms
+2026-03-07 09:42:16.756 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1427 ms
+2026-03-07 09:42:16.763 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOQ:00000004
+2026-03-07 09:42:16.768 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 5.6513 ms
+2026-03-07 09:42:16.777 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOQ:00000005
+2026-03-07 09:42:16.781 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.5353 ms
+2026-03-07 09:47:38.705 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1673 ms
+2026-03-07 09:47:38.706 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0280 ms
+2026-03-07 09:47:38.729 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOS:00000002
+2026-03-07 09:47:38.744 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:47:38.808 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 79.6227 ms
+2026-03-07 09:47:38.810 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOT:00000002
+2026-03-07 09:47:38.816 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:47:38.839 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.6707 ms
+2026-03-07 09:48:06.729 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0795 ms
+2026-03-07 09:48:06.741 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:48:07.861 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:48:07.891 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:48:07.895 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:48:07.901 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1163.6927 ms
+2026-03-07 09:48:08.104 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0700 ms
+2026-03-07 09:48:08.109 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0427 ms
+2026-03-07 09:48:08.116 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOU:00000004
+2026-03-07 09:48:08.124 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 8.1899 ms
+2026-03-07 09:48:08.132 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPOU:00000005
+2026-03-07 09:48:08.136 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.5792 ms
+2026-03-07 09:53:42.039 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0698 ms
+2026-03-07 09:53:42.039 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0266 ms
+2026-03-07 09:53:42.046 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP0:00000002
+2026-03-07 09:53:42.053 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:53:42.129 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 83.4478 ms
+2026-03-07 09:53:42.131 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP1:00000002
+2026-03-07 09:53:42.142 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 09:53:42.168 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.8418 ms
+2026-03-07 09:54:15.568 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.2205 ms
+2026-03-07 09:54:15.580 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 09:54:16.724 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 09:54:16.751 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 09:54:16.753 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 09:54:16.759 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1182.4985 ms
+2026-03-07 09:54:16.888 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1467 ms
+2026-03-07 09:54:16.891 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0344 ms
+2026-03-07 09:54:16.895 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP2:00000004
+2026-03-07 09:54:16.904 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 9.6244 ms
+2026-03-07 09:54:16.915 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP2:00000005
+2026-03-07 09:54:16.918 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.6902 ms
+2026-03-07 10:01:29.074 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2374 ms
+2026-03-07 10:01:29.075 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0847 ms
+2026-03-07 10:01:29.086 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP4:00000002
+2026-03-07 10:01:29.093 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:01:29.175 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 90.3861 ms
+2026-03-07 10:01:29.180 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP5:00000002
+2026-03-07 10:01:29.189 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:01:29.216 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.9279 ms
+2026-03-07 10:01:53.495 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0532 ms
+2026-03-07 10:01:53.509 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:01:54.640 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:01:54.668 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:01:54.673 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:01:54.679 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1175.0601 ms
+2026-03-07 10:01:54.877 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0502 ms
+2026-03-07 10:01:54.878 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0466 ms
+2026-03-07 10:01:54.887 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP6:00000004
+2026-03-07 10:01:54.894 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 7.6916 ms
+2026-03-07 10:01:54.904 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP6:00000005
+2026-03-07 10:01:54.908 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.4069 ms
+2026-03-07 10:05:16.178 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0706 ms
+2026-03-07 10:05:16.179 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0447 ms
+2026-03-07 10:05:16.186 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP8:00000002
+2026-03-07 10:05:16.195 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:05:16.259 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 74.0087 ms
+2026-03-07 10:05:16.261 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPP9:00000002
+2026-03-07 10:05:16.267 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:05:16.289 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 28.5418 ms
+2026-03-07 10:05:50.939 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0479 ms
+2026-03-07 10:05:50.955 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:05:52.108 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:05:52.132 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:05:52.135 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:05:52.141 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1191.4061 ms
+2026-03-07 10:05:52.283 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0728 ms
+2026-03-07 10:05:52.284 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0404 ms
+2026-03-07 10:05:52.292 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPA:00000004
+2026-03-07 10:05:52.296 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.4673 ms
+2026-03-07 10:05:52.305 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPA:00000005
+2026-03-07 10:05:52.309 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.5631 ms
+2026-03-07 10:20:10.213 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2119 ms
+2026-03-07 10:20:10.213 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2506 ms
+2026-03-07 10:20:10.222 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPD:00000002
+2026-03-07 10:20:10.231 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:20:10.330 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 109.4839 ms
+2026-03-07 10:20:10.334 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPC:00000002
+2026-03-07 10:20:10.347 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:20:10.376 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 42.1754 ms
+2026-03-07 10:20:34.344 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0422 ms
+2026-03-07 10:20:34.357 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:20:35.497 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:20:35.524 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:20:35.529 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:20:35.534 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1180.9073 ms
+2026-03-07 10:20:35.699 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0545 ms
+2026-03-07 10:20:35.704 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0537 ms
+2026-03-07 10:20:35.712 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPE:00000004
+2026-03-07 10:20:35.720 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 8.2791 ms
+2026-03-07 10:20:35.731 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPE:00000005
+2026-03-07 10:20:35.735 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.2609 ms
+2026-03-07 10:25:06.636 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0884 ms
+2026-03-07 10:25:06.638 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0854 ms
+2026-03-07 10:25:06.648 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 10:25:06.653 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPPG:00000002
+2026-03-07 10:25:06.658 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 10.6928 ms
+2026-03-07 10:25:06.671 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 10:25:06.674 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPPG:00000003
+2026-03-07 10:25:06.674 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0570 ms
+2026-03-07 10:25:06.680 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 9.3307 ms
+2026-03-07 10:25:06.689 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 10:25:06.697 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 8.3813 ms
+2026-03-07 10:25:06.704 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 10:25:06.709 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 6.0754 ms
+2026-03-07 10:25:13.262 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0447 ms
+2026-03-07 10:25:13.277 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 10:25:14.481 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 10:25:14.508 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 10:25:14.511 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 10:25:14.517 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1245.1794 ms
+2026-03-07 10:25:14.577 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0525 ms
+2026-03-07 10:25:14.578 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0318 ms
+2026-03-07 10:25:14.586 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPG:00000008
+2026-03-07 10:25:14.594 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:25:14.618 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.7064 ms
+2026-03-07 10:25:14.620 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPH:00000005
+2026-03-07 10:25:14.629 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:25:14.650 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.0979 ms
+2026-03-07 10:25:40.364 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0557 ms
+2026-03-07 10:25:40.379 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:25:41.524 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:25:41.547 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:25:41.550 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:25:41.554 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1177.5045 ms
+2026-03-07 10:25:41.638 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0578 ms
+2026-03-07 10:25:41.639 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0582 ms
+2026-03-07 10:25:41.648 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPI:00000004
+2026-03-07 10:25:41.651 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.9427 ms
+2026-03-07 10:25:41.659 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPI:00000005
+2026-03-07 10:25:41.662 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.2175 ms
+2026-03-07 10:26:17.493 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0436 ms
+2026-03-07 10:26:17.501 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPH:00000007
+2026-03-07 10:26:17.510 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:26:17.543 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 42.0757 ms
+2026-03-07 10:26:17.547 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPG:00000009
+2026-03-07 10:26:17.557 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:26:17.594 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 46.9066 ms
+2026-03-07 10:26:47.870 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0425 ms
+2026-03-07 10:26:47.884 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:26:49.017 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:26:49.045 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:26:49.049 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:26:49.054 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1172.0136 ms
+2026-03-07 10:26:49.225 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1785 ms
+2026-03-07 10:26:49.228 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0525 ms
+2026-03-07 10:26:49.234 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPK:00000004
+2026-03-07 10:26:49.241 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 7.4705 ms
+2026-03-07 10:26:49.252 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPK:00000005
+2026-03-07 10:26:49.255 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.3286 ms
+2026-03-07 10:28:38.231 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1155 ms
+2026-03-07 10:28:38.232 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0335 ms
+2026-03-07 10:28:38.239 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPM:00000002
+2026-03-07 10:28:38.245 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:28:38.271 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.8541 ms
+2026-03-07 10:28:38.274 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPN:00000002
+2026-03-07 10:28:38.280 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:28:38.309 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.5544 ms
+2026-03-07 10:29:01.851 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0629 ms
+2026-03-07 10:29:01.860 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:29:03.009 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:29:03.038 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:29:03.042 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:29:03.049 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1192.1508 ms
+2026-03-07 10:29:03.208 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0576 ms
+2026-03-07 10:29:03.215 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0427 ms
+2026-03-07 10:29:03.220 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPO:00000004
+2026-03-07 10:29:03.233 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 13.6142 ms
+2026-03-07 10:29:03.248 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPO:00000005
+2026-03-07 10:29:03.252 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.5717 ms
+2026-03-07 10:29:37.981 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0625 ms
+2026-03-07 10:29:37.989 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.7198 ms
+2026-03-07 10:29:37.994 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPN:00000004
+2026-03-07 10:29:38.012 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:29:38.039 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 46.6436 ms
+2026-03-07 10:29:38.042 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPM:00000004
+2026-03-07 10:29:38.049 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:29:38.075 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.9198 ms
+2026-03-07 10:30:10.985 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.1094 ms
+2026-03-07 10:30:11.001 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:30:12.145 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:30:12.173 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:30:12.178 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:30:12.185 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1188.2177 ms
+2026-03-07 10:30:12.344 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0548 ms
+2026-03-07 10:30:12.349 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0448 ms
+2026-03-07 10:30:12.355 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPQ:00000004
+2026-03-07 10:30:12.376 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 21.5800 ms
+2026-03-07 10:30:12.387 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPQ:00000005
+2026-03-07 10:30:12.391 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 5.1216 ms
+2026-03-07 10:31:33.641 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0571 ms
+2026-03-07 10:31:33.642 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0535 ms
+2026-03-07 10:31:33.651 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPM:00000006
+2026-03-07 10:31:33.658 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:31:33.684 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.7553 ms
+2026-03-07 10:31:33.687 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPN:00000006
+2026-03-07 10:31:33.694 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:31:33.717 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.7523 ms
+2026-03-07 10:31:48.932 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0525 ms
+2026-03-07 10:31:48.934 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0446 ms
+2026-03-07 10:31:48.940 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPN:00000008
+2026-03-07 10:31:48.945 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:31:48.969 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.2575 ms
+2026-03-07 10:31:48.973 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPM:00000008
+2026-03-07 10:31:48.983 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:31:49.015 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 42.0122 ms
+2026-03-07 10:32:25.737 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0537 ms
+2026-03-07 10:32:25.748 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 10:32:26.877 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 10:32:26.903 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 10:32:26.907 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 10:32:26.912 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1165.6144 ms
+2026-03-07 10:32:27.088 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0577 ms
+2026-03-07 10:32:27.093 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0695 ms
+2026-03-07 10:32:27.098 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPS:00000004
+2026-03-07 10:32:27.105 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 7.7135 ms
+2026-03-07 10:32:27.115 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPS:00000005
+2026-03-07 10:32:27.119 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.2719 ms
+2026-03-07 10:41:23.920 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0886 ms
+2026-03-07 10:41:23.921 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0134 ms
+2026-03-07 10:41:23.927 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPU:00000002
+2026-03-07 10:41:23.935 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:41:24.013 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 85.6345 ms
+2026-03-07 10:41:24.017 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPPV:00000002
+2026-03-07 10:41:24.028 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:41:24.058 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 41.2750 ms
+2026-03-07 10:46:10.042 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1555 ms
+2026-03-07 10:46:10.042 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0214 ms
+2026-03-07 10:46:10.054 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ0:00000002
+2026-03-07 10:46:10.062 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:46:10.136 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 83.2802 ms
+2026-03-07 10:46:10.141 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ1:00000002
+2026-03-07 10:46:10.151 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:46:10.179 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.4404 ms
+2026-03-07 10:48:27.580 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0696 ms
+2026-03-07 10:48:27.584 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0720 ms
+2026-03-07 10:48:27.594 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ2:00000002
+2026-03-07 10:48:27.599 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:48:27.624 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.5991 ms
+2026-03-07 10:48:27.626 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ3:00000002
+2026-03-07 10:48:27.634 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 10:48:27.661 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.1624 ms
+2026-03-07 11:02:41.241 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1280 ms
+2026-03-07 11:02:41.242 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0532 ms
+2026-03-07 11:02:41.255 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ4:00000002
+2026-03-07 11:02:41.266 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:02:41.337 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 83.0704 ms
+2026-03-07 11:02:41.340 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ5:00000002
+2026-03-07 11:02:41.349 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:02:41.374 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 33.6729 ms
+2026-03-07 11:15:57.313 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1683 ms
+2026-03-07 11:15:57.313 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0373 ms
+2026-03-07 11:15:57.317 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ6:00000002
+2026-03-07 11:15:57.319 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:15:57.360 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 43.0749 ms
+2026-03-07 11:15:57.361 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ7:00000002
+2026-03-07 11:15:57.364 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:15:57.372 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 11.0669 ms
+2026-03-07 11:23:06.561 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0651 ms
+2026-03-07 11:23:06.561 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0703 ms
+2026-03-07 11:23:06.567 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ9:00000002
+2026-03-07 11:23:06.570 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:23:06.603 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.9731 ms
+2026-03-07 11:23:06.604 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQ8:00000002
+2026-03-07 11:23:06.606 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:23:06.616 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 12.7298 ms
+2026-03-07 11:23:34.743 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0338 ms
+2026-03-07 11:23:34.750 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 11:23:35.049 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 11:23:35.062 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 11:23:35.063 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 11:23:35.065 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 317.4874 ms
+2026-03-07 11:23:35.118 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1083 ms
+2026-03-07 11:23:35.121 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0277 ms
+2026-03-07 11:23:35.122 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQA:00000004
+2026-03-07 11:23:35.123 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.6143 ms
+2026-03-07 11:23:35.127 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQA:00000005
+2026-03-07 11:23:35.128 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.1711 ms
+2026-03-07 11:30:36.492 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0642 ms
+2026-03-07 11:30:36.493 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0244 ms
+2026-03-07 11:30:36.498 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 11:30:36.502 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPQC:00000002
+2026-03-07 11:30:36.502 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 5.1428 ms
+2026-03-07 11:30:36.508 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 11:30:36.510 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPQC:00000003
+2026-03-07 11:30:36.511 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 3.8067 ms
+2026-03-07 11:30:36.514 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.3219 ms
+2026-03-07 11:30:36.519 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 11:30:36.519 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 11:30:36.520 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 1.4117 ms
+2026-03-07 11:30:36.521 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 2.0512 ms
+2026-03-07 11:30:41.021 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0370 ms
+2026-03-07 11:30:41.026 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 11:30:41.301 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 11:30:41.314 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 11:30:41.315 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 11:30:41.317 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 292.0981 ms
+2026-03-07 11:30:41.332 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQC:00000007
+2026-03-07 11:30:41.334 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:30:41.346 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 13.3862 ms
+2026-03-07 11:30:41.348 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQD:00000004
+2026-03-07 11:30:41.349 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:30:41.358 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 9.9385 ms
+2026-03-07 11:30:57.453 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0252 ms
+2026-03-07 11:30:57.459 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 11:30:57.725 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 11:30:57.740 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 11:30:57.741 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 11:30:57.743 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 285.9351 ms
+2026-03-07 11:30:57.793 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0457 ms
+2026-03-07 11:30:57.795 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0347 ms
+2026-03-07 11:30:57.796 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQE:00000004
+2026-03-07 11:30:57.799 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.0061 ms
+2026-03-07 11:30:57.803 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQE:00000005
+2026-03-07 11:30:57.804 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.1258 ms
+2026-03-07 11:33:16.711 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0378 ms
+2026-03-07 11:33:16.713 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0288 ms
+2026-03-07 11:33:16.717 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQJ:00000002
+2026-03-07 11:33:16.721 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:33:16.732 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 14.6665 ms
+2026-03-07 11:33:16.733 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQI:00000002
+2026-03-07 11:33:16.736 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 11:33:16.744 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 11.2111 ms
+2026-03-07 11:34:58.055 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0368 ms
+2026-03-07 11:34:58.062 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 11:34:58.332 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 11:34:58.342 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 11:34:58.344 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 11:34:58.346 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 287.5791 ms
+2026-03-07 11:34:58.398 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0309 ms
+2026-03-07 11:34:58.400 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0217 ms
+2026-03-07 11:34:58.404 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQK:00000004
+2026-03-07 11:34:58.405 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.7711 ms
+2026-03-07 11:34:58.408 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQK:00000005
+2026-03-07 11:34:58.409 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.6145 ms
+2026-03-07 13:11:17.692 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.3640 ms
+2026-03-07 13:11:17.693 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0150 ms
+2026-03-07 13:11:17.702 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 13:11:17.704 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPQN:00000002
+2026-03-07 13:11:17.706 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 7.0942 ms
+2026-03-07 13:11:17.717 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 13:11:17.718 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPQN:00000003
+2026-03-07 13:11:17.719 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0262 ms
+2026-03-07 13:11:17.725 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 7.9504 ms
+2026-03-07 13:11:17.729 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 13:11:17.730 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 2.0017 ms
+2026-03-07 13:11:17.734 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 13:11:17.735 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 1.3453 ms
+2026-03-07 13:11:23.314 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0301 ms
+2026-03-07 13:11:23.320 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 13:11:23.664 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 13:11:23.677 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 13:11:23.678 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 13:11:23.679 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 362.5938 ms
+2026-03-07 13:11:23.694 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0400 ms
+2026-03-07 13:11:23.695 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0332 ms
+2026-03-07 13:11:23.698 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQN:00000008
+2026-03-07 13:11:23.699 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 13:11:23.711 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 13.7809 ms
+2026-03-07 13:11:23.713 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQM:00000005
+2026-03-07 13:11:23.715 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 13:11:23.725 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 13.0095 ms
+2026-03-07 14:02:29.090 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.5275 ms
+2026-03-07 14:02:29.090 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0411 ms
+2026-03-07 14:02:29.102 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQO:00000002
+2026-03-07 14:02:29.107 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:02:29.210 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 108.4959 ms
+2026-03-07 14:02:29.213 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQP:00000002
+2026-03-07 14:02:29.222 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:02:29.249 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.4682 ms
+2026-03-07 14:02:32.148 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.1562 ms
+2026-03-07 14:02:32.158 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQP:00000004
+2026-03-07 14:02:32.164 +05:30 [INF] Logout initiated for UserId: 3
+2026-03-07 14:02:32.195 +05:30 [INF] All refresh tokens revoked for UserId: 3
+2026-03-07 14:02:32.198 +05:30 [INF] User logged out successfully: UserId 3
+2026-03-07 14:02:32.201 +05:30 [INF] Logout successful for UserId: 3
+2026-03-07 14:02:32.205 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 46.9402 ms
+2026-03-07 14:02:36.654 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0513 ms
+2026-03-07 14:02:36.667 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 14:02:37.799 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 14:02:37.825 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 14:02:37.828 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 14:02:37.834 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1170.1126 ms
+2026-03-07 14:02:37.858 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1565 ms
+2026-03-07 14:02:37.860 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1495 ms
+2026-03-07 14:02:37.869 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQP:00000008
+2026-03-07 14:02:37.876 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:02:37.902 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 33.3768 ms
+2026-03-07 14:02:37.904 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQO:00000004
+2026-03-07 14:02:37.915 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:02:37.941 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.7761 ms
+2026-03-07 14:03:11.728 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0704 ms
+2026-03-07 14:03:11.741 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 14:03:12.867 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 14:03:12.894 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 14:03:12.897 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 14:03:12.902 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1163.6782 ms
+2026-03-07 14:03:13.018 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0624 ms
+2026-03-07 14:03:13.021 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0510 ms
+2026-03-07 14:03:13.028 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQQ:00000004
+2026-03-07 14:03:13.034 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 7.1158 ms
+2026-03-07 14:03:13.044 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQQ:00000005
+2026-03-07 14:03:13.048 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.9419 ms
+2026-03-07 14:36:14.460 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.3307 ms
+2026-03-07 14:36:14.461 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0617 ms
+2026-03-07 14:36:14.470 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQS:00000002
+2026-03-07 14:36:14.476 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 7.1179 ms
+2026-03-07 14:36:14.484 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQS:00000003
+2026-03-07 14:36:14.487 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.3497 ms
+2026-03-07 14:46:46.563 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1093 ms
+2026-03-07 14:46:46.564 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0215 ms
+2026-03-07 14:46:46.576 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQU:00000002
+2026-03-07 14:46:46.586 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:46:46.686 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 110.8517 ms
+2026-03-07 14:46:46.688 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQV:00000002
+2026-03-07 14:46:46.697 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:46:46.720 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.5704 ms
+2026-03-07 14:46:50.390 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.1320 ms
+2026-03-07 14:46:50.401 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPQV:00000004
+2026-03-07 14:46:50.408 +05:30 [INF] Logout initiated for UserId: 3
+2026-03-07 14:46:50.460 +05:30 [INF] All refresh tokens revoked for UserId: 3
+2026-03-07 14:46:50.466 +05:30 [INF] User logged out successfully: UserId 3
+2026-03-07 14:46:50.470 +05:30 [INF] Logout successful for UserId: 3
+2026-03-07 14:46:50.476 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 74.8832 ms
+2026-03-07 14:54:58.824 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.1746 ms
+2026-03-07 14:54:58.840 +05:30 [INF] Login attempt initiated for nu*****@eep.com
+2026-03-07 14:54:58.934 +05:30 [WRN] Unauthorized access attempt.
+System.UnauthorizedAccessException: Invalid email or password
+   at Relevantz.EEPZ.Core.Service.AuthenticationService.LoginAsync(LoginRequestDto request) in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Core\Service\AuthenticationService.cs:line 61
+   at Relevantz.EEPZ.Api.Controllers.AuthenticationController.Login(LoginRequestDto request) in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Api\Controllers\AuthenticationController.cs:line 78
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Relevantz.EEPZ.Api.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AuthApi\Relevantz.EEPZ.Api\Middleware\GlobalExceptionMiddleware.cs:line 26
+2026-03-07 14:54:58.963 +05:30 [INF] HTTP POST /api/Authentication/login responded 401 in 128.4284 ms
+2026-03-07 14:55:02.975 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 14:55:04.104 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 14:55:04.140 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 14:55:04.144 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 14:55:04.150 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1175.8907 ms
+2026-03-07 14:55:04.300 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0482 ms
+2026-03-07 14:55:04.304 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0431 ms
+2026-03-07 14:55:04.314 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000005
+2026-03-07 14:55:04.317 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.4116 ms
+2026-03-07 14:55:04.327 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000006
+2026-03-07 14:55:04.331 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.4249 ms
+2026-03-07 14:55:41.536 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0590 ms
+2026-03-07 14:55:41.537 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0518 ms
+2026-03-07 14:55:41.548 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000008
+2026-03-07 14:55:41.554 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 6.6415 ms
+2026-03-07 14:55:41.564 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000009
+2026-03-07 14:55:41.568 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.9108 ms
+2026-03-07 14:57:00.576 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0896 ms
+2026-03-07 14:57:00.586 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:0000000B
+2026-03-07 14:57:00.591 +05:30 [INF] Logout initiated for UserId: 4
+2026-03-07 14:57:00.639 +05:30 [INF] All refresh tokens revoked for UserId: 4
+2026-03-07 14:57:00.643 +05:30 [INF] User logged out successfully: UserId 4
+2026-03-07 14:57:00.647 +05:30 [INF] Logout successful for UserId: 4
+2026-03-07 14:57:00.652 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 66.6652 ms
+2026-03-07 14:57:05.042 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0946 ms
+2026-03-07 14:57:05.056 +05:30 [INF] Login attempt initiated for nu*****@eepz.com
+2026-03-07 14:57:06.178 +05:30 [INF] Refresh token generated for UserId: 4
+2026-03-07 14:57:06.205 +05:30 [INF] User logged in successfully: nuttrenai.vijaysankar@eepz.com
+2026-03-07 14:57:06.209 +05:30 [INF] Login successful for nu*****@eepz.com
+2026-03-07 14:57:06.214 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1160.8372 ms
+2026-03-07 14:57:06.289 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0588 ms
+2026-03-07 14:57:06.289 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0463 ms
+2026-03-07 14:57:06.298 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:0000000F
+2026-03-07 14:57:06.303 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 5.5760 ms
+2026-03-07 14:57:06.312 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000010
+2026-03-07 14:57:06.315 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.2758 ms
+2026-03-07 14:57:25.061 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0731 ms
+2026-03-07 14:57:25.070 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000012
+2026-03-07 14:57:25.078 +05:30 [INF] Logout initiated for UserId: 4
+2026-03-07 14:57:25.116 +05:30 [INF] All refresh tokens revoked for UserId: 4
+2026-03-07 14:57:25.119 +05:30 [INF] User logged out successfully: UserId 4
+2026-03-07 14:57:25.123 +05:30 [INF] Logout successful for UserId: 4
+2026-03-07 14:57:25.127 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 57.3047 ms
+2026-03-07 14:57:29.852 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0575 ms
+2026-03-07 14:57:29.862 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 14:57:30.974 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 14:57:31.002 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 14:57:31.005 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 14:57:31.011 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1151.5528 ms
+2026-03-07 14:57:31.057 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0553 ms
+2026-03-07 14:57:31.058 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0501 ms
+2026-03-07 14:57:31.070 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR0:00000016
+2026-03-07 14:57:31.077 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:57:31.107 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 37.7470 ms
+2026-03-07 14:57:31.112 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR1:00000005
+2026-03-07 14:57:31.117 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 14:57:31.142 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.6518 ms
+2026-03-07 14:57:55.269 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0359 ms
+2026-03-07 14:57:55.280 +05:30 [INF] Login attempt initiated for sa*****@relevantz.com
+2026-03-07 14:57:56.430 +05:30 [INF] Refresh token generated for UserId: 2
+2026-03-07 14:57:56.456 +05:30 [INF] User logged in successfully: sandhiya.ramesh@relevantz.com
+2026-03-07 14:57:56.460 +05:30 [INF] Login successful for sa*****@relevantz.com
+2026-03-07 14:57:56.466 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1188.4190 ms
+2026-03-07 14:57:56.584 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0460 ms
+2026-03-07 14:57:56.588 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0569 ms
+2026-03-07 14:57:56.594 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR2:00000004
+2026-03-07 14:57:56.603 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 9.1490 ms
+2026-03-07 14:57:56.616 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR2:00000005
+2026-03-07 14:57:56.620 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.5079 ms
+2026-03-07 14:58:55.176 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1146 ms
+2026-03-07 14:58:55.177 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1260 ms
+2026-03-07 14:58:55.189 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR2:00000007
+2026-03-07 14:58:55.192 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.1751 ms
+2026-03-07 14:58:55.202 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR2:00000008
+2026-03-07 14:58:55.206 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.3546 ms
+2026-03-07 15:05:46.283 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0208 ms
+2026-03-07 15:05:46.283 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1420 ms
+2026-03-07 15:05:46.296 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR5:00000002
+2026-03-07 15:05:46.303 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:05:46.377 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 81.8225 ms
+2026-03-07 15:05:46.382 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR4:00000002
+2026-03-07 15:05:46.390 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:05:46.414 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.3835 ms
+2026-03-07 15:06:11.293 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0838 ms
+2026-03-07 15:06:11.297 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1246 ms
+2026-03-07 15:06:11.302 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR4:00000004
+2026-03-07 15:06:11.309 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:06:11.337 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.6299 ms
+2026-03-07 15:06:11.341 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR5:00000004
+2026-03-07 15:06:11.348 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:06:11.371 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.0146 ms
+2026-03-07 15:07:00.069 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0676 ms
+2026-03-07 15:07:00.081 +05:30 [INF] Login attempt initiated for sa*****@relevantz.com
+2026-03-07 15:07:01.214 +05:30 [INF] Refresh token generated for UserId: 2
+2026-03-07 15:07:01.241 +05:30 [INF] User logged in successfully: sandhiya.ramesh@relevantz.com
+2026-03-07 15:07:01.245 +05:30 [INF] Login successful for sa*****@relevantz.com
+2026-03-07 15:07:01.251 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1172.6665 ms
+2026-03-07 15:07:01.394 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0544 ms
+2026-03-07 15:07:01.396 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0374 ms
+2026-03-07 15:07:01.405 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR6:00000004
+2026-03-07 15:07:01.412 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 8.0556 ms
+2026-03-07 15:07:01.421 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR6:00000005
+2026-03-07 15:07:01.425 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.6797 ms
+2026-03-07 15:07:44.655 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1489 ms
+2026-03-07 15:07:44.657 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1227 ms
+2026-03-07 15:07:44.664 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR6:00000007
+2026-03-07 15:07:44.669 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 5.6864 ms
+2026-03-07 15:07:44.681 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR6:00000008
+2026-03-07 15:07:44.684 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.7964 ms
+2026-03-07 15:07:56.821 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0554 ms
+2026-03-07 15:07:56.829 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR5:00000006
+2026-03-07 15:07:56.834 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:07:56.890 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 61.2394 ms
+2026-03-07 15:07:56.895 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR4:00000005
+2026-03-07 15:07:56.904 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:07:56.932 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 37.8460 ms
+2026-03-07 15:10:15.195 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1055 ms
+2026-03-07 15:10:15.197 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1109 ms
+2026-03-07 15:10:15.206 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR8:00000002
+2026-03-07 15:10:15.221 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:10:15.260 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 55.0274 ms
+2026-03-07 15:10:15.262 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPR9:00000002
+2026-03-07 15:10:15.271 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:10:15.297 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.9820 ms
+2026-03-07 15:14:53.975 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0968 ms
+2026-03-07 15:14:53.975 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0962 ms
+2026-03-07 15:14:53.988 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRB:00000002
+2026-03-07 15:14:54.003 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:14:54.099 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 113.1850 ms
+2026-03-07 15:14:54.104 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRA:00000002
+2026-03-07 15:14:54.122 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:14:54.152 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 49.3067 ms
+2026-03-07 15:18:20.892 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1282 ms
+2026-03-07 15:18:20.892 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1300 ms
+2026-03-07 15:18:20.901 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:00000002
+2026-03-07 15:18:20.908 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:18:20.992 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 92.0188 ms
+2026-03-07 15:18:20.995 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRD:00000002
+2026-03-07 15:18:21.005 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:18:21.031 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.3020 ms
+2026-03-07 15:18:32.376 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0590 ms
+2026-03-07 15:18:32.376 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0726 ms
+2026-03-07 15:18:32.392 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRD:00000004
+2026-03-07 15:18:32.403 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:18:32.452 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 64.9926 ms
+2026-03-07 15:18:32.458 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:00000004
+2026-03-07 15:18:32.470 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:18:32.504 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 46.9707 ms
+2026-03-07 15:18:34.676 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0421 ms
+2026-03-07 15:18:34.686 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:00000006
+2026-03-07 15:18:34.692 +05:30 [INF] Logout initiated for UserId: 3
+2026-03-07 15:18:34.730 +05:30 [INF] All refresh tokens revoked for UserId: 3
+2026-03-07 15:18:34.733 +05:30 [INF] User logged out successfully: UserId 3
+2026-03-07 15:18:34.736 +05:30 [INF] Logout successful for UserId: 3
+2026-03-07 15:18:34.741 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 55.4867 ms
+2026-03-07 15:18:39.630 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0438 ms
+2026-03-07 15:18:39.642 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 15:18:40.764 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 15:18:40.793 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 15:18:40.797 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 15:18:40.804 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1164.3246 ms
+2026-03-07 15:18:40.879 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0543 ms
+2026-03-07 15:18:40.880 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0653 ms
+2026-03-07 15:18:40.892 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:0000000A
+2026-03-07 15:18:40.898 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:18:40.924 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.5509 ms
+2026-03-07 15:18:40.928 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRD:00000006
+2026-03-07 15:18:40.936 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:18:40.963 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.3295 ms
+2026-03-07 15:19:03.904 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2046 ms
+2026-03-07 15:19:03.904 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0194 ms
+2026-03-07 15:19:03.914 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRD:00000008
+2026-03-07 15:19:03.921 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:19:03.949 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.9603 ms
+2026-03-07 15:19:03.952 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:0000000C
+2026-03-07 15:19:03.963 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:19:03.990 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.2267 ms
+2026-03-07 15:19:06.794 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0417 ms
+2026-03-07 15:19:06.804 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:0000000E
+2026-03-07 15:19:06.809 +05:30 [INF] Logout initiated for UserId: 3
+2026-03-07 15:19:06.850 +05:30 [INF] All refresh tokens revoked for UserId: 3
+2026-03-07 15:19:06.853 +05:30 [INF] User logged out successfully: UserId 3
+2026-03-07 15:19:06.857 +05:30 [INF] Logout successful for UserId: 3
+2026-03-07 15:19:06.862 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 59.3479 ms
+2026-03-07 15:19:10.575 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0608 ms
+2026-03-07 15:19:10.582 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 15:19:11.736 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 15:19:11.762 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 15:19:11.767 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 15:19:11.773 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1193.8064 ms
+2026-03-07 15:19:11.811 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0645 ms
+2026-03-07 15:19:11.814 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0435 ms
+2026-03-07 15:19:11.825 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:00000012
+2026-03-07 15:19:11.830 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:19:11.857 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.1993 ms
+2026-03-07 15:19:11.862 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRD:0000000A
+2026-03-07 15:19:11.871 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:19:11.897 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.7296 ms
+2026-03-07 15:19:35.363 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0383 ms
+2026-03-07 15:19:35.363 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0420 ms
+2026-03-07 15:19:35.373 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRD:0000000C
+2026-03-07 15:19:35.380 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:19:35.415 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 42.2651 ms
+2026-03-07 15:19:35.418 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRC:00000014
+2026-03-07 15:19:35.428 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:19:35.452 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.1503 ms
+2026-03-07 15:25:26.029 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.2265 ms
+2026-03-07 15:25:26.042 +05:30 [INF] Login attempt initiated for sa*****@relevantz.com
+2026-03-07 15:25:27.223 +05:30 [INF] Refresh token generated for UserId: 2
+2026-03-07 15:25:27.249 +05:30 [INF] User logged in successfully: sandhiya.ramesh@relevantz.com
+2026-03-07 15:25:27.253 +05:30 [INF] Login successful for sa*****@relevantz.com
+2026-03-07 15:25:27.258 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1219.0466 ms
+2026-03-07 15:25:27.408 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0434 ms
+2026-03-07 15:25:27.411 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0723 ms
+2026-03-07 15:25:27.416 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRE:00000004
+2026-03-07 15:25:27.425 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 8.7834 ms
+2026-03-07 15:25:27.436 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRE:00000005
+2026-03-07 15:25:27.440 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 5.0339 ms
+2026-03-07 15:42:47.989 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1430 ms
+2026-03-07 15:42:47.993 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0294 ms
+2026-03-07 15:42:48.023 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRG:00000002
+2026-03-07 15:42:48.038 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:42:48.168 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 145.7371 ms
+2026-03-07 15:42:48.170 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRH:00000002
+2026-03-07 15:42:48.179 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:42:48.208 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.3527 ms
+2026-03-07 15:52:40.693 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1379 ms
+2026-03-07 15:52:40.696 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0368 ms
+2026-03-07 15:52:40.714 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRI:00000002
+2026-03-07 15:52:40.993 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:52:41.099 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 385.5354 ms
+2026-03-07 15:52:41.102 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRJ:00000002
+2026-03-07 15:52:41.110 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:52:41.134 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.7087 ms
+2026-03-07 15:52:48.569 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0465 ms
+2026-03-07 15:52:48.580 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRJ:00000004
+2026-03-07 15:52:48.587 +05:30 [INF] Logout initiated for UserId: 3
+2026-03-07 15:52:48.611 +05:30 [INF] All refresh tokens revoked for UserId: 3
+2026-03-07 15:52:48.614 +05:30 [INF] User logged out successfully: UserId 3
+2026-03-07 15:52:48.618 +05:30 [INF] Logout successful for UserId: 3
+2026-03-07 15:52:48.624 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 43.8695 ms
+2026-03-07 15:52:55.559 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0661 ms
+2026-03-07 15:52:55.570 +05:30 [INF] Login attempt initiated for sa*****@relevantz.com
+2026-03-07 15:52:56.676 +05:30 [INF] Refresh token generated for UserId: 2
+2026-03-07 15:52:56.706 +05:30 [INF] User logged in successfully: sandhiya.ramesh@relevantz.com
+2026-03-07 15:52:56.708 +05:30 [INF] Login successful for sa*****@relevantz.com
+2026-03-07 15:52:56.714 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1147.2633 ms
+2026-03-07 15:52:56.814 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0524 ms
+2026-03-07 15:52:56.815 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1490 ms
+2026-03-07 15:52:56.823 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRJ:00000008
+2026-03-07 15:52:56.830 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 6.7114 ms
+2026-03-07 15:52:56.840 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRJ:00000009
+2026-03-07 15:52:56.843 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 3.6106 ms
+2026-03-07 15:53:03.699 +05:30 [INF] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0725 ms
+2026-03-07 15:53:03.710 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRJ:0000000B
+2026-03-07 15:53:03.718 +05:30 [INF] Logout initiated for UserId: 2
+2026-03-07 15:53:03.754 +05:30 [INF] All refresh tokens revoked for UserId: 2
+2026-03-07 15:53:03.757 +05:30 [INF] User logged out successfully: UserId 2
+2026-03-07 15:53:03.760 +05:30 [INF] Logout successful for UserId: 2
+2026-03-07 15:53:03.764 +05:30 [INF] HTTP POST /api/Authentication/logout responded 200 in 54.4243 ms
+2026-03-07 15:53:08.179 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0609 ms
+2026-03-07 15:53:08.189 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 15:53:09.346 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 15:53:09.370 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 15:53:09.374 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 15:53:09.378 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1190.1586 ms
+2026-03-07 15:53:09.412 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0366 ms
+2026-03-07 15:53:09.424 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRJ:0000000F
+2026-03-07 15:53:09.429 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:53:09.455 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.7053 ms
+2026-03-07 15:53:09.458 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRI:00000004
+2026-03-07 15:53:09.467 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 15:53:09.492 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.3860 ms
+2026-03-07 16:17:37.519 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0462 ms
+2026-03-07 16:17:37.519 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1274 ms
+2026-03-07 16:17:37.532 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRK:00000002
+2026-03-07 16:17:37.535 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:17:37.609 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 77.2700 ms
+2026-03-07 16:17:37.611 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRL:00000002
+2026-03-07 16:17:37.620 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:17:37.642 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.6133 ms
+2026-03-07 16:24:42.143 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1869 ms
+2026-03-07 16:24:42.144 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0324 ms
+2026-03-07 16:24:42.156 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRM:00000002
+2026-03-07 16:24:42.167 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:24:42.272 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 116.4959 ms
+2026-03-07 16:24:42.275 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRN:00000002
+2026-03-07 16:24:42.282 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:24:42.309 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.3714 ms
+2026-03-07 16:24:54.644 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0658 ms
+2026-03-07 16:24:54.646 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0289 ms
+2026-03-07 16:24:54.652 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRN:00000004
+2026-03-07 16:24:54.660 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:24:54.687 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.8966 ms
+2026-03-07 16:24:54.690 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRM:00000004
+2026-03-07 16:24:54.698 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:24:54.724 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.3232 ms
+2026-03-07 16:51:42.890 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1018 ms
+2026-03-07 16:51:42.891 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0299 ms
+2026-03-07 16:51:42.904 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRO:00000002
+2026-03-07 16:51:42.910 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:51:42.990 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 87.4903 ms
+2026-03-07 16:51:42.993 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRP:00000002
+2026-03-07 16:51:43.003 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:51:43.027 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.7643 ms
+2026-03-07 16:52:49.970 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0337 ms
+2026-03-07 16:52:49.972 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0415 ms
+2026-03-07 16:52:49.981 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRP:00000004
+2026-03-07 16:52:49.987 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:52:50.015 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.4896 ms
+2026-03-07 16:52:50.018 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRO:00000004
+2026-03-07 16:52:50.027 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 16:52:50.053 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.1119 ms
+2026-03-07 17:04:25.615 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2225 ms
+2026-03-07 17:04:25.616 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0202 ms
+2026-03-07 17:04:25.629 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 17:04:25.634 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPRQ:00000002
+2026-03-07 17:04:25.639 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 11.3203 ms
+2026-03-07 17:04:25.651 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 17:04:25.656 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPRQ:00000003
+2026-03-07 17:04:25.658 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0363 ms
+2026-03-07 17:04:25.660 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 9.3672 ms
+2026-03-07 17:04:25.673 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 17:04:25.682 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 10.3158 ms
+2026-03-07 17:04:25.683 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 17:04:25.691 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 8.6444 ms
+2026-03-07 17:04:30.454 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0760 ms
+2026-03-07 17:04:30.470 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 17:04:31.646 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 17:04:31.683 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 17:04:31.687 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 17:04:31.706 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1241.1511 ms
+2026-03-07 17:04:40.845 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0457 ms
+2026-03-07 17:04:40.859 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 17:04:42.002 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 17:04:42.028 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 17:04:42.031 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 17:04:42.035 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1178.9319 ms
+2026-03-07 17:04:42.077 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0606 ms
+2026-03-07 17:04:42.086 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRR:00000007
+2026-03-07 17:04:42.090 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:04:42.118 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.6660 ms
+2026-03-07 17:04:42.124 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRS:00000001
+2026-03-07 17:04:42.131 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:04:42.156 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 32.0790 ms
+2026-03-07 17:09:03.857 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0577 ms
+2026-03-07 17:09:03.857 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0237 ms
+2026-03-07 17:09:03.862 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRT:00000002
+2026-03-07 17:09:03.864 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:09:03.887 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 25.0676 ms
+2026-03-07 17:09:03.889 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRU:00000002
+2026-03-07 17:09:03.891 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:09:03.896 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 6.9819 ms
+2026-03-07 17:17:50.087 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0257 ms
+2026-03-07 17:17:50.087 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0585 ms
+2026-03-07 17:17:50.092 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS0:00000002
+2026-03-07 17:17:50.094 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:17:50.118 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 25.6990 ms
+2026-03-07 17:17:50.120 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPRV:00000002
+2026-03-07 17:17:50.121 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:17:50.127 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 7.4053 ms
+2026-03-07 17:20:35.300 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0582 ms
+2026-03-07 17:20:35.300 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0063 ms
+2026-03-07 17:20:35.304 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS1:00000002
+2026-03-07 17:20:35.307 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:20:35.319 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 14.9325 ms
+2026-03-07 17:20:35.321 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS2:00000002
+2026-03-07 17:20:35.323 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:20:35.331 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.8816 ms
+2026-03-07 17:21:43.772 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0340 ms
+2026-03-07 17:21:43.772 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0288 ms
+2026-03-07 17:21:43.776 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS2:00000004
+2026-03-07 17:21:43.778 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:21:43.792 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 15.5565 ms
+2026-03-07 17:21:43.793 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS1:00000004
+2026-03-07 17:21:43.795 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:21:43.804 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.8716 ms
+2026-03-07 17:25:47.286 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0549 ms
+2026-03-07 17:25:47.286 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0122 ms
+2026-03-07 17:25:47.289 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS3:00000002
+2026-03-07 17:25:47.291 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:25:47.319 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.9972 ms
+2026-03-07 17:25:47.322 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS4:00000002
+2026-03-07 17:25:47.324 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:25:47.332 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.5083 ms
+2026-03-07 17:26:01.195 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0342 ms
+2026-03-07 17:26:01.195 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0231 ms
+2026-03-07 17:26:01.197 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS4:00000004
+2026-03-07 17:26:01.198 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:26:01.208 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.6465 ms
+2026-03-07 17:26:01.209 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS3:00000004
+2026-03-07 17:26:01.211 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:26:01.220 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 11.2039 ms
+2026-03-07 17:26:09.494 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0350 ms
+2026-03-07 17:26:09.494 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0149 ms
+2026-03-07 17:26:09.498 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS3:00000006
+2026-03-07 17:26:09.500 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:26:09.510 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 11.9282 ms
+2026-03-07 17:26:09.512 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS4:00000006
+2026-03-07 17:26:09.515 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:26:09.523 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 11.0573 ms
+2026-03-07 17:31:42.100 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1179 ms
+2026-03-07 17:31:42.101 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0295 ms
+2026-03-07 17:31:42.107 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS5:00000002
+2026-03-07 17:31:42.108 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:31:42.132 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 25.7596 ms
+2026-03-07 17:31:42.134 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS6:00000002
+2026-03-07 17:31:42.138 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:31:42.144 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.3129 ms
+2026-03-07 17:31:59.959 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0780 ms
+2026-03-07 17:31:59.959 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0790 ms
+2026-03-07 17:31:59.965 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS6:00000004
+2026-03-07 17:31:59.968 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:31:59.982 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 16.7624 ms
+2026-03-07 17:31:59.983 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS5:00000004
+2026-03-07 17:31:59.986 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 17:31:59.994 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 11.2640 ms
+2026-03-07 20:33:39.658 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1689 ms
+2026-03-07 20:33:39.659 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0795 ms
+2026-03-07 20:33:39.679 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:33:39.685 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPS8:00000002
+2026-03-07 20:33:39.689 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 11.9723 ms
+2026-03-07 20:33:39.698 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:33:39.702 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPS8:00000003
+2026-03-07 20:33:39.704 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.4272 ms
+2026-03-07 20:33:39.707 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 9.9127 ms
+2026-03-07 20:33:39.718 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:33:39.722 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 5.5929 ms
+2026-03-07 20:33:39.727 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:33:39.731 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 4.6317 ms
+2026-03-07 20:33:45.372 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0873 ms
+2026-03-07 20:33:45.384 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 20:33:46.468 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 20:33:46.496 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 20:33:46.501 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 20:33:46.508 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1126.1616 ms
+2026-03-07 20:33:46.559 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0625 ms
+2026-03-07 20:33:46.572 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS8:00000008
+2026-03-07 20:33:46.577 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:33:46.611 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.8311 ms
+2026-03-07 20:33:46.613 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS7:00000004
+2026-03-07 20:33:46.622 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:33:46.650 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.9022 ms
+2026-03-07 20:33:51.054 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS7:00000005
+2026-03-07 20:33:51.058 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:33:51.088 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.2252 ms
+2026-03-07 20:33:51.093 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPS8:00000009
+2026-03-07 20:33:51.100 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:33:51.124 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.6571 ms
+2026-03-07 20:34:40.455 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0633 ms
+2026-03-07 20:34:40.457 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0493 ms
+2026-03-07 20:34:40.470 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:34:40.475 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPS9:00000002
+2026-03-07 20:34:40.482 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 13.4162 ms
+2026-03-07 20:34:40.495 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:34:40.497 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0427 ms
+2026-03-07 20:34:40.500 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPSA:00000002
+2026-03-07 20:34:40.510 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 16.0689 ms
+2026-03-07 20:34:40.512 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:34:40.521 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 10.1914 ms
+2026-03-07 20:34:40.526 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 20:34:40.532 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 6.7703 ms
+2026-03-07 20:34:45.942 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0826 ms
+2026-03-07 20:34:45.955 +05:30 [INF] Login attempt initiated for sa*****@relevantz.com
+2026-03-07 20:34:47.114 +05:30 [INF] Refresh token generated for UserId: 2
+2026-03-07 20:34:47.141 +05:30 [INF] User logged in successfully: sandhiya.ramesh@relevantz.com
+2026-03-07 20:34:47.145 +05:30 [INF] Login successful for sa*****@relevantz.com
+2026-03-07 20:34:47.151 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1198.1176 ms
+2026-03-07 20:34:47.217 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0555 ms
+2026-03-07 20:34:47.217 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0470 ms
+2026-03-07 20:34:47.227 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSA:00000007
+2026-03-07 20:34:47.235 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 8.1675 ms
+2026-03-07 20:34:47.245 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSA:00000008
+2026-03-07 20:34:47.249 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 4.4534 ms
+2026-03-07 20:41:06.020 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1804 ms
+2026-03-07 20:41:06.026 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0575 ms
+2026-03-07 20:41:06.029 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSB:00000002
+2026-03-07 20:41:06.065 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:41:06.194 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 165.6526 ms
+2026-03-07 20:41:06.197 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSC:00000002
+2026-03-07 20:41:06.202 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:41:06.232 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.8977 ms
+2026-03-07 20:41:17.685 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0456 ms
+2026-03-07 20:41:17.686 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0434 ms
+2026-03-07 20:41:17.695 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSC:00000004
+2026-03-07 20:41:17.701 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:41:17.729 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.9622 ms
+2026-03-07 20:41:17.732 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSB:00000004
+2026-03-07 20:41:17.740 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:41:17.767 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.4446 ms
+2026-03-07 20:44:23.604 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2266 ms
+2026-03-07 20:44:23.608 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0956 ms
+2026-03-07 20:44:23.614 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSD:00000002
+2026-03-07 20:44:23.622 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:44:23.650 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.5189 ms
+2026-03-07 20:44:23.653 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSE:00000002
+2026-03-07 20:44:23.662 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:44:23.689 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 37.3354 ms
+2026-03-07 20:47:20.621 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0871 ms
+2026-03-07 20:47:20.627 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0611 ms
+2026-03-07 20:47:20.631 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSF:00000002
+2026-03-07 20:47:20.635 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:47:20.658 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 28.0201 ms
+2026-03-07 20:47:20.661 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSG:00000002
+2026-03-07 20:47:20.665 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:47:20.683 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 22.7099 ms
+2026-03-07 20:51:36.929 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0535 ms
+2026-03-07 20:51:36.930 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0335 ms
+2026-03-07 20:51:36.943 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:00000002
+2026-03-07 20:51:36.950 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:51:37.031 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 88.7451 ms
+2026-03-07 20:51:37.033 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:00000002
+2026-03-07 20:51:37.044 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:51:37.069 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.5111 ms
+2026-03-07 20:51:55.212 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0693 ms
+2026-03-07 20:51:55.214 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0912 ms
+2026-03-07 20:51:55.223 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:00000004
+2026-03-07 20:51:55.229 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:51:55.253 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 30.5043 ms
+2026-03-07 20:51:55.256 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:00000004
+2026-03-07 20:51:55.269 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:51:55.296 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 40.6888 ms
+2026-03-07 20:52:37.067 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1328 ms
+2026-03-07 20:52:37.068 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0373 ms
+2026-03-07 20:52:37.092 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:00000006
+2026-03-07 20:52:37.110 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:52:37.138 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 45.8519 ms
+2026-03-07 20:52:37.142 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:00000006
+2026-03-07 20:52:37.148 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:52:37.170 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 28.2506 ms
+2026-03-07 20:52:51.899 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0623 ms
+2026-03-07 20:52:51.902 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2650 ms
+2026-03-07 20:52:51.924 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:00000008
+2026-03-07 20:52:51.985 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:52:52.010 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 86.4041 ms
+2026-03-07 20:52:52.013 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:00000008
+2026-03-07 20:52:52.021 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:52:52.046 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 33.4124 ms
+2026-03-07 20:53:13.023 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.2204 ms
+2026-03-07 20:53:13.029 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0466 ms
+2026-03-07 20:53:13.082 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:0000000A
+2026-03-07 20:53:13.086 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:53:13.150 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 68.1185 ms
+2026-03-07 20:53:13.157 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:0000000A
+2026-03-07 20:53:13.182 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:53:13.231 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 74.3616 ms
+2026-03-07 20:53:57.831 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1044 ms
+2026-03-07 20:53:57.832 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0398 ms
+2026-03-07 20:53:57.843 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:0000000C
+2026-03-07 20:53:57.849 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:53:57.881 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.4189 ms
+2026-03-07 20:53:57.884 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:0000000C
+2026-03-07 20:53:57.895 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:53:57.924 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 40.8286 ms
+2026-03-07 20:54:02.750 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSH:0000000D
+2026-03-07 20:54:02.754 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:54:02.775 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 24.8899 ms
+2026-03-07 20:54:02.777 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSI:0000000D
+2026-03-07 20:54:02.786 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:54:02.811 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 34.1531 ms
+2026-03-07 20:58:26.090 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0921 ms
+2026-03-07 20:58:26.094 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0807 ms
+2026-03-07 20:58:26.102 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSJ:00000002
+2026-03-07 20:58:26.109 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:58:26.186 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 84.8661 ms
+2026-03-07 20:58:26.189 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSK:00000002
+2026-03-07 20:58:26.198 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:58:26.227 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 37.9672 ms
+2026-03-07 20:58:30.474 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSK:00000003
+2026-03-07 20:58:30.479 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:58:30.503 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.2324 ms
+2026-03-07 20:58:30.505 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSJ:00000003
+2026-03-07 20:58:30.515 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 20:58:30.543 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.2035 ms
+2026-03-07 21:00:31.975 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1208 ms
+2026-03-07 21:00:31.976 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0670 ms
+2026-03-07 21:00:31.984 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSJ:00000005
+2026-03-07 21:00:31.991 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:00:32.019 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.5053 ms
+2026-03-07 21:00:32.021 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSK:00000005
+2026-03-07 21:00:32.030 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:00:32.054 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 33.1177 ms
+2026-03-07 21:00:41.895 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0467 ms
+2026-03-07 21:00:41.897 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0364 ms
+2026-03-07 21:00:41.908 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSK:00000007
+2026-03-07 21:00:41.915 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:00:41.944 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.6458 ms
+2026-03-07 21:00:41.948 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSJ:00000007
+2026-03-07 21:00:41.958 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:00:41.986 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 37.9368 ms
+2026-03-07 21:05:28.307 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1273 ms
+2026-03-07 21:05:28.312 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0506 ms
+2026-03-07 21:05:28.317 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSL:00000002
+2026-03-07 21:05:28.335 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:05:28.420 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 103.5610 ms
+2026-03-07 21:05:28.423 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSM:00000002
+2026-03-07 21:05:28.431 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:05:28.456 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 33.6971 ms
+2026-03-07 21:26:40.659 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1673 ms
+2026-03-07 21:26:40.664 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0380 ms
+2026-03-07 21:26:40.674 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSN:00000002
+2026-03-07 21:26:40.679 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:26:40.739 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 64.8497 ms
+2026-03-07 21:26:40.742 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSO:00000002
+2026-03-07 21:26:40.748 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:26:40.771 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.5540 ms
+2026-03-07 21:32:28.647 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1340 ms
+2026-03-07 21:32:28.660 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0410 ms
+2026-03-07 21:32:28.661 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSP:00000002
+2026-03-07 21:32:28.668 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:32:28.729 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 68.1859 ms
+2026-03-07 21:32:28.732 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSQ:00000002
+2026-03-07 21:32:28.739 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:32:28.760 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 27.5214 ms
+2026-03-07 21:39:24.664 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1023 ms
+2026-03-07 21:39:24.670 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0576 ms
+2026-03-07 21:39:24.674 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 21:39:24.677 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPSS:00000001
+2026-03-07 21:39:24.679 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 6.4269 ms
+2026-03-07 21:39:24.690 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 21:39:24.692 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPSS:00000002
+2026-03-07 21:39:24.695 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 7.4385 ms
+2026-03-07 21:39:24.704 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0458 ms
+2026-03-07 21:39:24.711 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 21:39:24.715 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 3.8026 ms
+2026-03-07 21:39:24.715 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 21:39:24.724 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 9.4445 ms
+2026-03-07 21:39:52.785 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.2069 ms
+2026-03-07 21:39:52.800 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 21:39:53.998 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 21:39:54.034 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 21:39:54.037 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 21:39:54.045 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 1250.5685 ms
+2026-03-07 21:39:54.101 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0528 ms
+2026-03-07 21:39:54.102 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0468 ms
+2026-03-07 21:39:54.112 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSS:00000007
+2026-03-07 21:39:54.120 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:39:54.150 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 38.6489 ms
+2026-03-07 21:39:54.153 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSR:00000006
+2026-03-07 21:39:54.162 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:39:54.188 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 35.3474 ms
+2026-03-07 21:45:48.247 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0945 ms
+2026-03-07 21:45:48.247 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1410 ms
+2026-03-07 21:45:48.263 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSU:00000002
+2026-03-07 21:45:48.270 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:45:48.350 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 87.0878 ms
+2026-03-07 21:45:48.352 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPST:00000002
+2026-03-07 21:45:48.361 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 21:45:48.388 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 36.0321 ms
+2026-03-07 22:11:43.568 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1291 ms
+2026-03-07 22:11:43.571 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0270 ms
+2026-03-07 22:11:43.574 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSV:00000002
+2026-03-07 22:11:43.577 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:11:43.621 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 47.4640 ms
+2026-03-07 22:11:43.623 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT0:00000002
+2026-03-07 22:11:43.625 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:11:43.640 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 17.1010 ms
+2026-03-07 22:12:27.321 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0883 ms
+2026-03-07 22:12:27.321 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0194 ms
+2026-03-07 22:12:27.325 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT0:00000004
+2026-03-07 22:12:27.328 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:12:27.352 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 27.5652 ms
+2026-03-07 22:12:27.355 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSV:00000004
+2026-03-07 22:12:27.357 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:12:27.369 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 14.5164 ms
+2026-03-07 22:13:34.677 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0479 ms
+2026-03-07 22:13:34.677 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0360 ms
+2026-03-07 22:13:34.681 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSV:00000006
+2026-03-07 22:13:34.682 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:13:34.701 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 20.1673 ms
+2026-03-07 22:13:34.703 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT0:00000006
+2026-03-07 22:13:34.706 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:13:34.715 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 12.7373 ms
+2026-03-07 22:14:16.648 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0424 ms
+2026-03-07 22:14:16.649 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.4251 ms
+2026-03-07 22:14:16.652 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT0:00000008
+2026-03-07 22:14:16.654 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:14:16.679 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 27.0844 ms
+2026-03-07 22:14:16.683 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPSV:00000008
+2026-03-07 22:14:16.685 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:14:16.700 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 17.7925 ms
+2026-03-07 22:16:43.617 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0747 ms
+2026-03-07 22:16:43.624 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.1568 ms
+2026-03-07 22:16:43.625 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT1:00000002
+2026-03-07 22:16:43.628 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:16:43.654 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.2430 ms
+2026-03-07 22:16:43.657 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT2:00000002
+2026-03-07 22:16:43.659 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:16:43.679 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 22.8500 ms
+2026-03-07 22:56:15.147 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0623 ms
+2026-03-07 22:56:15.149 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0359 ms
+2026-03-07 22:56:15.152 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 22:56:15.153 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPT3:00000002
+2026-03-07 22:56:15.155 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 3.6576 ms
+2026-03-07 22:56:15.159 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 22:56:15.161 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPT3:00000003
+2026-03-07 22:56:15.163 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 4.0417 ms
+2026-03-07 22:56:15.251 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0580 ms
+2026-03-07 22:56:15.259 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 22:56:15.260 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 2.2275 ms
+2026-03-07 22:56:15.354 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 22:56:15.356 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 2.6892 ms
+2026-03-07 22:56:29.726 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0494 ms
+2026-03-07 22:56:29.731 +05:30 [INF] Login attempt initiated for ta*****@eepz.com
+2026-03-07 22:56:30.033 +05:30 [INF] Refresh token generated for UserId: 3
+2026-03-07 22:56:30.045 +05:30 [INF] User logged in successfully: tarun.balaji@eepz.com
+2026-03-07 22:56:30.046 +05:30 [INF] Login successful for ta*****@eepz.com
+2026-03-07 22:56:30.048 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 317.9950 ms
+2026-03-07 22:56:30.064 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0444 ms
+2026-03-07 22:56:30.066 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0506 ms
+2026-03-07 22:56:30.068 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT3:0000000A
+2026-03-07 22:56:30.071 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:56:30.085 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 17.3390 ms
+2026-03-07 22:56:30.086 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT4:00000003
+2026-03-07 22:56:30.088 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 22:56:30.101 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 15.0170 ms
+2026-03-07 23:01:29.501 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0573 ms
+2026-03-07 23:01:29.507 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0491 ms
+2026-03-07 23:01:29.508 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT5:00000002
+2026-03-07 23:01:29.518 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:01:29.567 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 60.1779 ms
+2026-03-07 23:01:29.570 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT6:00000002
+2026-03-07 23:01:29.571 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:01:29.587 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 17.0192 ms
+2026-03-07 23:17:13.309 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0642 ms
+2026-03-07 23:17:13.315 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0582 ms
+2026-03-07 23:17:13.324 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT7:00000002
+2026-03-07 23:17:13.333 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:17:13.395 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 72.5753 ms
+2026-03-07 23:17:13.397 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT8:00000002
+2026-03-07 23:17:13.401 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:17:13.424 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 26.9683 ms
+2026-03-07 23:24:10.995 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0627 ms
+2026-03-07 23:24:10.997 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0285 ms
+2026-03-07 23:24:11.000 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPT9:00000002
+2026-03-07 23:24:11.003 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:24:11.045 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 46.3662 ms
+2026-03-07 23:24:11.051 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTA:00000002
+2026-03-07 23:24:11.055 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:24:11.070 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 20.5838 ms
+2026-03-07 23:27:15.447 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0483 ms
+2026-03-07 23:27:15.448 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0542 ms
+2026-03-07 23:27:15.451 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTB:00000002
+2026-03-07 23:27:15.453 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:27:15.466 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 14.7858 ms
+2026-03-07 23:27:15.468 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTC:00000002
+2026-03-07 23:27:15.471 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:27:15.483 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 15.5041 ms
+2026-03-07 23:28:50.006 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0559 ms
+2026-03-07 23:28:50.007 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0217 ms
+2026-03-07 23:28:50.010 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTC:00000004
+2026-03-07 23:28:50.012 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:28:50.031 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 21.4026 ms
+2026-03-07 23:28:50.032 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTB:00000004
+2026-03-07 23:28:50.036 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:28:50.043 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.9482 ms
+2026-03-07 23:30:40.387 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0382 ms
+2026-03-07 23:30:40.388 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0196 ms
+2026-03-07 23:30:40.393 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTB:00000006
+2026-03-07 23:30:40.395 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:30:40.411 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 18.7426 ms
+2026-03-07 23:30:40.413 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTC:00000006
+2026-03-07 23:30:40.416 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:30:40.427 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 14.2647 ms
+2026-03-07 23:34:29.125 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0601 ms
+2026-03-07 23:34:29.127 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0332 ms
+2026-03-07 23:34:29.132 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTD:00000002
+2026-03-07 23:34:29.135 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:34:29.163 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 31.7299 ms
+2026-03-07 23:34:29.165 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTE:00000002
+2026-03-07 23:34:29.167 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:34:29.180 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 14.7436 ms
+2026-03-07 23:41:01.855 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0617 ms
+2026-03-07 23:41:01.855 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0250 ms
+2026-03-07 23:41:01.862 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTG:00000002
+2026-03-07 23:41:01.864 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:41:01.891 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 29.2547 ms
+2026-03-07 23:41:01.892 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTF:00000002
+2026-03-07 23:41:01.896 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:41:01.902 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.3195 ms
+2026-03-07 23:41:05.414 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTF:00000003
+2026-03-07 23:41:05.416 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:41:05.424 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 10.0053 ms
+2026-03-07 23:41:05.426 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTG:00000003
+2026-03-07 23:41:05.428 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:41:05.434 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 8.8698 ms
+2026-03-07 23:42:33.395 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0374 ms
+2026-03-07 23:42:33.395 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0060 ms
+2026-03-07 23:42:33.400 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTG:00000005
+2026-03-07 23:42:33.403 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:42:33.420 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 19.7000 ms
+2026-03-07 23:42:33.421 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTF:00000005
+2026-03-07 23:42:33.424 +05:30 [WRN] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-07 23:42:33.433 +05:30 [INF] HTTP GET /api/User/profile responded 200 in 12.6319 ms
+2026-03-07 23:42:55.887 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0302 ms
+2026-03-07 23:42:55.888 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0168 ms
+2026-03-07 23:42:55.892 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 23:42:55.893 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPTH:00000002
+2026-03-07 23:42:55.895 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 3.8040 ms
+2026-03-07 23:42:55.899 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 23:42:55.900 +05:30 [WRN] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJRISCSMPTI:00000002
+2026-03-07 23:42:55.902 +05:30 [INF] HTTP GET /api/User/profile responded 401 in 3.4912 ms
+2026-03-07 23:42:55.903 +05:30 [INF] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0230 ms
+2026-03-07 23:42:55.907 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 23:42:55.908 +05:30 [WRN] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-07 23:42:55.908 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 1.5923 ms
+2026-03-07 23:42:55.909 +05:30 [INF] HTTP POST /api/Authentication/refresh-token responded 404 in 1.3114 ms
+2026-03-07 23:43:01.035 +05:30 [INF] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0294 ms
+2026-03-07 23:43:01.039 +05:30 [INF] Login attempt initiated for sa*****@relevantz.com
+2026-03-07 23:43:01.307 +05:30 [INF] Refresh token generated for UserId: 2
+2026-03-07 23:43:01.315 +05:30 [INF] User logged in successfully: sandhiya.ramesh@relevantz.com
+2026-03-07 23:43:01.317 +05:30 [INF] Login successful for sa*****@relevantz.com
+2026-03-07 23:43:01.319 +05:30 [INF] HTTP POST /api/Authentication/login responded 200 in 281.2607 ms
+2026-03-07 23:43:01.340 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0341 ms
+2026-03-07 23:43:01.340 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0117 ms
+2026-03-07 23:43:01.344 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTI:00000007
+2026-03-07 23:43:01.345 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.5688 ms
+2026-03-07 23:43:01.350 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTI:00000008
+2026-03-07 23:43:01.351 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.0730 ms
+2026-03-07 23:44:29.914 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0183 ms
+2026-03-07 23:44:29.914 +05:30 [INF] HTTP OPTIONS /api/User/profile responded 204 in 0.0647 ms
+2026-03-07 23:44:29.920 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTH:00000007
+2026-03-07 23:44:29.923 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 2.9121 ms
+2026-03-07 23:44:29.926 +05:30 [INF] JWT Token Validated - CorrelationId: 0HNJRISCSMPTH:00000008
+2026-03-07 23:44:29.928 +05:30 [INF] HTTP GET /api/User/profile responded 403 in 1.3751 ms

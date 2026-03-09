@@ -1,0 +1,1008 @@
+2026-03-05 10:20:20.332 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1302 ms
+2026-03-05 10:20:20.333 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKA:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0263 ms
+2026-03-05 10:20:20.375 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSK9:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 10:20:20.384 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSK9:00000002] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSK9:00000002
+2026-03-05 10:20:20.389 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000002] HTTP GET /api/User/profile responded 401 in 14.4564 ms
+2026-03-05 10:20:20.399 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSK9:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 10:20:20.403 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSK9:00000003] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSK9:00000003
+2026-03-05 10:20:20.403 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKA:00000002] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.1579 ms
+2026-03-05 10:20:20.409 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000003] HTTP GET /api/User/profile responded 401 in 9.9613 ms
+2026-03-05 10:20:20.417 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKA:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 10:20:20.421 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKA:00000003] HTTP POST /api/Authentication/refresh-token responded 404 in 4.1674 ms
+2026-03-05 10:20:20.426 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSK9:00000004] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 10:20:20.431 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000004] HTTP POST /api/Authentication/refresh-token responded 404 in 5.2740 ms
+2026-03-05 10:20:34.721 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000005] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0467 ms
+2026-03-05 10:20:34.730 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSK9:00000006] Login attempt initiated for ta*****@eepz.com
+2026-03-05 10:20:36.105 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSK9:00000006] Refresh token generated for UserId: 3
+2026-03-05 10:20:36.133 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSK9:00000006] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 10:20:36.137 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSK9:00000006] Login successful for ta*****@eepz.com
+2026-03-05 10:20:36.143 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000006] HTTP POST /api/Authentication/login responded 200 in 1417.1732 ms
+2026-03-05 10:20:36.189 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0441 ms
+2026-03-05 10:20:36.192 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKA:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0517 ms
+2026-03-05 10:20:36.200 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSK9:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSK9:00000008
+2026-03-05 10:20:36.210 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSK9:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:20:36.236 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSK9:00000008] HTTP GET /api/User/profile responded 200 in 36.3730 ms
+2026-03-05 10:20:36.239 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKA:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKA:00000005
+2026-03-05 10:20:36.248 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKA:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:20:36.272 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKA:00000005] HTTP GET /api/User/profile responded 200 in 32.9508 ms
+2026-03-05 10:36:34.032 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKB:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1835 ms
+2026-03-05 10:36:34.032 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKC:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0562 ms
+2026-03-05 10:36:34.044 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKB:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKB:00000002
+2026-03-05 10:36:34.058 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKB:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:36:34.133 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKB:00000002] HTTP GET /api/User/profile responded 200 in 89.6260 ms
+2026-03-05 10:36:34.135 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKC:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKC:00000002
+2026-03-05 10:36:34.147 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKC:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:36:34.171 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKC:00000002] HTTP GET /api/User/profile responded 200 in 36.4836 ms
+2026-03-05 10:41:53.773 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1268 ms
+2026-03-05 10:41:53.777 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0485 ms
+2026-03-05 10:41:53.781 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKD:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKD:00000002
+2026-03-05 10:41:53.788 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKD:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:41:53.875 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000002] HTTP GET /api/User/profile responded 200 in 95.1709 ms
+2026-03-05 10:41:53.879 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKE:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKE:00000002
+2026-03-05 10:41:53.888 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKE:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:41:53.913 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000002] HTTP GET /api/User/profile responded 200 in 34.6287 ms
+2026-03-05 10:42:08.602 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0526 ms
+2026-03-05 10:42:08.606 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0294 ms
+2026-03-05 10:42:08.611 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKE:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKE:00000004
+2026-03-05 10:42:08.618 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKE:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:42:08.647 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000004] HTTP GET /api/User/profile responded 200 in 37.1173 ms
+2026-03-05 10:42:08.650 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKD:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKD:00000004
+2026-03-05 10:42:08.659 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKD:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:42:08.686 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000004] HTTP GET /api/User/profile responded 200 in 36.4661 ms
+2026-03-05 10:42:14.164 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0317 ms
+2026-03-05 10:42:14.175 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKD:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKD:00000006
+2026-03-05 10:42:14.182 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKD:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:42:14.204 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000006] HTTP GET /api/User/profile responded 200 in 29.0837 ms
+2026-03-05 10:42:14.207 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKE:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKE:00000005
+2026-03-05 10:42:14.218 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKE:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:42:14.246 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000005] HTTP GET /api/User/profile responded 200 in 39.4066 ms
+2026-03-05 10:42:41.094 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.1115 ms
+2026-03-05 10:42:41.095 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0255 ms
+2026-03-05 10:42:41.102 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKE:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKE:00000007
+2026-03-05 10:42:41.110 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKE:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:42:41.141 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKE:00000007] HTTP GET /api/User/profile responded 200 in 39.1842 ms
+2026-03-05 10:42:41.143 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKD:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKD:00000008
+2026-03-05 10:42:41.152 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKD:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:42:41.178 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKD:00000008] HTTP GET /api/User/profile responded 200 in 34.8544 ms
+2026-03-05 10:47:11.385 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1395 ms
+2026-03-05 10:47:11.390 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0307 ms
+2026-03-05 10:47:11.394 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKF:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKF:00000002
+2026-03-05 10:47:11.397 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKF:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:47:11.478 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000002] HTTP GET /api/User/profile responded 200 in 84.7285 ms
+2026-03-05 10:47:11.481 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKG:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKG:00000002
+2026-03-05 10:47:11.490 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKG:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:47:11.513 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000002] HTTP GET /api/User/profile responded 200 in 32.0296 ms
+2026-03-05 10:47:33.375 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0451 ms
+2026-03-05 10:47:33.386 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKG:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKG:00000004
+2026-03-05 10:47:33.391 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKG:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:47:33.418 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000004] HTTP GET /api/User/profile responded 200 in 31.9653 ms
+2026-03-05 10:47:33.420 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKF:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKF:00000003
+2026-03-05 10:47:33.431 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKF:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:47:33.456 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000003] HTTP GET /api/User/profile responded 200 in 36.7846 ms
+2026-03-05 10:47:51.460 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0680 ms
+2026-03-05 10:47:51.464 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0530 ms
+2026-03-05 10:47:51.471 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKF:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKF:00000005
+2026-03-05 10:47:51.479 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKF:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:47:51.509 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000005] HTTP GET /api/User/profile responded 200 in 38.6455 ms
+2026-03-05 10:47:51.513 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKG:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKG:00000006
+2026-03-05 10:47:51.524 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKG:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:47:51.549 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000006] HTTP GET /api/User/profile responded 200 in 36.7101 ms
+2026-03-05 10:48:06.352 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0418 ms
+2026-03-05 10:48:06.356 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0278 ms
+2026-03-05 10:48:06.359 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKG:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKG:00000008
+2026-03-05 10:48:06.367 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKG:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:48:06.394 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKG:00000008] HTTP GET /api/User/profile responded 200 in 35.2439 ms
+2026-03-05 10:48:06.397 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKF:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKF:00000007
+2026-03-05 10:48:06.408 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKF:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:48:06.434 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKF:00000007] HTTP GET /api/User/profile responded 200 in 36.8298 ms
+2026-03-05 10:51:06.294 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKI:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0663 ms
+2026-03-05 10:51:06.294 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKH:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0547 ms
+2026-03-05 10:51:06.311 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKI:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKI:00000002
+2026-03-05 10:51:06.396 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKI:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:51:06.416 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKI:00000002] HTTP GET /api/User/profile responded 200 in 109.9431 ms
+2026-03-05 10:51:06.422 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKH:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKH:00000002
+2026-03-05 10:51:06.437 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKH:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:51:06.478 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKH:00000002] HTTP GET /api/User/profile responded 200 in 56.5609 ms
+2026-03-05 10:51:11.031 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKH:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKH:00000003
+2026-03-05 10:51:11.035 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKH:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:51:11.059 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKH:00000003] HTTP GET /api/User/profile responded 200 in 28.9087 ms
+2026-03-05 10:51:11.062 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKI:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKI:00000003
+2026-03-05 10:51:11.071 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKI:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:51:11.094 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKI:00000003] HTTP GET /api/User/profile responded 200 in 32.2959 ms
+2026-03-05 10:51:16.098 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKI:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0477 ms
+2026-03-05 10:51:16.100 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKH:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0514 ms
+2026-03-05 10:51:16.112 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKI:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKI:00000005
+2026-03-05 10:51:16.119 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKI:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:51:16.146 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKI:00000005] HTTP GET /api/User/profile responded 200 in 34.5078 ms
+2026-03-05 10:51:16.149 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKH:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKH:00000005
+2026-03-05 10:51:16.159 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKH:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 10:51:16.182 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKH:00000005] HTTP GET /api/User/profile responded 200 in 34.1684 ms
+2026-03-05 11:01:25.190 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKJ:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1669 ms
+2026-03-05 11:01:25.194 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKK:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0580 ms
+2026-03-05 11:01:25.201 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKJ:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKJ:00000002
+2026-03-05 11:01:25.210 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKJ:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:01:25.285 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKJ:00000002] HTTP GET /api/User/profile responded 200 in 83.9179 ms
+2026-03-05 11:01:25.288 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKK:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKK:00000002
+2026-03-05 11:01:25.294 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKK:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:01:25.323 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKK:00000002] HTTP GET /api/User/profile responded 200 in 35.4522 ms
+2026-03-05 11:01:29.119 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKK:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKK:00000003
+2026-03-05 11:01:29.123 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKK:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:01:29.148 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKK:00000003] HTTP GET /api/User/profile responded 200 in 29.0359 ms
+2026-03-05 11:01:29.154 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKJ:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKJ:00000003
+2026-03-05 11:01:29.164 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKJ:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:01:29.188 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKJ:00000003] HTTP GET /api/User/profile responded 200 in 34.2469 ms
+2026-03-05 11:33:12.789 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKL:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0617 ms
+2026-03-05 11:33:12.792 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKM:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0475 ms
+2026-03-05 11:33:12.806 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKL:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 11:33:12.815 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKL:00000002] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSKL:00000002
+2026-03-05 11:33:12.820 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKL:00000002] HTTP GET /api/User/profile responded 401 in 16.1060 ms
+2026-03-05 11:33:12.831 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKL:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 11:33:12.834 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKL:00000003] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSKL:00000003
+2026-03-05 11:33:12.835 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKM:00000002] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0394 ms
+2026-03-05 11:33:12.838 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKL:00000003] HTTP GET /api/User/profile responded 401 in 8.5082 ms
+2026-03-05 11:33:12.851 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKM:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 11:33:12.859 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKL:00000004] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 11:33:12.860 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKM:00000003] HTTP POST /api/Authentication/refresh-token responded 404 in 10.9259 ms
+2026-03-05 11:33:12.868 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKL:00000004] HTTP POST /api/Authentication/refresh-token responded 404 in 9.4293 ms
+2026-03-05 11:44:43.418 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000001] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0701 ms
+2026-03-05 11:44:43.432 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSKN:00000002] Login attempt initiated for ta*****@eepz.com
+2026-03-05 11:44:44.653 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:00000002] Refresh token generated for UserId: 3
+2026-03-05 11:44:44.682 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:00000002] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 11:44:44.686 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSKN:00000002] Login successful for ta*****@eepz.com
+2026-03-05 11:44:44.692 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000002] HTTP POST /api/Authentication/login responded 200 in 1262.9127 ms
+2026-03-05 11:44:44.753 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0481 ms
+2026-03-05 11:44:44.757 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0535 ms
+2026-03-05 11:44:44.765 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKN:00000004
+2026-03-05 11:44:44.771 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKN:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:44:44.796 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000004] HTTP GET /api/User/profile responded 200 in 31.5386 ms
+2026-03-05 11:44:44.799 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKO:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKO:00000002
+2026-03-05 11:44:44.807 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKO:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:44:44.830 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000002] HTTP GET /api/User/profile responded 200 in 31.4595 ms
+2026-03-05 11:44:47.651 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKO:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKO:00000003
+2026-03-05 11:44:47.654 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKO:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:44:47.677 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000003] HTTP GET /api/User/profile responded 200 in 26.2693 ms
+2026-03-05 11:44:47.680 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKN:00000005
+2026-03-05 11:44:47.688 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKN:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:44:47.713 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000005] HTTP GET /api/User/profile responded 200 in 33.9098 ms
+2026-03-05 11:45:23.226 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0374 ms
+2026-03-05 11:45:23.227 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0376 ms
+2026-03-05 11:45:23.238 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKN:00000007
+2026-03-05 11:45:23.245 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKN:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:45:23.271 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000007] HTTP GET /api/User/profile responded 200 in 33.8848 ms
+2026-03-05 11:45:23.274 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKO:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKO:00000005
+2026-03-05 11:45:23.287 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKO:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:45:23.314 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000005] HTTP GET /api/User/profile responded 200 in 39.9455 ms
+2026-03-05 11:46:09.176 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.2384 ms
+2026-03-05 11:46:09.178 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000008] HTTP OPTIONS /api/User/profile responded 204 in 0.0699 ms
+2026-03-05 11:46:09.189 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKO:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKO:00000007
+2026-03-05 11:46:09.200 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKO:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:46:09.223 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000007] HTTP GET /api/User/profile responded 200 in 34.3102 ms
+2026-03-05 11:46:09.226 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKN:00000009
+2026-03-05 11:46:09.235 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKN:00000009] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:46:09.259 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:00000009] HTTP GET /api/User/profile responded 200 in 33.0810 ms
+2026-03-05 11:47:30.025 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:0000000A] HTTP OPTIONS /api/User/profile responded 204 in 0.0479 ms
+2026-03-05 11:47:30.029 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000008] HTTP OPTIONS /api/User/profile responded 204 in 0.0998 ms
+2026-03-05 11:47:30.042 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKN:0000000B] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKN:0000000B
+2026-03-05 11:47:30.047 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKN:0000000B] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:47:30.080 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKN:0000000B] HTTP GET /api/User/profile responded 200 in 39.1561 ms
+2026-03-05 11:47:30.083 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKO:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKO:00000009
+2026-03-05 11:47:30.095 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKO:00000009] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:47:30.119 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKO:00000009] HTTP GET /api/User/profile responded 200 in 36.8810 ms
+2026-03-05 11:55:18.650 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKP:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.3025 ms
+2026-03-05 11:55:18.687 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKQ:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.2430 ms
+2026-03-05 11:55:18.736 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKP:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKP:00000002
+2026-03-05 11:55:18.838 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKP:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:55:18.968 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKP:00000002] HTTP GET /api/User/profile responded 200 in 236.8336 ms
+2026-03-05 11:55:18.970 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKQ:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKQ:00000002
+2026-03-05 11:55:18.985 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKQ:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:55:19.021 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKQ:00000002] HTTP GET /api/User/profile responded 200 in 50.7436 ms
+2026-03-05 11:55:22.725 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKQ:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKQ:00000003
+2026-03-05 11:55:22.730 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKQ:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:55:22.754 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKQ:00000003] HTTP GET /api/User/profile responded 200 in 29.4518 ms
+2026-03-05 11:55:22.757 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKP:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKP:00000003
+2026-03-05 11:55:22.764 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKP:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:55:22.790 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKP:00000003] HTTP GET /api/User/profile responded 200 in 32.9649 ms
+2026-03-05 11:58:53.427 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKR:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1346 ms
+2026-03-05 11:58:53.428 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKS:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0712 ms
+2026-03-05 11:58:53.439 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKR:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKR:00000002
+2026-03-05 11:58:53.452 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKR:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:58:53.536 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKR:00000002] HTTP GET /api/User/profile responded 200 in 98.3977 ms
+2026-03-05 11:58:53.538 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKS:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKS:00000002
+2026-03-05 11:58:53.545 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKS:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 11:58:53.571 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKS:00000002] HTTP GET /api/User/profile responded 200 in 34.1246 ms
+2026-03-05 12:00:37.540 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKS:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0696 ms
+2026-03-05 12:00:37.543 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKR:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0354 ms
+2026-03-05 12:00:37.550 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKS:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKS:00000004
+2026-03-05 12:00:37.558 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKS:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:00:37.587 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKS:00000004] HTTP GET /api/User/profile responded 200 in 38.6878 ms
+2026-03-05 12:00:37.593 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKR:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKR:00000004
+2026-03-05 12:00:37.600 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKR:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:00:37.628 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKR:00000004] HTTP GET /api/User/profile responded 200 in 35.0023 ms
+2026-03-05 12:03:32.510 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0936 ms
+2026-03-05 12:03:32.515 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0594 ms
+2026-03-05 12:03:32.523 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKT:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKT:00000002
+2026-03-05 12:03:32.537 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKT:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:03:32.576 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000002] HTTP GET /api/User/profile responded 200 in 53.3359 ms
+2026-03-05 12:03:32.580 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKU:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKU:00000002
+2026-03-05 12:03:32.589 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKU:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:03:32.616 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000002] HTTP GET /api/User/profile responded 200 in 36.5822 ms
+2026-03-05 12:03:56.284 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0461 ms
+2026-03-05 12:03:56.288 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0682 ms
+2026-03-05 12:03:56.298 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKU:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKU:00000004
+2026-03-05 12:03:56.305 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKU:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:03:56.349 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000004] HTTP GET /api/User/profile responded 200 in 51.5480 ms
+2026-03-05 12:03:56.352 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKT:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKT:00000004
+2026-03-05 12:03:56.360 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKT:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:03:56.389 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000004] HTTP GET /api/User/profile responded 200 in 36.9721 ms
+2026-03-05 12:04:15.921 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0335 ms
+2026-03-05 12:04:15.924 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0361 ms
+2026-03-05 12:04:15.931 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKT:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKT:00000006
+2026-03-05 12:04:15.937 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKT:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:04:15.967 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000006] HTTP GET /api/User/profile responded 200 in 36.6494 ms
+2026-03-05 12:04:15.969 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKU:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKU:00000006
+2026-03-05 12:04:15.982 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKU:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:04:16.014 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000006] HTTP GET /api/User/profile responded 200 in 44.9703 ms
+2026-03-05 12:05:51.326 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0965 ms
+2026-03-05 12:05:51.328 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0346 ms
+2026-03-05 12:05:51.337 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKU:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKU:00000008
+2026-03-05 12:05:51.343 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKU:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:05:51.377 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKU:00000008] HTTP GET /api/User/profile responded 200 in 39.8008 ms
+2026-03-05 12:05:51.380 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKT:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKT:00000008
+2026-03-05 12:05:51.391 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKT:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:05:51.423 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKT:00000008] HTTP GET /api/User/profile responded 200 in 43.5053 ms
+2026-03-05 12:17:25.219 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0556 ms
+2026-03-05 12:17:25.221 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0311 ms
+2026-03-05 12:17:25.223 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKV:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKV:00000002
+2026-03-05 12:17:25.226 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKV:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:17:25.319 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000002] HTTP GET /api/User/profile responded 200 in 95.4459 ms
+2026-03-05 12:17:25.320 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL0:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL0:00000002
+2026-03-05 12:17:25.323 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL0:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:17:25.336 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000002] HTTP GET /api/User/profile responded 200 in 15.5988 ms
+2026-03-05 12:17:28.166 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL0:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL0:00000003
+2026-03-05 12:17:28.168 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL0:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:17:28.183 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000003] HTTP GET /api/User/profile responded 200 in 17.1973 ms
+2026-03-05 12:17:28.187 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKV:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKV:00000003
+2026-03-05 12:17:28.188 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKV:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:17:28.206 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000003] HTTP GET /api/User/profile responded 200 in 19.5869 ms
+2026-03-05 12:19:21.100 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0422 ms
+2026-03-05 12:19:21.100 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0325 ms
+2026-03-05 12:19:21.107 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL0:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL0:00000005
+2026-03-05 12:19:21.110 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL0:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:19:21.138 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000005] HTTP GET /api/User/profile responded 200 in 32.1262 ms
+2026-03-05 12:19:21.141 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKV:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKV:00000005
+2026-03-05 12:19:21.152 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKV:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:19:21.172 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000005] HTTP GET /api/User/profile responded 200 in 31.9268 ms
+2026-03-05 12:19:33.916 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0354 ms
+2026-03-05 12:19:33.917 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0518 ms
+2026-03-05 12:19:33.922 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKV:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKV:00000007
+2026-03-05 12:19:33.924 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKV:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:19:33.939 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000007] HTTP GET /api/User/profile responded 200 in 17.0267 ms
+2026-03-05 12:19:33.943 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL0:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL0:00000007
+2026-03-05 12:19:33.945 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL0:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:19:33.960 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000007] HTTP GET /api/User/profile responded 200 in 18.4313 ms
+2026-03-05 12:21:11.505 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000008] HTTP OPTIONS /api/User/profile responded 204 in 0.0834 ms
+2026-03-05 12:21:11.506 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000008] HTTP OPTIONS /api/User/profile responded 204 in 0.0163 ms
+2026-03-05 12:21:11.510 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL0:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL0:00000009
+2026-03-05 12:21:11.512 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL0:00000009] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:21:11.569 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:00000009] HTTP GET /api/User/profile responded 200 in 58.9478 ms
+2026-03-05 12:21:11.572 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKV:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKV:00000009
+2026-03-05 12:21:11.579 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKV:00000009] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:21:11.601 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:00000009] HTTP GET /api/User/profile responded 200 in 29.7143 ms
+2026-03-05 12:21:15.050 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSKV:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSKV:0000000A
+2026-03-05 12:21:15.052 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSKV:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:21:15.065 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSKV:0000000A] HTTP GET /api/User/profile responded 200 in 14.6797 ms
+2026-03-05 12:21:15.068 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL0:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL0:0000000A
+2026-03-05 12:21:15.072 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL0:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:21:15.092 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL0:0000000A] HTTP GET /api/User/profile responded 200 in 24.3908 ms
+2026-03-05 12:24:22.405 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL1:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0539 ms
+2026-03-05 12:24:22.407 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL2:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1045 ms
+2026-03-05 12:24:22.411 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL1:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL1:00000002
+2026-03-05 12:24:22.415 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL1:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:24:22.449 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL1:00000002] HTTP GET /api/User/profile responded 200 in 38.6972 ms
+2026-03-05 12:24:22.454 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL2:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL2:00000002
+2026-03-05 12:24:22.463 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL2:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:24:22.502 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL2:00000002] HTTP GET /api/User/profile responded 200 in 48.6748 ms
+2026-03-05 12:31:19.171 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL3:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0578 ms
+2026-03-05 12:31:19.171 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL4:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0197 ms
+2026-03-05 12:31:19.176 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL3:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL3:00000002
+2026-03-05 12:31:19.177 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL3:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:31:19.245 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL3:00000002] HTTP GET /api/User/profile responded 200 in 70.0469 ms
+2026-03-05 12:31:19.249 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL4:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL4:00000002
+2026-03-05 12:31:19.254 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL4:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:31:19.264 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL4:00000002] HTTP GET /api/User/profile responded 200 in 14.9555 ms
+2026-03-05 12:34:36.566 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL5:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0593 ms
+2026-03-05 12:34:36.573 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL6:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.8441 ms
+2026-03-05 12:34:36.573 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL5:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL5:00000002
+2026-03-05 12:34:36.586 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL5:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:34:36.640 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL5:00000002] HTTP GET /api/User/profile responded 200 in 67.5425 ms
+2026-03-05 12:34:36.642 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL6:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL6:00000002
+2026-03-05 12:34:36.651 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL6:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:34:36.667 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL6:00000002] HTTP GET /api/User/profile responded 200 in 25.3811 ms
+2026-03-05 12:38:31.099 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0387 ms
+2026-03-05 12:38:31.102 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0306 ms
+2026-03-05 12:38:31.103 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL7:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL7:00000002
+2026-03-05 12:38:31.107 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL7:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:31.159 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000002] HTTP GET /api/User/profile responded 200 in 55.9579 ms
+2026-03-05 12:38:31.164 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL8:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL8:00000002
+2026-03-05 12:38:31.168 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL8:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:31.188 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000002] HTTP GET /api/User/profile responded 200 in 24.1558 ms
+2026-03-05 12:38:32.547 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL8:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL8:00000003
+2026-03-05 12:38:32.551 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL8:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:32.564 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000003] HTTP GET /api/User/profile responded 200 in 16.6450 ms
+2026-03-05 12:38:32.565 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL7:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL7:00000003
+2026-03-05 12:38:32.566 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL7:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:32.571 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000003] HTTP GET /api/User/profile responded 200 in 6.1912 ms
+2026-03-05 12:38:35.221 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL7:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL7:00000004
+2026-03-05 12:38:35.222 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL7:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:35.230 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000004] HTTP GET /api/User/profile responded 200 in 9.3965 ms
+2026-03-05 12:38:35.231 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL8:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL8:00000004
+2026-03-05 12:38:35.233 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL8:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:35.244 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000004] HTTP GET /api/User/profile responded 200 in 12.6555 ms
+2026-03-05 12:38:37.926 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0316 ms
+2026-03-05 12:38:37.926 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0128 ms
+2026-03-05 12:38:37.929 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL8:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL8:00000006
+2026-03-05 12:38:37.939 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL8:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:37.955 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000006] HTTP GET /api/User/profile responded 200 in 26.1749 ms
+2026-03-05 12:38:37.959 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL7:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL7:00000006
+2026-03-05 12:38:37.961 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL7:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:38:37.969 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000006] HTTP GET /api/User/profile responded 200 in 10.6411 ms
+2026-03-05 12:40:44.959 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0373 ms
+2026-03-05 12:40:44.960 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0219 ms
+2026-03-05 12:40:44.972 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL8:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL8:00000008
+2026-03-05 12:40:44.976 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL8:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:40:45.005 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL8:00000008] HTTP GET /api/User/profile responded 200 in 33.5996 ms
+2026-03-05 12:40:45.009 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL7:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL7:00000008
+2026-03-05 12:40:45.012 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL7:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:40:45.029 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL7:00000008] HTTP GET /api/User/profile responded 200 in 21.0487 ms
+2026-03-05 12:44:52.398 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1755 ms
+2026-03-05 12:44:52.405 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLA:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1302 ms
+2026-03-05 12:44:52.422 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 12:44:52.433 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000002] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSL9:00000002
+2026-03-05 12:44:52.440 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000002] HTTP GET /api/User/profile responded 401 in 27.3200 ms
+2026-03-05 12:44:52.448 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 12:44:52.457 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLA:00000002] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.1074 ms
+2026-03-05 12:44:52.459 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000003] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSL9:00000003
+2026-03-05 12:44:52.463 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000003] HTTP GET /api/User/profile responded 401 in 16.8040 ms
+2026-03-05 12:44:52.473 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLA:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 12:44:52.477 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLA:00000003] HTTP POST /api/Authentication/refresh-token responded 404 in 12.3381 ms
+2026-03-05 12:44:52.481 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000004] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 12:44:52.482 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000004] HTTP POST /api/Authentication/refresh-token responded 404 in 1.8982 ms
+2026-03-05 12:44:59.990 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000005] HTTP OPTIONS /api/Authentication/login responded 204 in 0.1753 ms
+2026-03-05 12:44:59.994 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSL9:00000006] Login attempt initiated for ta*****@eepz.com
+2026-03-05 12:45:00.285 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL9:00000006] Refresh token generated for UserId: 3
+2026-03-05 12:45:00.294 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL9:00000006] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 12:45:00.296 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSL9:00000006] Login successful for ta*****@eepz.com
+2026-03-05 12:45:00.299 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000006] HTTP POST /api/Authentication/login responded 200 in 305.9261 ms
+2026-03-05 12:45:00.311 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0315 ms
+2026-03-05 12:45:00.313 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLA:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.1647 ms
+2026-03-05 12:45:00.316 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL9:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL9:00000008
+2026-03-05 12:45:00.317 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:45:00.328 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000008] HTTP GET /api/User/profile responded 200 in 12.6497 ms
+2026-03-05 12:45:00.332 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLA:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLA:00000005
+2026-03-05 12:45:00.334 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLA:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:45:00.343 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLA:00000005] HTTP GET /api/User/profile responded 200 in 11.9484 ms
+2026-03-05 12:45:03.883 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLA:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLA:00000006
+2026-03-05 12:45:03.885 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLA:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:45:03.895 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLA:00000006] HTTP GET /api/User/profile responded 200 in 12.4951 ms
+2026-03-05 12:45:03.897 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSL9:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSL9:00000009
+2026-03-05 12:45:03.901 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSL9:00000009] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:45:03.911 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSL9:00000009] HTTP GET /api/User/profile responded 200 in 14.1424 ms
+2026-03-05 12:48:05.363 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLC:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0682 ms
+2026-03-05 12:48:05.363 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLB:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0682 ms
+2026-03-05 12:48:05.395 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLC:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLC:00000002
+2026-03-05 12:48:05.413 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLC:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:48:05.449 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLC:00000002] HTTP GET /api/User/profile responded 200 in 54.3704 ms
+2026-03-05 12:48:05.455 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLB:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLB:00000002
+2026-03-05 12:48:05.458 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLB:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:48:05.499 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLB:00000002] HTTP GET /api/User/profile responded 200 in 43.8594 ms
+2026-03-05 12:49:23.464 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLB:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0488 ms
+2026-03-05 12:49:23.484 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLC:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0373 ms
+2026-03-05 12:49:23.489 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLB:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLB:00000004
+2026-03-05 12:49:23.620 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLB:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:49:23.664 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLB:00000004] HTTP GET /api/User/profile responded 200 in 176.2873 ms
+2026-03-05 12:49:23.670 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLC:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLC:00000004
+2026-03-05 12:49:23.719 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLC:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:49:23.777 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLC:00000004] HTTP GET /api/User/profile responded 200 in 106.2385 ms
+2026-03-05 12:54:27.051 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLD:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0610 ms
+2026-03-05 12:54:27.054 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLE:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1153 ms
+2026-03-05 12:54:27.057 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLD:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLD:00000002
+2026-03-05 12:54:27.063 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLD:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:54:27.117 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLD:00000002] HTTP GET /api/User/profile responded 200 in 60.8896 ms
+2026-03-05 12:54:27.119 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLE:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLE:00000002
+2026-03-05 12:54:27.138 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLE:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:54:27.188 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLE:00000002] HTTP GET /api/User/profile responded 200 in 68.8153 ms
+2026-03-05 12:54:29.024 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLE:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLE:00000003
+2026-03-05 12:54:29.026 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLE:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:54:29.037 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLE:00000003] HTTP GET /api/User/profile responded 200 in 13.1451 ms
+2026-03-05 12:54:29.039 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLD:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLD:00000003
+2026-03-05 12:54:29.043 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLD:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:54:29.051 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLD:00000003] HTTP GET /api/User/profile responded 200 in 12.0175 ms
+2026-03-05 12:54:51.743 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLF:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0559 ms
+2026-03-05 12:54:51.744 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLG:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0182 ms
+2026-03-05 12:54:51.748 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLF:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLF:00000002
+2026-03-05 12:54:51.750 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLF:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:54:51.763 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLF:00000002] HTTP GET /api/User/profile responded 200 in 15.1616 ms
+2026-03-05 12:54:51.765 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLG:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLG:00000002
+2026-03-05 12:54:51.767 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLG:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 12:54:51.782 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLG:00000002] HTTP GET /api/User/profile responded 200 in 17.4425 ms
+2026-03-05 13:04:27.455 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLH:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0450 ms
+2026-03-05 13:04:27.459 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLI:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1179 ms
+2026-03-05 13:04:27.463 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLH:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLH:00000002
+2026-03-05 13:04:27.467 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLH:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 13:04:27.509 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLH:00000002] HTTP GET /api/User/profile responded 200 in 46.4280 ms
+2026-03-05 13:04:27.511 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLI:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLI:00000002
+2026-03-05 13:04:27.516 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLI:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 13:04:27.529 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLI:00000002] HTTP GET /api/User/profile responded 200 in 18.2396 ms
+2026-03-05 14:01:23.743 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLJ:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0621 ms
+2026-03-05 14:01:23.747 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLK:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0872 ms
+2026-03-05 14:01:23.753 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLK:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 14:01:23.755 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLK:00000002] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSLK:00000002
+2026-03-05 14:01:23.756 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLK:00000002] HTTP GET /api/User/profile responded 401 in 3.3432 ms
+2026-03-05 14:01:23.764 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLK:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 14:01:23.766 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLK:00000003] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSLK:00000003
+2026-03-05 14:01:23.769 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLK:00000003] HTTP GET /api/User/profile responded 401 in 5.6957 ms
+2026-03-05 14:01:23.796 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLK:00000004] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.5519 ms
+2026-03-05 14:01:23.809 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLK:00000005] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 14:01:23.809 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLJ:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 14:01:23.810 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLK:00000005] HTTP POST /api/Authentication/refresh-token responded 404 in 1.7940 ms
+2026-03-05 14:01:23.811 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLJ:00000002] HTTP POST /api/Authentication/refresh-token responded 404 in 1.5361 ms
+2026-03-05 14:02:32.127 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000001] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0435 ms
+2026-03-05 14:02:32.131 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLL:00000002] Login attempt initiated for ta*****@eepz.com
+2026-03-05 14:02:32.430 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLL:00000002] Refresh token generated for UserId: 3
+2026-03-05 14:02:32.443 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLL:00000002] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 14:02:32.445 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLL:00000002] Login successful for ta*****@eepz.com
+2026-03-05 14:02:32.447 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000002] HTTP POST /api/Authentication/login responded 200 in 317.2878 ms
+2026-03-05 14:02:32.477 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.1551 ms
+2026-03-05 14:02:32.480 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLM:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0369 ms
+2026-03-05 14:02:32.484 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLL:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLL:00000004
+2026-03-05 14:02:32.486 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLL:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:32.499 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000004] HTTP GET /api/User/profile responded 200 in 15.8196 ms
+2026-03-05 14:02:32.502 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLM:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLM:00000002
+2026-03-05 14:02:32.504 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLM:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:32.519 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLM:00000002] HTTP GET /api/User/profile responded 200 in 17.5588 ms
+2026-03-05 14:02:36.021 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLM:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLM:00000003
+2026-03-05 14:02:36.023 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLM:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:36.043 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLM:00000003] HTTP GET /api/User/profile responded 200 in 22.5123 ms
+2026-03-05 14:02:36.048 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLL:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLL:00000005
+2026-03-05 14:02:36.051 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLL:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:36.075 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000005] HTTP GET /api/User/profile responded 200 in 28.0026 ms
+2026-03-05 14:02:45.586 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0643 ms
+2026-03-05 14:02:45.586 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLM:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0055 ms
+2026-03-05 14:02:45.591 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLL:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLL:00000007
+2026-03-05 14:02:45.594 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLL:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:45.607 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000007] HTTP GET /api/User/profile responded 200 in 15.9281 ms
+2026-03-05 14:02:45.608 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLM:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLM:00000005
+2026-03-05 14:02:45.610 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLM:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:45.617 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLM:00000005] HTTP GET /api/User/profile responded 200 in 8.9924 ms
+2026-03-05 14:02:49.185 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLM:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLM:00000006
+2026-03-05 14:02:49.186 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLM:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:49.204 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLM:00000006] HTTP GET /api/User/profile responded 200 in 19.4564 ms
+2026-03-05 14:02:49.208 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLL:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLL:00000008
+2026-03-05 14:02:49.211 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLL:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:02:49.232 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLL:00000008] HTTP GET /api/User/profile responded 200 in 24.4074 ms
+2026-03-05 14:07:01.664 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLN:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0438 ms
+2026-03-05 14:07:01.667 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLO:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0405 ms
+2026-03-05 14:07:01.669 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLN:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLN:00000002
+2026-03-05 14:07:01.671 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLN:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:07:01.709 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLN:00000002] HTTP GET /api/User/profile responded 200 in 39.7368 ms
+2026-03-05 14:07:01.712 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLO:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLO:00000002
+2026-03-05 14:07:01.717 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLO:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:07:01.730 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLO:00000002] HTTP GET /api/User/profile responded 200 in 17.7819 ms
+2026-03-05 14:08:21.780 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLO:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.1532 ms
+2026-03-05 14:08:21.780 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLN:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0076 ms
+2026-03-05 14:08:21.785 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLN:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLN:00000004
+2026-03-05 14:08:21.786 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLN:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:08:21.792 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLN:00000004] HTTP GET /api/User/profile responded 200 in 7.2758 ms
+2026-03-05 14:08:21.794 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLO:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLO:00000004
+2026-03-05 14:08:21.796 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLO:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:08:21.806 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLO:00000004] HTTP GET /api/User/profile responded 200 in 11.8090 ms
+2026-03-05 14:10:06.154 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLO:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0638 ms
+2026-03-05 14:10:06.155 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLN:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0774 ms
+2026-03-05 14:10:06.159 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLO:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLO:00000006
+2026-03-05 14:10:06.161 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLO:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:10:06.178 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLO:00000006] HTTP GET /api/User/profile responded 200 in 18.7276 ms
+2026-03-05 14:10:06.181 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLN:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLN:00000006
+2026-03-05 14:10:06.183 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLN:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:10:06.216 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLN:00000006] HTTP GET /api/User/profile responded 200 in 35.2757 ms
+2026-03-05 14:20:08.334 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1071 ms
+2026-03-05 14:20:08.335 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0112 ms
+2026-03-05 14:20:08.340 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLP:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLP:00000002
+2026-03-05 14:20:08.343 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLP:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:20:08.393 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000002] HTTP GET /api/User/profile responded 200 in 52.7585 ms
+2026-03-05 14:20:08.394 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLQ:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLQ:00000002
+2026-03-05 14:20:08.396 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLQ:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:20:08.420 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000002] HTTP GET /api/User/profile responded 200 in 25.6173 ms
+2026-03-05 14:20:11.616 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLQ:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLQ:00000003
+2026-03-05 14:20:11.618 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLQ:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:20:11.628 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000003] HTTP GET /api/User/profile responded 200 in 11.6464 ms
+2026-03-05 14:20:11.629 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLP:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLP:00000003
+2026-03-05 14:20:11.630 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLP:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:20:11.639 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000003] HTTP GET /api/User/profile responded 200 in 9.8715 ms
+2026-03-05 14:21:09.388 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0480 ms
+2026-03-05 14:21:09.388 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0236 ms
+2026-03-05 14:21:09.394 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLP:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLP:00000005
+2026-03-05 14:21:09.398 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLP:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:21:09.420 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000005] HTTP GET /api/User/profile responded 200 in 25.9842 ms
+2026-03-05 14:21:09.424 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLQ:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLQ:00000005
+2026-03-05 14:21:09.427 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLQ:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:21:09.450 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000005] HTTP GET /api/User/profile responded 200 in 25.7824 ms
+2026-03-05 14:21:50.877 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0427 ms
+2026-03-05 14:21:50.878 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0182 ms
+2026-03-05 14:21:50.882 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLP:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLP:00000007
+2026-03-05 14:21:50.884 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLP:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:21:50.893 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000007] HTTP GET /api/User/profile responded 200 in 11.5440 ms
+2026-03-05 14:21:50.895 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLQ:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLQ:00000007
+2026-03-05 14:21:50.896 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLQ:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:21:50.905 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000007] HTTP GET /api/User/profile responded 200 in 10.5641 ms
+2026-03-05 14:21:54.522 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLQ:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLQ:00000008
+2026-03-05 14:21:54.524 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLQ:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:21:54.548 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000008] HTTP GET /api/User/profile responded 200 in 25.6939 ms
+2026-03-05 14:21:54.551 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLP:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLP:00000008
+2026-03-05 14:21:54.555 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLP:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:21:54.574 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000008] HTTP GET /api/User/profile responded 200 in 23.6571 ms
+2026-03-05 14:22:20.804 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:00000009] HTTP OPTIONS /api/User/profile responded 204 in 0.0594 ms
+2026-03-05 14:22:20.804 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:00000009] HTTP OPTIONS /api/User/profile responded 204 in 0.0191 ms
+2026-03-05 14:22:20.808 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLP:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLP:0000000A
+2026-03-05 14:22:20.810 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLP:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:22:20.823 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLP:0000000A] HTTP GET /api/User/profile responded 200 in 15.3453 ms
+2026-03-05 14:22:20.825 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLQ:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLQ:0000000A
+2026-03-05 14:22:20.827 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLQ:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:22:20.834 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLQ:0000000A] HTTP GET /api/User/profile responded 200 in 8.8416 ms
+2026-03-05 14:30:50.069 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLR:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0571 ms
+2026-03-05 14:30:50.070 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLS:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0291 ms
+2026-03-05 14:30:50.073 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLR:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLR:00000002
+2026-03-05 14:30:50.074 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLR:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:30:50.106 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLR:00000002] HTTP GET /api/User/profile responded 200 in 33.4809 ms
+2026-03-05 14:30:50.107 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLS:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLS:00000002
+2026-03-05 14:30:50.109 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLS:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:30:50.121 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLS:00000002] HTTP GET /api/User/profile responded 200 in 14.0344 ms
+2026-03-05 14:52:22.083 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000001] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0461 ms
+2026-03-05 14:52:22.085 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLT:00000002
+2026-03-05 14:52:22.087 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLT:00000002] Logout initiated for UserId: 3
+2026-03-05 14:52:22.113 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000002] All refresh tokens revoked for UserId: 3
+2026-03-05 14:52:22.115 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000002] User logged out successfully: UserId 3
+2026-03-05 14:52:22.115 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLT:00000002] Logout successful for UserId: 3
+2026-03-05 14:52:22.116 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000002] HTTP POST /api/Authentication/logout responded 200 in 31.4183 ms
+2026-03-05 14:52:34.970 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000003] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0426 ms
+2026-03-05 14:52:34.976 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLT:00000004] Login attempt initiated for em*****@gmail.com
+2026-03-05 14:52:41.006 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000004] Email sent successfully to emailserviceeepz@gmail.com - Subject: Your OTP Code - EEPZ System
+2026-03-05 14:52:41.008 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000004] OTP generated for emailserviceeepz@gmail.com - Type: Login2FA, Expires: 2026-03-05 15:22:35 IST
+2026-03-05 14:52:41.016 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLT:00000004] Login successful for em*****@gmail.com
+2026-03-05 14:52:41.017 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000004] HTTP POST /api/Authentication/login responded 200 in 6042.9811 ms
+2026-03-05 14:52:59.599 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000005] HTTP OPTIONS /api/Authentication/verify-otp responded 204 in 0.0563 ms
+2026-03-05 14:52:59.606 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLT:00000006] OTP verification attempt for em*****@gmail.com
+2026-03-05 14:52:59.622 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000006] OTP verified successfully for emailserviceeepz@gmail.com
+2026-03-05 14:52:59.638 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000006] Refresh token generated for UserId: 1
+2026-03-05 14:52:59.644 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000006] Admin logged in successfully with 2FA: emailserviceeepz@gmail.com
+2026-03-05 14:52:59.645 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSLT:00000006] OTP verified successfully for em*****@gmail.com. User authenticated.
+2026-03-05 14:52:59.647 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000006] HTTP POST /api/Authentication/verify-otp responded 200 in 43.5924 ms
+2026-03-05 14:52:59.697 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0398 ms
+2026-03-05 14:52:59.701 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLU:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0331 ms
+2026-03-05 14:52:59.703 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLT:00000008
+2026-03-05 14:52:59.705 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLT:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:52:59.724 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000008] HTTP GET /api/User/profile responded 200 in 21.3335 ms
+2026-03-05 14:52:59.727 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLU:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLU:00000002
+2026-03-05 14:52:59.733 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLU:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:52:59.746 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLU:00000002] HTTP GET /api/User/profile responded 200 in 19.5189 ms
+2026-03-05 14:52:59.782 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLU:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLU:00000003
+2026-03-05 14:52:59.784 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLU:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:52:59.794 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLU:00000003] HTTP GET /api/User/profile responded 200 in 12.4671 ms
+2026-03-05 14:52:59.796 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLT:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLT:00000009
+2026-03-05 14:52:59.798 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLT:00000009] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:52:59.809 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLT:00000009] HTTP GET /api/User/profile responded 200 in 13.7306 ms
+2026-03-05 14:53:22.609 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0341 ms
+2026-03-05 14:53:22.611 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM0:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0240 ms
+2026-03-05 14:53:22.613 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:00000002
+2026-03-05 14:53:22.616 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:53:22.627 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000002] HTTP GET /api/User/profile responded 200 in 14.5629 ms
+2026-03-05 14:53:22.629 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM0:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM0:00000002
+2026-03-05 14:53:22.631 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM0:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:53:22.639 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM0:00000002] HTTP GET /api/User/profile responded 200 in 9.6649 ms
+2026-03-05 14:53:24.742 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM0:00000003] HTTP OPTIONS /api/User/all responded 204 in 0.0207 ms
+2026-03-05 14:53:24.743 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000003] HTTP OPTIONS /api/RoleDepartmentManagement/role/all responded 204 in 0.0164 ms
+2026-03-05 14:53:24.745 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM1:00000001] HTTP OPTIONS /api/RoleDepartmentManagement/department/all responded 204 in 0.0119 ms
+2026-03-05 14:53:24.748 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM0:00000004] HTTP OPTIONS /api/User/all responded 204 in 0.0149 ms
+2026-03-05 14:53:24.748 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM2:00000001] HTTP OPTIONS /api/RoleDepartmentManagement/role/all responded 204 in 0.0101 ms
+2026-03-05 14:53:24.749 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000004] HTTP OPTIONS /api/RoleDepartmentManagement/department/all responded 204 in 0.0145 ms
+2026-03-05 14:53:24.749 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000001] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:00000001
+2026-03-05 14:53:24.749 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM4:00000001] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM4:00000001
+2026-03-05 14:53:24.749 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM1:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM1:00000002
+2026-03-05 14:53:24.756 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSM3:00000001] Retrieving all roles
+2026-03-05 14:53:24.757 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSM4:00000001] Retrieving all departments
+2026-03-05 14:53:24.758 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM1:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:53:24.763 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000001] HTTP GET /api/RoleDepartmentManagement/role/all responded 200 in 14.2026 ms
+2026-03-05 14:53:24.766 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:00000005
+2026-03-05 14:53:24.767 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSLV:00000005] Retrieving all roles
+2026-03-05 14:53:24.769 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000005] HTTP GET /api/RoleDepartmentManagement/role/all responded 200 in 3.9440 ms
+2026-03-05 14:53:24.778 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM1:00000002] HTTP GET /api/User/all responded 200 in 28.6869 ms
+2026-03-05 14:53:24.778 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM4:00000001] HTTP GET /api/RoleDepartmentManagement/department/all responded 200 in 29.0504 ms
+2026-03-05 14:53:24.779 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:00000006
+2026-03-05 14:53:24.780 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:00000002
+2026-03-05 14:53:24.783 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:53:24.784 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSM3:00000002] Retrieving all departments
+2026-03-05 14:53:24.789 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000002] HTTP GET /api/RoleDepartmentManagement/department/all responded 200 in 9.3080 ms
+2026-03-05 14:53:24.789 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000006] HTTP GET /api/User/all responded 200 in 10.3131 ms
+2026-03-05 14:53:28.192 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000007] HTTP OPTIONS /api/User/next-employee-id responded 204 in 0.0383 ms
+2026-03-05 14:53:28.192 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000003] HTTP OPTIONS /api/User/next-employee-id responded 204 in 0.0106 ms
+2026-03-05 14:53:28.196 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:00000008
+2026-03-05 14:53:28.200 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:53:28.207 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000008] Last Employee ID: 1002, Next Employee ID: 1003
+2026-03-05 14:53:28.208 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000008] HTTP GET /api/User/next-employee-id responded 200 in 12.2441 ms
+2026-03-05 14:53:28.210 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:00000004
+2026-03-05 14:53:28.212 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM3:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:53:28.218 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000004] Last Employee ID: 1002, Next Employee ID: 1003
+2026-03-05 14:53:28.219 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000004] HTTP GET /api/User/next-employee-id responded 200 in 9.1462 ms
+2026-03-05 14:54:06.861 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000005] HTTP OPTIONS /api/User/next-employee-id responded 204 in 0.0304 ms
+2026-03-05 14:54:06.862 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000009] HTTP OPTIONS /api/User/next-employee-id responded 204 in 0.0186 ms
+2026-03-05 14:54:06.865 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:00000006
+2026-03-05 14:54:06.866 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM3:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:54:06.872 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000006] Last Employee ID: 1002, Next Employee ID: 1003
+2026-03-05 14:54:06.873 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000006] HTTP GET /api/User/next-employee-id responded 200 in 8.6848 ms
+2026-03-05 14:54:06.877 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:0000000A
+2026-03-05 14:54:06.879 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:54:06.884 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:0000000A] Last Employee ID: 1002, Next Employee ID: 1003
+2026-03-05 14:54:06.886 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:0000000A] HTTP GET /api/User/next-employee-id responded 200 in 10.2524 ms
+2026-03-05 14:54:25.860 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:0000000B] HTTP OPTIONS /api/User/create responded 204 in 0.3018 ms
+2026-03-05 14:54:25.866 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:0000000C] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:0000000C
+2026-03-05 14:54:25.869 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:0000000C] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:54:29.785 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:0000000C] Email sent successfully to nuttrenai.vijaysankar@eepz.com - Subject: Welcome to EEPZ System
+2026-03-05 14:54:29.788 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:0000000C] User created successfully: nuttrenai.vijaysankar@eepz.com (EmployeeCompanyId: 1003)
+2026-03-05 14:54:29.796 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:0000000C] HTTP POST /api/User/create responded 200 in 3930.4728 ms
+2026-03-05 14:54:29.805 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:0000000D] HTTP OPTIONS /api/User/all responded 204 in 0.2824 ms
+2026-03-05 14:54:29.806 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM4:00000002] HTTP OPTIONS /api/RoleDepartmentManagement/department/all responded 204 in 0.0176 ms
+2026-03-05 14:54:29.806 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000007] HTTP OPTIONS /api/RoleDepartmentManagement/role/all responded 204 in 0.0294 ms
+2026-03-05 14:54:29.811 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:0000000E] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:0000000E
+2026-03-05 14:54:29.815 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM4:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM4:00000003
+2026-03-05 14:54:29.815 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:00000008
+2026-03-05 14:54:29.815 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:0000000E] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:54:29.816 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSM4:00000003] Retrieving all roles
+2026-03-05 14:54:29.817 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSM3:00000008] Retrieving all departments
+2026-03-05 14:54:29.824 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM4:00000003] HTTP GET /api/RoleDepartmentManagement/role/all responded 200 in 9.6156 ms
+2026-03-05 14:54:29.825 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000008] HTTP GET /api/RoleDepartmentManagement/department/all responded 200 in 10.8527 ms
+2026-03-05 14:54:29.829 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:0000000E] HTTP GET /api/User/all responded 200 in 18.2974 ms
+2026-03-05 14:54:31.692 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:0000000F] HTTP OPTIONS /api/User/next-employee-id responded 204 in 0.0596 ms
+2026-03-05 14:54:31.692 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:00000009] HTTP OPTIONS /api/User/next-employee-id responded 204 in 0.0307 ms
+2026-03-05 14:54:31.699 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000010] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:00000010
+2026-03-05 14:54:31.701 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSLV:00000010] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:54:31.724 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000010] Last Employee ID: 1003, Next Employee ID: 1004
+2026-03-05 14:54:31.726 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000010] HTTP GET /api/User/next-employee-id responded 200 in 27.4265 ms
+2026-03-05 14:54:31.729 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:0000000A
+2026-03-05 14:54:31.730 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM3:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:54:31.732 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:0000000A] Last Employee ID: 1003, Next Employee ID: 1004
+2026-03-05 14:54:31.733 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:0000000A] HTTP GET /api/User/next-employee-id responded 200 in 4.8371 ms
+2026-03-05 14:55:29.858 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:0000000B] HTTP OPTIONS /api/User/create responded 204 in 0.0395 ms
+2026-03-05 14:55:29.867 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:0000000C] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:0000000C
+2026-03-05 14:55:29.870 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM3:0000000C] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:55:33.404 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:0000000C] Email sent successfully to mukesh@eepz.com - Subject: Welcome to EEPZ System
+2026-03-05 14:55:33.412 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:0000000C] User created successfully: mukesh@eepz.com (EmployeeCompanyId: 1004)
+2026-03-05 14:55:33.424 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:0000000C] HTTP POST /api/User/create responded 200 in 3558.6299 ms
+2026-03-05 14:55:33.430 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:0000000D] HTTP OPTIONS /api/User/all responded 204 in 0.0335 ms
+2026-03-05 14:55:33.431 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000011] HTTP OPTIONS /api/RoleDepartmentManagement/role/all responded 204 in 0.0127 ms
+2026-03-05 14:55:33.431 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM4:00000004] HTTP OPTIONS /api/RoleDepartmentManagement/department/all responded 204 in 0.0123 ms
+2026-03-05 14:55:33.437 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM3:0000000E] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM3:0000000E
+2026-03-05 14:55:33.439 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSLV:00000012] JWT Token Validated - CorrelationId: 0HNJOEJV2OSLV:00000012
+2026-03-05 14:55:33.443 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM3:0000000E] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 14:55:33.444 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM4:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM4:00000005
+2026-03-05 14:55:33.444 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSLV:00000012] Retrieving all roles
+2026-03-05 14:55:33.445 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.RoleDepartmentManagementController] [CorrelationId: 0HNJOEJV2OSM4:00000005] Retrieving all departments
+2026-03-05 14:55:33.448 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSLV:00000012] HTTP GET /api/RoleDepartmentManagement/role/all responded 200 in 8.8233 ms
+2026-03-05 14:55:33.450 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM4:00000005] HTTP GET /api/RoleDepartmentManagement/department/all responded 200 in 6.0769 ms
+2026-03-05 14:55:33.450 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM3:0000000E] HTTP GET /api/User/all responded 200 in 13.7545 ms
+2026-03-05 15:24:23.374 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM6:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1146 ms
+2026-03-05 15:24:23.374 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1145 ms
+2026-03-05 15:24:23.379 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM6:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM6:00000002
+2026-03-05 15:24:23.381 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM6:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 15:24:23.420 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM6:00000002] HTTP GET /api/User/profile responded 200 in 41.1459 ms
+2026-03-05 15:24:23.421 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM5:00000002
+2026-03-05 15:24:23.423 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM5:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 15:24:23.432 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000002] HTTP GET /api/User/profile responded 200 in 10.6221 ms
+2026-03-05 15:24:26.936 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000003] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0361 ms
+2026-03-05 15:24:26.943 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM5:00000004
+2026-03-05 15:24:26.945 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:00000004] Logout initiated for UserId: 1
+2026-03-05 15:24:26.969 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000004] All refresh tokens revoked for UserId: 1
+2026-03-05 15:24:26.972 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000004] User logged out successfully: UserId 1
+2026-03-05 15:24:26.973 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:00000004] Logout successful for UserId: 1
+2026-03-05 15:24:26.974 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000004] HTTP POST /api/Authentication/logout responded 200 in 31.0589 ms
+2026-03-05 15:24:50.313 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000005] HTTP OPTIONS /api/Authentication/forgot-password responded 204 in 0.1497 ms
+2026-03-05 15:24:50.320 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:00000006] Password reset requested for mu****@eepz.com
+2026-03-05 15:24:53.871 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000006] Email sent successfully to mukesh@eepz.com - Subject: Your OTP Code - EEPZ System
+2026-03-05 15:24:53.874 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000006] OTP generated for mukesh@eepz.com - Type: ForgotPassword, Expires: 2026-03-05 15:54:50 IST
+2026-03-05 15:24:53.875 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000006] Password reset OTP sent to: mukesh@eepz.com
+2026-03-05 15:24:53.877 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:00000006] Password reset OTP sent to mu****@eepz.com
+2026-03-05 15:24:53.878 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000006] HTTP POST /api/Authentication/forgot-password responded 200 in 3559.4819 ms
+2026-03-05 15:25:24.049 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000007] HTTP OPTIONS /api/Authentication/reset-password responded 204 in 0.0206 ms
+2026-03-05 15:25:24.062 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:00000008] Password reset confirmation for mu****@eepz.com
+2026-03-05 15:25:24.078 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000008] OTP verified successfully for mukesh@eepz.com
+2026-03-05 15:25:27.415 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000008] Email sent successfully to mukesh@eepz.com - Subject: Password Reset Successful - EEPZ System
+2026-03-05 15:25:27.418 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:00000008] Password reset successful for: mukesh@eepz.com - IsFirstLogin set to false
+2026-03-05 15:25:27.421 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:00000008] Password reset successful for mu****@eepz.com
+2026-03-05 15:25:27.424 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000008] HTTP POST /api/Authentication/reset-password responded 200 in 3372.1964 ms
+2026-03-05 15:25:35.599 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:00000009] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0344 ms
+2026-03-05 15:25:35.607 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:0000000A] Login attempt initiated for mu****@eepz.com
+2026-03-05 15:25:35.877 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:0000000A] Refresh token generated for UserId: 5
+2026-03-05 15:25:35.884 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:0000000A] User logged in successfully: mukesh@eepz.com
+2026-03-05 15:25:35.885 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM5:0000000A] Login successful for mu****@eepz.com
+2026-03-05 15:25:35.887 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:0000000A] HTTP POST /api/Authentication/login responded 200 in 281.1659 ms
+2026-03-05 15:25:35.944 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:0000000B] HTTP OPTIONS /api/User/profile responded 204 in 0.0289 ms
+2026-03-05 15:25:35.947 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM6:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0195 ms
+2026-03-05 15:25:35.948 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:0000000C] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM5:0000000C
+2026-03-05 15:25:35.954 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:0000000C] HTTP GET /api/User/profile responded 403 in 6.1452 ms
+2026-03-05 15:25:35.958 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM5:0000000D] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM5:0000000D
+2026-03-05 15:25:35.958 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM5:0000000D] HTTP GET /api/User/profile responded 403 in 0.9209 ms
+2026-03-05 15:36:34.049 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM7:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0704 ms
+2026-03-05 15:36:34.052 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM8:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.1731 ms
+2026-03-05 15:36:34.054 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM7:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM7:00000002
+2026-03-05 15:36:34.057 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM7:00000002] HTTP GET /api/User/profile responded 403 in 3.5636 ms
+2026-03-05 15:36:34.062 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM7:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM7:00000003
+2026-03-05 15:36:34.066 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM7:00000003] HTTP GET /api/User/profile responded 403 in 4.0432 ms
+2026-03-05 15:47:23.389 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM9:00000001] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0817 ms
+2026-03-05 15:47:23.395 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM9:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM9:00000002
+2026-03-05 15:47:23.396 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM9:00000002] Logout initiated for UserId: 5
+2026-03-05 15:47:23.432 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM9:00000002] All refresh tokens revoked for UserId: 5
+2026-03-05 15:47:23.433 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM9:00000002] User logged out successfully: UserId 5
+2026-03-05 15:47:23.433 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM9:00000002] Logout successful for UserId: 5
+2026-03-05 15:47:23.434 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM9:00000002] HTTP POST /api/Authentication/logout responded 200 in 39.7092 ms
+2026-03-05 15:47:37.592 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM9:00000003] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0608 ms
+2026-03-05 15:47:37.597 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM9:00000004] Login attempt initiated for ta*****@eepz.com
+2026-03-05 15:47:37.876 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM9:00000004] Refresh token generated for UserId: 3
+2026-03-05 15:47:37.886 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM9:00000004] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 15:47:37.886 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSM9:00000004] Login successful for ta*****@eepz.com
+2026-03-05 15:47:37.888 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM9:00000004] HTTP POST /api/Authentication/login responded 200 in 292.6581 ms
+2026-03-05 15:47:37.900 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM9:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0355 ms
+2026-03-05 15:47:37.902 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMA:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0254 ms
+2026-03-05 15:47:37.903 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSM9:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSM9:00000006
+2026-03-05 15:47:37.905 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSM9:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 15:47:37.916 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSM9:00000006] HTTP GET /api/User/profile responded 200 in 12.5267 ms
+2026-03-05 15:47:37.918 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMA:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMA:00000002
+2026-03-05 15:47:37.919 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMA:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 15:47:37.929 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMA:00000002] HTTP GET /api/User/profile responded 200 in 11.8000 ms
+2026-03-05 16:04:09.009 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000001] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.1042 ms
+2026-03-05 16:04:09.013 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000002
+2026-03-05 16:04:09.014 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:00000002] Logout initiated for UserId: 3
+2026-03-05 16:04:09.053 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000002] All refresh tokens revoked for UserId: 3
+2026-03-05 16:04:09.054 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000002] User logged out successfully: UserId 3
+2026-03-05 16:04:09.055 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:00000002] Logout successful for UserId: 3
+2026-03-05 16:04:09.057 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000002] HTTP POST /api/Authentication/logout responded 200 in 43.6692 ms
+2026-03-05 16:04:16.780 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000003] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0533 ms
+2026-03-05 16:04:16.787 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:00000004] Login attempt initiated for mu****@eepz.com
+2026-03-05 16:04:17.066 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000004] Refresh token generated for UserId: 5
+2026-03-05 16:04:17.076 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000004] User logged in successfully: mukesh@eepz.com
+2026-03-05 16:04:17.077 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:00000004] Login successful for mu****@eepz.com
+2026-03-05 16:04:17.078 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000004] HTTP POST /api/Authentication/login responded 200 in 293.2758 ms
+2026-03-05 16:04:17.109 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0437 ms
+2026-03-05 16:04:17.111 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0174 ms
+2026-03-05 16:04:17.112 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000006
+2026-03-05 16:04:17.114 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000006] HTTP GET /api/User/profile responded 403 in 2.1355 ms
+2026-03-05 16:04:17.119 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000007
+2026-03-05 16:04:17.121 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000007] HTTP GET /api/User/profile responded 403 in 1.3049 ms
+2026-03-05 16:05:30.631 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000008] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0723 ms
+2026-03-05 16:05:30.637 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000009] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000009
+2026-03-05 16:05:30.638 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:00000009] Logout initiated for UserId: 5
+2026-03-05 16:05:30.660 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000009] All refresh tokens revoked for UserId: 5
+2026-03-05 16:05:30.661 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000009] User logged out successfully: UserId 5
+2026-03-05 16:05:30.661 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:00000009] Logout successful for UserId: 5
+2026-03-05 16:05:30.662 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000009] HTTP POST /api/Authentication/logout responded 200 in 25.6013 ms
+2026-03-05 16:05:36.130 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:0000000A] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0267 ms
+2026-03-05 16:05:36.133 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:0000000B] Login attempt initiated for ta*****@eepz.com
+2026-03-05 16:05:36.403 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:0000000B] Refresh token generated for UserId: 3
+2026-03-05 16:05:36.412 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:0000000B] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 16:05:36.413 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMB:0000000B] Login successful for ta*****@eepz.com
+2026-03-05 16:05:36.415 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:0000000B] HTTP POST /api/Authentication/login responded 200 in 282.1707 ms
+2026-03-05 16:05:36.429 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:0000000C] HTTP OPTIONS /api/User/profile responded 204 in 0.0330 ms
+2026-03-05 16:05:36.430 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000002] HTTP OPTIONS /api/User/profile responded 204 in 0.0242 ms
+2026-03-05 16:05:36.433 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:0000000D] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:0000000D
+2026-03-05 16:05:36.435 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMB:0000000D] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:05:36.447 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:0000000D] HTTP GET /api/User/profile responded 200 in 13.7354 ms
+2026-03-05 16:05:36.448 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMC:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMC:00000003
+2026-03-05 16:05:36.449 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMC:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:05:36.455 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000003] HTTP GET /api/User/profile responded 200 in 7.1252 ms
+2026-03-05 16:05:50.851 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000004] HTTP OPTIONS /api/User/profile responded 204 in 0.0448 ms
+2026-03-05 16:05:50.851 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:0000000E] HTTP OPTIONS /api/User/profile responded 204 in 0.0567 ms
+2026-03-05 16:05:50.855 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMC:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMC:00000005
+2026-03-05 16:05:50.857 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMC:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:05:50.869 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000005] HTTP GET /api/User/profile responded 200 in 13.6760 ms
+2026-03-05 16:05:50.871 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:0000000F] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:0000000F
+2026-03-05 16:05:50.873 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMB:0000000F] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:05:50.881 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:0000000F] HTTP GET /api/User/profile responded 200 in 10.5929 ms
+2026-03-05 16:06:00.283 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000010] HTTP OPTIONS /api/User/profile responded 204 in 0.0339 ms
+2026-03-05 16:06:00.284 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000006] HTTP OPTIONS /api/User/profile responded 204 in 0.0222 ms
+2026-03-05 16:06:00.287 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000011] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000011
+2026-03-05 16:06:00.288 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMB:00000011] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:06:00.300 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000011] HTTP GET /api/User/profile responded 200 in 13.1277 ms
+2026-03-05 16:06:00.301 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMC:00000007] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMC:00000007
+2026-03-05 16:06:00.304 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMC:00000007] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:06:00.311 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000007] HTTP GET /api/User/profile responded 200 in 9.7200 ms
+2026-03-05 16:06:03.412 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMC:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMC:00000008
+2026-03-05 16:06:03.413 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMC:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:06:03.422 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000008] HTTP GET /api/User/profile responded 200 in 10.9804 ms
+2026-03-05 16:06:03.423 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000012] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000012
+2026-03-05 16:06:03.426 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMB:00000012] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:06:03.436 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000012] HTTP GET /api/User/profile responded 200 in 13.1616 ms
+2026-03-05 16:06:55.051 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000013] HTTP OPTIONS /api/User/profile responded 204 in 0.0491 ms
+2026-03-05 16:06:55.051 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:00000009] HTTP OPTIONS /api/User/profile responded 204 in 0.0266 ms
+2026-03-05 16:06:55.054 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMB:00000014] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMB:00000014
+2026-03-05 16:06:55.056 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMB:00000014] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:06:55.073 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMB:00000014] HTTP GET /api/User/profile responded 200 in 19.0262 ms
+2026-03-05 16:06:55.075 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMC:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMC:0000000A
+2026-03-05 16:06:55.077 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMC:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:06:55.090 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMC:0000000A] HTTP GET /api/User/profile responded 200 in 15.1834 ms
+2026-03-05 16:10:09.007 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMD:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0423 ms
+2026-03-05 16:10:09.007 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0176 ms
+2026-03-05 16:10:09.011 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMD:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMD:00000002
+2026-03-05 16:10:09.012 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMD:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:10:09.026 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMD:00000002] HTTP GET /api/User/profile responded 200 in 15.5729 ms
+2026-03-05 16:10:09.027 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSME:00000002
+2026-03-05 16:10:09.030 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSME:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:10:09.042 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000002] HTTP GET /api/User/profile responded 200 in 14.5255 ms
+2026-03-05 16:10:13.245 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000003] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0226 ms
+2026-03-05 16:10:13.251 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSME:00000004
+2026-03-05 16:10:13.253 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSME:00000004] Logout initiated for UserId: 3
+2026-03-05 16:10:13.264 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000004] All refresh tokens revoked for UserId: 3
+2026-03-05 16:10:13.267 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000004] User logged out successfully: UserId 3
+2026-03-05 16:10:13.271 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSME:00000004] Logout successful for UserId: 3
+2026-03-05 16:10:13.272 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000004] HTTP POST /api/Authentication/logout responded 200 in 21.1670 ms
+2026-03-05 16:10:21.535 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000005] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0305 ms
+2026-03-05 16:10:21.540 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSME:00000006] Login attempt initiated for ta*****@eepz.com
+2026-03-05 16:10:21.815 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000006] Refresh token generated for UserId: 3
+2026-03-05 16:10:21.821 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000006] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 16:10:21.823 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSME:00000006] Login successful for ta*****@eepz.com
+2026-03-05 16:10:21.825 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000006] HTTP POST /api/Authentication/login responded 200 in 286.1238 ms
+2026-03-05 16:10:21.838 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.0506 ms
+2026-03-05 16:10:21.839 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMD:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0201 ms
+2026-03-05 16:10:21.841 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSME:00000008
+2026-03-05 16:10:21.844 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSME:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:10:21.856 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000008] HTTP GET /api/User/profile responded 200 in 14.7950 ms
+2026-03-05 16:10:21.857 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMD:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMD:00000004
+2026-03-05 16:10:21.860 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMD:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:10:21.870 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMD:00000004] HTTP GET /api/User/profile responded 200 in 12.2968 ms
+2026-03-05 16:10:31.136 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMD:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0376 ms
+2026-03-05 16:10:31.136 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:00000009] HTTP OPTIONS /api/User/profile responded 204 in 0.0215 ms
+2026-03-05 16:10:31.141 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMD:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMD:00000006
+2026-03-05 16:10:31.142 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMD:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:10:31.152 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMD:00000006] HTTP GET /api/User/profile responded 200 in 10.8337 ms
+2026-03-05 16:10:31.153 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSME:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSME:0000000A
+2026-03-05 16:10:31.155 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSME:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:10:31.165 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSME:0000000A] HTTP GET /api/User/profile responded 200 in 12.4110 ms
+2026-03-05 16:17:07.016 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMF:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0572 ms
+2026-03-05 16:17:07.016 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMG:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0178 ms
+2026-03-05 16:17:07.021 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMF:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMF:00000002
+2026-03-05 16:17:07.024 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMF:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:17:07.064 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMF:00000002] HTTP GET /api/User/profile responded 200 in 43.1701 ms
+2026-03-05 16:17:07.065 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMG:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMG:00000002
+2026-03-05 16:17:07.066 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMG:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:17:07.072 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMG:00000002] HTTP GET /api/User/profile responded 200 in 7.5175 ms
+2026-03-05 16:17:25.713 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMG:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0337 ms
+2026-03-05 16:17:25.713 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMF:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0265 ms
+2026-03-05 16:17:25.717 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMG:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMG:00000004
+2026-03-05 16:17:25.720 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMG:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:17:25.730 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMG:00000004] HTTP GET /api/User/profile responded 200 in 12.5472 ms
+2026-03-05 16:17:25.731 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMF:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMF:00000004
+2026-03-05 16:17:25.733 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMF:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:17:25.744 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMF:00000004] HTTP GET /api/User/profile responded 200 in 13.4304 ms
+2026-03-05 16:18:04.606 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMF:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0484 ms
+2026-03-05 16:18:04.607 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMG:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0382 ms
+2026-03-05 16:18:04.613 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMG:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMG:00000006
+2026-03-05 16:18:04.616 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMG:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:18:04.642 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMG:00000006] HTTP GET /api/User/profile responded 200 in 29.8070 ms
+2026-03-05 16:18:04.644 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMF:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMF:00000006
+2026-03-05 16:18:04.679 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMF:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:18:04.727 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMF:00000006] HTTP GET /api/User/profile responded 200 in 83.7925 ms
+2026-03-05 16:27:41.857 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0618 ms
+2026-03-05 16:27:41.859 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0437 ms
+2026-03-05 16:27:41.870 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMH:00000002
+2026-03-05 16:27:41.881 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMH:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:27:41.982 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000002] HTTP GET /api/User/profile responded 200 in 112.4112 ms
+2026-03-05 16:27:41.983 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMI:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMI:00000002
+2026-03-05 16:27:41.987 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMI:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:27:42.055 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000002] HTTP GET /api/User/profile responded 200 in 71.6157 ms
+2026-03-05 16:28:01.867 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0319 ms
+2026-03-05 16:28:01.869 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0451 ms
+2026-03-05 16:28:01.871 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMI:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMI:00000004
+2026-03-05 16:28:01.873 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMI:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:28:01.888 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000004] HTTP GET /api/User/profile responded 200 in 17.0504 ms
+2026-03-05 16:28:01.891 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMH:00000004
+2026-03-05 16:28:01.892 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMH:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:28:01.901 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000004] HTTP GET /api/User/profile responded 200 in 10.1861 ms
+2026-03-05 16:28:05.005 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000005] HTTP OPTIONS /api/Authentication/logout responded 204 in 0.0758 ms
+2026-03-05 16:28:05.009 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMH:00000006
+2026-03-05 16:28:05.011 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMH:00000006] Logout initiated for UserId: 3
+2026-03-05 16:28:05.032 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000006] All refresh tokens revoked for UserId: 3
+2026-03-05 16:28:05.033 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000006] User logged out successfully: UserId 3
+2026-03-05 16:28:05.035 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMH:00000006] Logout successful for UserId: 3
+2026-03-05 16:28:05.038 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000006] HTTP POST /api/Authentication/logout responded 200 in 29.0300 ms
+2026-03-05 16:28:12.167 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000007] HTTP OPTIONS /api/Authentication/login responded 204 in 0.0845 ms
+2026-03-05 16:28:12.171 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMH:00000008] Login attempt initiated for ta*****@eepz.com
+2026-03-05 16:28:12.455 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000008] Refresh token generated for UserId: 3
+2026-03-05 16:28:12.464 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:00000008] User logged in successfully: tarun.balaji@eepz.com
+2026-03-05 16:28:12.465 +05:30 [INF] [Relevantz.EEPZ.Api.Controllers.AuthenticationController] [CorrelationId: 0HNJOEJV2OSMH:00000008] Login successful for ta*****@eepz.com
+2026-03-05 16:28:12.467 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000008] HTTP POST /api/Authentication/login responded 200 in 296.3478 ms
+2026-03-05 16:28:12.479 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:00000009] HTTP OPTIONS /api/User/profile responded 204 in 0.0399 ms
+2026-03-05 16:28:12.480 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000005] HTTP OPTIONS /api/User/profile responded 204 in 0.0252 ms
+2026-03-05 16:28:12.483 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:0000000A] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMH:0000000A
+2026-03-05 16:28:12.486 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMH:0000000A] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:28:12.498 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:0000000A] HTTP GET /api/User/profile responded 200 in 15.2243 ms
+2026-03-05 16:28:12.501 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMI:00000006] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMI:00000006
+2026-03-05 16:28:12.503 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMI:00000006] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:28:12.510 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000006] HTTP GET /api/User/profile responded 200 in 9.2356 ms
+2026-03-05 16:28:19.627 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000007] HTTP OPTIONS /api/User/profile responded 204 in 0.1357 ms
+2026-03-05 16:28:19.627 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:0000000B] HTTP OPTIONS /api/User/profile responded 204 in 0.0145 ms
+2026-03-05 16:28:19.631 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMI:00000008] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMI:00000008
+2026-03-05 16:28:19.632 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMI:00000008] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:28:19.640 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMI:00000008] HTTP GET /api/User/profile responded 200 in 9.0925 ms
+2026-03-05 16:28:19.641 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMH:0000000C] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMH:0000000C
+2026-03-05 16:28:19.643 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMH:0000000C] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:28:19.655 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMH:0000000C] HTTP GET /api/User/profile responded 200 in 13.8578 ms
+2026-03-05 16:32:40.037 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMK:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.3414 ms
+2026-03-05 16:32:40.038 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMJ:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0733 ms
+2026-03-05 16:32:40.074 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMK:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMK:00000002
+2026-03-05 16:32:40.098 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMK:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:32:40.152 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMK:00000002] HTTP GET /api/User/profile responded 200 in 85.6009 ms
+2026-03-05 16:32:40.156 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMJ:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMJ:00000002
+2026-03-05 16:32:40.159 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMJ:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:32:40.175 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMJ:00000002] HTTP GET /api/User/profile responded 200 in 18.6441 ms
+2026-03-05 16:34:16.514 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMJ:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0487 ms
+2026-03-05 16:34:16.514 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMK:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0223 ms
+2026-03-05 16:34:16.521 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMJ:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMJ:00000004
+2026-03-05 16:34:16.523 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMJ:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:34:16.539 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMJ:00000004] HTTP GET /api/User/profile responded 200 in 18.5639 ms
+2026-03-05 16:34:16.541 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMK:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMK:00000004
+2026-03-05 16:34:16.543 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMK:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:34:16.555 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMK:00000004] HTTP GET /api/User/profile responded 200 in 14.5468 ms
+2026-03-05 16:34:19.866 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMK:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMK:00000005
+2026-03-05 16:34:19.868 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMK:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:34:19.876 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMK:00000005] HTTP GET /api/User/profile responded 200 in 10.2200 ms
+2026-03-05 16:34:19.878 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMJ:00000005] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMJ:00000005
+2026-03-05 16:34:19.880 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMJ:00000005] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:34:19.890 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMJ:00000005] HTTP GET /api/User/profile responded 200 in 12.0166 ms
+2026-03-05 16:36:32.344 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSML:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0574 ms
+2026-03-05 16:36:32.347 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMM:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0354 ms
+2026-03-05 16:36:32.349 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSML:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSML:00000002
+2026-03-05 16:36:32.352 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSML:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:36:32.373 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSML:00000002] HTTP GET /api/User/profile responded 200 in 23.6007 ms
+2026-03-05 16:36:32.375 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMM:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMM:00000002
+2026-03-05 16:36:32.378 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMM:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:36:32.394 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMM:00000002] HTTP GET /api/User/profile responded 200 in 19.2316 ms
+2026-03-05 16:37:22.177 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMM:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0335 ms
+2026-03-05 16:37:22.177 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSML:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0135 ms
+2026-03-05 16:37:22.182 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMM:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMM:00000004
+2026-03-05 16:37:22.184 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMM:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:37:22.196 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMM:00000004] HTTP GET /api/User/profile responded 200 in 14.2135 ms
+2026-03-05 16:37:22.199 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSML:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSML:00000004
+2026-03-05 16:37:22.201 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSML:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:37:22.217 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSML:00000004] HTTP GET /api/User/profile responded 200 in 18.9767 ms
+2026-03-05 16:44:39.332 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMN:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0458 ms
+2026-03-05 16:44:39.334 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMO:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0362 ms
+2026-03-05 16:44:39.337 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMN:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMN:00000002
+2026-03-05 16:44:39.340 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMN:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:44:39.391 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMN:00000002] HTTP GET /api/User/profile responded 200 in 54.1682 ms
+2026-03-05 16:44:39.394 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMO:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMO:00000002
+2026-03-05 16:44:39.398 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMO:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:44:39.408 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMO:00000002] HTTP GET /api/User/profile responded 200 in 14.6841 ms
+2026-03-05 16:48:15.957 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMP:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0603 ms
+2026-03-05 16:48:15.957 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMQ:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0233 ms
+2026-03-05 16:48:15.961 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMP:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMP:00000002
+2026-03-05 16:48:15.962 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMP:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:48:15.972 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMP:00000002] HTTP GET /api/User/profile responded 200 in 11.2789 ms
+2026-03-05 16:48:15.975 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMQ:00000002] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMQ:00000002
+2026-03-05 16:48:15.979 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMQ:00000002] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:48:15.991 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMQ:00000002] HTTP GET /api/User/profile responded 200 in 16.3809 ms
+2026-03-05 16:48:26.668 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMQ:00000003] HTTP OPTIONS /api/User/profile responded 204 in 0.0403 ms
+2026-03-05 16:48:26.671 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMQ:00000004] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMQ:00000004
+2026-03-05 16:48:26.672 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMQ:00000004] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:48:26.682 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMQ:00000004] HTTP GET /api/User/profile responded 200 in 10.9140 ms
+2026-03-05 16:48:26.683 +05:30 [INF] [] [CorrelationId: 0HNJOEJV2OSMP:00000003] JWT Token Validated - CorrelationId: 0HNJOEJV2OSMP:00000003
+2026-03-05 16:48:26.685 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMP:00000003] MongoDB unavailable (using fallback): Value cannot be null. (Parameter 'connectionString')
+2026-03-05 16:48:26.691 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMP:00000003] HTTP GET /api/User/profile responded 200 in 8.3177 ms
+2026-03-05 17:36:49.837 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMR:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0971 ms
+2026-03-05 17:36:49.838 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMS:00000001] HTTP OPTIONS /api/User/profile responded 204 in 0.0526 ms
+2026-03-05 17:36:49.844 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMR:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 17:36:49.848 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMR:00000002] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSMR:00000002
+2026-03-05 17:36:49.851 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMR:00000002] HTTP GET /api/User/profile responded 401 in 7.4225 ms
+2026-03-05 17:36:49.857 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMR:00000003] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 17:36:49.859 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMR:00000003] JWT Challenge - Path: /api/User/profile, CorrelationId: 0HNJOEJV2OSMR:00000003
+2026-03-05 17:36:49.862 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMR:00000003] HTTP GET /api/User/profile responded 401 in 5.6411 ms
+2026-03-05 17:36:49.868 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMR:00000004] HTTP OPTIONS /api/Authentication/refresh-token responded 204 in 0.0511 ms
+2026-03-05 17:36:49.876 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMR:00000005] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 17:36:49.878 +05:30 [WRN] [] [CorrelationId: 0HNJOEJV2OSMS:00000002] JWT Authentication Failed: SecurityTokenExpiredException
+2026-03-05 17:36:49.878 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMR:00000005] HTTP POST /api/Authentication/refresh-token responded 404 in 2.5244 ms
+2026-03-05 17:36:49.880 +05:30 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] [CorrelationId: 0HNJOEJV2OSMS:00000002] HTTP POST /api/Authentication/refresh-token responded 404 in 2.3213 ms

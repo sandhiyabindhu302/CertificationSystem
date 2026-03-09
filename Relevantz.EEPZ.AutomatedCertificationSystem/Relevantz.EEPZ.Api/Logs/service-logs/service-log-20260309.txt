@@ -1,0 +1,1 @@
+2026-03-09 09:12:05.070 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png responded 304 in 29.0580 ms

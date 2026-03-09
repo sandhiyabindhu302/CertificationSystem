@@ -1,0 +1,5 @@
+á
+ÕC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8Ü
+ÐC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data.Tests\obj\Debug\net8.0\Relevantz.EEPZ.Data.Tests.AssemblyInfo.csutf-8‡
+|C:\Users\sandhiya.ramesh\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8Þ
+ÒC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data.Tests\obj\Debug\net8.0\Relevantz.EEPZ.Data.Tests.GlobalUsings.g.csutf-8

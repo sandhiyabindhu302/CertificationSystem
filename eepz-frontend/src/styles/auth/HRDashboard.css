@@ -1,0 +1,138 @@
+/* GENERAL STYLES */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+/* MAIN DASHBOARD */
+.hrd-dashboard {
+  padding: 4rem 2rem;
+  background: #ffffff; /* White background */
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* HEADER */
+.hrd-header {
+  font-size: 2.8rem;
+  color: #333333; /* Darker color for the header text */
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #6c5ce7, #00b894); /* Gradient background */
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* DASHBOARD CARDS CONTAINER */
+.hrd-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* INDIVIDUAL CARD STYLES */
+.hrd-card {
+  padding: 3rem;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.hrd-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* CARD TITLES */
+.hrd-card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+/* CARD DESCRIPTION */
+.hrd-card-description {
+  font-size: 1.1rem;
+  color: #ffffff;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* SPECIFIC CARD COLORS - Follow the color palette from the images */
+.hrd-card-template {
+  background: linear-gradient(135deg, #fdcb6e, #e17055); /* Gradient: Orange to Coral */
+}
+
+.hrd-card-customize {
+  background: linear-gradient(135deg, #00b894, #6c5ce7); /* Gradient: Teal to Purple */
+}
+
+.hrd-card-view {
+  background: linear-gradient(135deg, #d63031, #e17055); /* Gradient: Red to Coral */
+}
+
+/* RESPONSIVE GRID LAYOUT */
+@media (max-width: 1200px) {
+  .hrd-cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .hrd-cards-container {
+    padding: 1rem;
+  }
+}
+
+/* SCROLL BEHAVIOR */
+.hrd-dashboard {
+  overflow-x: hidden;
+}
+
+/* BUTTON STYLES */
+button {
+  background-color: #0984e3; /* Blue background */
+  color: white;
+  border-radius: 8px;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #74b9ff; /* Lighter blue on hover */
+}
+
+/* ADDITIONAL CARD STYLES */
+.hrd-card-footer {
+  background-color: #b2bec3;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.hrd-card-footer a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+.hrd-card-footer a:hover {
+  text-decoration: underline;
+}

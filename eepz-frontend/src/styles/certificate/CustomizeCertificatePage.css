@@ -1,0 +1,244 @@
+/* General Body Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.certificate-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.certificate-sidebar {
+  width: 300px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+  height: 98%;
+  margin-top: 80px;
+  margin-left: -90px;
+}
+
+.certificate-sidebar h2 {
+  color: #ecf0f1;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.certificate-sidebar .form-group {
+  margin-bottom: 20px;
+}
+
+.certificate-sidebar .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.certificate-sidebar input[type="text"],
+.certificate-sidebar select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.certificate-sidebar .font-controls {
+  display: flex;
+  align-items: center;  /* Align vertically */
+  justify-content: space-between;  /* Spread the items across the line */
+  width: 100%;  /* Take up full width */
+}
+
+.certificate-sidebar .font-controls button {
+  background-color: #34495e;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50px;  /* Consistent width for buttons */
+  text-align: center;
+}
+
+/* Drag button */
+.certificate-sidebar .drag-source {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Position the +/- symbols correctly on the left and right */
+.certificate-sidebar .font-controls button:first-child {
+  margin-right: auto;  /* Push "-" to the left */
+  margin-top: -60px;
+}
+
+.certificate-sidebar .font-controls button:last-child {
+  margin-left: auto;  /* Push "+" to the right */
+  margin-top: -60px;
+
+}
+
+/* Certificate Preview Styles */
+.certificate-preview-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef2f7;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Ensure the container takes full height */
+}
+
+.certificate-preview-canvas {
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ccc;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin-left: 110px;
+  margin-top: 180px;
+}
+
+/* Styles for the draggable items */
+.draggable {
+  position: absolute;
+  cursor: move;
+}
+
+.draggable img {
+  max-width: 100%;
+  height: auto;
+}
+
+.draggable h1,
+.draggable h2,
+.draggable h3 {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+/* Styling for dragging over */
+.certificate-preview-canvas.drag-over {
+  border: 2px dashed #3498db;
+}
+
+/* Styles for draggable elements */
+.draggable[data-drag="logo"] {
+  top: 20px;
+  left: 380px;
+}
+
+.draggable[data-drag="title"] {
+  top: 140px;
+  left: 280px;
+}
+
+.draggable[data-drag="type"] {
+  top: 210px;
+  left: 320px;
+}
+
+.draggable[data-drag="name"] {
+  top: 270px;
+  left: 320px;
+}
+
+.draggable[data-drag="achievement"] {
+  top: 320px;
+  left: 320px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .certificate-page {
+    flex-direction: column;
+  }
+
+  .certificate-sidebar {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .certificate-preview-container {
+    padding: 10px;
+  }
+
+  .certificate-preview-canvas {
+    width: 100%;
+    height: 400px;
+  }
+
+  .certificate-sidebar h2 {
+    font-size: 1.2rem;
+  }
+
+  .certificate-sidebar .form-group {
+    margin-bottom: 15px;
+  }
+}
+
+/* Ensure draggable elements appear on top of other elements */
+.draggable {
+  position: absolute;
+  cursor: move;
+  z-index: 10; /* Ensure it's above other elements */
+}
+
+/* Allow the dropped item to appear within the canvas */
+.certificate-preview-canvas {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+/* Add boundaries to ensure the draggable items stay within the canvas */
+.draggable[data-drag="logo"],
+.draggable[data-drag="title"],
+.draggable[data-drag="type"],
+.draggable[data-drag="name"],
+.draggable[data-drag="achievement"] {
+  top: 0;  /* Set default position for testing */
+  left: 0; /* Set default position for testing */
+}

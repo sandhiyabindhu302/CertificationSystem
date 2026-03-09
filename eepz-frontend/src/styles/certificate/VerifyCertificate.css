@@ -1,0 +1,240 @@
+.cert-verify-container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto; /* Center the container */
+  position: relative;
+}
+
+/* Back button styling */
+.cert-back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 15px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.cert-back-btn:hover {
+  background-color: #3730a3;
+  transform: translateY(-2px);
+}
+
+.cert-back-btn:active {
+  background-color: #1e1e4d;
+  transform: translateY(2px);
+}
+
+/* Header Section Styling */
+.cert-header-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cert-header-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Form Styling */
+.cert-verify-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cert-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cert-label {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.cert-input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%; /* Ensure the input takes full width */
+}
+
+.cert-submit-btn {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.cert-submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Error Styling */
+.cert-error-message {
+  color: #ff4d4d;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Result Section Styling */
+.cert-result-container {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.cert-result-text {
+  color: #333;
+  text-align: center;
+}
+
+/* Add a media query to make the form more responsive on smaller screens */
+@media (max-width: 600px) {
+  .cert-verify-container {
+    padding: 1rem; /* Reduce padding for smaller screens */
+    width: 100%; /* Ensure full width */
+    margin: 0 10px; /* Add some margin to avoid edges */
+  }
+
+  .cert-header-title {
+    font-size: 1.5rem; /* Reduce font size for small screens */
+  }
+
+  .cert-input {
+    font-size: 0.9rem; /* Slightly smaller input font */
+  }
+
+  .cert-submit-btn {
+    font-size: 0.9rem; /* Adjust button size */
+  }
+}
+
+/* New styling for displaying the generated link */
+.qr-code-container {
+  margin-top: 20px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.qr-code-container a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.qr-code-container a:hover {
+  text-decoration: underline;
+}
+
+.cert-verify-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cert-header-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cert-header-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.cert-verify-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cert-label {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.cert-input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.cert-submit-btn {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cert-submit-btn:hover {
+  background-color: #45a049;
+}
+
+.cert-error-message {
+  color: #ff4d4d;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cert-result-container {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.cert-result-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.cert-result-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}

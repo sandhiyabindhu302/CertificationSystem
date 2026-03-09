@@ -1,0 +1,249 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.base-template-page {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 30px;
+  background: #f8fafc;
+  overflow: hidden;
+}
+
+.template-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  width: 220px;
+  height: 40px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.input-box:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+.upload-button {
+  background: linear-gradient(135deg, #6c5ce7, #00b894);
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  width: 220px;
+  height: 40px;
+  position: relative;
+}
+
+.upload-button::-webkit-file-upload-button {
+  display: none;
+}
+
+.upload-button::before {
+  content: "Choose File";
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.upload-container button {
+  background: linear-gradient(90deg, #97247e 0%, #e01950 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+  width: 220px;
+  height: 40px;
+  box-shadow: 0 4px 12px rgba(151, 36, 126, 0.35);
+}
+
+.upload-container button:hover {
+  background: #e01950;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container button:active {
+  background: #3b3bde;
+  transform: translateY(1px);
+}
+
+/* Slider container with relative positioning */
+.slider-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  padding: 0 10px; 
+}
+
+/* Template card styling */
+.template-card {
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: black;
+  margin-top: -100px;
+  margin-left: 100px;
+}
+
+.template-preview {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation arrows styling */
+.nav-arrow {
+  background: white;
+  border: none;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.2s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.nav-arrow:hover {
+  background: #6366f1;
+  color: white;
+}
+
+.nav-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.nav-arrow.left {
+  left: 10px;
+}
+
+.nav-arrow.right {
+  right: 10px;
+}
+
+.customize-button {
+  background: #27235c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+  align-self: center;
+  position: absolute;
+  bottom: 180px;
+}
+
+.customize-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.customize-button:active {
+  background: #3b3bde;
+  transform: translateY(1px);
+}
+
+.delete-button {
+  background-color: rgb(248, 50, 50);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+/* Breadcrumb styles */
+.custom-breadcrumb-nav {
+  margin-left: -1250px; 
+  margin-bottom: 1rem;
+}
+
+.custom-breadcrumb-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
+  flex-wrap: nowrap; 
+}
+
+.custom-breadcrumb-home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  color: #97247e;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.custom-breadcrumb-home-btn:hover {
+  background: rgba(151, 36, 126, 0.08);
+}
+
+.custom-breadcrumb-home-btn:active {
+  transform: scale(0.95);
+}
+
+.custom-breadcrumb-separator {
+  color: #6c757d;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  user-select: none;
+  flex-shrink: 0;
+}

@@ -3,10 +3,14 @@ import certificateService from "../../../services/certificate/certificateService
 import { useNavigate } from "react-router-dom";
 import "../../../styles/certificate/ViewTemplatesPage.css";
 import Breadcrumb from "../../../components/common/Breadcrumb";
+import { toast, ToastContainer } from "react-toastify"; // <-- Importing toast and ToastContainer
+import "react-toastify/dist/ReactToastify.css"; // <-- Importing toast styles
 
 const ViewTemplatesPage = () => {
   const [templates, setTemplates] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [showConfirmModal, setShowConfirmModal] = useState(false); // Modal visibility state
+  const [templateToDelete, setTemplateToDelete] = useState(null); // Template to delete
   const navigate = useNavigate();
   const templatesPerPage = 1;
 
@@ -43,28 +47,48 @@ const ViewTemplatesPage = () => {
     });
   };
 
-  const handleDelete = async (templateId) => {
-    if (!window.confirm("Delete this template?")) return;
+  // Trigger the confirmation modal
+  const handleDeleteClick = (templateId) => {
+    setTemplateToDelete(templateId); // Set the template to delete
+    setShowConfirmModal(true); // Show the confirmation modal
+  };
+
+  // Handle the delete action
+  const handleDelete = async () => {
+    if (!templateToDelete) return;
+
     try {
-      await certificateService.deleteTemplate(templateId);
-      setTemplates((prev) => prev.filter((t) => t.templateId !== templateId));
+      await certificateService.deleteTemplate(templateToDelete);
+      setTemplates((prev) => prev.filter((t) => t.templateId !== templateToDelete));
+      toast.success("Template deleted successfully!"); // <-- Success toast for deletion
     } catch (error) {
       console.error("Delete error:", error);
+      toast.error("Failed to delete the template."); // <-- Error toast for failure
+    } finally {
+      setShowConfirmModal(false); // Close the modal
+      setTemplateToDelete(null); // Reset the template to delete
     }
+  };
+
+  // Close the modal without deleting
+  const handleCancelDelete = () => {
+    setShowConfirmModal(false); // Close modal if canceled
+    setTemplateToDelete(null); // Reset template to delete
   };
 
   const handleFinalize = async (template) => {
     try {
-      await certificateService.finalizeTemplate(template.templateId);
-      alert("Certificate generated successfully!");
+      await certificateService.finalizeTemplate(template.templateId); // Fix here, ensure templateId is passed correctly
+      toast.success("Certificate generated successfully!"); // <-- Success toast for finalization
     } catch (error) {
       console.error("Finalize error:", error);
-      alert("Failed to generate certificate due to an unexpected error.");
+      toast.error("Failed to generate certificate due to an unexpected error."); // <-- Error toast for failure
     }
   };
 
   return (
     <div className="templates-page">
+      <ToastContainer /> {/* ToastContainer to display toast notifications */}
       <Breadcrumb items={[{ label: "Home", path: "/dashboard" }]} />
 
       {currentTemplates.length === 0 && (
@@ -176,7 +200,7 @@ const ViewTemplatesPage = () => {
               </button>
               <button
                 className="delete-btn"
-                onClick={() => handleDelete(template.templateId)}
+                onClick={() => handleDeleteClick(template.templateId)} // <-- Trigger custom delete modal
               >
                 Delete
               </button>
@@ -184,7 +208,7 @@ const ViewTemplatesPage = () => {
                 className="finalize-btn"
                 onClick={() => handleFinalize(template)} // Finalize and generate certificate
               >
-                Finalize
+                Send
               </button>
             </div>
           </div>
@@ -209,6 +233,17 @@ const ViewTemplatesPage = () => {
           &#8594;
         </button>
       </div>
+
+      {/* Custom Delete Confirmation Modal */}
+      {showConfirmModal && (
+        <div className="confirm-modal">
+          <div className="confirm-modal-content">
+            <p>Are you sure you want to delete this template?</p>
+            <button onClick={handleDelete}>Yes</button>
+            <button onClick={handleCancelDelete}>No</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

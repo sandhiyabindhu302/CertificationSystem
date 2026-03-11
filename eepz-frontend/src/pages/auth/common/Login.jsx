@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../../contexts/auth/AuthContext";
 import authService from "../../../services/auth/authService";
 import { toast } from "sonner";
-import logodarkfull from "../../../assets/logodarkfull.png";
+import logodarkfull from "../../../assets/CertifyZ.png";
 import "../../../styles/auth/Auth.css";
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -451,7 +451,7 @@ const Login = () => {
                 className="text-white fw-bold mb-3"
                 style={{ fontSize: "2.5rem", lineHeight: "1.2" }}
               >
-                Welcome to the EEPZ
+                Welcome to the CertifyZ
               </h1>
               <div className="eepz-welcome-card">
                 <h3 className="fw-bold mb-3" style={{ color: "#2d3565" }}>
@@ -463,35 +463,27 @@ const Login = () => {
                       className="bi bi-check-circle-fill me-2"
                       style={{ color: "#5a9fd4" }}
                     ></i>
-                    Align your goals and achieve more, together
+                    Customize templates with drag-and-drop options.
                   </li>
                   <li className="mb-3">
                     <i
                       className="bi bi-check-circle-fill me-2"
                       style={{ color: "#5a9fd4" }}
                     ></i>
-                    Discover growth with internal career opportunities
+                    Design and personalize the certificate for employees
                   </li>
                   <li className="mb-3">
                     <i
                       className="bi bi-check-circle-fill me-2"
                       style={{ color: "#5a9fd4" }}
                     ></i>
-                    Advance through transparent performance and recognition
-                  </li>
-                  <li>
-                    <i
-                      className="bi bi-check-circle-fill me-2"
-                      style={{ color: "#5a9fd4" }}
-                    ></i>
-                    Connect and collaborate within your organization
+                    QR Code integration for easy certificate verification and security.
                   </li>
                 </ul>
               </div>
               <p className="text-white-50 text-center mt-5 small">
                 <i className="bi bi-lightbulb me-2"></i>
-                Align your goals, track your growth, and unlock new
-                opportunities
+               Efficiently send certificates to employees once customized, ready for distribution.
               </p>
             </div>
           </div>

@@ -1,63 +1,70 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Breadcrumb from "../../components/common/Breadcrumb";
 import "../../styles/certificate/VerifyCertificate.css";
 
 const VerifyCertificate = () => {
-  const [serialNumber, setSerialNumber] = useState(""); // State for serial number input
-  const [certificate, setCertificate] = useState(null); // State for fetched certificate data
-  const [error, setError] = useState(""); // State for error message
-  const [loading, setLoading] = useState(false); // State for loading indicator
+  const [serialNumber, setSerialNumber] = useState(""); 
+  const [certificate, setCertificate] = useState(null); 
+  const [error, setError] = useState(""); 
+  const [loading, setLoading] = useState(false); 
 
   const navigate = useNavigate();
-  const location = useLocation();
 
-  // Extract serial number from the URL query parameters
-  useEffect(() => {
-    const queryParams = new URLSearchParams(location.search);
-    const serial = queryParams.get("serialNumber");
-    if (serial) {
-      setSerialNumber(serial); // Pre-fill the serial number input if it exists in the URL
-    }
-  }, [location]);
-
-  // Fetch certificate details from the backend
   const verifyCertificate = async (e) => {
     e.preventDefault();
 
-    setError(""); // Clear previous errors
-    setCertificate(null); // Reset certificate data
-    setLoading(true); // Show loading indicator
+    setError(""); 
+    setCertificate(null); 
+    setLoading(true); 
+    console.log("Starting certificate verification...");
 
     try {
+      const apiBaseUrl = "http://localhost:5123"; 
+      console.log("Using API base URL:", apiBaseUrl);
+
+      if (!serialNumber.trim()) {
+        console.error("No serial number provided.");
+        setError("Please provide a valid serial number.");
+        setLoading(false);
+        return;
+      }
+
       const response = await fetch(
-        `http://192.168.29.82:5123/api/certificates/verify/${serialNumber}`, // API call
+        `${apiBaseUrl}/api/certificates/verify/${serialNumber.trim()}`
       );
 
       if (!response.ok) {
+        console.log("Response not OK, status:", response.status);
         throw new Error("Certificate not found");
       }
 
-      const data = await response.json(); // Parse the response as JSON
-      console.log(data); // Log the response data to see what is returned
-      setCertificate(data); // Set the fetched certificate data
+      const data = await response.json();
+      console.log("Fetched certificate data:", data);
+
+      const certificateId = data.certificateId || "N/A";
+      const employeeName = data.employeeName || "N/A";
+      const areaOfAchievement = data.areaOfAchievement || "N/A";
+      const issueDate = data.issueDate
+        ? new Date(data.issueDate).toLocaleDateString()
+        : "Date not available";
+
+      setCertificate({ certificateId, employeeName, areaOfAchievement, issueDate });
     } catch (err) {
-      console.error(err); // Log any errors to the console for debugging
-      setError("Certificate not found"); // Set error message if certificate is not found
+      console.error("Error fetching certificate:", err);
+      setError("Certificate not found");
     } finally {
-      setLoading(false); // Hide loading indicator
+      setLoading(false);
+      console.log("Verification process completed.");
     }
   };
 
   return (
     <>
-      {/* Breadcrumb Navigation */}
       <Breadcrumb
         items={[{ label: "Certificate Verification", link: "/employee/dashboard" }]}
       />
-
       <div className="cert-verify-container">
-        {/* Certificate Verification Form */}
         <div className="cert-header-section">
           <h1 className="cert-header-title">Certificate Verification</h1>
           <form onSubmit={verifyCertificate} className="cert-verify-form">
@@ -81,11 +88,9 @@ const VerifyCertificate = () => {
           </form>
         </div>
 
-        {/* Display Error Message */}
         {error && <div className="cert-error-message">{error}</div>}
 
-        {/* Display Certificate Details */}
-        {certificate && (
+        {certificate ? (
           <div className="cert-result-container">
             <h2 className="cert-result-title">Certificate Details</h2>
             <div className="cert-details">
@@ -93,7 +98,7 @@ const VerifyCertificate = () => {
                 This certificate with ID{" "}
                 <strong>{certificate.certificateId}</strong> has been issued by
                 our organization for the Employee{" "}
-                <strong>{certificate.employeeName}</strong>. {/* Change EmployeeName to employeeName */}
+                <strong>{certificate.employeeName}</strong>.
               </p>
               <p className="cert-result-text">
                 The purpose of this certificate is to recognize the employee's
@@ -101,10 +106,12 @@ const VerifyCertificate = () => {
               </p>
               <p className="cert-result-text">
                 The certificate was issued on{" "}
-                <strong>{new Date(certificate.issueDate).toLocaleDateString()}</strong>.
+                <strong>{certificate.issueDate}</strong>.
               </p>
             </div>
           </div>
+        ) : (
+          <div className="cert-error-message"></div>
         )}
       </div>
     </>

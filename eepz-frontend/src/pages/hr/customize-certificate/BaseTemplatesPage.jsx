@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Home } from "lucide-react"; // Correct Home icon import from lucide-react
 import certificateService from "../../../services/certificate/certificateService";
 import "../../../styles/certificate/BaseTemplatesPage.css";
+import { toast, ToastContainer } from "react-toastify"; // Importing toast and ToastContainer
+import "react-toastify/dist/ReactToastify.css"; // Importing toast styles
 
 const BaseTemplatesPage = () => {
   const [templates, setTemplates] = useState([]);
@@ -21,30 +23,32 @@ const BaseTemplatesPage = () => {
       setTemplates(Array.isArray(data) ? data : data?.data || []);
     } catch (error) {
       console.error("Error fetching base templates:", error);
+      toast.error("Failed to fetch templates."); // Display error toast if fetching fails
     }
   };
 
   const handleUpload = async () => {
     if (!templateName || !imageFile) {
-      alert("Please enter template name and select image");
+      toast.error("Please enter template name and select image"); // Display error toast for missing fields
       return;
     }
 
     try {
       await certificateService.uploadBaseTemplate(templateName, imageFile);
-      alert("Template uploaded successfully");
+      toast.success("Template uploaded successfully"); // Display success toast on successful upload
       setTemplateName("");
       setImageFile(null);
-      fetchTemplates();
+      fetchTemplates(); // Reload templates after upload
     } catch (error) {
       console.error("Upload error", error);
+      toast.error("Failed to upload template"); // Display error toast if upload fails
     }
   };
 
   const handleDeleteTemplate = async (templateId) => {
     try {
       await certificateService.deleteBaseTemplate(templateId);
-      alert("Template deleted successfully");
+      toast.success("Template deleted successfully"); // Display success toast on successful delete
 
       const updatedTemplates = templates.filter(
         (t) => t.baseTemplateId !== templateId,
@@ -57,6 +61,7 @@ const BaseTemplatesPage = () => {
       }
     } catch (error) {
       console.error("Error deleting template:", error);
+      toast.error("Failed to delete template"); // Display error toast if delete fails
     }
   };
 
@@ -80,6 +85,7 @@ const BaseTemplatesPage = () => {
 
   return (
     <div className="base-template-page">
+      <ToastContainer /> {/* ToastContainer to display toast notifications */}
       {/* Custom Breadcrumb */}
       <nav className="custom-breadcrumb-nav" aria-label="Breadcrumb">
         <div className="custom-breadcrumb-content">

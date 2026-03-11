@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify"; // <-- Added toast and ToastContainer
+import "react-toastify/dist/ReactToastify.css"; // <-- Import toast styles
 import Draggable from "react-draggable";
 import certificateService from "../../../services/certificate/certificateService";
 import "../../../styles/certificate/CustomizeCertificatePage.css";
-import Breadcrumb from "../../../components/common/Breadcrumb"; 
-
+import Breadcrumb from "../../../components/common/Breadcrumb";
+import CustomDropdown from "../../../components/project-management/common/CustomDropdown";
 
 const CustomizeCertificatePage = () => {
   const location = useLocation();
@@ -94,41 +96,41 @@ const CustomizeCertificatePage = () => {
   };
 
   const handleDrop = (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  const field = e.dataTransfer.getData("field");
-  const rect = e.currentTarget.getBoundingClientRect();
+    const field = e.dataTransfer.getData("field");
+    const rect = e.currentTarget.getBoundingClientRect();
 
-  const x = e.clientX - rect.left;
-  const y = e.clientY - rect.top;
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
 
-  setDroppedItems((prev) => ({
-    ...prev,
-    [field]: true,
-  }));
+    setDroppedItems((prev) => ({
+      ...prev,
+      [field]: true,
+    }));
 
-  setTimeout(() => {
-    const element = document.querySelector(`[data-drag="${field}"]`);
+    setTimeout(() => {
+      const element = document.querySelector(`[data-drag="${field}"]`);
 
-    if (element) {
-      const width = element.offsetWidth;
-      const height = element.offsetHeight;
+      if (element) {
+        const width = element.offsetWidth;
+        const height = element.offsetHeight;
 
-      setPositions((prev) => ({
-        ...prev,
-        [field]: {
-          x: Math.min(Math.max(x - width / 2, 0), rect.width - width), // Ensures element stays inside the container
-          y: Math.min(Math.max(y - height / 2, 0), rect.height - height), // Ensures element stays inside the container
-        },
-      }));
-    } else {
-      setPositions((prev) => ({
-        ...prev,
-        [field]: { x, y },
-      }));
-    }
-  }, 0);
-};
+        setPositions((prev) => ({
+          ...prev,
+          [field]: {
+            x: Math.min(Math.max(x - width / 2, 0), rect.width - width), // Ensures element stays inside the container
+            y: Math.min(Math.max(y - height / 2, 0), rect.height - height), // Ensures element stays inside the container
+          },
+        }));
+      } else {
+        setPositions((prev) => ({
+          ...prev,
+          [field]: { x, y },
+        }));
+      }
+    }, 0);
+  };
 
   useEffect(() => {
     const fetchEmployees = async () => {
@@ -295,7 +297,7 @@ const CustomizeCertificatePage = () => {
 
   const handleSave = async () => {
     if (!templateData.employeeId) {
-      alert("Please select an employee before saving the template.");
+      toast.error("Please select an employee before saving the template.");
       return;
     }
 
@@ -305,17 +307,13 @@ const CustomizeCertificatePage = () => {
       if (logoFile) {
         const uploadResponse = await certificateService.uploadLogo(logoFile);
 
-        console.log("UPLOAD RESPONSE:", uploadResponse);
-
         const logoData = uploadResponse?.data || uploadResponse;
 
         logoId = logoData.logoId?.logoId || logoData.logoId;
-
-        console.log("CORRECT LOGOID:", logoId);
       }
 
       if (!logoId) {
-        alert("Please upload a logo before saving.");
+        toast.error("Please upload a logo before saving.");
         return;
       }
 
@@ -380,6 +378,7 @@ const CustomizeCertificatePage = () => {
           text: previewData.achievement,
         },
       };
+
       const payload = {
         templateName: templateData.templateName,
         templateType: templateData.templateType,
@@ -390,18 +389,16 @@ const CustomizeCertificatePage = () => {
         achievement: templateData.achievement,
       };
 
-      console.log("FINAL TEMPLATE PAYLOAD:", payload);
-      console.log("FINAL TEMPLATE PAYLOAD:", payload);
-
       if (isEditMode) {
         await certificateService.updateTemplate(templateId, payload);
-        alert("Template Updated Successfully");
+        toast.success("Template Updated Successfully");
       } else {
         await certificateService.createTemplate(payload);
-        alert("Template Saved Successfully");
+        toast.success("Template Saved Successfully");
       }
     } catch (error) {
       console.error("Template Save Error:", error.response?.data || error);
+      toast.error("Error saving template. Please try again.");
     }
   };
 
@@ -435,13 +432,14 @@ const CustomizeCertificatePage = () => {
 
   return (
     <div className="certificate-page">
+      <ToastContainer /> {/* Added ToastContainer to display toasts */}
       <Breadcrumb items={[{ label: "Home", path: "/dashboard" }]} />
       <div className="certificate-sidebar">
         <h2 className="sidebar-title">Customize Certificate</h2>
 
         {/* TEMPLATE NAME */}
         <div className="form-group">
-          <label>Template Name</label>
+          <label>Template Header</label>
 
           <input
             type="text"
@@ -526,215 +524,213 @@ const CustomizeCertificatePage = () => {
         </div>
 
         {/* EMPLOYEE */}
-        <div className="form-group">
-          <label>Employee Name</label>
+        <CustomDropdown
+          label="Employee Name"
+          value={templateData.employeeId}
+          onChange={(name, selectedId) => {
+            const employee = employees.find(
+              (emp) => emp.employeeId === selectedId,
+            );
 
-          <select
-            value={templateData.employeeId || ""}
-            disabled={loadingEmployees}
-            onChange={(e) => {
-              const selectedId = parseInt(e.target.value);
+            if (!employee) return;
 
-              const employee = employees.find(
-                (emp) => emp.employeeId === selectedId,
-              );
+            const fullName = `${employee.firstName} ${employee.lastName}`;
 
-              if (!employee) return;
+            setPreviewData({
+              ...previewData,
+              name: fullName,
+            });
 
-              const fullName = `${employee.firstName} ${employee.lastName}`;
+            setTemplateData({
+              ...templateData,
+              employeeId: selectedId,
+              employeeName: fullName,
+            });
+          }}
+          options={employees.map((emp) => ({
+            value: emp.employeeId,
+            label: `${emp.firstName} ${emp.lastName}`,
+          }))}
+          placeholder="Select Employee"
+          error={""} // Optional error message
+          disabled={loadingEmployees}
+        />
 
-              setPreviewData({
-                ...previewData,
-                name: fullName,
-              });
+        {previewData.name && (
+          <>
+            <div
+              className="drag-source"
+              draggable
+              onDragStart={(e) => handleDragStart(e, "name")}
+            >
+              Drag
+            </div>
 
-              setTemplateData({
-                ...templateData,
-                employeeId: selectedId,
-                employeeName: fullName,
-              });
-            }}
-          >
-            <option value="">Select Employee</option>
-
-            {employees.map((emp) => (
-              <option key={emp.employeeId} value={emp.employeeId}>
-                {emp.firstName} {emp.lastName}
-              </option>
-            ))}
-          </select>
-
-          {previewData.name && (
-            <>
-              <div
-                className="drag-source"
-                draggable
-                onDragStart={(e) => handleDragStart(e, "name")}
-              >
-                Drag
-              </div>
-
-              <div className="font-controls">
-                <button onClick={() => decreaseFont("name")}>-</button>
-                <button onClick={() => increaseFont("name")}>+</button>
-              </div>
-            </>
-          )}
-        </div>
+            <div className="font-controls">
+              <button onClick={() => decreaseFont("name")}>-</button>
+              <button onClick={() => increaseFont("name")}>+</button>
+            </div>
+          </>
+        )}
 
         {/* ACHIEVEMENT */}
-        <div className="form-group">
-          <label>Area of Achievement</label>
+        <CustomDropdown
+          label="Area of Achievement"
+          value={previewData.achievement}
+          onChange={(name, value) => {
+            setPreviewData({
+              ...previewData,
+              achievement: value,
+            });
 
-          <select
-            value={previewData.achievement}
-            onChange={handleAchievementSelect}
-          >
-            <option value="">Select Achievement</option>
+            setTemplateData({
+              ...templateData,
+              achievement: value,
+            });
+          }}
+          options={dropdownOptions.map((item, index) => ({
+            value:
+              item.skillName ||
+              item.goalTitle ||
+              item.rewardName ||
+              item.name ||
+              "",
+            label:
+              item.skillName ||
+              item.goalTitle ||
+              item.rewardName ||
+              item.name ||
+              "",
+          }))}
+          placeholder="Select Achievement"
+          error={""} // Optional error message
+        />
 
-            {dropdownOptions.map((item, index) => {
-              const label =
-                item.skillName ||
-                item.goalTitle ||
-                item.rewardName ||
-                item.name ||
-                "";
+        {previewData.achievement && (
+          <>
+            <div
+              className="drag-source"
+              draggable
+              onDragStart={(e) => handleDragStart(e, "achievement")}
+            >
+              Drag
+            </div>
 
-              return (
-                <option key={index} value={label}>
-                  {label}
-                </option>
-              );
-            })}
-          </select>
-
-          {previewData.achievement && (
-            <>
-              <div
-                className="drag-source"
-                draggable
-                onDragStart={(e) => handleDragStart(e, "achievement")}
-              >
-                Drag
-              </div>
-
-              <div className="font-controls">
-                <button onClick={() => decreaseFont("achievement")}>-</button>
-                <button onClick={() => increaseFont("achievement")}>+</button>
-              </div>
-            </>
-          )}
-        </div>
-
+            <div className="font-controls">
+              <button onClick={() => decreaseFont("achievement")}>-</button>
+              <button onClick={() => increaseFont("achievement")}>+</button>
+            </div>
+          </>
+        )}
         <button className="save-btn" onClick={handleSave}>
           {isEditMode ? "Update Template" : "Save Template"}
         </button>
       </div>
 
       {/* CERTIFICATE PREVIEW */}
-     
-        <div
-          className="certificate-preview-canvas"
-          onDrop={handleDrop}
-          onDragOver={allowDrop}
-          style={{
-            width: editTemplate
-              ? JSON.parse(editTemplate.templateLayout)?.canvas?.width || 900
-              : 900,
-            height: editTemplate
-              ? JSON.parse(editTemplate.templateLayout)?.canvas?.height || 500
-              : 500,
 
-            backgroundImage: background
-              ? `url(${background})`
-              : selectedTemplate?.previewImage
-                ? `url(http://localhost:5123${selectedTemplate.previewImage})`
-                : "none",
+      <div
+        className="certificate-preview-canvas"
+        onDrop={handleDrop}
+        onDragOver={allowDrop}
+        style={{
+          width: editTemplate
+            ? JSON.parse(editTemplate.templateLayout)?.canvas?.width || 900
+            : 900,
+          height: editTemplate
+            ? JSON.parse(editTemplate.templateLayout)?.canvas?.height || 500
+            : 500,
 
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          {droppedItems.logo && (
-            <Draggable
-              position={positions.logo}
-              onStop={(e, data) => handleStop("logo", data)}
-            >
-              <div className="draggable" data-drag="logo">
-                <img
-                  src={
-                    logoPreview ||
-                    (templateData.logoId
-                      ? `http://localhost:5123/api/certificates/logo/${templateData.logoId}`
-                      : "")
-                  }
-                  alt="logo"
-                  style={{ width: logoSize }}
-                />
-              </div>
-            </Draggable>
-          )}
-          {droppedItems.title && (
-            <Draggable
-              position={positions.title}
-              onStop={(e, data) => handleStop("title", data)}
-            >
-              <h1
-                className="draggable"
-                data-drag="title"
-                style={{ fontSize: fontSizes.title }}
-              >
-                {templateData.templateName}
-              </h1>
-            </Draggable>
-          )}
+          backgroundImage: background
+            ? `url(${background})`
+            : selectedTemplate?.previewImage
+            ? `url(http://localhost:5123${selectedTemplate.previewImage})`
+            : "none",
 
-          {droppedItems.type && (
-            <Draggable
-              position={positions.type}
-              onStop={(e, data) => handleStop("type", data)}
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {droppedItems.logo && (
+          <Draggable
+            position={positions.logo}
+            onStop={(e, data) => handleStop("logo", data)}
+          >
+            <div className="draggable" data-drag="logo">
+              <img
+                src={
+                  logoPreview ||
+                  (templateData.logoId
+                    ? `http://localhost:5123/api/certificates/logo/${templateData.logoId}`
+                    : "")
+                }
+                alt="logo"
+                style={{ width: logoSize }}
+              />
+            </div>
+          </Draggable>
+        )}
+        {droppedItems.title && (
+          <Draggable
+            position={positions.title}
+            onStop={(e, data) => handleStop("title", data)}
+          >
+            <h1
+              className="draggable"
+              data-drag="title"
+              style={{ fontSize: fontSizes.title }}
             >
-              <h2
-                className="draggable"
-                data-drag="type"
-                style={{ fontSize: fontSizes.type }}
-              >
-                {templateData.templateType}
-              </h2>
-            </Draggable>
-          )}
+              {templateData.templateName}
+            </h1>
+          </Draggable>
+        )}
 
-          {droppedItems.name && (
-            <Draggable
-              position={positions.name}
-              onStop={(e, data) => handleStop("name", data)}
+        {droppedItems.type && (
+          <Draggable
+            position={positions.type}
+            onStop={(e, data) => handleStop("type", data)}
+          >
+            <h2
+              className="draggable"
+              data-drag="type"
+              style={{ fontSize: fontSizes.type }}
             >
-              <h2
-                className="draggable"
-                data-drag="name"
-                style={{ fontSize: fontSizes.name }}
-              >
-                {previewData.name}
-              </h2>
-            </Draggable>
-          )}
+              {templateData.templateType}
+            </h2>
+          </Draggable>
+        )}
 
-          {droppedItems.achievement && (
-            <Draggable
-              position={positions.achievement}
-              onStop={(e, data) => handleStop("achievement", data)}
+        {droppedItems.name && (
+          <Draggable
+            position={positions.name}
+            onStop={(e, data) => handleStop("name", data)}
+          >
+            <h2
+              className="draggable"
+              data-drag="name"
+              style={{ fontSize: fontSizes.name }}
             >
-              <h3
-                className="draggable"
-                data-drag="achievement"
-                style={{ fontSize: fontSizes.achievement }}
-              >
-                {previewData.achievement}
-              </h3>
-            </Draggable>
-          )}
-        </div>
+              {previewData.name}
+            </h2>
+          </Draggable>
+        )}
+
+        {droppedItems.achievement && (
+          <Draggable
+            position={positions.achievement}
+            onStop={(e, data) => handleStop("achievement", data)}
+          >
+            <h3
+              className="draggable"
+              data-drag="achievement"
+              style={{ fontSize: fontSizes.achievement }}
+            >
+              {previewData.achievement}
+            </h3>
+          </Draggable>
+        )}
       </div>
+    </div>
   );
 };
 

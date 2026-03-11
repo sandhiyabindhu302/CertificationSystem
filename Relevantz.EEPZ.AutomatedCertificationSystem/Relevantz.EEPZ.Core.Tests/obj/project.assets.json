@@ -7076,11 +7076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core.Tests\\Relevantz.EEPZ.Core.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core.Tests\\Relevantz.EEPZ.Core.Tests.csproj",
       "projectName": "Relevantz.EEPZ.Core.Tests",
-      "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core.Tests\\Relevantz.EEPZ.Core.Tests.csproj",
+      "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core.Tests\\Relevantz.EEPZ.Core.Tests.csproj",
       "packagesPath": "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core.Tests\\obj\\",
+      "outputPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sandhiya.ramesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7095,8 +7095,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj": {
-              "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj"
+            "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj": {
+              "projectPath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj"
             }
           }
         }

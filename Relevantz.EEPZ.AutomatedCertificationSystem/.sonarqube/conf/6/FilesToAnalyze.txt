@@ -1,13 +1,14 @@
-﻿C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.cs
+﻿C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.cs
 C:\Users\sandhiya.ramesh\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\sandhiya.ramesh\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\sandhiya.ramesh\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\nunit.engine.dll
 C:\Users\sandhiya.ramesh\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\nunit.engine.api.dll
 C:\Users\sandhiya.ramesh\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\nunit.engine.core.dll
 C:\Users\sandhiya.ramesh\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\testcentric.engine.metadata.dll
-C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_11-15-54_77719_5.log
-C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_11-18-02_03482_5.log
-C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_11-19-03_76710_5.log
-C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.log
-C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\log.host.26-03-09_11-12-45_83922_5.txt
-C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\log.txt
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_11-15-54_77719_5.log
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_11-18-02_03482_5.log
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_11-19-03_76710_5.log
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_12-04-09_87403_5.log
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_12-07-43_82506_5.log
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.host.26-03-09_12-12-12_93726_5.log
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\discover.log

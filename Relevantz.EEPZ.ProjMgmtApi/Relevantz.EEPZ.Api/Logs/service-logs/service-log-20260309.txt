@@ -38,3 +38,90 @@
       INNER JOIN `department` AS `d` ON `s`.`DepartmentId` = `d`.`DepartmentId`
       ORDER BY `s`.`FirstName`, `s`.`LastName`
 2026-03-09 09:12:05.004 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/employees responded 200 in 113.5119 ms
+2026-03-09 12:38:19.928 +05:30 [INF]  Project Management API started successfully
+2026-03-09 13:07:10.840 +05:30 [INF]  Project Management API started successfully
+2026-03-09 19:58:53.520 +05:30 [INF]  Project Management API started successfully
+2026-03-09 20:07:41.325 +05:30 [INF]  Project Management API started successfully
+2026-03-09 20:24:18.259 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-09 20:24:18.270 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/employees responded 204 in 11.4020 ms
+2026-03-09 20:24:18.270 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/employees responded 204 in 11.4112 ms
+2026-03-09 20:24:20.727 +05:30 [INF] eepzbackend.Controllers.EmployeesController Employees requested -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 20:24:20.732 +05:30 [INF] Relevantz.EEPZ.Core.Services.Implementations.EmployeeService Fetching employees -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 20:24:22.539 +05:30 [INF] Relevantz.EEPZ.Data.DBContexts.EEPZDbContext info: 3/9/2026 20:24:22.539 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (25ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT `s`.`EmployeeMasterId`, `s`.`EmployeeId`, `s`.`EmployeeCompanyId`, `s`.`FirstName`, `s`.`LastName`, `u0`.`Email`, `r`.`RoleName`, `d`.`DepartmentName`
+      FROM (
+          SELECT `e`.`EmployeeMasterId`, `e`.`DepartmentId`, `e`.`EmployeeId`, `e`.`RoleId`, `e0`.`EmployeeId` AS `EmployeeId0`, `e0`.`EmployeeCompanyId`, `u`.`FirstName`, `u`.`LastName`
+          FROM `employeedetailsmaster` AS `e`
+          INNER JOIN `employee` AS `e0` ON `e`.`EmployeeId` = `e0`.`EmployeeId`
+          LEFT JOIN `userprofile` AS `u` ON `e0`.`EmployeeId` = `u`.`EmployeeId`
+          WHERE `e0`.`IsActive`
+          ORDER BY `u`.`FirstName`, `u`.`LastName`
+          LIMIT @__p_0
+      ) AS `s`
+      LEFT JOIN `userauthentication` AS `u0` ON `s`.`EmployeeId0` = `u0`.`EmployeeId`
+      INNER JOIN `role` AS `r` ON `s`.`RoleId` = `r`.`RoleId`
+      INNER JOIN `department` AS `d` ON `s`.`DepartmentId` = `d`.`DepartmentId`
+      ORDER BY `s`.`FirstName`, `s`.`LastName`
+2026-03-09 20:24:22.569 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/employees responded 200 in 4284.3030 ms
+2026-03-09 20:24:22.589 +05:30 [INF] eepzbackend.Controllers.EmployeesController Employees requested -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 20:24:22.592 +05:30 [INF] Relevantz.EEPZ.Core.Services.Implementations.EmployeeService Fetching employees -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 20:24:22.610 +05:30 [INF] Relevantz.EEPZ.Data.DBContexts.EEPZDbContext info: 3/9/2026 20:24:22.610 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT `s`.`EmployeeMasterId`, `s`.`EmployeeId`, `s`.`EmployeeCompanyId`, `s`.`FirstName`, `s`.`LastName`, `u0`.`Email`, `r`.`RoleName`, `d`.`DepartmentName`
+      FROM (
+          SELECT `e`.`EmployeeMasterId`, `e`.`DepartmentId`, `e`.`EmployeeId`, `e`.`RoleId`, `e0`.`EmployeeId` AS `EmployeeId0`, `e0`.`EmployeeCompanyId`, `u`.`FirstName`, `u`.`LastName`
+          FROM `employeedetailsmaster` AS `e`
+          INNER JOIN `employee` AS `e0` ON `e`.`EmployeeId` = `e0`.`EmployeeId`
+          LEFT JOIN `userprofile` AS `u` ON `e0`.`EmployeeId` = `u`.`EmployeeId`
+          WHERE `e0`.`IsActive`
+          ORDER BY `u`.`FirstName`, `u`.`LastName`
+          LIMIT @__p_0
+      ) AS `s`
+      LEFT JOIN `userauthentication` AS `u0` ON `s`.`EmployeeId0` = `u0`.`EmployeeId`
+      INNER JOIN `role` AS `r` ON `s`.`RoleId` = `r`.`RoleId`
+      INNER JOIN `department` AS `d` ON `s`.`DepartmentId` = `d`.`DepartmentId`
+      ORDER BY `s`.`FirstName`, `s`.`LastName`
+2026-03-09 20:24:22.615 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/employees responded 200 in 44.9777 ms
+2026-03-09 20:46:40.089 +05:30 [INF]  Project Management API started successfully
+2026-03-09 21:35:26.526 +05:30 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect.
+2026-03-09 21:35:26.582 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/employees responded 204 in 47.3678 ms
+2026-03-09 21:35:26.582 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP OPTIONS /api/employees responded 204 in 47.2744 ms
+2026-03-09 21:35:28.340 +05:30 [INF] eepzbackend.Controllers.EmployeesController Employees requested -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 21:35:28.355 +05:30 [INF] Relevantz.EEPZ.Core.Services.Implementations.EmployeeService Fetching employees -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 21:35:35.538 +05:30 [INF] Relevantz.EEPZ.Data.DBContexts.EEPZDbContext info: 3/9/2026 21:35:35.536 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (123ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT `s`.`EmployeeMasterId`, `s`.`EmployeeId`, `s`.`EmployeeCompanyId`, `s`.`FirstName`, `s`.`LastName`, `u0`.`Email`, `r`.`RoleName`, `d`.`DepartmentName`
+      FROM (
+          SELECT `e`.`EmployeeMasterId`, `e`.`DepartmentId`, `e`.`EmployeeId`, `e`.`RoleId`, `e0`.`EmployeeId` AS `EmployeeId0`, `e0`.`EmployeeCompanyId`, `u`.`FirstName`, `u`.`LastName`
+          FROM `employeedetailsmaster` AS `e`
+          INNER JOIN `employee` AS `e0` ON `e`.`EmployeeId` = `e0`.`EmployeeId`
+          LEFT JOIN `userprofile` AS `u` ON `e0`.`EmployeeId` = `u`.`EmployeeId`
+          WHERE `e0`.`IsActive`
+          ORDER BY `u`.`FirstName`, `u`.`LastName`
+          LIMIT @__p_0
+      ) AS `s`
+      LEFT JOIN `userauthentication` AS `u0` ON `s`.`EmployeeId0` = `u0`.`EmployeeId`
+      INNER JOIN `role` AS `r` ON `s`.`RoleId` = `r`.`RoleId`
+      INNER JOIN `department` AS `d` ON `s`.`DepartmentId` = `d`.`DepartmentId`
+      ORDER BY `s`.`FirstName`, `s`.`LastName`
+2026-03-09 21:35:35.680 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/employees responded 200 in 9051.3217 ms
+2026-03-09 21:35:35.717 +05:30 [INF] eepzbackend.Controllers.EmployeesController Employees requested -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 21:35:35.732 +05:30 [INF] Relevantz.EEPZ.Core.Services.Implementations.EmployeeService Fetching employees -> isManager: false, departmentId: null, roleId: null, searchTerm: null
+2026-03-09 21:35:35.812 +05:30 [INF] Relevantz.EEPZ.Data.DBContexts.EEPZDbContext info: 3/9/2026 21:35:35.812 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT `s`.`EmployeeMasterId`, `s`.`EmployeeId`, `s`.`EmployeeCompanyId`, `s`.`FirstName`, `s`.`LastName`, `u0`.`Email`, `r`.`RoleName`, `d`.`DepartmentName`
+      FROM (
+          SELECT `e`.`EmployeeMasterId`, `e`.`DepartmentId`, `e`.`EmployeeId`, `e`.`RoleId`, `e0`.`EmployeeId` AS `EmployeeId0`, `e0`.`EmployeeCompanyId`, `u`.`FirstName`, `u`.`LastName`
+          FROM `employeedetailsmaster` AS `e`
+          INNER JOIN `employee` AS `e0` ON `e`.`EmployeeId` = `e0`.`EmployeeId`
+          LEFT JOIN `userprofile` AS `u` ON `e0`.`EmployeeId` = `u`.`EmployeeId`
+          WHERE `e0`.`IsActive`
+          ORDER BY `u`.`FirstName`, `u`.`LastName`
+          LIMIT @__p_0
+      ) AS `s`
+      LEFT JOIN `userauthentication` AS `u0` ON `s`.`EmployeeId0` = `u0`.`EmployeeId`
+      INNER JOIN `role` AS `r` ON `s`.`RoleId` = `r`.`RoleId`
+      INNER JOIN `department` AS `d` ON `s`.`DepartmentId` = `d`.`DepartmentId`
+      ORDER BY `s`.`FirstName`, `s`.`LastName`
+2026-03-09 21:35:35.825 +05:30 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/employees responded 200 in 146.9881 ms

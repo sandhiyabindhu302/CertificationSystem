@@ -22,3 +22,16 @@ C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\
 C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\refint\Relevantz.EEPZ.Common.dll
 C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.pdb
 C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\ref\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.deps.json
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\bin\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.AssemblyReference.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfoInputs.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.AssemblyInfo.cs
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.csproj.CoreCompileInputs.cache
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.sourcelink.json
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\refint\Relevantz.EEPZ.Common.dll
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\Relevantz.EEPZ.Common.pdb
+C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.ProjMgmtApi\Relevantz.EEPZ.Common\obj\Debug\net8.0\ref\Relevantz.EEPZ.Common.dll

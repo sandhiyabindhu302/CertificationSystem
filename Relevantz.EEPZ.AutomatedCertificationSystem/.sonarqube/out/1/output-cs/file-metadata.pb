@@ -1,30 +1,30 @@
-–
-ƒC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\obj\Debug\net8.0\Relevantz.EEPZ.Data.AssemblyInfo.csutf-8€
-œC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8“
-∆C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\obj\Debug\net8.0\Relevantz.EEPZ.Data.GlobalUsings.g.csutf-8Ω
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\UserProfileRepository.csutf-8∫
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateRepository.csutf-8æ
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateLogoRepository.csutf-8∑
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\SkillRepository.csutf-8∏
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\RewardRepository.csutf-8∂
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\GoalRepository.csutf-8∫
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\EmployeeRepository.csutf-8Ω
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\CertificateRepository.csutf-8æ
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.csutf-8À
-øC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\ApplicationDbContextModelSnapshot.csutf-8‹
-–C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.Designer.csutf-8—
-«C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.csutf-8◊
-ÀC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.Designer.csutf-8Ã
-¬C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.csutf-8Ÿ
-ÕC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.Designer.csutf-8Œ
-ƒC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.csutf-8ø
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IUserProfileRepository.csutf-8º
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateRepository.csutf-8¿
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateLogoRepository.csutf-8π
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ISkillRepository.csutf-8∫
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IRewardRepository.csutf-8º
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IEmployeeRepository.csutf-8∏
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IGoalRepository.csutf-8ø
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ICertificateRepository.csutf-8¿
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IBaseTemplateRepository.csutf-8º
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\DBContexts\ApplicationDbContext.csutf-8
+±
+•C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\obj\Debug\net8.0\Relevantz.EEPZ.Data.AssemblyInfo.csutf-8º
+∞C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8≥
+ßC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\obj\Debug\net8.0\Relevantz.EEPZ.Data.GlobalUsings.g.csutf-8û
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\UserProfileRepository.csutf-8õ
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateRepository.csutf-8ü
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateLogoRepository.csutf-8ò
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\SkillRepository.csutf-8ô
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\RewardRepository.csutf-8ó
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\GoalRepository.csutf-8õ
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\EmployeeRepository.csutf-8û
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\CertificateRepository.csutf-8≤
+®C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.csutf-8ü
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.csutf-8¨
+†C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\ApplicationDbContextModelSnapshot.csutf-8∏
+¨C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.Designer.csutf-8Ω
+±C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.Designer.csutf-8≠
+£C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.csutf-8∫
+ÆC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.Designer.csutf-8Ø
+•C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.csutf-8°
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateLogoRepository.csutf-8†
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IUserProfileRepository.csutf-8ù
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateRepository.csutf-8ö
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ISkillRepository.csutf-8õ
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IRewardRepository.csutf-8ô
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IGoalRepository.csutf-8ù
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IEmployeeRepository.csutf-8†
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ICertificateRepository.csutf-8°
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IBaseTemplateRepository.csutf-8ù
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\DBContexts\ApplicationDbContext.csutf-8

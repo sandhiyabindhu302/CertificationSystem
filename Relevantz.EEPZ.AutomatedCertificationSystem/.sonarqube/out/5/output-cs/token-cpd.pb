@@ -1,5 +1,5 @@
-¿ó
-ôC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Program.cs!
+†ó
+zC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Program.cs!
 JwtSecurityTokenHandler 
 . &
 DefaultInboundClaimTypeMap 2
@@ -1483,102 +1483,8 @@ Connection
 ÀÀ 
 ;
 ÀÀ 
-}ÃÃ π
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Middleware\GlobalExceptionMiddleware.cs‚
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\EmployeeController.cs
-	namespace 	
-	Relevantz
- 
-. 
-EEPZ 
-. 
-Api 
-. 
-Controllers (
-{ 
-[		 
-ApiController		 
-]		 
-[
-
- 
-Route
-
- 
-
-(
-
-
- 
-$str
-
- 
-)
-
- 
-]
-
- 
-public 
-
-class 
-EmployeeController #
-:$ %
-ControllerBase& 4
-{ 
-private 
-readonly 
-IEmployeeService )
-_employeeService* :
-;: ;
-public 
-EmployeeController !
-(! "
-IEmployeeService" 2
-employeeService3 B
-)B C
-{ 	
-_employeeService 
-= 
-employeeService .
-;. /
-} 	
-[ 
-HttpGet 
-( 
-$str 
-) 
-] 
-public 
-async 
-Task 
-< 
-IActionResult '
->' (
-GetAllEmployees) 8
-(8 9
-)9 :
-{ 	
-var 
-	employees 
-= 
-await !
-_employeeService" 2
-.2 3 
-GetAllEmployeesAsync3 G
-(G H
-)H I
-;I J
-return 
-Ok 
-( 
-	employees 
-)  
-;  !
-} 	
-} 
-} π´
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs
+}ÃÃ ö´
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\CertificateController.cs
 	namespace 	
 	Relevantz
  
@@ -3296,4 +3202,98 @@ templateId
 ÅÅ 	
 }
 ÇÇ 
-}ÉÉ 
+}ÉÉ ö
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Middleware\GlobalExceptionMiddleware.cs√
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api\Controllers\EmployeeController.cs
+	namespace 	
+	Relevantz
+ 
+. 
+EEPZ 
+. 
+Api 
+. 
+Controllers (
+{ 
+[		 
+ApiController		 
+]		 
+[
+
+ 
+Route
+
+ 
+
+(
+
+
+ 
+$str
+
+ 
+)
+
+ 
+]
+
+ 
+public 
+
+class 
+EmployeeController #
+:$ %
+ControllerBase& 4
+{ 
+private 
+readonly 
+IEmployeeService )
+_employeeService* :
+;: ;
+public 
+EmployeeController !
+(! "
+IEmployeeService" 2
+employeeService3 B
+)B C
+{ 	
+_employeeService 
+= 
+employeeService .
+;. /
+} 	
+[ 
+HttpGet 
+( 
+$str 
+) 
+] 
+public 
+async 
+Task 
+< 
+IActionResult '
+>' (
+GetAllEmployees) 8
+(8 9
+)9 :
+{ 	
+var 
+	employees 
+= 
+await !
+_employeeService" 2
+.2 3 
+GetAllEmployeesAsync3 G
+(G H
+)H I
+;I J
+return 
+Ok 
+( 
+	employees 
+)  
+;  !
+} 	
+} 
+} 

@@ -1,5 +1,5 @@
-´
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\UserProfileRepository.cs
+å
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\UserProfileRepository.cs
 	namespace 	
 	Relevantz
  
@@ -80,8 +80,8 @@ employeeId: D
 ;E F
 } 	
 } 
-} ﬂ
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateRepository.cs
+} ¿
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateRepository.cs
 	namespace 	
 	Relevantz
  
@@ -265,8 +265,8 @@ templateId: D
 ;11- .
 }22 	
 }33 
-}44 É
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateLogoRepository.cs
+}44 ‰
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateLogoRepository.cs
 	namespace 	
 	Relevantz
  
@@ -377,8 +377,8 @@ Repository (
 ;= >
 } 	
 } 
-} ë
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\SkillRepository.cs
+} Ú
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\SkillRepository.cs
 	namespace 	
 	Relevantz
  
@@ -531,8 +531,8 @@ Repository (
 ;'' 
 }(( 
 })) 
-}** ‹
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\RewardRepository.cs
+}** Ω
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\RewardRepository.cs
 	namespace 	
 	Relevantz
  
@@ -666,8 +666,8 @@ RewardName# -
 ;"" 
 }## 	
 }$$ 
-}%% ®
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\GoalRepository.cs
+}%% â
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\GoalRepository.cs
 	namespace		 	
 	Relevantz		
  
@@ -762,8 +762,8 @@ Repository		 (
 ;   
 }!! 	
 }"" 
-}## ˙
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\EmployeeRepository.cs
+}## €
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\EmployeeRepository.cs
 	namespace		 	
 	Relevantz		
  
@@ -888,8 +888,8 @@ EmployeeId   "
 ;&&  
 }'' 	
 })) 
-}** æ
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\CertificateRepository.cs
+}** ü
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\CertificateRepository.cs
 	namespace 	
 	Relevantz
  
@@ -1071,164 +1071,8 @@ employeeId##, 6
 ;++- .
 },, 	
 }-- 
-}.. ü
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs
-	namespace 	
-	Relevantz
- 
-. 
-EEPZ 
-. 
-Data 
-. 
-
-Repository (
-{ 
-public 
-
-class "
-BaseTemplateRepository '
-:( )#
-IBaseTemplateRepository* A
-{		 
-private
-
- 
-readonly
-
-  
-ApplicationDbContext
-
- -
-_context
-
-. 6
-;
-
-6 7
-public "
-BaseTemplateRepository %
-(% & 
-ApplicationDbContext& :
-context; B
-)B C
-{ 	
-_context 
-= 
-context 
-; 
-} 	
-public 
-async 
-Task 
-AddAsync "
-(" ##
-CertificateBaseTemplate# :
-template; C
-)C D
-{ 	
-await 
-_context 
-. $
-CertificateBaseTemplates 3
-.3 4
-AddAsync4 <
-(< =
-template= E
-)E F
-;F G
-await 
-_context 
-. 
-SaveChangesAsync +
-(+ ,
-), -
-;- .
-} 	
-public 
-async 
-Task 
-< 
-List 
-< #
-CertificateBaseTemplate 6
->6 7
->7 8
-GetAllAsync9 D
-(D E
-)E F
-{ 	
-return 
-await 
-_context !
-.! "$
-CertificateBaseTemplates" :
-.: ;
-ToListAsync; F
-(F G
-)G H
-;H I
-} 	
-public	 
-async 
-Task 
-< #
-CertificateBaseTemplate 2
-?2 3
->3 4
-GetByIdAsync5 A
-(A B
-intB E
-baseTemplateIdF T
-)T U
-{ 	
-return 
-await 
-_context !
-.! "$
-CertificateBaseTemplates" :
-. 
-FirstOrDefaultAsync $
-($ %
-t% &
-=>' )
-t* +
-.+ ,
-BaseTemplateId, :
-==; =
-baseTemplateId> L
-)L M
-;M N
-}   	
-public## 
-async## 
-Task## 
-DeleteAsync## %
-(##% &#
-CertificateBaseTemplate##& =
-template##> F
-)##F G
-{$$ 	
-_context%% 
-.%% $
-CertificateBaseTemplates%% -
-.%%- .
-Remove%%. 4
-(%%4 5
-template%%5 =
-)%%= >
-;%%> ?
-await&& 
-_context&& 
-.&& 
-SaveChangesAsync&& +
-(&&+ ,
-)&&, -
-;&&- .
-}'' 	
-}(( 
-})) À”
-«C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.cs
+}.. ¨”
+®C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.cs
 	namespace 	
 	Relevantz
  
@@ -3605,8 +3449,164 @@ oldClrType
 ¡¡ 	
 }
 ¬¬ 
-}√√ í-
-¬C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.cs
+}√√ Ä
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs
+	namespace 	
+	Relevantz
+ 
+. 
+EEPZ 
+. 
+Data 
+. 
+
+Repository (
+{ 
+public 
+
+class "
+BaseTemplateRepository '
+:( )#
+IBaseTemplateRepository* A
+{		 
+private
+
+ 
+readonly
+
+  
+ApplicationDbContext
+
+ -
+_context
+
+. 6
+;
+
+6 7
+public "
+BaseTemplateRepository %
+(% & 
+ApplicationDbContext& :
+context; B
+)B C
+{ 	
+_context 
+= 
+context 
+; 
+} 	
+public 
+async 
+Task 
+AddAsync "
+(" ##
+CertificateBaseTemplate# :
+template; C
+)C D
+{ 	
+await 
+_context 
+. $
+CertificateBaseTemplates 3
+.3 4
+AddAsync4 <
+(< =
+template= E
+)E F
+;F G
+await 
+_context 
+. 
+SaveChangesAsync +
+(+ ,
+), -
+;- .
+} 	
+public 
+async 
+Task 
+< 
+List 
+< #
+CertificateBaseTemplate 6
+>6 7
+>7 8
+GetAllAsync9 D
+(D E
+)E F
+{ 	
+return 
+await 
+_context !
+.! "$
+CertificateBaseTemplates" :
+.: ;
+ToListAsync; F
+(F G
+)G H
+;H I
+} 	
+public	 
+async 
+Task 
+< #
+CertificateBaseTemplate 2
+?2 3
+>3 4
+GetByIdAsync5 A
+(A B
+intB E
+baseTemplateIdF T
+)T U
+{ 	
+return 
+await 
+_context !
+.! "$
+CertificateBaseTemplates" :
+. 
+FirstOrDefaultAsync $
+($ %
+t% &
+=>' )
+t* +
+.+ ,
+BaseTemplateId, :
+==; =
+baseTemplateId> L
+)L M
+;M N
+}   	
+public## 
+async## 
+Task## 
+DeleteAsync## %
+(##% &#
+CertificateBaseTemplate##& =
+template##> F
+)##F G
+{$$ 	
+_context%% 
+.%% $
+CertificateBaseTemplates%% -
+.%%- .
+Remove%%. 4
+(%%4 5
+template%%5 =
+)%%= >
+;%%> ?
+await&& 
+_context&& 
+.&& 
+SaveChangesAsync&& +
+(&&+ ,
+)&&, -
+;&&- .
+}'' 	
+}(( 
+})) Û,
+£C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.cs
 	namespace 	
 	Relevantz
  
@@ -3941,8 +3941,8 @@ DropColumnCC '
 ;EE. /
 }FF 	
 }GG 
-}HH Áò0
-ƒC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.cs
+}HH »ò0
+•C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.cs
 	namespace 	
 	Relevantz
  
@@ -86184,8 +86184,49 @@ Annotation
 ﬁ,ﬁ, 	
 }
 ﬂ,ﬂ, 
-}‡,‡, •
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IUserProfileRepository.cs
+}‡,‡, æ
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateLogoRepository.cs
+	namespace 	
+	Relevantz
+ 
+. 
+EEPZ 
+. 
+Data 
+. 
+IRepository )
+{ 
+public 
+
+	interface #
+ITemplateLogoRepository ,
+{ 
+Task 
+< 
+Templatelogo 
+> 
+AddLogoAsync '
+(' (
+Templatelogo( 4
+logo5 9
+)9 :
+;: ;
+Task		 
+<		 
+Templatelogo		 
+?		 
+>		 
+GetLogoByIdAsync		 ,
+(		, -
+int		- 0
+logoId		1 7
+)		7 8
+;		8 9
+}
+
+ 
+} Ü
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IUserProfileRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86214,9 +86255,8 @@ employeeId4 >
 )> ?
 ;? @
 } 
-}		 ó
-
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateRepository.cs
+}		 ¯	
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86299,49 +86339,8 @@ templateId
 )5 6
 ;6 7
 } 
-} ›
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateLogoRepository.cs
-	namespace 	
-	Relevantz
- 
-. 
-EEPZ 
-. 
-Data 
-. 
-IRepository )
-{ 
-public 
-
-	interface #
-ITemplateLogoRepository ,
-{ 
-Task 
-< 
-Templatelogo 
-> 
-AddLogoAsync '
-(' (
-Templatelogo( 4
-logo5 9
-)9 :
-;: ;
-Task		 
-<		 
-Templatelogo		 
-?		 
->		 
-GetLogoByIdAsync		 ,
-(		, -
-int		- 0
-logoId		1 7
-)		7 8
-;		8 9
-}
-
- 
-} ò
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ISkillRepository.cs
+} ˘
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ISkillRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86371,8 +86370,8 @@ templateId
 }
 
  
-} û
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IRewardRepository.cs
+} ˇ
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IRewardRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86402,37 +86401,8 @@ templateId
 )@ A
 ;A B
 } 
-} §
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IEmployeeRepository.cs
-	namespace 	
-	Relevantz
- 
-. 
-EEPZ 
-. 
-Data 
-. 
-IRepository )
-{ 
-public 
-
-	interface 
-IEmployeeRepository (
-{ 
-Task		 
-<		 
-IEnumerable		 
-<		 
-EmployeeBasicInfo		 *
->		* +
->		+ , 
-GetAllEmployeesAsync		- A
-(		A B
-)		B C
-;		C D
-} 
-} é
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IGoalRepository.cs
+} Ô
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IGoalRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86462,8 +86432,37 @@ templateId
 }
 
  
-} õ
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ICertificateRepository.cs
+} Ö
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IEmployeeRepository.cs
+	namespace 	
+	Relevantz
+ 
+. 
+EEPZ 
+. 
+Data 
+. 
+IRepository )
+{ 
+public 
+
+	interface 
+IEmployeeRepository (
+{ 
+Task		 
+<		 
+IEnumerable		 
+<		 
+EmployeeBasicInfo		 *
+>		* +
+>		+ , 
+GetAllEmployeesAsync		- A
+(		A B
+)		B C
+;		C D
+} 
+} ¸
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ICertificateRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86532,8 +86531,8 @@ employeeId
 )I J
 ;J K
 } 
-} ù	
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IBaseTemplateRepository.cs
+} ˛
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IBaseTemplateRepository.cs
 	namespace 	
 	Relevantz
  
@@ -86587,8 +86586,8 @@ employeeId
 )9 :
 ;: ;
 } 
-} ß–"
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\DBContexts\ApplicationDbContext.cs
+} à–"
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\DBContexts\ApplicationDbContext.cs
 	namespace 	
 	Relevantz
  
@@ -88626,25 +88625,25 @@ Slahistory
 (
 €€" #
 $str
-€€# ]
+€€# Y
 ,
-€€] ^
+€€Y Z
 	Microsoft
-€€_ h
+€€[ d
 .
-€€h i!
+€€d e!
 EntityFrameworkCore
-€€i |
+€€e x
 .
-€€| }
-ServerVersion€€} ä
-.€€ä ã
-Parse€€ã ê
-(€€ê ë
-$str€€ë ü
-)€€ü †
-)€€† °
-;€€° ¢
+€€x y
+ServerVersion€€y Ü
+.€€Ü á
+Parse€€á å
+(€€å ç
+$str€€ç õ
+)€€õ ú
+)€€ú ù
+;€€ù û
 	protected
 ›› 
 override

@@ -1,1 +1,1 @@
-≈RÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Relevantz.EEPZ.Common.csproj¢net8.0ÚCSharp12
+¶RèC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Relevantz.EEPZ.Common.csproj¢net8.0ÚCSharp12

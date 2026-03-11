@@ -23,6 +23,8 @@ public partial class Employeecertificate
 
      public string EmployeeName { get; set; }
 
+    public DateTime? UpdatedAt { get; set; }  // Nullable DateTime
+
     public virtual ICollection<Certificatenotification> Certificatenotifications { get; set; } = new List<Certificatenotification>();
 
     public virtual Employee Employee { get; set; } = null!;

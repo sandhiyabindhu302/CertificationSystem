@@ -1,0 +1,115 @@
+version: "3.8"
+
+services:
+  # MySQL Service
+  mysql:
+    image: mysql:8.0
+    container_name: mvp-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: eepzdb
+    ports:
+      - "3307:3306"  # Expose port 3307
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d  # Initial SQL scripts
+    healthcheck:
+      test: [ "CMD-SHELL", "mysqladmin ping --silent --protocol=TCP -h mysql -uroot -proot" ]
+      interval: 10s
+      timeout: 20s
+      retries: 10
+      start_period: 30s
+    networks:
+      - eepz-network
+
+  # Auth API Service
+  auth-api:
+    build: ./Relevantz.EEPZ.AuthApi
+    container_name: mvp-auth-api
+    restart: always
+    ports:
+      - "5101:5101"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=mysql;Database=eepzdb;User=root;Password=root;Port=3306;  # Use the correct port for MySQL
+      - MongoDbSettings__ConnectionString=mongodb://mongodb:27017
+      - MongoDbSettings__DatabaseName=EEPZFileStorage
+      - MongoDbSettings__ProfileImagesCollectionName=ProfileImages
+    depends_on:
+      mysql:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/Logs
+    networks:
+      - eepz-network
+
+  # Project Management API Service
+  proj-management-api:
+    build: ./Relevantz.EEPZ.ProjMgmtApi
+    container_name: mvp-proj-management-api
+    restart: always
+    ports:
+      - "5109:5109"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=mysql;Database=eepzdb;User=root;Password=root;Port=3307;  # Use the correct port for MySQL
+      - ASPNETCORE_URLS=http://+:5109
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/Logs
+    networks:
+      - eepz-network
+
+  # Certification API Service
+  certification-api:
+    build: ./Relevantz.EEPZ.AutomatedCertificationSystem
+    container_name: mvp-certification-api
+    restart: always
+    ports:
+      - "5123:5123"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=mysql;Database=eepzdb;User=root;Password=root;Port=3307;  # Use the correct port for MySQL
+      - ASPNETCORE_URLS=http://+:5123
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/Logs
+    networks:
+      - eepz-network
+
+  # MongoDB service
+  mongodb:
+    image: mongo:7
+    container_name: mvp-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - eepz-network
+
+volumes:
+  mysql_data:
+  mongodb_data:
+
+networks:
+  eepz-network:
+    driver: bridge
+
+
+
+

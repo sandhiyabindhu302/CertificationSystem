@@ -2445,6 +2445,7 @@
           "MailKit": "4.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
+          "Microsoft.NET.Test.Sdk": "15.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
           "Relevantz.EEPZ.Core": "1.0.0",
           "Serilog.AspNetCore": "8.0.0",

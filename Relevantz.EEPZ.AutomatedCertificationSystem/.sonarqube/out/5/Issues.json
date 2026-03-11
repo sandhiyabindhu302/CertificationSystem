@@ -18,12 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
                 "region": {
                   "startLine": 3,
-                  "startColumn": 27,
+                  "startColumn": 25,
                   "endLine": 3,
-                  "endColumn": 84
+                  "endColumn": 78
                 }
               }
             }
@@ -39,33 +39,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
                 "region": {
                   "startLine": 17,
                   "startColumn": 18,
                   "endLine": 17,
                   "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S6418",
-          "level": "warning",
-          "message": "\"SecretKey\" detected here, make sure this is not a hard-coded secret.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 19,
-                  "endLine": 8,
-                  "endColumn": 51
                 }
               }
             }
@@ -81,12 +60,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 143,
                   "startColumn": 13,
                   "endLine": 143,
                   "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6418",
+          "level": "warning",
+          "message": "\"SecretKey\" detected here, make sure this is not a hard-coded secret.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/appsettings.json",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 19,
+                  "endLine": 8,
+                  "endColumn": 51
                 }
               }
             }
@@ -102,7 +102,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 16,
                   "startColumn": 18,
@@ -115,7 +115,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 174,
                   "startColumn": 42,
@@ -126,7 +126,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 37,
                   "startColumn": 42,
@@ -137,7 +137,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 202,
                   "startColumn": 42,
@@ -148,7 +148,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 215,
                   "startColumn": 42,
@@ -159,7 +159,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 161,
                   "startColumn": 42,
@@ -170,7 +170,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 245,
                   "startColumn": 42,
@@ -181,7 +181,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 135,
                   "startColumn": 42,
@@ -192,7 +192,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 123,
                   "startColumn": 42,
@@ -203,7 +203,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 59,
                   "startColumn": 42,
@@ -214,7 +214,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 237,
                   "startColumn": 42,
@@ -225,7 +225,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 148,
                   "startColumn": 42,
@@ -236,7 +236,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 114,
                   "startColumn": 42,
@@ -247,7 +247,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 105,
                   "startColumn": 42,
@@ -258,7 +258,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 68,
                   "startColumn": 42,
@@ -269,7 +269,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 46,
                   "startColumn": 42,
@@ -280,7 +280,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 228,
                   "startColumn": 42,
@@ -291,7 +291,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 92,
                   "startColumn": 42,
@@ -302,7 +302,7 @@
             },
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Controllers/CertificateController.cs",
                 "region": {
                   "startLine": 81,
                   "startColumn": 42,
@@ -343,7 +343,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 48,
                   "startColumn": 17,
@@ -368,7 +368,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 49,
                   "startColumn": 17,
@@ -393,7 +393,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 50,
                   "startColumn": 17,
@@ -418,7 +418,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 51,
                   "startColumn": 17,
@@ -443,7 +443,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 116,
                   "startColumn": 5,
@@ -464,7 +464,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 181,
                   "startColumn": 48,
@@ -489,7 +489,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 195,
                   "startColumn": 5,
@@ -510,7 +510,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/Back%20End/Auth_Admin_Prjmgt_Functionalities/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
+                "uri": "file:///C:/Users/sandhiya.ramesh/Desktop/MVP/MVP_Backend/Relevantz.EEPZ.AutomatedCertificationSystem/Relevantz.EEPZ.Api/Program.cs",
                 "region": {
                   "startLine": 203,
                   "startColumn": 5,

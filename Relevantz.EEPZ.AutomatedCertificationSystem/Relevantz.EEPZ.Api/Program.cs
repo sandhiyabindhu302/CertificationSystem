@@ -11,7 +11,7 @@ global using Microsoft.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.IdentityModel.Tokens;
 global using Microsoft.OpenApi.Models;
-global using Relevantz.EEPZ.Data.DBContexts;  
+global using Relevantz.EEPZ.Data.DBContexts;
 
 using System.Net;
 using System.IdentityModel.Tokens.Jwt;
@@ -30,13 +30,16 @@ try
 {
     Log.Information("Starting EEPZ Certificate Management Backend Application");
 
-
     var builder = WebApplication.CreateBuilder(args);
 
-       builder.WebHost.ConfigureKestrel(serverOptions =>
-{
-    serverOptions.Listen(IPAddress.Any, 5123);  // Listen on port 5123 and all network interfaces
-});
+    // Fetch API Base URL from Configuration
+    var apiBaseUrl = builder.Configuration.GetValue<string>("ApiSettings:BaseUrl") ?? "http://localhost:5123"; // Default to localhost if not set
+
+    // Configure Kestrel to listen on port 5123
+    builder.WebHost.ConfigureKestrel(serverOptions =>
+    {
+        serverOptions.Listen(IPAddress.Any, 5123);  // Listen on port 5123 and all network interfaces
+    });
 
     builder.Host.UseSerilog((context, services, configuration) => configuration
         .ReadFrom.Configuration(context.Configuration)
@@ -50,18 +53,18 @@ try
                 p.Key.ToLower().Contains("authorization") ||
                 p.Key.ToLower().Contains("secret"))));
 
-    // CONTROLLERS
+    // Add Controllers
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
 
-    // SWAGGER + JWT
+    // Setup Swagger + JWT
     builder.Services.AddSwaggerGen(options =>
     {
         options.SwaggerDoc("v1", new OpenApiInfo
         {
             Title = "EEPZ Automated Certification System API",
             Version = "v1",
-            Description = "Automated Certification System4 Module API",
+            Description = "Automated Certification System API",
         });
 
         options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -90,7 +93,7 @@ try
         });
     });
 
-    // JWT AUTH
+    // JWT Authentication setup
     var jwtSettings = builder.Configuration.GetSection("JwtSettings");
     var secretKey = jwtSettings["SecretKey"] ?? throw new InvalidOperationException("JWT SecretKey missing");
 
@@ -107,7 +110,6 @@ try
                 ValidAudience = jwtSettings["Audience"],
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),
                 ClockSkew = TimeSpan.Zero,
-
                 NameClaimType = "sub",
                 RoleClaimType = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role"
             };
@@ -115,57 +117,55 @@ try
 
     builder.Services.AddAuthorization(options =>
     {
-        options.AddPolicy("HROnly", policy =>
-            policy.RequireRole("HR"));
-
-        options.AddPolicy("ManagerOnly", policy =>
-            policy.RequireRole("Manager"));
-
-        options.AddPolicy("EmployeeOnly", policy =>
-            policy.RequireRole("Employee"));
-
-        options.AddPolicy("HRorManager", policy =>
-            policy.RequireRole("HR", "Manager"));
-
-        options.AddPolicy("HRorEmployee", policy =>
-            policy.RequireRole("HR", "Employee"));
+        options.AddPolicy("HROnly", policy => policy.RequireRole("HR"));
+        options.AddPolicy("ManagerOnly", policy => policy.RequireRole("Manager"));
+        options.AddPolicy("EmployeeOnly", policy => policy.RequireRole("Employee"));
+        options.AddPolicy("HRorManager", policy => policy.RequireRole("HR", "Manager"));
+        options.AddPolicy("HRorEmployee", policy => policy.RequireRole("HR", "Employee"));
     });
 
+    // Register Dependencies
     builder.Services.AddHttpContextAccessor();
     builder.Services.AddMemoryCache();
 
- builder.Services.AddCors(options =>
-{
-    options.AddPolicy("FrontendOnly", policy =>
-        policy.WithOrigins(
-            "http://localhost:5173",
-            "http://localhost:3007",
-            "http://192.168.29.82:3007"
-        )
-        .AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowCredentials());
-});
+    // Inject the apiBaseUrl as a singleton service
+    builder.Services.AddSingleton(apiBaseUrl);
 
-builder.Services.AddScoped<ICertificateService, CertificateService>();  
-builder.Services.AddScoped<ICertificateRepository, CertificateRepository>(); 
-builder.Services.AddScoped<ITemplateRepository, TemplateRepository>();  
-builder.Services.AddScoped<IUserProfileRepository, UserProfileRepository>();  
-builder.Services.AddScoped<ISkillRepository, SkillRepository>(); 
-builder.Services.AddScoped<IGoalRepository, GoalRepository>(); 
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-builder.Services.AddScoped<IRewardRepository, RewardRepository>(); 
-builder.Services.AddScoped<ITemplateLogoService, TemplateLogoService>();
-builder.Services.AddScoped<ITemplateLogoRepository, TemplateLogoRepository>();
-builder.Services.AddScoped<IBaseTemplateRepository, BaseTemplateRepository>();
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("FrontendOnly", policy =>
+            policy.WithOrigins(
+                "http://localhost:5173",
+                "http://localhost:3007",
+                "http://192.168.1.66:3007"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials());
+    });
 
+    // Register your service classes with DI
+    builder.Services.AddScoped<ICertificateService, CertificateService>();
+    builder.Services.AddScoped<ICertificateRepository, CertificateRepository>();
+    builder.Services.AddScoped<ITemplateRepository, TemplateRepository>();
+    builder.Services.AddScoped<IUserProfileRepository, UserProfileRepository>();
+    builder.Services.AddScoped<ISkillRepository, SkillRepository>();
+    builder.Services.AddScoped<IGoalRepository, GoalRepository>();
+    builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+    builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+    builder.Services.AddScoped<IRewardRepository, RewardRepository>();
+    builder.Services.AddScoped<ITemplateLogoService, TemplateLogoService>();
+    builder.Services.AddScoped<ITemplateLogoRepository, TemplateLogoRepository>();
+    builder.Services.AddScoped<IBaseTemplateRepository, BaseTemplateRepository>();
+
+    // Add DbContext for MySQL
     builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
+        options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
             new MySqlServerVersion(new Version(8, 0, 25))));
 
     var app = builder.Build();
 
+    // Configure middlewares and endpoints
     if (app.Environment.IsDevelopment())
     {
         app.UseSwagger();

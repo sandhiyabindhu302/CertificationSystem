@@ -37,6 +37,13 @@ namespace Relevantz.EEPZ.Data.Repository
                 .FirstOrDefaultAsync();
         }
 
+        // UPDATE EXISTING CERTIFICATE
+        public async Task UpdateAsync(Employeecertificate certificate)
+        {
+            _context.Employeecertificates.Update(certificate);  // Ensure the entity is updated
+            await _context.SaveChangesAsync();  // Commit changes to DB
+        }
+
         public async Task DeleteAsync(Certificatetemplate template)
         {
             _context.Certificatetemplates.Remove(template);

@@ -1,16 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\.gitignore",
+      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\.gitignore",
       "PackagePath": "staticwebassets\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\1845804e-b49b-4443-a251-e8a0b6b670db_template3.png",
+      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\1845804e-b49b-4443-a251-e8a0b6b670db_template3.png",
       "PackagePath": "staticwebassets\\templates\\1845804e-b49b-4443-a251-e8a0b6b670db_template3.png"
     },
     {
-      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\ea5f71af-3405-4659-8ffd-cd35de94f9ef_template1.png",
+      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\2827221a-dc72-41b0-8cbf-2460d5c5215b_Media.jfif",
+      "PackagePath": "staticwebassets\\templates\\2827221a-dc72-41b0-8cbf-2460d5c5215b_Media.jfif"
+    },
+    {
+      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\ea5f71af-3405-4659-8ffd-cd35de94f9ef_template1.png",
       "PackagePath": "staticwebassets\\templates\\ea5f71af-3405-4659-8ffd-cd35de94f9ef_template1.png"
+    },
+    {
+      "Id": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\f165cf41-a27d-4da2-a031-6948ad3a9b79_shared image (3).jfif",
+      "PackagePath": "staticwebassets\\templates\\f165cf41-a27d-4da2-a031-6948ad3a9b79_shared image (3).jfif"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Relevantz.EEPZ.Api.Microsoft.AspNetCore.StaticWebAssets.props",

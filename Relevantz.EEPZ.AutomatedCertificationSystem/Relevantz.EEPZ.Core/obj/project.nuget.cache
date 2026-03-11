@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m5VFGfyGm/0=",
+  "dgSpecHash": "Ehsn4gNJnEc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj",
+  "projectFilePath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Core\\Relevantz.EEPZ.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\itext\\9.5.0\\itext.9.5.0.nupkg.sha512",

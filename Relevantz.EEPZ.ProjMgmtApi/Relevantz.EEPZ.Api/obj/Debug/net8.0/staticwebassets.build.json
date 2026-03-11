@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b5gGmhl6YqkqLotbKgOZ7l4Jw8i5szcJIGeeZ6VUGFk=",
+  "Hash": "954p8zr2nmtUXYnRkNUiZx9rdvBniVQo2TSh8WXkfN8=",
   "Source": "Relevantz.EEPZ.Api",
   "BasePath": "_content/Relevantz.EEPZ.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Relevantz.EEPZ.Api\\wwwroot",
       "Source": "Relevantz.EEPZ.Api",
-      "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.ProjMgmtApi\\Relevantz.EEPZ.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.ProjMgmtApi\\Relevantz.EEPZ.Api\\wwwroot\\",
       "BasePath": "_content/Relevantz.EEPZ.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.ProjMgmtApi\\Relevantz.EEPZ.Api\\wwwroot\\.gitignore",
+      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.ProjMgmtApi\\Relevantz.EEPZ.Api\\wwwroot\\.gitignore",
       "SourceId": "Relevantz.EEPZ.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.ProjMgmtApi\\Relevantz.EEPZ.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.ProjMgmtApi\\Relevantz.EEPZ.Api\\wwwroot\\",
       "BasePath": "_content/Relevantz.EEPZ.Api",
       "RelativePath": ".gitignore",
       "AssetKind": "All",

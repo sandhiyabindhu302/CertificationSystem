@@ -1,6 +1,6 @@
-projectKey=Certification-System
+projectKey=Certification-Systems
 serverUrl=http://localhost:9000
 serverVersion=25.1.0.102122
-dashboardUrl=http://localhost:9000/dashboard?id=Certification-System
-ceTaskId=33e73cdd-0095-4379-9b49-f7a128799c9d
-ceTaskUrl=http://localhost:9000/api/ce/task?id=33e73cdd-0095-4379-9b49-f7a128799c9d
+dashboardUrl=http://localhost:9000/dashboard?id=Certification-Systems
+ceTaskId=6cdfa0e8-350c-40a1-81d5-0df1f7acfa11
+ceTaskUrl=http://localhost:9000/api/ce/task?id=6cdfa0e8-350c-40a1-81d5-0df1f7acfa11

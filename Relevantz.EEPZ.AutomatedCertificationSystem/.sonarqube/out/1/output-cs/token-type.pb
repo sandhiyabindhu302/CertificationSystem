@@ -1,18 +1,18 @@
-—
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateLogoRepository.cs
+¡
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\UserProfileRepository.cs
  
  
  
  
  	 
-  '* A
+  &) ?
 
  
 
  
 
- -  %& :    &5 A   	    '; >  Ô
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateRepository.cs
+ -  $% 9    %= @  –
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateRepository.cs
  
  
  
@@ -28,21 +28,21 @@
 
  #
 
-& 9   -  !" 6     -= @      # 6  !! &"" "" "" ""& 9%% (( )) )) )) )) %))& 9++ ++ .. .. .. ..& 911 ‡
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\UserProfileRepository.cs
+& 9   -  !" 6     -= @      # 6  !! &"" "" "" ""& 9%% (( )) )) )) )) %))& 9++ ++ .. .. .. ..& 911 ≤
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\TemplateLogoRepository.cs
  
  
  
  
  	 
-  &) ?
+  '* A
 
  
 
  
 
- -  $% 9    %= @  Œ
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\SkillRepository.cs
+ -  %& :    &5 A   	    '; >  Ø
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\SkillRepository.cs
  
  
  
@@ -54,16 +54,16 @@
  !" 0
  
      %!! !! !!5 Y"" 
-""  ""! (ª
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\RewardRepository.cs
+""  ""! (ú
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\RewardRepository.cs
  
  
  
  
  
  			 
-		 		 !		$ 5   -    4 !    %& 7  F _  ! 22 S"" ©
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\GoalRepository.cs
+		 		 !		$ 5   -    4 !    %& 7  F _  ! 22 S"" ä
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\GoalRepository.cs
  
  
  
@@ -71,8 +71,8 @@
  
  
 		 	 
-  " 1   -   2 ,    %& -    ! (   «
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\EmployeeRepository.cs
+  " 1   -   2 ,    %& -    ! (   ®
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\EmployeeRepository.cs
  
  
  
@@ -81,8 +81,8 @@
  
  
 		 	 
-  #& 9   -  !" 6 K    %& 7 R  $/ 23 D&& Ç
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\CertificateRepository.cs
+  #& 9   -  !" 6 K    %& 7 R  $/ 23 D&& „
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\CertificateRepository.cs
  
  
  
@@ -98,21 +98,8 @@
 
  &
 
-) ?   -  $% 9   # 6      -G M  = _            -  E H"" "" (( (( (( ((& 9++ Î
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs
- 
- 
- 
- 
- 	 
-  '* A
-
- 
-
- 
-
- -  %& :   # :       6  	    2B E  "" ## ## ## ##& =&& “'
-«C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.cs
+) ?   -  $% 9   # 6      -G M  = _            -  E H"" "" (( (( (( ((& 9++ ≥'
+®C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260304095343_AddCertificateBaseTemplate.cs
  
  
  
@@ -327,8 +314,21 @@
 ΩΩ -
 ææ (
 øø  .
-¿¿! )Á
-¬C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.cs
+¿¿! )Ã
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Repository\BaseTemplateRepository.cs
+ 
+ 
+ 
+ 
+ 	 
+  '* A
+
+ 
+
+ 
+
+ -  %& :   # :       6  	    2B E  "" ## ## ## ##& =&& »
+£C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302153403_AddTemplateLogoColumn.cs
  
  
  
@@ -343,8 +343,8 @@
 
  .
 
-1 :    # 3' * & -   $" %* -5 :F K$ CE a, 2: DP Ub v$ 35 >- 1; EQ V- 5= JV [- 5= JV [##% 6%% +%%- 6&& 2&&4 H)) >** -++ (.. K// -00 (11  .22! )55 66 66 66 66% 599 K:: -== $@@ >AA -DD &EE -â™
-ƒC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.cs
+1 :    # 3' * & -   $" %* -5 :F K$ CE a, 2: DP Ub v$ 35 >- 1; EQ V- 5= JV [- 5= JV [##% 6%% +%%- 6&& 2&&4 H)) >** -++ (.. K// -00 (11  .22! )55 66 66 66 66% 599 K:: -== $@@ >AA -DD &EE -Í©
+•C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\Migrations\20260302141439_AddTemplateLayoutColumn.cs
  
  
  
@@ -6729,12 +6729,16 @@
 ‘,‘, *
 ◊,◊, 
 ⁄,⁄, "
-›,›,  §
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IUserProfileRepository.cs
+›,›,  ∞
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateLogoRepository.cs
  
  	 
-  +  0 3∑
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateRepository.cs
+  ,  ( 4		 		 		- 0Ö
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IUserProfileRepository.cs
+ 
+ 	 
+  +  0 3ò
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateRepository.cs
  
  
  
@@ -6745,37 +6749,33 @@
 
   
 
-0 3  ,   ,  ,œ
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ITemplateLogoRepository.cs
- 
- 	 
-  ,  ( 4		 		 		- 0ƒ
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ISkillRepository.cs
+0 3  ,   ,  ,•
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ISkillRepository.cs
  
  
  
  	 
-  %		 		 		 '		@ j—
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IRewardRepository.cs
+  %		 		 		 '		@ j≤
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IRewardRepository.cs
  
  
  
  
  			 
-		 		 &   *D bπ
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IEmployeeRepository.cs
+		 		 &   *D b§
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IGoalRepository.cs
  
  
  
  	 
-  (		 		 		 *√
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IGoalRepository.cs
+  $		 		 		  		8 aö
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IEmployeeRepository.cs
  
  
  
  	 
-  $		 		 		  		8 aÖ
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ICertificateRepository.cs
+  (		 		 		 *Ê
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\ICertificateRepository.cs
  
  
  	 
@@ -6785,13 +6785,13 @@
 
   
 
-8 ; 	 6 <	M çï
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IBaseTemplateRepository.cs
+8 ; 	 6 <	M çˆ
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\IRepository\IBaseTemplateRepository.cs
  
  	 
   ,  -		 		 		 )
-  &6 9 =  0⁄É
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\DBContexts\ApplicationDbContext.cs
+  &6 9 =  0ªÉ
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Data\DBContexts\ApplicationDbContext.cs
  
  
  
@@ -7085,7 +7085,7 @@
 ŸŸ 
 ŸŸ 
 ŸŸ 
-€€# ]€€ë ü
+€€# Y€€ç õ
 ›› 
 ›› 
 ›› 

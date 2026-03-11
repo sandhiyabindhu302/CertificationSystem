@@ -1,5 +1,5 @@
-Ñ
-©C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Userprofile.cs
+Â
+äC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Userprofile.cs
 
   
 
@@ -37,411 +37,8 @@
 
 && 
 
-(( $ì
-§C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Review.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 1ı
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\TemplateLogo.cs
-
- !
-
- 
-
-
-
- 
-
- 
-
- 
-
-4 HΩ
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Teamworkload.cs
-
- !
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- #
-
- 
-
- 
-
- "
-
- 
-
-& 1Æ
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slareviewtracking.cs
-
- &
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- "
-
- 
-
- 
-
-   
-
-"" 
-
-$$ %
-
-&& !
-
-(( $
-
-**# '
-
-,, $
-
-.. ™
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Recognitionreward.cs
-
- &
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-& .
-
-' <û
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slaescalation.cs
-
- "
-
- 
-
-
-
- 
-
- 
-
- 
-
- !
-
- $
-
- "
-
- '
-
- 
-
- $
-
- %
-
- 
-
-   $
-
-""  
-
-$$ /
-
-&& /
-
-(( 
-
-**+ 7
-
-,, /í
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slacompliance.cs
-
- "
-
- 
-
-
-
- 
-
- 
-
- 
-
- #
-
- !
-
- 
-
- 
-
- 
-
- 
-
- 
-
- (
-
-    
-
-"" 
-
-$$ 
-
-&& 
-
-(( 3
-
-** (ò
-°C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Sla.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- $
-
- 
-
- 
-
- "
-
- 
-
- $
-
- #
-
-   
-
-"" $
-
-$$ 
-
-&& 
-
-(( "
-
-** 
-
-,, 
-
-.. 
-
-00 
-
-22 )
-
-44 /
-
-66 (
-
-88 $
-
-:: /
-
-<<. <
-
->>+ 7
-
-@@0 @
-
-BB2 D·
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Selfassessmentattachment.cs
-
- -
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- !
-
- 
-
- 
-
- 
-
-" ,
-
-  ' ;≥
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Selfassessment.cs
-
- #
-
- 
-
-
-
- 
-
- 
-
-  
-
- 
-
-1 B
-
-7 N
-
-& .
-
-" &
-
-9 Rë
-¢C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Role.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-6 Lë
-¢C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Risk.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
- )Ø
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Rewardtype.cs
-
- 
-
- 
-
-
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
-' :
-
-4 H
-
-2 DÉ
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Userauthentication.cs
+(( $‰
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Userauthentication.cs
 
  '
 
@@ -563,8 +160,448 @@
 
 zz/ >
 
-||- :ì
-§C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Report.cs
+||- :÷
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\TemplateLogo.cs
+
+ !
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+4 Hû
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Teamworkload.cs
+
+ !
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ #
+
+ 
+
+ 
+
+ "
+
+ 
+
+& 1è
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slareviewtracking.cs
+
+ &
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ "
+
+ 
+
+ 
+
+   
+
+"" 
+
+$$ %
+
+&& !
+
+(( $
+
+**# '
+
+,, $
+
+.. ≠
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slanotification.cs
+
+ $
+
+ 
+
+
+
+ 
+
+ 
+
+ "
+
+ %
+
+ "
+
+ 
+
+  
+
+ 
+
+ 
+
+ $
+
+ ¥
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slahistory.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ #
+
+ %
+
+ 
+
+ 
+
+ 
+
+ .
+
+" 5
+
+   ˇ
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slaescalation.cs
+
+ "
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ !
+
+ $
+
+ "
+
+ '
+
+ 
+
+ $
+
+ %
+
+ 
+
+   $
+
+""  
+
+$$ /
+
+&& /
+
+(( 
+
+**+ 7
+
+,, /Û
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slacompliance.cs
+
+ "
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ #
+
+ !
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ (
+
+    
+
+"" 
+
+$$ 
+
+&& 
+
+(( 3
+
+** (˘
+ÇC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Sla.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ $
+
+ 
+
+ 
+
+ "
+
+ 
+
+ $
+
+ #
+
+   
+
+"" $
+
+$$ 
+
+&& 
+
+(( "
+
+** 
+
+,, 
+
+.. 
+
+00 
+
+22 )
+
+44 /
+
+66 (
+
+88 $
+
+:: /
+
+<<. <
+
+>>+ 7
+
+@@0 @
+
+BB2 D¬
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Selfassessmentattachment.cs
+
+ -
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ !
+
+ 
+
+ 
+
+ 
+
+" ,
+
+  ' ;î
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Selfassessment.cs
+
+ #
+
+ 
+
+
+
+ 
+
+ 
+
+  
+
+ 
+
+1 B
+
+7 N
+
+& .
+
+" &
+
+9 RÚ
+ÉC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Role.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+6 LÚ
+ÉC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Risk.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ )ê
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Rewardtype.cs
+
+ 
+
+ 
+
+
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+' :
+
+4 H
+
+2 DÙ
+ÖC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Review.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 1Ù
+ÖC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Report.cs
 
  
 
@@ -584,31 +621,31 @@
 
  
 
-' <•
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Refreshtoken.cs
+' <˝
+ÇC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Otp.cs
 
- !
+ 
 
- 
+ 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
-& *ä
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Recognitionstatus.cs
+ Î
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Recognitionstatus.cs
 
  &
 
@@ -646,68 +683,31 @@
 
 &&% 0
 
-(( /Ã
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slanotification.cs
+(( /ã
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Recognitionreward.cs
 
- $
+ &
 
- 
-
-
-
- 
-
- 
-
- "
-
- %
-
- "
-
- 
-
-  
-
- 
-
- 
-
- $
-
- ”
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Slahistory.cs
-
- 
-
- 
+ 
 
 
 
- 
+ 
 
- 
+ 
 
  
 
- 
+ 
 
- #
+ 
 
- %
+ 
 
- 
+& .
 
- 
-
- 
-
- .
-
-" 5
-
-   ˛
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Recognitiondetail.cs
+' <ﬂ
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Recognitiondetail.cs
 
  &
 
@@ -743,8 +743,8 @@
 
 $$2 E
 
-&& (µ
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Promotionhistory.cs
+&& (ñ
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Promotionhistory.cs
 
  %
 
@@ -768,8 +768,8 @@
 
 & 2
 
- &≤
-ßC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Promotion.cs
+ &ì
+àC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Promotion.cs
 
  
 
@@ -815,8 +815,8 @@
 
 .. )
 
-001 C–
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Projectgoalfeedback.cs
+001 C±
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Projectgoalfeedback.cs
 
  (
 
@@ -844,8 +844,8 @@
 
  
 
- "Ñ
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Projectemployee.cs
+ "Â
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Projectemployee.cs
 
  $
 
@@ -861,8 +861,8 @@
 
 ) 1
 
- "¯
-•C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Project.cs
+ "Ÿ
+ÜC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Project.cs
 
  
 
@@ -920,8 +920,430 @@
 
 ::4 H
 
-<<* ?œ
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nomination.cs
+<<* ?≤
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Profilechangerequest.cs
+
+ )
+
+ 
+
+
+
+ 
+
+ '
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+  
+
+' 5
+
+& *›
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Policyviolation.cs
+
+ $
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ !
+
+ "
+
+ 
+
+  & 2
+
+""' 6
+
+$$) /
+
+&&& 4«
+êC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Peerfeedbackqueue.cs
+
+ &
+
+ 
+
+
+
+ $
+
+ "
+
+ !
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+' 3
+
+   -
+
+"" /™
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Peerfeedback.cs
+
+ !
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ %
+
+ 
+
+ 
+
+ 
+
+ 
+
+* 6
+
+* =’
+ÜC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Payroll.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ '
+
+ !
+
+ 
+
+  
+
+ 
+
+ 
+
+   
+
+""' 5
+
+$$ (
+
+&&& 2Ü
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Refreshtoken.cs
+
+ !
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& *´
+òC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Organizationwideobjective.cs
+
+ .
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ "
+
+  
+
+ 
+
+ 
+
+' :
+
+ )
+
+9 R¬
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Organizationgoalfeedback.cs
+
+ -
+
+  
+
+
+
+ &
+
+ $
+
+ !
+
+ 
+
+ #
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ,
+
+- B
+
+   /í
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Organizationalpolicy.cs
+
+ )
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ %
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ '
+
+ 
+
+    
+
+"" 
+
+$$ 
+
+&& 
+
+(( 
+
+**& 3
+
+,,0 @
+
+..' <Ï
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Oneononediscussion.cs
+
+ '
+
+ 
+
+
+
+ 
+
+ $
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+   
+
+"" 
+
+$$) <
+
+&&) 5
+
+(() <˛
+õC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationvisibilitytracking.cs
+
+ 1
+
+ 
+
+
+
+ 
+
+ !
+
+ 
+
+ 
+
+% /
+
+ ,ú
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationreviewmetric.cs
+
+ +
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ "
+
+ #
+
+ 
+
+ 
+
+ (
+
+& 4˙
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationparametervalue.cs
+
+ -
+
+ 
+
+
+
+ 
+
+ 
+
+ !
+
+ 
+
+% /
+
+' 0±
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationparameter.cs
+
+ (
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ "
+
+ 
+
+ 
+
+ 
+
+9 R
+
+ (∞
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nomination.cs
 
  
 
@@ -993,432 +1415,8 @@
 
 HH* 4
 
-JJ' 5¸
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Policyviolation.cs
-
- $
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- !
-
- "
-
- 
-
-  & 2
-
-""' 6
-
-$$) /
-
-&&& 4Ê
-ØC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Peerfeedbackqueue.cs
-
- &
-
- 
-
-
-
- $
-
- "
-
- !
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-' 3
-
-   -
-
-"" /…
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Peerfeedback.cs
-
- !
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- %
-
- 
-
- 
-
- 
-
- 
-
-* 6
-
-* =Ù
-•C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Payroll.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- '
-
- !
-
- 
-
-  
-
- 
-
- 
-
-   
-
-""' 5
-
-$$ (
-
-&&& 2ú
-°C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Otp.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- À
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Mentorfeedback.cs
-
- #
-
- 
-
-
-
-  
-
- 
-
- 
-
- 
-
- %
-
- #
-
- 
-
- 
-
- 
-
- 
-
- 0·
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Organizationgoalfeedback.cs
-
- -
-
-  
-
-
-
- &
-
- $
-
- !
-
- 
-
- #
-
- 
-
- 
-
- 
-
- 
-
- ,
-
-- B
-
-   /±
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Organizationalpolicy.cs
-
- )
-
- 
-
-
-
- 
-
- 
-
- 
-
- %
-
- 
-
- 
-
- 
-
- 
-
- 
-
- '
-
- 
-
-    
-
-"" 
-
-$$ 
-
-&& 
-
-(( 
-
-**& 3
-
-,,0 @
-
-..' <ã
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Oneononediscussion.cs
-
- '
-
- 
-
-
-
- 
-
- $
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
-   
-
-"" 
-
-$$) <
-
-&&) 5
-
-(() <ù
-∫C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationvisibilitytracking.cs
-
- 1
-
- 
-
-
-
- 
-
- !
-
- 
-
- 
-
-% /
-
- ,ª
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationreviewmetric.cs
-
- +
-
- 
-
-
-
- 
-
- 
-
- 
-
- "
-
- #
-
- 
-
- 
-
- (
-
-& 4ô
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationparametervalue.cs
-
- -
-
- 
-
-
-
- 
-
- 
-
- !
-
- 
-
-% /
-
-' 0–
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Nominationparameter.cs
-
- (
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- "
-
- 
-
- 
-
- 
-
-9 R
-
- (—
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Profilechangerequest.cs
-
- )
-
- 
-
-
-
- 
-
- '
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
-  
-
-' 5
-
-& *ó
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Momsharing.cs
+JJ' 5¯
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Momsharing.cs
 
  
 
@@ -1438,8 +1436,8 @@
 
  ,
 
- .˚
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Momdiscussionpoint.cs
+ .‹
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Momdiscussionpoint.cs
 
  '
 
@@ -1453,8 +1451,8 @@
 
  
 
- û
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndassignment.cs
+ ì
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Momactionitem.cs
 
  "
 
@@ -1462,42 +1460,24 @@
 
 
 
- 
+ 
 
- 
+ !
 
- 
+ #
 
- 
+ 
 
- 
+ 
 
-  
+ 
 
- "
+ 
 
-  
+!! .
 
- "
-
- 
-
- #
-
-   
-
-"" -
-
-$$, 8
-
-&& *
-
-(( $
-
-** 
-
-,, .à
-°C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Mom.cs
+## È
+ÇC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Mom.cs
 
  
 
@@ -1535,8 +1515,8 @@
 
 ::+ 6
 
-<< /ø
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Mentorfeedbacktracking.cs
+<< /†
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Mentorfeedbacktracking.cs
 
  +
 
@@ -1582,35 +1562,37 @@
 
 .. 
 
-00 / 
-∑C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Organizationwideobjective.cs
+00 /¨
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Mentorfeedback.cs
 
- .
+ #
 
- 
+ 
 
 
 
- 
+  
 
- 
+ 
 
- 
+ 
 
- "
+ 
 
-  
+ %
 
- 
+ #
 
- 
+ 
 
-' :
+ 
 
- )
+ 
 
-9 R√
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Meetingparticipant.cs
+ 
+
+ 0§
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Meetingparticipant.cs
 
  '
 
@@ -1636,8 +1618,8 @@
 
 && $
 
-(( "ó
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Meetingmom.cs
+(( "¯
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Meetingmom.cs
 
  
 
@@ -1657,8 +1639,8 @@
 
  
 
- %–
-•C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Meeting.cs
+ %±
+ÜC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Meeting.cs
 
  
 
@@ -1686,8 +1668,8 @@
 
 --$ (
 
-// /§
-©C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\MasterSkill.cs
+// /Ö
+äC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\MasterSkill.cs
 
   
 
@@ -1709,8 +1691,8 @@
 
 ' .
 
-7 NÈ
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Managerreviewcomment.cs
+7 N 
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Managerreviewcomment.cs
 
  )
 
@@ -1742,27 +1724,8 @@
 
    *
 
-"" #ö
-∑C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Managernominationtracking.cs
-
- .
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- (
-
-& 2•
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Loginattempt.cs
+"" #Ü
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Loginattempt.cs
 
  !
 
@@ -1784,8 +1747,8 @@
 
  
 
-' +€
-§C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndsme.cs
+' +º
+ÖC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndsme.cs
 
  
 
@@ -1817,8 +1780,8 @@
 
   7 N
 
-"" $”
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndemployeeskillmapper.cs
+"" $¥
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndemployeeskillmapper.cs
 
  +
 
@@ -1846,8 +1809,8 @@
 
  $
 
- -≤
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndattachment.cs
+ -ì
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndattachment.cs
 
  "
 
@@ -1871,8 +1834,8 @@
 
 , 8
 
-' .≤
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Momactionitem.cs
+' .ˇ
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndassignment.cs
 
  "
 
@@ -1880,397 +1843,42 @@
 
 
 
- 
+ 
 
- !
+ 
 
- #
+ 
 
- 
+ 
 
- 
+ 
 
- 
+  
 
- 
+ "
 
-!! .
+  
 
-## ü
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Leadershipauditlog.cs
-
- '
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-' +Ë
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Internalopportunity.cs
-
- (
-
- 
-
-
-
- !
-
- 
-
- 
-
- 
-
- &
-
- 
-
- 
-
- 
-
- 
+ "
 
  
 
- (
+ #
 
-  + 6
+   
 
-""& 2ﬂ
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Hrfeedbackformresponse.cs
+"" -
 
- +
+$$, 8
 
- 
+&& *
 
-
-
- 
+(( $
 
- $
+** 
 
- 
-
- 
-
-  
-
- 
-
- 
-
- #
-
- 
-
-" &
-
-' 3
-
-   /ø
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Hrfeedbackform.cs
-
- #
-
- 
-
-
-
- 
-
- "
-
- 
-
- 
-
- +
-
- 
-
- 
-
- 
-
-& 1
-
-7 Nú
-≠C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Goalprogresslog.cs
-
- $
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-* =å
-©C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalComment.cs
-
-  
-
- 
-
-
-
- 
-
- 
-
- 
-
-  
-
-* ?
-
- ñ
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Goalchecklistprogress.cs
-
- *
-
- "
-
-
-
- 
-
- 
-
- 
-
-  
-
-! *
-
-* .æ
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalChecklist.cs
-
- "
-
- 
-
-
-
- 
-
- 
-
- "
-
- 
-
- 
-
- 
-
-* ;
-
-* <
-
- 
-
-6 Mø
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalAttachment.cs
-
- #
-
-  
-
-
-
- 
-
- "
-
- 
-
- 
-
- 
-
- $
-
-  
-
-* >
-
- 
-
-! /À
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalAssignment.cs
-
- #
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- #
-
- 
-
-* B
-
-* >
-
-* >
-
- …
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalApproval.cs
-
- !
-
- 
-
-
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
- !
-
-* >
-
- 
-
-/ >
-
-* ?ç
-¢C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Goal.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- "
-
- "
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
-   
-
-"" 
-
-$$  
-
-&&* <
-
-((* =
-
-**) 2
-
-,,- :
-
-../ >
-
-00/ >
-
-22. <
-
-44, 8
-
-660 @
-
-885 J
-
-:: #
-
-<<4 H
-
->>* >
-
-@@' .ƒ
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Formprogresstracker.cs
-
- (
-
- 
-
-
-
- 
-
- 
-
- 
-
- "
-
- 
-
- !
-
- 
-
- !
-
-  
-
- (¯
-©C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndapproval.cs
+,, .Ÿ
+äC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Lndapproval.cs
 
   
 
@@ -2306,8 +1914,8 @@
 
 $$ -
 
-&&  %Ω
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedbackquestionresponse.cs
+&&  %û
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedbackquestionresponse.cs
 
  -
 
@@ -2331,8 +1939,374 @@
 
  $
 
-$ ,˝
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedbackquestion.cs
+$ ,…
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Internalopportunity.cs
+
+ (
+
+ 
+
+
+
+ !
+
+ 
+
+ 
+
+ 
+
+ &
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ (
+
+  + 6
+
+""& 2¿
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Hrfeedbackformresponse.cs
+
+ +
+
+ 
+
+
+
+ 
+
+ $
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ #
+
+ 
+
+" &
+
+' 3
+
+   /†
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Hrfeedbackform.cs
+
+ #
+
+ 
+
+
+
+ 
+
+ "
+
+ 
+
+ 
+
+ +
+
+ 
+
+ 
+
+ 
+
+& 1
+
+7 N˝
+éC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Goalprogresslog.cs
+
+ $
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+* =Ì
+äC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalComment.cs
+
+  
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+  
+
+* ?
+
+ ˜
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Goalchecklistprogress.cs
+
+ *
+
+ "
+
+
+
+ 
+
+ 
+
+ 
+
+  
+
+! *
+
+* .ü
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalChecklist.cs
+
+ "
+
+ 
+
+
+
+ 
+
+ 
+
+ "
+
+ 
+
+ 
+
+ 
+
+* ;
+
+* <
+
+ 
+
+6 M˚
+òC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Managernominationtracking.cs
+
+ .
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ (
+
+& 2†
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalAttachment.cs
+
+ #
+
+  
+
+
+
+ 
+
+ "
+
+ 
+
+ 
+
+ 
+
+ $
+
+  
+
+* >
+
+ 
+
+! /¨
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalAssignment.cs
+
+ #
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ #
+
+ 
+
+* B
+
+* >
+
+* >
+
+ ™
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\GoalApproval.cs
+
+ !
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ !
+
+* >
+
+ 
+
+/ >
+
+* ?€
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Changerequest.cs
+
+ "
+
+ 
+
+
+
+ 
+
+ 
+
+ '
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ !
+
+  
+
+ 
+
+   
+
+""  
+
+$$ "
+
+&& $•
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Formprogresstracker.cs
+
+ (
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ "
+
+ 
+
+ !
+
+ 
+
+ !
+
+  
+
+ (Ä
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Leadershipauditlog.cs
+
+ '
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+' +ﬁ
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedbackquestion.cs
 
  %
 
@@ -2368,8 +2342,31 @@
 
 $$ 
 
-&&9 RÄ
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\CertificateBaseTemplate.cs
+&&9 Rç
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedbackedithistory.cs
+
+ (
+
+ 
+
+
+
+ 
+
+ !
+
+ !
+
+  
+
+ 
+
+ 
+
+ ,
+
+ $·
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\CertificateBaseTemplate.cs
 
  ,
 
@@ -2383,69 +2380,8 @@
 
  
 
- Ö
-¶C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedback.cs
-
- 
-
- 
-
-
-
- 
-
- %
-
- "
-
- 
-
-  
-
- 
-
- )
-
- 
-
- 
-
- 
-
- 
-
-   
-
-"" '
-
-$$ 
-
-&& 
-
-(( #
-
-** 
-
-,, 
-
-..  
-
-004 I
-
-229 R
-
-44 -
-
-66 $
-
-88 *
-
-:: *
-
-<<' 3
-
->> 0ó
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Engagement.cs
+ ¯
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Engagement.cs
 
  
 
@@ -2465,8 +2401,8 @@
 
  
 
- )¬
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Employeedetailsmaster.cs
+ )£
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Employeedetailsmaster.cs
 
  *
 
@@ -2534,8 +2470,8 @@
 
 DD4 H
 
-FF –
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Employeecertificate.cs
+FF ±
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Employeecertificate.cs
 
  (
 
@@ -2563,8 +2499,8 @@
 
  $
 
-' /Á
-¶C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Employee.cs(
+' /»
+áC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Employee.cs(
  << '<<b j~~ 
 
  
@@ -2715,8 +2651,8 @@
 
 òò' 9
 
-öö  +Î
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Departmentheadapproval.cs
+öö  +Ã
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Departmentheadapproval.cs
 
  +
 
@@ -2748,284 +2684,8 @@
 
   ) 1
 
-"" "Â
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Departmentbudget.cs
-
- %
-
- 
-
-
-
- 
-
- 
-
- 
-
- #
-
- "
-
- )
-
- 
-
- &
-
- 
-
- 
-
-1 B
-
-  7 N
-
-"" (‹
-•C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Address.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
-"" $ã
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Competency.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
-1 B
-
-" &˙
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Changerequest.cs
-
- "
-
- 
-
-
-
- 
-
- 
-
- '
-
- 
-
- 
-
- 
-
- 
-
- 
-
- !
-
-  
-
- 
-
-   
-
-""  
-
-$$ "
-
-&& $Ë
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Certificatetemplate.cs
-
- (
-
- 
-
-
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-9 R
-
-  4 H
-
-""! %§
-µC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Certificatenotification.cs
-
- ,
-
- 
-
-
-
- 
-
- 
-
- %
-
- 
-
- 
-
-' 2
-
- $•
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Certificatecustomization.cs
-
- -
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-' /¨
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedbackedithistory.cs
-
- (
-
- 
-
-
-
- 
-
- !
-
- !
-
-  
-
- 
-
- 
-
- ,
-
- $µ
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Bulkoperationlog.cs
-
- %
-
- 
-
-
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-& 5ﬂ
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Budgetperiodallocation.cs
-
- +
-
- !
-
-
-
- 
-
- 
-
- 
-
- "
-
- !
-
- (
-
-  
-
- 
-
- 
-
- 
-
-!!& 5
-
-##$ *°
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Budgetallocation.cs
+"" "Ç
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Budgetallocation.cs
 
  %
 
@@ -3067,106 +2727,8 @@
 
 -- (
 
-//' 3ª
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assignment.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-& :
-
-& .
-
-" &
-
-4 Hâ
-¶C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Auditlog.cs
-
- 
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-' +µ
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assessmentreview.cs
-
- %
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-$ *
-
-& .ø
-¨C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assessmentform.cs
-
- #
-
- 
-
-
-
- 
-
- 
-
- 
-
- %
-
- 
-
-+ 6
-
-+ 7
-
-' :
-
-/ >
-
-2 DÀ
-®C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Department.cs
+//' 3¨
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Department.cs
 
  
 
@@ -3216,19 +2778,413 @@
 
 22. <
 
-44$ (í
-´C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\SkillDto.cs
+44$ (Ï
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Competency.cs
 
- 
- 
+ 
+
+ 
+
+
 
- 
-  
- #
+ 
+
+ 
+
+ 
+
+ 
+
+1 B
+
+" &Ó
+ÉC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Goal.cs
+
+ 
+
+ 
+
+
 
- 
-, 5 !ù
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assessmentdetail.cs
+ 
+
+ 
+
+ 
+
+ "
+
+ "
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+   
+
+"" 
+
+$$  
+
+&&* <
+
+((* =
+
+**) 2
+
+,,- :
+
+../ >
+
+00/ >
+
+22. <
+
+44, 8
+
+660 @
+
+885 J
+
+:: #
+
+<<4 H
+
+>>* >
+
+@@' .…
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Certificatetemplate.cs
+
+ (
+
+ 
+
+
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+9 R
+
+  4 H
+
+""! %Ö
+ñC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Certificatenotification.cs
+
+ ,
+
+ 
+
+
+
+ 
+
+ 
+
+ %
+
+ 
+
+ 
+
+' 2
+
+ $Ü
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Certificatecustomization.cs
+
+ -
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+' /Ê
+áC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Feedback.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ %
+
+ "
+
+ 
+
+  
+
+ 
+
+ )
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+"" '
+
+$$ 
+
+&& 
+
+(( #
+
+** 
+
+,, 
+
+..  
+
+004 I
+
+229 R
+
+44 -
+
+66 $
+
+88 *
+
+:: *
+
+<<' 3
+
+>> 0ñ
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Bulkoperationlog.cs
+
+ %
+
+ 
+
+
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& 5¿
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Budgetperiodallocation.cs
+
+ +
+
+ !
+
+
+
+ 
+
+ 
+
+ 
+
+ "
+
+ !
+
+ (
+
+  
+
+ 
+
+ 
+
+ 
+
+!!& 5
+
+##$ *∆
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Departmentbudget.cs
+
+ %
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ #
+
+ "
+
+ )
+
+ 
+
+ &
+
+ 
+
+ 
+
+1 B
+
+  7 N
+
+"" (Í
+áC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Auditlog.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+' +ú
+âC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assignment.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& :
+
+& .
+
+" &
+
+4 Hñ
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assessmentreview.cs
+
+ %
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+$ *
+
+& .†
+çC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assessmentform.cs
+
+ #
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ %
+
+ 
+
++ 6
+
++ 7
+
+' :
+
+/ >
+
+2 D˛
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Assessmentdetail.cs
 
  %
 
@@ -3248,8 +3204,52 @@
 
 1 B
 
- (ã
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\RewardResponseDto.cs
+ (Ω
+ÜC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\Entities\Address.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+"" $Û
+åC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\SkillDto.cs
+
+ 
+ 
+
+ 
+  
+ #
+
+ 
+, 5 !Ï
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\RewardResponseDto.cs
 
  "
 
@@ -3265,8 +3265,8 @@
 
 
 
- !‰
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\MasterSkillDto.cs
+ !≈
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\MasterSkillDto.cs
 
  
 
@@ -3274,15 +3274,15 @@
 
  
 
- !ﬂ
-∏C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\LogoUploadResponseDto.cs
+ !¿
+ôC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\LogoUploadResponseDto.cs
 
  &
 
  
 
- ›
-™C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\GoalDto.cs
+ æ
+ãC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\GoalDto.cs
 
  
 
@@ -3290,39 +3290,20 @@
 
  
 
- %˘
-∫C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\GeneratedCertificateDto.cs
+ %«
+†C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\GenerateCertificateRequestDto.cs
 
- (
-   
-		 ) 
- ! 
- ! 
-  )
- &" 5
-  !
-  #·
-ÆC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\EmployeeDto.cs
+ .
 
- 
+		 
 
- 
+ ≤
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\LogoUploadRequestDto.cs
 
- "
+ %
 
- $Û
-¥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\EmployeeBasicInfo.cs
-
- "
-
- #
-
-  
-
- 
-
- ¥
-πC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\CertificateTemplateDto.cs
+ !ï
+öC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\CertificateTemplateDto.cs
 
  '
 
@@ -3342,8 +3323,39 @@
 
  !
 
- Ò
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\BaseTemplateDto.cs
+ É
+†C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\CertificateTemplateRequestDto.cs
+
+ .
+
+ "
+
+		 "
+
+ $
+
+ 
+
+ 
+
+ "
+
+ !¨
+ëC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\GoalRequestDto.cs
+
+ 
+
+ ¬
+èC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\EmployeeDto.cs
+
+ 
+
+ 
+
+ "
+
+ $“
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\BaseTemplateDto.cs
 
   
 
@@ -3353,18 +3365,24 @@
 
 		 
 
- "Ã
-±C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\SkillRequestDto.cs
+ "⁄
+õC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\GeneratedCertificateDto.cs
+
+ (
+   
+		 ) 
+ ! 
+ ! 
+  )
+ &" 5
+  !
+  #≠
+íC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\SkillRequestDto.cs
 
   
 
- À
-∞C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\GoalRequestDto.cs
-
- 
-
- ˝
-≤C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\RewardRequestDto.cs
+ ﬁ
+ìC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\RewardRequestDto.cs
 
  !
 
@@ -3376,8 +3394,19 @@
 
  
 
-		 ñ
-≥C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\EmployeeBasicInfo.cs
+		 ÷
+óC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\NominationRequestDto.cs
+
+ %
+
+ 
+
+ 
+
+ 
+
+ ˜
+îC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\EmployeeBasicInfo.cs
 
  "
 
@@ -3395,48 +3424,19 @@
 
  
 
- $ı
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\NominationRequestDto.cs
+ $‘
+ïC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Response\EmployeeBasicInfo.cs
 
- %
+ "
 
- 
+ #
 
- 
+  
 
- 
+ 
 
- ¢
-øC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\CertificateTemplateRequestDto.cs
-
- .
-
- "
-
-		 "
-
- $
-
- 
-
- 
-
- "
-
- !—
-∂C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\LogoUploadRequestDto.cs
-
- %
-
- !Ê
-øC:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\GenerateCertificateRequestDto.cs
-
- .
-
-		 
-
- Î
-∏C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\BaseTemplateRequestDto.cs
+ Ã
+ôC:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Common\DTOs\Request\BaseTemplateRequestDto.cs
 
  '
 

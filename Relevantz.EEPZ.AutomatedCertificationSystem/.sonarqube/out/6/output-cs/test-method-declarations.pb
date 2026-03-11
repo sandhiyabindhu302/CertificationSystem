@@ -1,12 +1,22 @@
-×
-²C:\Users\sandhiya.ramesh\Desktop\MVP\Back End\Auth_Admin_Prjmgt_Functionalities\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.csRelevantz.EEPZ.Api.TestsI
+–
+“C:\Users\sandhiya.ramesh\Desktop\MVP\MVP_Backend\Relevantz.EEPZ.AutomatedCertificationSystem\Relevantz.EEPZ.Api.Tests\CertificateControllerTests.csRelevantz.EEPZ.Api.TestsI
 /Relevantz.EEPZ.Tests.CertificateControllerTestsCreateTemplate_SuccessI
 /Relevantz.EEPZ.Tests.CertificateControllerTestsUpdateTemplate_SuccessJ
-/Relevantz.EEPZ.Tests.CertificateControllerTestsGetAllTemplates_SuccessJ
+/Relevantz.EEPZ.Tests.CertificateControllerTestsUpdateTemplate_NotFoundJ
+/Relevantz.EEPZ.Tests.CertificateControllerTestsGetAllTemplates_SuccessL
+/Relevantz.EEPZ.Tests.CertificateControllerTestsGetAllTemplates_EmptyListJ
 /Relevantz.EEPZ.Tests.CertificateControllerTestsGetTemplateById_SuccessI
-/Relevantz.EEPZ.Tests.CertificateControllerTestsDeleteTemplate_SuccessM
+/Relevantz.EEPZ.Tests.CertificateControllerTestsDeleteTemplate_SuccessI
+/Relevantz.EEPZ.Tests.CertificateControllerTestsDeleteTemplate_FailureM
 /Relevantz.EEPZ.Tests.CertificateControllerTestsUploadBaseTemplate_SuccessK
-/Relevantz.EEPZ.Tests.CertificateControllerTestsGetBaseTemplates_SuccessN
+/Relevantz.EEPZ.Tests.CertificateControllerTestsGetBaseTemplates_SuccessI
+/Relevantz.EEPZ.Tests.CertificateControllerTestsGetBaseTemplates_EmptyN
 /Relevantz.EEPZ.Tests.CertificateControllerTestsGenerateCertificate_SuccessN
 /Relevantz.EEPZ.Tests.CertificateControllerTestsGenerateCertificate_FailureQ
-/Relevantz.EEPZ.Tests.CertificateControllerTestsGetEmployeeCertificate_Success
+/Relevantz.EEPZ.Tests.CertificateControllerTestsGetEmployeeCertificate_SuccessR
+/Relevantz.EEPZ.Tests.CertificateControllerTestsGetEmployeeCertificate_NotFoundN
+/Relevantz.EEPZ.Tests.CertificateControllerTestsDownloadCertificate_SuccessT
+/Relevantz.EEPZ.Tests.CertificateControllerTests!DownloadCertificate_NoCertificate_
+/Relevantz.EEPZ.Tests.CertificateControllerTests,CreateTemplate_ReturnsOk_WhenServiceSucceedsa
+/Relevantz.EEPZ.Tests.CertificateControllerTests.GetAllTemplates_ReturnsList_WhenServiceHasDatan
+/Relevantz.EEPZ.Tests.CertificateControllerTests;DownloadCertificate_ReturnsFileContentResult_WhenFileExists

@@ -5,6 +5,7 @@ using Relevantz.EEPZ.Core.IService;
 using Relevantz.EEPZ.Common.Entities;
 using Microsoft.EntityFrameworkCore;
 using Relevantz.EEPZ.Data.DBContexts;
+using System.Text.Json;
 using System.Drawing;  // For Bitmap
 using System.Drawing.Imaging;  // For ImageFormat
 using ZXing;  // For QR Code generation
@@ -16,6 +17,8 @@ using iText.IO.Image;  // For image handling in iText
 using iText.Kernel.Font;
 using iText.IO.Font.Constants;
 using iText.Kernel.Pdf.Canvas;
+using System.Drawing;  // For Bitmap
+using System.Drawing.Imaging;  // For ImageFormat
 using System.IO;
 using System;
 using ZXing.Common;
@@ -35,16 +38,25 @@ namespace Relevantz.EEPZ.Core.Service
         private readonly ITemplateLogoRepository _logoRepository;
         private readonly ApplicationDbContext _context;
 
+        private readonly string _apiBaseUrl;
+
+        public CertificateService(string apiBaseUrl)
+        {
+            _apiBaseUrl = apiBaseUrl; // Assign the injected value to the field
+        }
+
+
         public CertificateService(
-     ICertificateRepository certificateRepository,
-     ITemplateRepository templateRepository,
-     IUserProfileRepository userProfileRepository,
-     ISkillRepository skillRepository,
-     IGoalRepository goalRepository,
-     IRewardRepository rewardRepository,
-     IBaseTemplateRepository baseTemplateRepository,
-     ITemplateLogoRepository templateLogoRepository,
-     ApplicationDbContext context)
+         ICertificateRepository certificateRepository,
+         ITemplateRepository templateRepository,
+         IUserProfileRepository userProfileRepository,
+         ISkillRepository skillRepository,
+         IGoalRepository goalRepository,
+         IRewardRepository rewardRepository,
+         IBaseTemplateRepository baseTemplateRepository,
+         ITemplateLogoRepository templateLogoRepository,
+         ApplicationDbContext context,
+         string apiBaseUrl) // Accept apiBaseUrl as a parameter
         {
             _certificateRepository = certificateRepository;
             _templateRepository = templateRepository;
@@ -55,7 +67,9 @@ namespace Relevantz.EEPZ.Core.Service
             _baseTemplateRepository = baseTemplateRepository;
             _logoRepository = templateLogoRepository;
             _context = context;
+            _apiBaseUrl = apiBaseUrl; // Initialize _apiBaseUrl
         }
+
 
         // Create Certificate Template
         public async Task<CertificateTemplateDto> CreateCertificateTemplateAsync(CertificateTemplateRequestDto request)
@@ -74,39 +88,6 @@ namespace Relevantz.EEPZ.Core.Service
             };
 
             await _templateRepository.AddAsync(template);
-
-            return new CertificateTemplateDto
-            {
-                TemplateId = template.TemplateId,
-                TemplateName = template.TemplateName,
-                TemplateType = template.TemplateType,
-                TemplateLayout = template.TemplateLayout,
-                LogoId = template.LogoId,
-                EmployeeId = template.EmployeeId,
-                EmployeeName = template.EmployeeName,
-                Achievement = template.Achievement,
-                IsFinalized = template.IsFinalized
-            };
-        }
-
-        // Update Certificate Template
-        public async Task<CertificateTemplateDto> UpdateCertificateTemplateAsync(int templateId, CertificateTemplateRequestDto request)
-        {
-            var template = await _templateRepository.GetByIdAsync(templateId);
-
-            if (template == null)
-                return null;
-
-            template.TemplateName = request.TemplateName;
-            template.TemplateType = request.TemplateType;
-            template.TemplateLayout = request.TemplateLayout;
-            template.LogoId = request.LogoId;
-            template.EmployeeId = request.EmployeeId;
-            template.EmployeeName = request.EmployeeName;
-            template.Achievement = request.Achievement;
-            template.UpdatedAt = DateTime.UtcNow;
-
-            await _templateRepository.UpdateAsync(template);
 
             return new CertificateTemplateDto
             {
@@ -163,16 +144,20 @@ namespace Relevantz.EEPZ.Core.Service
                 IsFinalized = template.IsFinalized
             });
         }
+
         public async Task<GeneratedCertificateDto> GenerateCertificateAsync(GenerateCertificateRequestDto request)
         {
             var template = await _templateRepository.GetByIdAsync(request.TemplateId);
             var profile = await _userProfileRepository.GetByEmployeeIdAsync(request.EmployeeId);
 
             if (template == null || profile == null)
-                return null;
+                throw new InvalidOperationException("Template or employee not found.");
 
-            string employeeName = $"{profile.FirstName} {profile.LastName}"; 
-            var layout = System.Text.Json.JsonDocument.Parse(template.TemplateLayout).RootElement;
+            if (!template.IsFinalized)
+                throw new InvalidOperationException("Template is not finalized yet.");
+
+            string employeeName = $"{profile.FirstName} {profile.LastName}";
+            var layout = JsonDocument.Parse(template.TemplateLayout).RootElement;
 
             float canvasW = layout.GetProperty("canvas").GetProperty("width").GetSingle();
             float canvasH = layout.GetProperty("canvas").GetProperty("height").GetSingle();
@@ -183,14 +168,28 @@ namespace Relevantz.EEPZ.Core.Service
             string fileName = $"certificate_{request.EmployeeId}_{DateTime.UtcNow.Ticks}.pdf";
             string filePath = Path.Combine(folder, fileName);
 
-            // Generate the serial number
-            string serialNumber = GenerateSerialNumber(); // Generate the serial number
+            string serialNumber = GenerateSerialNumber();
+
+            var certificate = new Employeecertificate
+            {
+                EmployeeId = request.EmployeeId,
+                TemplateId = request.TemplateId,
+                AreaOfAchievement = template.Achievement,
+                CertificateFilePath = filePath,
+                IssueDate = DateTime.UtcNow,
+                Status = "Generated",
+                SerialNumber = serialNumber,
+                EmployeeName = employeeName
+            };
+
+            await _certificateRepository.AddAsync(certificate);
 
             using (var writer = new PdfWriter(filePath))
             using (var pdf = new PdfDocument(writer))
             {
                 var pageSize = new iText.Kernel.Geom.PageSize(canvasW, canvasH);
                 pdf.AddNewPage(pageSize);
+
                 var page = pdf.GetPage(1);
                 var canvas = new PdfCanvas(page);
 
@@ -200,190 +199,215 @@ namespace Relevantz.EEPZ.Core.Service
                 PdfFont bold = PdfFontFactory.CreateFont(StandardFonts.HELVETICA_BOLD);
                 PdfFont normal = PdfFontFactory.CreateFont(StandardFonts.HELVETICA);
 
-                // ================= BACKGROUND =================
                 string bg = layout.GetProperty("canvas").GetProperty("background").GetString();
+
                 if (!string.IsNullOrEmpty(bg))
                 {
                     string bgPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", bg.TrimStart('/'));
+
                     if (File.Exists(bgPath))
                     {
-                        var bgImg = new iText.Layout.Element.Image(iText.IO.Image.ImageDataFactory.Create(bgPath));
+                        var bgImg = new iText.Layout.Element.Image(
+                            iText.IO.Image.ImageDataFactory.Create(bgPath));
+
                         bgImg.ScaleAbsolute(canvasW, canvasH);
                         bgImg.SetFixedPosition(0, 0);
+
                         doc.Add(bgImg);
                     }
                 }
 
-                // Convert TOP-left → PDF bottom-left
-                float Y(float top, float elementHeight) => canvasH - top - elementHeight;
+                void DrawCentered(string text, float y, float size, PdfFont font)
+                {
+                    var paragraph = new Paragraph(text)
+                        .SetFont(font)
+                        .SetFontSize(size)
+                        .SetTextAlignment(TextAlignment.CENTER)
+                        .SetFixedPosition(0, canvasH - y, canvasW);
 
-                // =============== LOGO ===============
+                    doc.Add(paragraph);
+                }
+
+                // ================= LOGO =================
+
                 var logo = layout.GetProperty("logo");
+
                 if (logo.GetProperty("enabled").GetBoolean())
                 {
                     var logoData = await _logoRepository.GetLogoByIdAsync(template.LogoId);
 
                     if (logoData?.LogoImage != null)
                     {
-                        float xPx = logo.GetProperty("position").GetProperty("x").GetSingle();
-                        float yPx = logo.GetProperty("position").GetProperty("y").GetSingle();
                         float widthPx = logo.GetProperty("size").GetSingle();
 
                         var rawImage = iText.IO.Image.ImageDataFactory.Create(logoData.LogoImage);
-                        float originalW = rawImage.GetWidth();
-                        float originalH = rawImage.GetHeight();
-
-                        float scale = widthPx / originalW;
-                        float heightPx = originalH * scale;
-
-                        float pdfX = xPx;
-                        float pdfY = canvasH - yPx - heightPx;
 
                         var img = new iText.Layout.Element.Image(rawImage);
-                        img.ScaleAbsolute(widthPx, heightPx);
-                        img.SetFixedPosition(pdfX, pdfY);
+
+                        img.ScaleToFit(widthPx, widthPx);
+
+                        // center horizontally
+                        float logoX = (canvasW / 2) - (widthPx / 2);
+
+                        // move very close to top
+                        float logoY = canvasH - widthPx + 40;
+
+                        img.SetFixedPosition(logoX, logoY);
 
                         doc.Add(img);
                     }
                 }
 
-                // ================= TEXT RENDERER =================
-                void Draw(string text, float x, float y, float size, PdfFont font)
-                {
-                    canvas.BeginText();
-                    canvas.SetFontAndSize(font, size);
-                    canvas.MoveText(x, canvasH - y); // TOP-left baseline
-                    canvas.ShowText(text);
-                    canvas.EndText();
-                }
-
                 // ================= TITLE =================
+
                 var title = layout.GetProperty("title");
+
                 if (title.GetProperty("enabled").GetBoolean())
                 {
-                    Draw(title.GetProperty("text").GetString(),
-                         title.GetProperty("position").GetProperty("x").GetSingle(),
-                         title.GetProperty("position").GetProperty("y").GetSingle(),
-                         title.GetProperty("fontSize").GetSingle(),
-                         bold);
+                    DrawCentered(
+                        title.GetProperty("text").GetString(),
+                        title.GetProperty("position").GetProperty("y").GetSingle(),
+                        title.GetProperty("fontSize").GetSingle(),
+                        normal
+                    );
                 }
 
-                // ================= TYPE =================
+                // ================= TYPE (RESTORED) =================
+
                 var type = layout.GetProperty("type");
+
                 if (type.GetProperty("enabled").GetBoolean())
                 {
-                    Draw(template.TemplateType,
-                         type.GetProperty("position").GetProperty("x").GetSingle(),
-                         type.GetProperty("position").GetProperty("y").GetSingle(),
-                         type.GetProperty("fontSize").GetSingle(),
-                         normal);
+                    DrawCentered(
+                        template.TemplateType,
+                        type.GetProperty("position").GetProperty("y").GetSingle(),
+                        type.GetProperty("fontSize").GetSingle(),
+                        normal
+                    );
                 }
 
                 // ================= NAME =================
+
                 var name = layout.GetProperty("name");
+
                 if (name.GetProperty("enabled").GetBoolean())
                 {
-                    Draw(employeeName,
-                         name.GetProperty("position").GetProperty("x").GetSingle(),
-                         name.GetProperty("position").GetProperty("y").GetSingle(),
-                         name.GetProperty("fontSize").GetSingle(),
-                         bold);
+                    DrawCentered(
+                        employeeName,
+                        name.GetProperty("position").GetProperty("y").GetSingle(),
+                        name.GetProperty("fontSize").GetSingle(),
+                        bold
+                    );
                 }
 
                 // ================= ACHIEVEMENT =================
+
                 var ach = layout.GetProperty("achievement");
+
                 if (ach.GetProperty("enabled").GetBoolean())
                 {
-                    Draw(template.Achievement,
-                         ach.GetProperty("position").GetProperty("x").GetSingle(),
-                         ach.GetProperty("position").GetProperty("y").GetSingle(),
-                         ach.GetProperty("fontSize").GetSingle(),
-                         normal);
+                    DrawCentered(
+                          certificate.AreaOfAchievement,
+                        ach.GetProperty("position").GetProperty("y").GetSingle(),
+                        ach.GetProperty("fontSize").GetSingle(),
+                        bold
+                    );
                 }
 
-                // ================= ISSUED ON =================
-                string issuedOnText = $"Issued On: {DateTime.UtcNow:MMMM dd, yyyy}";
-                float issuedOnX = canvasW / 2 - 80; // Position it at the center
-                float issuedOnY = 40; // 40px from the bottom (adjust as needed)
+                // ================= QR CODE =================
 
-                float pdfIssuedOnY = canvasH - issuedOnY;
-
-                Draw(issuedOnText, issuedOnX, pdfIssuedOnY, 12, normal);
-
-                // ================= SERIAL NUMBER =================
-                //  string serialNumberText = $"Serial Number: {serialNumber}";
-                float serialNumberX = canvasW / 2 - 80;
-                float serialNumberY = 60; // 60px from the bottom (adjust as needed)
-                float pdfSerialNumberY = canvasH - serialNumberY;
-
-                // Draw(serialNumberText, serialNumberX, pdfSerialNumberY, 12, normal);
-
-                var qrCodeText = $"http://192.168.29.82:3007/employee/verify-certificate?serialNumber={serialNumber}"; // URL containing the serial number                Console.WriteLine("QR Code Text: " + qrCodeText); // Log the QR Code text for debugging
+                var qrText =
+             $"This certificate is provided by our organization\n" +  // Added message
+             $"Certificate ID: {certificate.CertificateId}\n" +
+             $"Serial Number: {serialNumber}\n" +
+             $"Employee Name: {employeeName}\n" +
+             $"Achievement: {template.Achievement}\n" +
+             $"Issued On: {DateTime.UtcNow:MM/dd/yyyy}";
 
                 var barcodeWriter = new BarcodeWriterPixelData
                 {
                     Format = BarcodeFormat.QR_CODE,
-                    Options = new ZXing.Common.EncodingOptions
+                    Options = new EncodingOptions
                     {
-                        Width = 300,
-                        Height = 300
+                        Width = 120,
+                        Height = 120
                     }
                 };
 
-                var pixelData = barcodeWriter.Write(qrCodeText);
+                var pixelData = barcodeWriter.Write(qrText);
 
                 using (var ms = new MemoryStream())
                 {
                     using (var bitmap = new Bitmap(pixelData.Width, pixelData.Height, PixelFormat.Format32bppRgb))
                     {
-                        var bitmapData = bitmap.LockBits(new Rectangle(0, 0, pixelData.Width, pixelData.Height),
-                            ImageLockMode.WriteOnly, bitmap.PixelFormat);
+                        var bitmapData = bitmap.LockBits(
+                            new Rectangle(0, 0, pixelData.Width, pixelData.Height),
+                            ImageLockMode.WriteOnly,
+                            bitmap.PixelFormat
+                        );
 
-                        System.Runtime.InteropServices.Marshal.Copy(pixelData.Pixels, 0, bitmapData.Scan0, pixelData.Pixels.Length);
+                        System.Runtime.InteropServices.Marshal.Copy(
+                            pixelData.Pixels,
+                            0,
+                            bitmapData.Scan0,
+                            pixelData.Pixels.Length
+                        );
+
                         bitmap.UnlockBits(bitmapData);
-
                         bitmap.Save(ms, ImageFormat.Png);
                     }
 
-                    var qrImage = new iText.Layout.Element.Image(iText.IO.Image.ImageDataFactory.Create(ms.ToArray()));
-                    qrImage.ScaleAbsolute(100, 100); // Adjust size as needed
-                    qrImage.SetFixedPosition(canvasW - 120, canvasH - 120); // Position it at the bottom-right corner
+                    var qrImage = new iText.Layout.Element.Image(
+                        iText.IO.Image.ImageDataFactory.Create(ms.ToArray()));
+
+                    qrImage.ScaleAbsolute(70, 70);
+
+                    // top-right
+                    qrImage.SetFixedPosition(canvasW - 85, canvasH - 85);
+
                     doc.Add(qrImage);
                 }
+
+                // ================= BOTTOM =================
+
+                DrawCentered(
+                    $"Issued On: {DateTime.UtcNow:MMMM dd, yyyy}",
+                    canvasH - 40,
+                    12,
+                    normal
+                );
+
+                DrawCentered(
+                    $"Serial Number: {serialNumber}",
+                    canvasH - 20,
+                    12,
+                    normal
+                );
 
                 doc.Close();
             }
 
-            // Create new certificate record in the database with serial number
-            var saved = new Employeecertificate
-            {
-                EmployeeId = request.EmployeeId,
-                TemplateId = request.TemplateId,
-                AreaOfAchievement = template.Achievement,
-                CertificateFilePath = filePath,
-                IssueDate = DateTime.UtcNow,
-                Status = "Generated",
-                SerialNumber = serialNumber, // Store the generated serial number
-                 EmployeeName = employeeName // Save employee name here
-            };
-
-            await _certificateRepository.AddAsync(saved);
-
             return new GeneratedCertificateDto(
-                saved.CertificateId,
+                certificate.CertificateId,
                 filePath,
-                saved.IssueDate!.Value,
+                certificate.IssueDate!.Value,
                 await File.ReadAllBytesAsync(filePath)
             );
         }
 
         private string GenerateSerialNumber()
         {
+            // timestamp ensures uniqueness
+            long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+
+            // random 3 digit number
             Random random = new Random();
-            long serialNumber = (long)(random.Next(10000000, 99999999)) * 100000000L + random.Next(10000000, 99999999);
-            string serialNumberString = serialNumber.ToString();
-            return serialNumberString.Length > 10 ? serialNumberString.Substring(0, 10) : serialNumberString; // Ensure the length is 10
+            int randomPart = random.Next(100, 999);
+
+            return $"{timestamp}{randomPart}";
         }
+
+
         // Get Employee Certificate
         public async Task<GeneratedCertificateDto> GetEmployeeCertificateAsync(int employeeId)
         {
@@ -513,23 +537,64 @@ namespace Relevantz.EEPZ.Core.Service
             return true;
         }
 
-        public async Task<GeneratedCertificateDto?> FinalizeTemplateAsync(int templateId)
+        public async Task<CertificateTemplateDto> UpdateCertificateTemplateAsync(int templateId, CertificateTemplateRequestDto request)
         {
             var template = await _templateRepository.GetByIdAsync(templateId);
 
             if (template == null)
                 return null;
 
-            if (!template.EmployeeId.HasValue)
-                throw new Exception("Employee not assigned to template.");
+            template.EmployeeId = request.EmployeeId;
+            template.EmployeeName = request.EmployeeName;
+            template.Achievement = request.Achievement;
+            template.TemplateName = request.TemplateName;
+            template.TemplateType = request.TemplateType;
+            template.TemplateLayout = request.TemplateLayout;
+            template.LogoId = request.LogoId;
+            template.UpdatedAt = DateTime.UtcNow;
 
-            // Only generate certificate
-            var certificate = await GenerateCertificateAsync(
-                new GenerateCertificateRequestDto
-                {
-                    EmployeeId = template.EmployeeId.Value,
-                    TemplateId = templateId
-                });
+            await _templateRepository.UpdateAsync(template);
+
+            return new CertificateTemplateDto
+            {
+                TemplateId = template.TemplateId,
+                TemplateName = template.TemplateName,
+                TemplateType = template.TemplateType,
+                TemplateLayout = template.TemplateLayout,
+                LogoId = template.LogoId,
+                EmployeeId = template.EmployeeId,
+                EmployeeName = template.EmployeeName,
+                Achievement = template.Achievement,
+                IsFinalized = template.IsFinalized
+            };
+        }
+        public async Task<GeneratedCertificateDto> FinalizeTemplateAsync(int templateId)
+        {
+            // Fetch the template
+            var template = await _templateRepository.GetByIdAsync(templateId);
+
+            if (template == null)
+                throw new InvalidOperationException("Template not found.");
+
+            if (!template.EmployeeId.HasValue)
+                throw new InvalidOperationException("EmployeeId is not assigned.");
+
+            // Mark template finalized
+            if (!template.IsFinalized)
+            {
+                template.IsFinalized = true;
+                await _templateRepository.UpdateAsync(template);
+            }
+
+            // Always generate a NEW certificate
+            var certificate = await GenerateCertificateAsync(new GenerateCertificateRequestDto
+            {
+                EmployeeId = template.EmployeeId.Value,
+                TemplateId = templateId
+            });
+
+            if (certificate == null)
+                throw new InvalidOperationException("Certificate generation failed.");
 
             return certificate;
         }

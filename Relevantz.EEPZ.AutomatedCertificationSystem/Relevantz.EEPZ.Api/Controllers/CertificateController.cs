@@ -40,19 +40,6 @@ namespace Relevantz.EEPZ.Api.Controllers
             return Ok(template);
         }
 
-        // Update Template
-        [HttpPut("template/{templateId}")]
-        [Authorize(Roles = "HR")]
-        public async Task<IActionResult> UpdateTemplate(int templateId, [FromBody] CertificateTemplateRequestDto request)
-        {
-            var template = await _certificateService.UpdateCertificateTemplateAsync(templateId, request);
-
-            if (template == null)
-                return NotFound();
-
-            return Ok(template);
-        }
-
         // Get All Templates
         [HttpGet("templates")]
         [Authorize(Roles = "HR")]
@@ -240,20 +227,46 @@ namespace Relevantz.EEPZ.Api.Controllers
             return Ok(templates);
         }
 
+
         [HttpPost("finalize-template/{templateId}")]
         [Authorize(Roles = "HR")]
         public async Task<IActionResult> FinalizeTemplate(int templateId)
         {
-            var certificate = await _certificateService.FinalizeTemplateAsync(templateId);
-
-            if (certificate == null)
-                return NotFound("Template not found");
-
-            return Ok(new
+            try
             {
-                message = "Template finalized successfully and certificate generated",
-                certificate
-            });
+                var certificate = await _certificateService.FinalizeTemplateAsync(templateId);
+
+                if (certificate == null)
+                {
+                    return NotFound("Template or certificate generation failed");
+                }
+
+                return Ok(new
+                {
+                    message = "Template finalized successfully and certificate generated",
+                    certificate
+                });
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Log the error details for further investigation
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        // Update Template
+        [HttpPut("template/{templateId}")]
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> UpdateTemplate(int templateId, [FromBody] CertificateTemplateRequestDto request)
+        {
+            var updatedTemplate = await _certificateService.UpdateCertificateTemplateAsync(templateId, request);
+
+            if (updatedTemplate == null)
+            {
+                return NotFound("Template not found or update failed");
+            }
+
+            return Ok(updatedTemplate);
         }
     }
 }

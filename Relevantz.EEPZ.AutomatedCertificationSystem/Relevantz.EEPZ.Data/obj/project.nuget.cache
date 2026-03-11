@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5UOKwvhRxFg=",
+  "dgSpecHash": "LLtuErz3oFE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\Back End\\Auth_Admin_Prjmgt_Functionalities\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj",
+  "projectFilePath": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Data\\Relevantz.EEPZ.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\sandhiya.ramesh\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.0\\microsoft.aspnetcore.http.2.3.0.nupkg.sha512",

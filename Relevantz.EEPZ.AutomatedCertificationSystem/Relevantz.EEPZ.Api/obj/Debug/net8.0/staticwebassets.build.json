@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rxy8qnw3LnmhybgWM9WQTzhCzzsi22sWbDPxRqJ1y8A=",
+  "Hash": "USefuy3z59+0vl+WK43FMN2Z8BN69XcpyC5VjxbShKE=",
   "Source": "Relevantz.EEPZ.Api",
   "BasePath": "_content/Relevantz.EEPZ.Api",
   "Mode": "Default",
@@ -36,12 +36,12 @@
       "OriginalItemSpec": "wwwroot\\.gitignore"
     },
     {
-      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\1845804e-b49b-4443-a251-e8a0b6b670db_template3.png",
+      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\2801548a-0042-4366-9e25-c8e4698e3b9d_template-3.png",
       "SourceId": "Relevantz.EEPZ.Api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\",
       "BasePath": "_content/Relevantz.EEPZ.Api",
-      "RelativePath": "templates/1845804e-b49b-4443-a251-e8a0b6b670db_template3.png",
+      "RelativePath": "templates/2801548a-0042-4366-9e25-c8e4698e3b9d_template-3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,15 +52,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\templates\\1845804e-b49b-4443-a251-e8a0b6b670db_template3.png"
+      "OriginalItemSpec": "wwwroot\\templates\\2801548a-0042-4366-9e25-c8e4698e3b9d_template-3.png"
     },
     {
-      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\2827221a-dc72-41b0-8cbf-2460d5c5215b_Media.jfif",
+      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\3a06710e-6aad-463e-aae6-47dfe2005025_template4.png",
       "SourceId": "Relevantz.EEPZ.Api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\",
       "BasePath": "_content/Relevantz.EEPZ.Api",
-      "RelativePath": "templates/2827221a-dc72-41b0-8cbf-2460d5c5215b_Media.jfif",
+      "RelativePath": "templates/3a06710e-6aad-463e-aae6-47dfe2005025_template4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\templates\\2827221a-dc72-41b0-8cbf-2460d5c5215b_Media.jfif"
+      "OriginalItemSpec": "wwwroot\\templates\\3a06710e-6aad-463e-aae6-47dfe2005025_template4.png"
     },
     {
-      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\ea5f71af-3405-4659-8ffd-cd35de94f9ef_template1.png",
+      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\4e4516ac-1ef1-4a16-b829-994e2b6052a8_template1.png",
       "SourceId": "Relevantz.EEPZ.Api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\",
       "BasePath": "_content/Relevantz.EEPZ.Api",
-      "RelativePath": "templates/ea5f71af-3405-4659-8ffd-cd35de94f9ef_template1.png",
+      "RelativePath": "templates/4e4516ac-1ef1-4a16-b829-994e2b6052a8_template1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,26 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\templates\\ea5f71af-3405-4659-8ffd-cd35de94f9ef_template1.png"
-    },
-    {
-      "Identity": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\templates\\f165cf41-a27d-4da2-a031-6948ad3a9b79_shared image (3).jfif",
-      "SourceId": "Relevantz.EEPZ.Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sandhiya.ramesh\\Desktop\\MVP\\MVP_Backend\\Relevantz.EEPZ.AutomatedCertificationSystem\\Relevantz.EEPZ.Api\\wwwroot\\",
-      "BasePath": "_content/Relevantz.EEPZ.Api",
-      "RelativePath": "templates/f165cf41-a27d-4da2-a031-6948ad3a9b79_shared image (3).jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\templates\\f165cf41-a27d-4da2-a031-6948ad3a9b79_shared image (3).jfif"
+      "OriginalItemSpec": "wwwroot\\templates\\4e4516ac-1ef1-4a16-b829-994e2b6052a8_template1.png"
     }
   ]
 }

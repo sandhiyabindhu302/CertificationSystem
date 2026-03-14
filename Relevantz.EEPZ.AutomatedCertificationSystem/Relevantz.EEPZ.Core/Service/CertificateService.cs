@@ -42,7 +42,7 @@ namespace Relevantz.EEPZ.Core.Service
 
         public CertificateService(string apiBaseUrl)
         {
-            _apiBaseUrl = apiBaseUrl; // Assign the injected value to the field
+            _apiBaseUrl = apiBaseUrl; 
         }
 
 
@@ -56,7 +56,7 @@ namespace Relevantz.EEPZ.Core.Service
          IBaseTemplateRepository baseTemplateRepository,
          ITemplateLogoRepository templateLogoRepository,
          ApplicationDbContext context,
-         string apiBaseUrl) // Accept apiBaseUrl as a parameter
+         string apiBaseUrl) 
         {
             _certificateRepository = certificateRepository;
             _templateRepository = templateRepository;
@@ -67,7 +67,7 @@ namespace Relevantz.EEPZ.Core.Service
             _baseTemplateRepository = baseTemplateRepository;
             _logoRepository = templateLogoRepository;
             _context = context;
-            _apiBaseUrl = apiBaseUrl; // Initialize _apiBaseUrl
+            _apiBaseUrl = apiBaseUrl; 
         }
 
 
@@ -80,7 +80,7 @@ namespace Relevantz.EEPZ.Core.Service
                 TemplateType = request.TemplateType,
                 TemplateLayout = request.TemplateLayout,
                 LogoId = request.LogoId,
-                EmployeeId = request.EmployeeId,   // IMPORTANT
+                EmployeeId = request.EmployeeId,   
                 EmployeeName = request.EmployeeName,
                 Achievement = request.Achievement,
                 CreatedAt = DateTime.UtcNow,
@@ -314,57 +314,94 @@ namespace Relevantz.EEPZ.Core.Service
                     );
                 }
 
-                // ================= QR CODE =================
+                // ================= QR CODE — inside bottom-right circle, shifted slightly left =================
 
                 var qrText =
-             $"This certificate is provided by our organization\n" +  // Added message
-             $"Certificate ID: {certificate.CertificateId}\n" +
-             $"Serial Number: {serialNumber}\n" +
-             $"Employee Name: {employeeName}\n" +
-             $"Achievement: {template.Achievement}\n" +
-             $"Issued On: {DateTime.UtcNow:MM/dd/yyyy}";
+                    $"This certificate is provided by our organization\n" +
+                    $"Certificate ID: {certificate.CertificateId}\n" +
+                    $"Serial Number: {serialNumber}\n" +
+                    $"Employee Name: {employeeName}\n" +
+                    $"Achievement: {template.Achievement}\n" +
+                    $"Issued On: {DateTime.UtcNow:MM/dd/yyyy}";
 
                 var barcodeWriter = new BarcodeWriterPixelData
                 {
                     Format = BarcodeFormat.QR_CODE,
-                    Options = new EncodingOptions
-                    {
-                        Width = 120,
-                        Height = 120
-                    }
+                    Options = new EncodingOptions { Width = 120, Height = 120 }
                 };
 
                 var pixelData = barcodeWriter.Write(qrText);
 
+                float ReadFloat(JsonElement parent, string name, float defaultValue = 0f)
+                {
+                    if (parent.TryGetProperty(name, out var v) && v.ValueKind == JsonValueKind.Number)
+                        return v.GetSingle();
+                    return defaultValue;
+                }
+                float PxW(float pct) => pct * canvasW;
+                float PxH(float pct) => pct * canvasH;
+                float PxMin(float pct) => pct * Math.Min(canvasW, canvasH);
+
+                
+                float qrCenterXPct = 0.923f;   
+                float qrCenterYPct = 0.118f;   
+                float qrSizePct = 0.115f;  
+
+               
+                float shiftLeftPct = 0.055f;   
+                qrCenterXPct -= shiftLeftPct;
+
+                if (layout.TryGetProperty("footer", out var footer) && footer.ValueKind == JsonValueKind.Object &&
+                    footer.TryGetProperty("qr", out var qrEl) && qrEl.ValueKind == JsonValueKind.Object)
+                {
+                    if (qrEl.TryGetProperty("xPct", out var _)) qrCenterXPct = ReadFloat(qrEl, "xPct", qrCenterXPct);
+                    if (qrEl.TryGetProperty("yPct", out var _)) qrCenterYPct = ReadFloat(qrEl, "yPct", qrCenterYPct);
+                    if (qrEl.TryGetProperty("sizePct", out var _)) qrSizePct = ReadFloat(qrEl, "sizePct", qrSizePct);
+
+                    if (qrEl.TryGetProperty("shiftLeftPct", out var _))
+                    {
+                        // Optional per-template fine-tune
+                        qrCenterXPct -= ReadFloat(qrEl, "shiftLeftPct", 0f);
+                    }
+                }
+
+                float qrSize = PxMin(qrSizePct);
+                float qrCenterX = PxW(qrCenterXPct);
+                float qrCenterY = PxH(qrCenterYPct);
+
+                float qrLeft = qrCenterX - (qrSize / 2f);
+                float qrBottom = qrCenterY - (qrSize / 2f);
+
+                float safeInsetPct = 0.03f; 
+                if (layout.TryGetProperty("footer", out var f2) && f2.ValueKind == JsonValueKind.Object &&
+                    f2.TryGetProperty("qr", out var q2) && q2.ValueKind == JsonValueKind.Object &&
+                    q2.TryGetProperty("insetPct", out var _))
+                {
+                    safeInsetPct = ReadFloat(q2, "insetPct", safeInsetPct);
+                }
+
+                float safeInset = safeInsetPct * Math.Min(canvasW, canvasH);
+                qrLeft = Math.Max(safeInset, Math.Min(qrLeft, canvasW - safeInset - qrSize));
+                qrBottom = Math.Max(safeInset, Math.Min(qrBottom, canvasH - safeInset - qrSize));
+
+                // Render QR
                 using (var ms = new MemoryStream())
                 {
-                    using (var bitmap = new Bitmap(pixelData.Width, pixelData.Height, PixelFormat.Format32bppRgb))
+                    using (var bmp = new Bitmap(pixelData.Width, pixelData.Height, PixelFormat.Format32bppRgb))
                     {
-                        var bitmapData = bitmap.LockBits(
-                            new Rectangle(0, 0, pixelData.Width, pixelData.Height),
-                            ImageLockMode.WriteOnly,
-                            bitmap.PixelFormat
-                        );
+                        var bmpData = bmp.LockBits(new Rectangle(0, 0, pixelData.Width, pixelData.Height),
+                                                   ImageLockMode.WriteOnly, bmp.PixelFormat);
 
-                        System.Runtime.InteropServices.Marshal.Copy(
-                            pixelData.Pixels,
-                            0,
-                            bitmapData.Scan0,
-                            pixelData.Pixels.Length
-                        );
-
-                        bitmap.UnlockBits(bitmapData);
-                        bitmap.Save(ms, ImageFormat.Png);
+                        System.Runtime.InteropServices.Marshal.Copy(pixelData.Pixels, 0, bmpData.Scan0, pixelData.Pixels.Length);
+                        bmp.UnlockBits(bmpData);
+                        bmp.Save(ms, ImageFormat.Png);
                     }
 
                     var qrImage = new iText.Layout.Element.Image(
                         iText.IO.Image.ImageDataFactory.Create(ms.ToArray()));
 
-                    qrImage.ScaleAbsolute(70, 70);
-
-                    // top-right
-                    qrImage.SetFixedPosition(canvasW - 85, canvasH - 85);
-
+                    qrImage.ScaleAbsolute(qrSize, qrSize);
+                    qrImage.SetFixedPosition(qrLeft, qrBottom);
                     doc.Add(qrImage);
                 }
 
@@ -372,14 +409,14 @@ namespace Relevantz.EEPZ.Core.Service
 
                 DrawCentered(
                     $"Issued On: {DateTime.UtcNow:MMMM dd, yyyy}",
-                    canvasH - 40,
+                    canvasH - 55,
                     12,
                     normal
                 );
 
                 DrawCentered(
                     $"Serial Number: {serialNumber}",
-                    canvasH - 20,
+                    canvasH - 35,
                     12,
                     normal
                 );
@@ -400,7 +437,6 @@ namespace Relevantz.EEPZ.Core.Service
             // timestamp ensures uniqueness
             long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
 
-            // random 3 digit number
             Random random = new Random();
             int randomPart = random.Next(100, 999);
 
@@ -525,14 +561,12 @@ namespace Relevantz.EEPZ.Core.Service
             if (template == null)
                 return false;
 
-            // Optionally delete the physical file if it exists
             var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", template.PreviewImage.TrimStart('/'));
             if (File.Exists(filePath))
             {
-                File.Delete(filePath); // Delete the file
+                File.Delete(filePath); 
             }
 
-            // Delete the template from the database
             await _baseTemplateRepository.DeleteAsync(template);
             return true;
         }
@@ -570,7 +604,6 @@ namespace Relevantz.EEPZ.Core.Service
         }
         public async Task<GeneratedCertificateDto> FinalizeTemplateAsync(int templateId)
         {
-            // Fetch the template
             var template = await _templateRepository.GetByIdAsync(templateId);
 
             if (template == null)
@@ -579,14 +612,12 @@ namespace Relevantz.EEPZ.Core.Service
             if (!template.EmployeeId.HasValue)
                 throw new InvalidOperationException("EmployeeId is not assigned.");
 
-            // Mark template finalized
             if (!template.IsFinalized)
             {
                 template.IsFinalized = true;
                 await _templateRepository.UpdateAsync(template);
             }
 
-            // Always generate a NEW certificate
             var certificate = await GenerateCertificateAsync(new GenerateCertificateRequestDto
             {
                 EmployeeId = template.EmployeeId.Value,

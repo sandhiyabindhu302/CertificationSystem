@@ -1,0 +1,4 @@
+2026-03-11 10:30:40.021 +00:00 [INF]  Project Management API started successfully
+2026-03-11 10:30:40.242 +00:00 [WRN] Microsoft.AspNetCore.DataProtection.Repositories.FileSyst2026-03-11 10:30:40.281 +00:00 [WRN] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when c2026-03-11 10:30:40.438 +00:00 [WRN] Microsoft.AspNetCore.Hosting.Diagnostics Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:5109'.
+P_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:5123'.
+2026-03-11 10:30:40.561 +00:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) 'http://+:5123'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.

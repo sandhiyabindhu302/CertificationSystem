@@ -60,61 +60,61 @@ const VerifyCertificate = () => {
   };
 
   return (
-    <>
-      <Breadcrumb
-        items={[{ label: "Certificate Verification", link: "/employee/dashboard" }]}
-      />
-      <div className="cert-verify-container">
-        <div className="cert-header-section">
-          <h1 className="cert-header-title">Certificate Verification</h1>
-          <form onSubmit={verifyCertificate} className="cert-verify-form">
-            <div className="cert-input-group">
-              <label htmlFor="serialNumber" className="cert-label">
-                Serial Number
-              </label>
-              <input
-                type="text"
-                id="serialNumber"
-                placeholder="Enter Serial Number"
-                value={serialNumber}
-                onChange={(e) => setSerialNumber(e.target.value)}
-                required
-                className="cert-input"
-              />
-            </div>
-            <button type="submit" disabled={loading} className="cert-submit-btn">
-              {loading ? "Verifying..." : "Verify"}
-            </button>
-          </form>
-        </div>
 
-        {error && <div className="cert-error-message">{error}</div>}
-
-        {certificate ? (
-          <div className="cert-result-container">
-            <h2 className="cert-result-title">Certificate Details</h2>
-            <div className="cert-details">
-              <p className="cert-result-text">
-                This certificate with ID{" "}
-                <strong>{certificate.certificateId}</strong> has been issued by
-                our organization for the Employee{" "}
-                <strong>{certificate.employeeName}</strong>.
-              </p>
-              <p className="cert-result-text">
-                The purpose of this certificate is to recognize the employee's
-                achievement in <strong>{certificate.areaOfAchievement}</strong>.
-              </p>
-              <p className="cert-result-text">
-                The certificate was issued on{" "}
-                <strong>{certificate.issueDate}</strong>.
-              </p>
-            </div>
-          </div>
-        ) : (
-          <div className="cert-error-message"></div>
-        )}
+    
+    <div className="cert-verify-container">
+       <div className="hr-dashboard-verifyCertificate-breadcrumbs">
+        <Breadcrumb items={[{ label: "Verify Certificate", link: "/employee/dashboard" }]} />
       </div>
-    </>
+      <div className="cert-header-section">
+        <h1 className="cert-header-title">Certificate Verification</h1>
+        <form onSubmit={verifyCertificate} className="cert-verify-form">
+          <div className="cert-input-group">
+            <label htmlFor="serialNumber" className="cert-label">
+              Serial Number
+            </label>
+            <input
+              type="text"
+              id="serialNumber"
+              placeholder="Enter Serial Number"
+              value={serialNumber}
+              onChange={(e) => setSerialNumber(e.target.value)}
+              required
+              className="cert-input"
+            />
+          </div>
+          <button type="submit" disabled={loading} className="cert-submit-btn">
+            {loading ? "Verifying..." : "Verify"}
+          </button>
+        </form>
+      </div>
+
+      {error && <div className="cert-error-message">{error}</div>}
+
+      {certificate ? (
+        <div className="cert-result-container">
+          <h2 className="cert-result-title">Certificate Details</h2>
+          <div className="cert-details">
+            <p className="cert-result-text">
+              This certificate with ID{" "}
+              <strong>{certificate.certificateId}</strong> has been issued by
+              our organization for the Employee{" "}
+              <strong>{certificate.employeeName}</strong>.
+            </p>
+            <p className="cert-result-text">
+              The purpose of this certificate is to recognize the employee's
+              achievement in <strong>{certificate.areaOfAchievement}</strong>.
+            </p>
+            <p className="cert-result-text">
+              The certificate was issued on{" "}
+              <strong>{certificate.issueDate}</strong>.
+            </p>
+          </div>
+        </div>
+      ) : (
+        <div className="cert-error-message"></div>
+      )}
+    </div>
   );
 };
 

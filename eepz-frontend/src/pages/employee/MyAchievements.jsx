@@ -12,7 +12,8 @@ const MyAchievements = () => {
   const [employeeId, setEmployeeId] = useState(null);
   const [token, setToken] = useState(null);
 
-  // Read from localStorage on mount
+  const [imageUrl, setImageUrl] = useState(null);
+
   useEffect(() => {
     try {
       const storedEmployeeId = localStorage.getItem("employeeId");
@@ -27,12 +28,6 @@ const MyAchievements = () => {
       console.error("Failed to read from localStorage:", e);
     }
   }, []);
-
-  const formatIssueDate = (value) => {
-    if (!value) return "—";
-    const d = new Date(value);
-    return Number.isNaN(d.getTime()) ? "—" : d.toLocaleDateString();
-  };
 
   const fetchCertificate = useCallback(async () => {
     console.log("Fetching certificate...");
@@ -66,7 +61,7 @@ const MyAchievements = () => {
     } catch (err) {
       if (err.response?.status === 404) {
         setCertificate(null);
-        setError(""); // not a visible error; just means none yet
+        setError("");
       } else if (err.response?.status === 401) {
         setError("Your session has expired. Please login again.");
       } else {
@@ -81,65 +76,53 @@ const MyAchievements = () => {
     fetchCertificate();
   }, [fetchCertificate]);
 
-  /**
-   * Preview: fetch the PDF as a blob (to include auth header), create a Blob URL,
-   * and open it in a NEW TAB. We delay revoking the URL to avoid breaking the new tab.
-   */
-  const openPreviewInNewTab = useCallback(async () => {
-    console.log("=========== Preview (new tab) Clicked ===========");
-
-    if (!employeeId) {
-      alert("Employee not logged in. Please login again.");
-      console.error("Preview failed: employeeId missing");
-      return;
-    }
-
-    try {
-      // Optional: show a very quick temp window to avoid popup blockers
-      // Some browsers block window.open if not directly in a user gesture.
-      const tempWin = window.open("", "_blank");
-
-      const response = await axios.get(
-        `http://localhost:5123/api/certificates/download/${employeeId}`,
-        {
-          headers: token ? { Authorization: `Bearer ${token}` } : {},
-          responseType: "blob",
-        }
-      );
-
-      const contentType = response.headers?.["content-type"] || "application/pdf";
-      const blob = new Blob([response.data], { type: contentType });
-      const previewUrl = URL.createObjectURL(blob);
-
-      if (tempWin) {
-        // If temp window exists, redirect it to the blob URL
-        tempWin.location = previewUrl;
-      } else {
-        // Fallback: open the URL now (may be blocked if not user gesture)
-        window.open(previewUrl, "_blank", "noopener,noreferrer");
+  useEffect(() => {
+    const fetchPreview = async () => {
+      if (!employeeId) {
+        console.error("Employee not logged in.");
+        return;
       }
 
-      // Revoke after some delay to allow the browser tab to load it fully.
-      // (If revoked too early, the new tab may display an error.)
-      setTimeout(() => {
-        try {
-          URL.revokeObjectURL(previewUrl);
-          console.log("Preview URL revoked");
-        } catch (_) {
-          // ignore
+      try {
+        const response = await axios.get(
+          `http://localhost:5123/api/certificates/download/${employeeId}`,
+          {
+            headers: token ? { Authorization: `Bearer ${token}` } : {},
+            responseType: "blob",
+          }
+        );
+
+        const contentType = response.headers?.["content-type"] || "";
+        if (!contentType.includes("pdf")) {
+          alert("Failed to load file. Invalid format.");
+          return;
         }
-      }, 60_000); // 60s is safe; tune as needed
-    } catch (error) {
-      console.error("Preview failed:", error);
-      if (error.response?.status === 404) {
-        alert("Certificate not found to preview.");
-      } else if (error.response?.status === 401) {
-        alert("Session expired. Please login again.");
-      } else {
+
+        const blob = new Blob([response.data], { type: contentType });
+        const previewUrl = URL.createObjectURL(blob);
+
+        setImageUrl(previewUrl);
+      } catch (error) {
+        console.error("Failed to fetch preview:", error);
         alert("Failed to open preview. Please try again.");
       }
+    };
+
+    if (certificate) {
+      fetchPreview();
     }
-  }, [employeeId, token]);
+  }, [certificate, employeeId, token]);
+
+  const formatIssueDate = (value) => {
+    if (!value) return "—";
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? "—" : d.toLocaleDateString();
+  };
+
+  const issueDate = useMemo(() => {
+    const dateValue = certificate?.issueDate ?? certificate?.IssueDate;
+    return formatIssueDate(dateValue);
+  }, [certificate]);
 
   const downloadCertificate = useCallback(async () => {
     console.log("=========== Download Button Clicked ===========");
@@ -161,7 +144,6 @@ const MyAchievements = () => {
         }
       );
 
-      // Try to extract filename from Content-Disposition
       const disposition = response.headers?.["content-disposition"] || "";
       let filename = "certificate.pdf";
       const match = disposition.match(/filename\*?=(?:UTF-8''|")?([^\";]+)/i);
@@ -197,24 +179,17 @@ const MyAchievements = () => {
     }
   }, [employeeId, token]);
 
-  const issueDate = useMemo(() => {
-    const dateValue = certificate?.issueDate ?? certificate?.IssueDate;
-    return formatIssueDate(dateValue);
-  }, [certificate]);
-
   return (
     <div className="hr-dashboard-container">
       <div className="hr-dashboard-breadcrumbs">
         <Breadcrumb items={[{ label: "My Achievements", link: "/employee/dashboard" }]} />
       </div>
 
-      {/* Loading */}
       {loading && <div className="no-data-message">Loading certificate...</div>}
 
-      {/* Error */}
       {!loading && !!error && (
         <div className="no-data-message" role="alert" style={{ color: "#b00020" }}>
-          {error}{" "}
+          {error}
           <button
             className="emp-rewards-toggle-btn"
             onClick={fetchCertificate}
@@ -225,12 +200,10 @@ const MyAchievements = () => {
         </div>
       )}
 
-      {/* No Certificate */}
       {!loading && !error && certificate === null && (
         <div className="no-data-message">No certificates generated yet</div>
       )}
 
-      {/* Certificate Exists */}
       {!loading && !error && certificate && (
         <div className="dashboard-card">
           <div className="card-header-dark">
@@ -240,10 +213,17 @@ const MyAchievements = () => {
           <div className="card-body" style={{ textAlign: "center" }}>
             <p>Issue Date: {issueDate}</p>
 
-            <div style={{ display: "flex", gap: 12, justifyContent: "center" }}>
-              <button onClick={openPreviewInNewTab} className="emp-rewards-toggle-btn">
-                Preview
-              </button>
+            {imageUrl && (
+              <div className="certificate-preview-container">
+                <iframe
+                  src={imageUrl}
+                  style={{ height: "100%", width: "100%" }}
+                  title="Certificate Preview"
+                />
+              </div>
+            )}
+
+            <div style={{ display: "flex", justifyContent: "center", marginTop: "12px" }}>
               <button
                 onClick={downloadCertificate}
                 className="emp-rewards-toggle-btn"

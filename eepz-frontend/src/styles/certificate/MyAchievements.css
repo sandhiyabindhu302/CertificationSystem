@@ -1,27 +1,10 @@
-/* Container for the entire page */
 .hr-dashboard-container {
   padding: 30px;
   background-color: #f9fafb;
   min-height: 100vh;
   box-sizing: border-box;
 }
-/* Move the breadcrumb block left */
-.breadcrumb-nav {
-  margin-left: 10px;
-  padding-left: 0; 
-  margin-top: 30px;
-}
 
-/* Optional: align content to the left if flex is used */
-.breadcrumb-content {
-  justify-content: flex-start;
-}
-
-
-.employee-breadcrumb{
-  margin-left: -30px;
-}
-/* Breadcrumb Styles */
 .hr-dashboard-container .breadcrumb {
   margin-bottom: 20px;
   font-size: 16px;
@@ -36,7 +19,6 @@
   color: #2c3e50;
 }
 
-/* Title Styles */
 h2 {
   font-size: 28px;
   font-weight: 700;
@@ -51,7 +33,6 @@ h2 {
   margin-top: 50px;
 }
 
-/* Optional polish for modal buttons when on dark overlay */
 .modal-overlay .emp-rewards-toggle-btn {
   background: #0b5fff;
   color: #fff;
@@ -106,10 +87,7 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   transition: 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
 }
-
 
 .card-body button:hover {
   background-color: #22c55e;
@@ -126,121 +104,34 @@ h2 {
   box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.4);
 }
 
-/* Scrollbar Styling for Sidebar */
-.certificate-sidebar::-webkit-scrollbar {
-  width: 6px;
-}
-
-.certificate-sidebar::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.certificate-sidebar::-webkit-scrollbar-thumb {
-  background: #2c2c6c;
-  border-radius: 10px;
-}
-
-.certificate-sidebar::-webkit-scrollbar-thumb:hover {
-  background: #1e1e4d;
-}
-
-/* Certificate Preview Container */
 .certificate-preview-container {
   width: 100%;
-  padding: 20px;
+  height: 100vh;
+  padding: 0;
   border-radius: 12px;
   background-color: #eef2f7;
-  margin-left: 350px;
-  margin-top: -600px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-.certificate-preview-canvas {
-  background-color: white;
-  width: 800px;
-  height: 500px;
-  border-radius: 8px;
   overflow: hidden;
-  position: relative;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Font Controls */
-.font-controls {
-  display: flex;
-  gap: 8px;
-  margin-top: 10px;
-}
-
-.font-controls button {
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
-  background-color: #4f46e5;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.font-controls button:hover {
-  background-color: #3730a3;
-}
-
-/* Drag Source */
-.drag-source {
-  margin-top: 6px;
-  padding: 8px;
-  border: 2px dashed #6366f1;
-  border-radius: 6px;
-  cursor: grab;
-  text-align: center;
-  font-size: 14px;
-  background: #eef2ff;
-  transition: 0.3s ease;
-}
-
-.drag-source:hover {
-  background-color: #dbeafe;
-}
-
-/* Tooltip for Drag & Drop Items */
-.tooltip {
-  position: absolute;
-  padding: 6px 12px;
-  background-color: #2c3e50;
-  color: white;
-  border-radius: 4px;
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-/* Enhanced Input Styles */
-.form-group input,
-.form-group select {
+.certificate-preview-container iframe {
   width: 100%;
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #d1d5db;
-  background: #fafafa;
-  font-size: 16px;
-  color: #4b5563;
-  transition: 0.3s;
+  height: 100%;
+  border: none;
+  object-fit: contain;
 }
 
-.form-group input:focus,
-.form-group select:focus {
-  outline: none;
-  border-color: #4f46e5;
-  background-color: white;
-}
+@media (max-width: 768px) {
+  .certificate-preview-container {
+    height: auto;
+    padding: 5px;
+  }
 
-.form-group input::placeholder,
-.form-group select::placeholder {
-  color: #b0b0b0;
+  .certificate-preview-container iframe {
+    height: 100%;
+    width: 100%;
+  }
 }

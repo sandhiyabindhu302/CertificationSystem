@@ -13,7 +13,6 @@ const HRDashboard = () => {
           padding: "3rem",
         }}
       >
-
         <h1
           style={{
             fontSize: "2.8rem",
@@ -27,7 +26,7 @@ const HRDashboard = () => {
             border: "1px solid #e2e8f0",
           }}
         >
-         Recognition & Certification Workspace
+          Recognition & Certification Workspace
         </h1>
 
         <div
@@ -39,7 +38,6 @@ const HRDashboard = () => {
             margin: "0 auto",
           }}
         >
-
           <div
             onClick={() => navigate("/certificate/base-templates")}
             style={{

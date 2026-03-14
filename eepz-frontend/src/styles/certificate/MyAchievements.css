@@ -5,7 +5,22 @@
   min-height: 100vh;
   box-sizing: border-box;
 }
+/* Move the breadcrumb block left */
+.breadcrumb-nav {
+  margin-left: 10px;
+  padding-left: 0; 
+  margin-top: 30px;
+}
 
+/* Optional: align content to the left if flex is used */
+.breadcrumb-content {
+  justify-content: flex-start;
+}
+
+
+.employee-breadcrumb{
+  margin-left: -30px;
+}
 /* Breadcrumb Styles */
 .hr-dashboard-container .breadcrumb {
   margin-bottom: 20px;
@@ -29,7 +44,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Loading & No Data Message */
 .no-data-message {
   font-size: 18px;
   color: #4b5563;
@@ -37,7 +51,21 @@ h2 {
   margin-top: 50px;
 }
 
-/* Dashboard Card */
+/* Optional polish for modal buttons when on dark overlay */
+.modal-overlay .emp-rewards-toggle-btn {
+  background: #0b5fff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-overlay .emp-rewards-toggle-btn[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .dashboard-card {
   background-color: #ffffff;
   border-radius: 10px;
@@ -48,12 +76,13 @@ h2 {
 }
 
 .card-header-dark {
-  background-color: #4b5563;
+  background-color:  #2a2a55;
   padding: 20px;
   text-align: center;
   color: white;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .card-body {
@@ -78,7 +107,9 @@ h2 {
   cursor: pointer;
   transition: 0.2s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
+
 
 .card-body button:hover {
   background-color: #22c55e;

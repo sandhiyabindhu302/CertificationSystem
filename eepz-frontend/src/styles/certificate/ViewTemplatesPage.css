@@ -1,24 +1,51 @@
-/* Global Layout */
-.templates-page {
-  padding: 30px;
-  text-align: center;
-}
-
+/* Keep the card fluid but do NOT constrain the preview inside */
 .template-card-view {
   background: transparent;
   padding: 20px;
   border-radius: 12px;
-  width: 95%;
-  max-width: 1000px;
-  align-items: center;
-  margin-left: 250px;
-  margin-bottom: 20px;
+  width: auto;             /* was 95% & max-width: 1000px (those can shrink the preview) */
+  max-width: none;         /* allow full designed width */
+  margin: 0 auto 20px;     /* center the card */
 }
 
+/* The preview MUST render at the exact width/height coming from layout */
 .certificate-preview {
+  display: block;
+  position: relative;
   border-radius: 8px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  margin-top: 50px;
+  margin: 40px auto 0;
+
+  /* Do NOT allow a parent to scale it */
+  max-width: none;
+  max-height: none;
+
+  /* Make sure background is not repeated and respects the given size */
+  background-repeat: no-repeat;
+  /* If you want to guarantee no cropping, prefer 'contain' */
+  /* background-size: contain; */
+  /* background-position: center; */
+}
+
+/* Optional: make the outer page not shrink the preview horizontally */
+.templates-page {
+  padding: 30px;
+  text-align: center;
+  margin-top: -30px;
+
+  /* Prevent layout constraints from squeezing the preview */
+  width: 100%;
+  overflow-x: auto;  /* allow horizontal scroll if a template is wider than viewport */
+}
+
+/* Pagination controls should not overlay/shrink the preview area */
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  position: static;      /* was absolute; absolute can overlap and cause layout issues */
+  width: 100%;
+  padding: 16px 0;
+  margin-top: 12px;
 }
 
 .corner-left {
@@ -93,19 +120,8 @@
   transform: translateY(1px);
 }
 
-.page-navigation {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  transform: translateY(-50%);
-  z-index: 10;
-  padding: 0 100px;
-}
-
 .arrow-btn {
-  background-color: #97247e;
+  background-color: rgb(185, 180, 180);
   color: white;
   border: none;
   border-radius: 50%;
@@ -140,14 +156,14 @@
 
 .confirm-modal {
   position: fixed;
-  top: 10px; /* Adjust to position the modal at the top */
+  top: 10px; 
   left: 50%;
-  transform: translateX(-50%); /* Center the modal horizontally */
+  transform: translateX(-50%); 
   width: 300px;
-  background: rgba(255, 255, 255, 0.95); /* Light background with transparency */
+  background: rgba(255, 255, 255, 0.95); 
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Slight shadow for better contrast */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); 
   z-index: 1000;
 }
 
@@ -157,13 +173,13 @@
 
 .confirm-modal p {
   font-size: 16px;
-  color: #333; /* Dark text color */
+  color: #333;
   margin-bottom: 15px;
 }
 
 .confirm-modal button {
-  background-color: #e60000; /* Red background for buttons */
-  color: white; /* White text */
+  background-color: #e60000; 
+  color: white; 
   border: none;
   padding: 10px 15px;
   margin: 5px;
@@ -173,5 +189,5 @@
 }
 
 .confirm-modal button:hover {
-  background-color: #cc0000; /* Darker red on hover */
+  background-color: #cc0000; 
 }

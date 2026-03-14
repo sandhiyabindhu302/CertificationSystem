@@ -52,13 +52,13 @@ body {
 
 .certificate-sidebar {
   width: 300px;
-  background-color: #2c3e50;
+  background-color:#27235c;
   color: white;
   padding: 20px;
   overflow-y: auto;
   height: 110%;
-  margin-top: 50px;
-  margin-left: -90px;
+  margin-top: 70px;
+  margin-left: -100px;
 }
 
 .certificate-sidebar h2 {
@@ -104,7 +104,6 @@ body {
   text-align: center;
 }
 
-/* Drag button */
 .certificate-sidebar .drag-source {
   background-color: #3498db;
   color: white;
@@ -116,19 +115,17 @@ body {
   margin: 0 auto;
 }
 
-/* Position the +/- symbols correctly on the left and right */
 .certificate-sidebar .font-controls button:first-child {
-  margin-right: auto;  /* Push "-" to the left */
+  margin-right: auto;  
   margin-top: -60px;
 }
 
 .certificate-sidebar .font-controls button:last-child {
-  margin-left: auto;  /* Push "+" to the right */
+  margin-left: auto;  
   margin-top: -60px;
 
 }
 
-/* Certificate Preview Styles */
 .certificate-preview-container {
   flex-grow: 1;
   display: flex;
@@ -138,25 +135,29 @@ body {
   padding: 20px;
   position: relative;
   overflow: hidden;
-  height: 100vh; /* Ensure the container takes full height */
+  height: 100vh; 
 }
 
 .certificate-preview-canvas {
-  width: 900px;
-  height: 500px;
-  background-color: white;
-  border-radius: 12px;
+  display: block;
   position: relative;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid #ccc;
-  overflow: hidden;
-  background-size: cover;
+margin-left: 150px;
+  /* THIS IS THE KEY */
+  width: fit-content;
+  height: fit-content;
+
+  background-repeat: no-repeat;
+  background-size: contain;  /* keeps aspect ratio */
   background-position: center;
-  margin-left: 110px;
-  margin-top: 180px;
+
+  /* remove forced width/height */
+  max-width: 100%;
+  max-height: 100%;
+
+  border-radius: 12px;
+  overflow: hidden;
 }
 
-/* Styles for the draggable items */
 .draggable {
   position: absolute;
   cursor: move;
@@ -176,12 +177,10 @@ body {
   text-align: center;
 }
 
-/* Styling for dragging over */
 .certificate-preview-canvas.drag-over {
   border: 2px dashed #3498db;
 }
 
-/* Styles for draggable elements */
 .draggable[data-drag="logo"] {
   top: 20px;
   left: 380px;
@@ -237,14 +236,12 @@ body {
   }
 }
 
-/* Ensure draggable elements appear on top of other elements */
 .draggable {
   position: absolute;
   cursor: move;
-  z-index: 10; /* Ensure it's above other elements */
+  z-index: 10; 
 }
 
-/* Allow the dropped item to appear within the canvas */
 .certificate-preview-canvas {
   position: relative;
   background-color: white;
@@ -262,13 +259,41 @@ body {
   align-items: center;
   margin-top: 80px;
 }
+.save-btn {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
 
-/* Add boundaries to ensure the draggable items stay within the canvas */
+.save-btn.save {
+  background: linear-gradient(90deg, #97247e 0%, #e01950 100%);
+}
+
+.save-btn.update {
+  background: linear-gradient(90deg, #97247e 0%, #e01950 100%);
+}
+
+
 .draggable[data-drag="logo"],
 .draggable[data-drag="title"],
 .draggable[data-drag="type"],
 .draggable[data-drag="name"],
 .draggable[data-drag="achievement"] {
-  top: 0;  /* Set default position for testing */
-  left: 0; /* Set default position for testing */
+  top: 0;  
+  left: 0; 
+}
+.certificate-preview-canvas[contentEditable="true"] {
+  user-select: text; /* Ensures text can be selected */
+  outline: none; /* Prevents the text from showing a default outline */
+  border: 1px solid transparent; /* Optional: Can help visualize the editable area */
+}
+
+.certificate-preview-canvas[contentEditable="true"]:focus {
+  border: 1px solid #007bff; /* Optional: Highlight when the element is focused */
 }

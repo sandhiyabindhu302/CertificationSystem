@@ -15,7 +15,6 @@ const EmployeeDashboard = () => {
 
   return (
     <div className="ada-dashboard">
-
       <Breadcrumb items={[{ label: "Employee Dashboard" }]} />
 
       <div style={{

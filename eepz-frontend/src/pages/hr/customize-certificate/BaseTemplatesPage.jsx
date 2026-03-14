@@ -22,8 +22,8 @@ const BaseTemplatesPage = () => {
       const data = await certificateService.getBaseTemplates();
       setTemplates(Array.isArray(data) ? data : data?.data || []);
     } catch (error) {
-      console.error("Error fetching base templates:", error);
-      toast.error("Failed to fetch templates."); // Display error toast if fetching fails
+      // console.error("Error fetching base templates:", error);
+      // toast.error("Failed to fetch templates."); // Display error toast if fetching fails
     }
   };
 
@@ -101,9 +101,7 @@ const BaseTemplatesPage = () => {
           <span className="custom-breadcrumb-current">Choose Template</span>
         </div>
       </nav>
-
       <h1 className="template-title">Choose Template</h1>
-
       <div className="upload-container">
         <input
           type="text"
@@ -119,7 +117,6 @@ const BaseTemplatesPage = () => {
         />
         <button onClick={handleUpload}>Upload Template</button>
       </div>
-
       {/* Template Viewer */}
       {templates.length > 0 && (
         <div className="slider-container">
@@ -157,7 +154,6 @@ const BaseTemplatesPage = () => {
             Customize
           </button>
 
-          {/* Delete Button */}
           <button
             className="delete-button"
             onClick={() =>

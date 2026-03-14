@@ -622,33 +622,24 @@ const CustomizeCertificatePage = () => {
             </div>
           </>
         )}
-        <button className="save-btn" onClick={handleSave}>
+        <button
+          className={`save-btn ${isEditMode ? "update" : "save"}`}
+          onClick={handleSave}
+        >
           {isEditMode ? "Update Template" : "Save Template"}
         </button>
       </div>
-
       {/* CERTIFICATE PREVIEW */}
-
       <div
         className="certificate-preview-canvas"
         onDrop={handleDrop}
         onDragOver={allowDrop}
         style={{
-          width: editTemplate
-            ? JSON.parse(editTemplate.templateLayout)?.canvas?.width || 900
-            : 900,
-          height: editTemplate
-            ? JSON.parse(editTemplate.templateLayout)?.canvas?.height || 500
-            : 500,
-
           backgroundImage: background
             ? `url(${background})`
             : selectedTemplate?.previewImage
-            ? `url(http://localhost:5123${selectedTemplate.previewImage})`
-            : "none",
-
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+              ? `url(http://localhost:5123${selectedTemplate.previewImage})`
+              : "none",
         }}
       >
         {droppedItems.logo && (
